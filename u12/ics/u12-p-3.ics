@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Alingsas HK//Ahus Beach Handboll//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alingsås HK 3 – Åhus Beach
+X-WR-TIMEZONE:Europe/Stockholm
+X-WR-CALDESC:U12. Källa: ahusbeachhandboll.cupmanager.net
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:u12-p-3-vs-lugi-hf-4-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T093000Z
+DTEND:20260709T094100Z
+SUMMARY:U12: Alingsås HK 3 – Lugi HF 4
+LOCATION:Bana 11\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot Lugi HF 4.\nAvspark 11:3
+ 0 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-3-vs-staffanstorps-hk-1-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T133000Z
+DTEND:20260709T134100Z
+SUMMARY:U12: Alingsås HK 3 – Staffanstorps HK 1
+LOCATION:Bana 7\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot Staffanstorps HK 1.\nAvs
+ park 15:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-3-vs-skuru-ik-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T154500Z
+DTEND:20260709T155600Z
+SUMMARY:U12: Skuru IK 2 – Alingsås HK 3
+LOCATION:Bana 4\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot Skuru IK 2.\nAvspark 17:
+ 45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-3-vs-h43-lund-hf-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T173000Z
+DTEND:20260709T174100Z
+SUMMARY:U12: H43 Lund HF 2 – Alingsås HK 3
+LOCATION:Bana 16\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot H43 Lund HF 2.\nAvspark 
+ 19:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-3-vs-hf-karlskrona-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T084500Z
+DTEND:20260710T085600Z
+SUMMARY:U12: Alingsås HK 3 – HF Karlskrona 2
+LOCATION:Bana 17\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot HF Karlskrona 2.\nAvspar
+ k 10:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-3-vs-kavlinge-hk-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T101500Z
+DTEND:20260710T102600Z
+SUMMARY:U12: Kävlinge HK – Alingsås HK 3
+LOCATION:Bana 1\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot Kävlinge HK.\nAvspark 1
+ 2:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-3-vs-ystads-if-hf-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T133000Z
+DTEND:20260710T134100Z
+SUMMARY:U12: Alingsås HK 3 – Ystads IF HF 2
+LOCATION:Bana 9\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot Ystads IF HF 2.\nAvspark
+  15:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

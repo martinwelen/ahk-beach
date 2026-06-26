@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Alingsas HK//Ahus Beach Handboll//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alingsås HK 3 – Åhus Beach
+X-WR-TIMEZONE:Europe/Stockholm
+X-WR-CALDESC:U17. Källa: ahusbeachhandboll.cupmanager.net
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:u17-p-3-vs-tyreso-handboll-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260712T114500Z
+DTEND:20260712T115600Z
+SUMMARY:U17: Alingsås HK 3 – Tyresö Handboll 2
+LOCATION:Bana 17\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot Tyresö Handboll 2.\nAvs
+ park 13:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-eslovs-hk-1-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260712T134500Z
+DTEND:20260712T135600Z
+SUMMARY:U17: Eslövs HK 1 – Alingsås HK 3
+LOCATION:Bana 18\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot Eslövs HK 1.\nAvspark 1
+ 5:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-ahus-hbk-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260712T154500Z
+DTEND:20260712T155600Z
+SUMMARY:U17: Alingsås HK 3 – Åhus HBK
+LOCATION:Bana 19\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot Åhus HBK.\nAvspark 17:4
+ 5 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-if-hallby-hk-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260712T173000Z
+DTEND:20260712T174100Z
+SUMMARY:U17: IF Hallby HK 2 – Alingsås HK 3
+LOCATION:Bana 12\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot IF Hallby HK 2.\nAvspark
+  19:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-kfum-kalmar-hk-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260712T190000Z
+DTEND:20260712T191100Z
+SUMMARY:U17: KFUM Kalmar HK – Alingsås HK 3
+LOCATION:Bana 3\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot KFUM Kalmar HK.\nAvspark
+  21:00 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-huddinge-hk-2-2-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T090000Z
+DTEND:20260713T091100Z
+SUMMARY:U17: Alingsås HK 3 – Huddinge HK 2 2
+LOCATION:Bana 3\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot Huddinge HK 2 2.\nAvspar
+ k 11:00 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-hk-drott-halmstad-1-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T101500Z
+DTEND:20260713T102600Z
+SUMMARY:U17: HK Drott Halmstad 1 – Alingsås HK 3
+LOCATION:Bana 5\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar bortalag mot HK Drott Halmstad 1.\nAv
+ spark 12:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u17-p-3-vs-hk-fras-grupp-6@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T131500Z
+DTEND:20260713T132600Z
+SUMMARY:U17: Alingsås HK 3 – HK Fräs
+LOCATION:Bana 5\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 6\nAlingsås spelar hemmalag mot HK Fräs.\nAvspark 15:15
+  (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

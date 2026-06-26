@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Alingsas HK//Ahus Beach Handboll//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alingsås HK Vit – Åhus Beach
+X-WR-TIMEZONE:Europe/Stockholm
+X-WR-CALDESC:U14. Källa: ahusbeachhandboll.cupmanager.net
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:u14-p-vit-vs-lugi-hf-ruter-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T121500Z
+DTEND:20260713T122600Z
+SUMMARY:U14: Lugi HF Ruter – Alingsås HK Vit
+LOCATION:Bana 14\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar bortalag mot Lugi HF Ruter.\nAvspark 
+ 14:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-hk-aranas-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T140000Z
+DTEND:20260713T141100Z
+SUMMARY:U14: Alingsås HK Vit – HK Aranäs
+LOCATION:Bana 14\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar hemmalag mot HK Aranäs.\nAvspark 16:
+ 00 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-tyreso-handboll-1-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T154500Z
+DTEND:20260713T155600Z
+SUMMARY:U14: Alingsås HK Vit – Tyresö Handboll 1
+LOCATION:Bana 15\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar hemmalag mot Tyresö Handboll 1.\nAvs
+ park 17:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-ahus-handboll-3-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T173000Z
+DTEND:20260713T174100Z
+SUMMARY:U14: Alingsås HK Vit – Åhus Handboll 3
+LOCATION:Bana 15\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar hemmalag mot Åhus Handboll 3.\nAvspa
+ rk 19:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-hk-bjornen-gul-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260713T190000Z
+DTEND:20260713T191100Z
+SUMMARY:U14: Alingsås HK Vit – HK Björnen Gul
+LOCATION:Bana 6\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar hemmalag mot HK Björnen Gul.\nAvspar
+ k 21:00 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-vaxjo-hf-1-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260714T090000Z
+DTEND:20260714T091100Z
+SUMMARY:U14: Växjö HF 1 – Alingsås HK Vit
+LOCATION:Bana 8\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar bortalag mot Växjö HF 1.\nAvspark 1
+ 1:00 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-ik-lagan-horby-svart-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260714T103000Z
+DTEND:20260714T104100Z
+SUMMARY:U14: IK Lågan Hörby Svart – Alingsås HK Vit
+LOCATION:Bana 8\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar bortalag mot IK Lågan Hörby Svart.\
+ nAvspark 12:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-h-78-solvesborg-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260714T120000Z
+DTEND:20260714T121100Z
+SUMMARY:U14: H 78 Sölvesborg – Alingsås HK Vit
+LOCATION:Bana 8\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar bortalag mot H 78 Sölvesborg.\nAvspa
+ rk 14:00 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u14-p-vit-vs-eslovs-hk-svart-grupp-5@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260714T133000Z
+DTEND:20260714T134100Z
+SUMMARY:U14: Eslövs HK Svart – Alingsås HK Vit
+LOCATION:Bana 8\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 5\nAlingsås spelar bortalag mot Eslövs HK Svart.\nAvspa
+ rk 15:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

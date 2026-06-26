@@ -1,0 +1,123 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Alingsas HK//Ahus Beach Handboll//SV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Alingsås HK 1 – Åhus Beach
+X-WR-TIMEZONE:Europe/Stockholm
+X-WR-CALDESC:U12. Källa: ahusbeachhandboll.cupmanager.net
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:u12-p-1-vs-vaxjo-hf-2-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T093000Z
+DTEND:20260709T094100Z
+SUMMARY:U12: Växjö HF 2 – Alingsås HK 1
+LOCATION:Bana 1\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar bortalag mot Växjö HF 2.\nAvspark 1
+ 1:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-lugi-hf-2-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T111500Z
+DTEND:20260709T112600Z
+SUMMARY:U12: Alingsås HK 1 – Lugi HF 2
+LOCATION:Bana 16\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar hemmalag mot Lugi HF 2.\nAvspark 13:1
+ 5 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-vinslovs-hk-2-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T131500Z
+DTEND:20260709T132600Z
+SUMMARY:U12: Vinslövs HK 2 – Alingsås HK 1
+LOCATION:Bana 14\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar bortalag mot Vinslövs HK 2.\nAvspark
+  15:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-ik-lagan-horby-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260709T173000Z
+DTEND:20260709T174100Z
+SUMMARY:U12: Alingsås HK 1 – IK Lågan Hörby
+LOCATION:Bana 8\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar hemmalag mot IK Lågan Hörby.\nAvspa
+ rk 19:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-lodde-vikings-hk-svart-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T084500Z
+DTEND:20260710T085600Z
+SUMMARY:U12: Lödde Vikings HK Svart – Alingsås HK 1
+LOCATION:Bana 11\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar bortalag mot Lödde Vikings HK Svart.
+ \nAvspark 10:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-ik-bolton-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T100000Z
+DTEND:20260710T101100Z
+SUMMARY:U12: Alingsås HK 1 – IK Bolton
+LOCATION:Bana 9\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar hemmalag mot IK Bolton.\nAvspark 12:0
+ 0 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-hf-limhamn-1-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T113000Z
+DTEND:20260710T114100Z
+SUMMARY:U12: Alingsås HK 1 – HF Limhamn 1
+LOCATION:Bana 7\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar hemmalag mot HF Limhamn 1.\nAvspark 1
+ 3:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u12-p-1-vs-ifk-malmo-hf-grupp-4@ahusbeach.cupmanager.net
+DTSTAMP:20260626T094606Z
+DTSTART:20260710T133000Z
+DTEND:20260710T134100Z
+SUMMARY:U12: IFK Malmö HF – Alingsås HK 1
+LOCATION:Bana 3\, Åhus Beach Handboll\, Åhus
+DESCRIPTION:Grupp 4\nAlingsås spelar bortalag mot IFK Malmö HF.\nAvspark 
+ 15:30 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
+SEQUENCE:1782462328
+LAST-MODIFIED:20260626T094606Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
