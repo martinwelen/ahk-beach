@@ -29,3 +29,35 @@ def test_bucket_groups_by_age_slug_skips_mini():
     ]
     out = fs.bucket_groups(groups_in)
     assert "u15" in out and "u10" not in out      # Mini har inga tabeller
+
+
+def _bm_store(mid, home_name, away_name, hid, aid, rnd, bana, result):
+    return {
+        f"M({mid})": {"__typename": "Match", "id": mid, "start": 1000 + mid,
+                      "home": {"href": f"HO({mid})"}, "away": {"href": f"AW({mid})"},
+                      "arena": {"href": f"AR({mid})"}, "round": {"href": f"RN({mid})"},
+                      "result": {"href": f"RE({mid})"}},
+        f"HO({mid})": {"name": {"sv": home_name}, "team": {"href": f"Team({{id:{hid}}})"}},
+        f"AW({mid})": {"name": {"sv": away_name}, "team": {"href": f"Team({{id:{aid}}})"}},
+        f"AR({mid})": {"fieldName": f"Bana {bana}"},
+        f"RN({mid})": {"name": {"sv": rnd}},
+        f"RE({mid})": result,
+    }
+
+
+def test_bracket_match_normalizes_and_flags_winner():
+    st = _bm_store(1, "Alingsås HK Blå", "Lugi HF", 10, 20, "Semifinal", 7,
+                   {"finished": True, "homeGoals": 12, "awayGoals": 9})
+    m = fs.bracket_match(st["M(1)"], st, club_ids={10})
+    assert m["round"] == "Semifinal" and m["bana"] == 7
+    assert m["home"]["label"] == "Alingsås HK Blå" and m["home"]["is_alingsas"] is True
+    assert m["home"]["goals"] == 12 and m["away"]["goals"] == 9
+    assert m["winner"] == "home"
+
+
+def test_group_rounds_orders_by_first_start():
+    ms = [{"round": "Final", "start": 200, "id": 2},
+          {"round": "Semifinal", "start": 100, "id": 1}]
+    rounds = fs.group_rounds(ms)
+    assert [r["name"] for r in rounds] == ["Semifinal", "Final"]
+    assert "_first" not in rounds[0]

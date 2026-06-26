@@ -52,3 +52,47 @@ def bucket_groups(groups):
             continue
         out.setdefault(g["age_slug"], []).append(g)
     return out
+
+
+def _bana_num(field):
+    import re as _re
+    m = _re.search(r"(\d+)", field or "")
+    return int(m.group(1)) if m else (field or "")
+
+
+def bracket_match(m, store, club_ids):
+    """Slutspelsmatch (Match-entitet + store) → vår bracket-modell."""
+    home = api.store_get(store, m.get("home")) or {}
+    away = api.store_get(store, m.get("away")) or {}
+    arena = api.store_get(store, m.get("arena")) or {}
+    rnd = api.store_get(store, m.get("round")) or {}
+    result = api.store_get(store, m.get("result")) or {}
+    side = winner_side(result)
+
+    def actor(a):
+        tid = api.ref_id(a.get("team")) if isinstance(a.get("team"), dict) else None
+        goals = None
+        if result.get("finished"):
+            goals = result.get("homeGoals") if a is home else result.get("awayGoals")
+        return {"label": api.name_of(a), "team_id": tid,
+                "is_alingsas": tid in club_ids if tid else False, "goals": goals}
+
+    return {"id": m.get("id"), "start": m.get("start"),
+            "bana": _bana_num(arena.get("fieldName", "")),
+            "round": api.name_of(rnd), "home": actor(home), "away": actor(away),
+            "winner": side}
+
+
+def group_rounds(matches):
+    """Normaliserade matcher → ronder, ordnade efter rondens första start."""
+    by_round = {}
+    for m in matches:
+        by_round.setdefault(m["round"], []).append(m)
+    rounds = []
+    for name, ms in by_round.items():
+        ms.sort(key=lambda x: (x.get("start") or 0, x.get("id") or 0))
+        rounds.append({"name": name, "matches": ms, "_first": ms[0].get("start") or 0})
+    rounds.sort(key=lambda r: r["_first"])
+    for r in rounds:
+        del r["_first"]
+    return rounds
