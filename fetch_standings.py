@@ -184,12 +184,13 @@ def build():
     club_ids = set(reg_by_id)
     divisions = discover_divisions(store, reg_by_id)
 
-    cat_play, cat_age = {}, {}
+    cat_play, cat_age, cat_klass = {}, {}, {}
     for did, info in divisions.items():
         if not rules.rule_profile(info["rule"])["has_tables"]:
             continue
         cat = info["category"]
         cat_age.setdefault(cat, info["age_slug"])
+        cat_klass.setdefault(cat, info["klass"])
         if cat not in cat_play:
             cat_play[cat] = category_playoffs(cat, did)
 
@@ -216,8 +217,9 @@ def build():
             ms = [bracket_match(e, st, club_ids)
                   for e in st.values() if e.get("__typename") == "Match"]
             tiers.append({"tier": name, "division_id": pid, "rounds": group_rounds(ms)})
-        if age:
-            by_age.setdefault(age, {"groups": [], "playoffs": []})["playoffs"].extend(tiers)
+        if age and tiers:
+            by_age.setdefault(age, {"groups": [], "playoffs": []})["playoffs"].append(
+                {"klass": cat_klass.get(cat), "tiers": tiers})
 
     for b in by_age.values():
         b["groups"].sort(key=lambda g: g["name"])
