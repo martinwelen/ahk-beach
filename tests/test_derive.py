@@ -43,3 +43,38 @@ def test_parse_category_unknown_rule_falls_back():
     p = derive.parse_category("P14 Beachhandboll (f. 2012) 2")
     assert p["gender"] == "P" and p["age"] == 14 and p["suffix"] == "2"
     assert p["rule"] == "Beachhandboll"
+
+
+import config
+
+
+def _team(suffix):
+    return {"id": hash(suffix) & 0xffff, "suffix": suffix}
+
+
+def test_colors_single_team_is_club_blue():
+    teams = [_team("1")]
+    out = derive.derive_group_colors(teams)
+    assert out[teams[0]["id"]] == config.CLUB_BLUE
+
+
+def test_colors_all_color_suffixes_use_color_map():
+    teams = [_team("Blå"), _team("Vit"), _team("Orange")]
+    out = derive.derive_group_colors(teams)
+    assert out[teams[0]["id"]] == config.COLOR_MAP["bla"]
+    assert out[teams[1]["id"]] == config.COLOR_MAP["vit"]
+    assert out[teams[2]["id"]] == config.COLOR_MAP["orange"]
+
+
+def test_colors_mixed_suffixes_use_palette_by_index():
+    teams = [_team("Blå"), _team("1"), _team("Vit")]
+    out = derive.derive_group_colors(teams)
+    assert out[teams[0]["id"]] == config.PALETTE[0]
+    assert out[teams[1]["id"]] == config.PALETTE[1]
+    assert out[teams[2]["id"]] == config.PALETTE[2]
+
+
+def test_colors_multiword_color_suffix_detected():
+    teams = [_team("Lag Blå"), _team("Lag Vit")]
+    out = derive.derive_group_colors(teams)
+    assert out[teams[0]["id"]] == config.COLOR_MAP["bla"]
