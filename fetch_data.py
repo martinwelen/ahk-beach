@@ -183,3 +183,38 @@ def write_if_changed(groups, path, generated, seq):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(doc, f, ensure_ascii=False, indent=1)
     return True
+
+
+import sys
+from datetime import datetime as _dt, timezone as _tz
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+DATA_JSON = os.path.join(ROOT, "data.json")
+
+
+def main():
+    try:
+        store = api.fetch_store()
+    except Exception as e:
+        print("FEL vid hämtning:", e, "- lämnar data.json orörd")
+        return 0
+    registry = build_team_registry(store)
+    if not registry:
+        print("0 lag för klubbkoden - lämnar data.json orörd")
+        return 0
+    match_entities = [e for e in store.values() if e.get("__typename") == "Match"]
+    groups = bucket_by_age_group(registry, match_entities, store)
+    now = _dt.now(_tz.utc)
+    wrote = write_if_changed(groups, DATA_JSON,
+                             generated=now.isoformat(timespec="seconds"),
+                             seq=int(now.timestamp()))
+    n_t = sum(len(g["teams"]) for g in groups.values())
+    n_m = sum(len(g["matches"]) for g in groups.values())
+    print(f"{'Skrev' if wrote else 'Ingen ändring;'} {len(groups)} "
+          f"åldersgrupper, {n_t} lag, {n_m} matcher"
+          + ("" if wrote else " (skrev inte om)"))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
