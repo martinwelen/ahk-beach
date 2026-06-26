@@ -61,3 +61,19 @@ def test_group_rounds_orders_by_first_start():
     rounds = fs.group_rounds(ms)
     assert [r["name"] for r in rounds] == ["Semifinal", "Final"]
     assert "_first" not in rounds[0]
+
+
+def test_discover_divisions_tags_age_slug():
+    store = {
+        "Match({id:1})": {"__typename": "Match",
+                          "home": {"href": "HO1"}, "away": {"href": "AW1"},
+                          "division": {"href": "Div({id:500})"}},
+        "HO1": {"team": {"href": "Team({id:10})"}},
+        "AW1": {"team": {"href": "Team({id:99})"}},
+        "Div({id:500})": {"name": {"sv": "Grupp 2"},
+                          "category": {"href": "Category({categoryId:70,tournamentId:2})"}},
+    }
+    reg_by_id = {10: {"age_slug": "u15", "rule": "Classic"}}
+    out = fs.discover_divisions(store, reg_by_id)
+    assert out[500] == {"age_slug": "u15", "rule": "Classic",
+                        "name": "Grupp 2", "category": "70"}

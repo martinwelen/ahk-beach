@@ -96,3 +96,32 @@ def group_rounds(matches):
     for r in rounds:
         del r["_first"]
     return rounds
+
+
+def _category_id(division_entity):
+    import re as _re
+    cat = division_entity.get("category") if isinstance(division_entity, dict) else None
+    href = cat.get("href", "") if isinstance(cat, dict) else ""
+    m = _re.search(r"categoryId:(\d+)", href)
+    return m.group(1) if m else None
+
+
+def discover_divisions(store, reg_by_id):
+    """{division_id: {age_slug, rule, name, category}} för klubbens grupper."""
+    out = {}
+    for e in store.values():
+        if e.get("__typename") != "Match":
+            continue
+        home = api.store_get(store, e.get("home", {}))
+        away = api.store_get(store, e.get("away", {}))
+        hid, aid = api.ref_id(home.get("team")), api.ref_id(away.get("team"))
+        team = reg_by_id.get(hid) or reg_by_id.get(aid)
+        if not team:
+            continue
+        did = api.ref_id(e.get("division"))
+        if did is None:
+            continue
+        dent = api.store_get(store, e.get("division", {}))
+        out[did] = {"age_slug": team["age_slug"], "rule": team["rule"],
+                    "name": api.name_of(dent), "category": _category_id(dent)}
+    return out
