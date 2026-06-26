@@ -5,10 +5,17 @@
 Speglar API:ts tabellordning (ingen egen tie-break). Mini hoppas över
 (inga tabeller). Mirror av proven logik i alingsas-ahus-beach-2026."""
 
+import os
 import re
+import sys
+import json
+import hashlib
+from datetime import datetime, timezone
 
 import api
+import config
 import rules
+import fetch_data
 
 
 def winner_side(result):
@@ -125,3 +132,127 @@ def discover_divisions(store, reg_by_id):
         out[did] = {"age_slug": team["age_slug"], "rule": team["rule"],
                     "name": api.name_of(dent), "category": _category_id(dent)}
     return out
+
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+STANDINGS_JSON = os.path.join(ROOT, "standings.json")
+
+
+def _resolve(query):
+    resp = api.call(query).get("responses", {})
+    if query in resp and isinstance(resp[query], dict):
+        return resp[query].get("entity")
+    for v in resp.values():
+        if isinstance(v, dict) and "entity" in v:
+            return v["entity"]
+    return None
+
+
+def _store(query):
+    resp = api.call(query).get("responses", {})
+    return {k: v["entity"] for k, v in resp.items()
+            if isinstance(v, dict) and isinstance(v.get("entity"), dict)}
+
+
+def category_playoffs(cat_id, sample_division_id):
+    """[(stage_id, playoff_division_id, tier_namn)] för en kategori."""
+    table = _resolve(f"Division({{id:{sample_division_id}}})$table") or {}
+    stage_ids = []
+    for r in table.get("rows", []):
+        sid = _stage_id((r.get("targetStage") or {}).get("href", ""))
+        if sid and sid not in stage_ids:
+            stage_ids.append(sid)
+    out = []
+    for sid in stage_ids:
+        ent = _resolve(f"Stage({{categoryId:{cat_id},stageId:{sid},"
+                       f"tournamentId:{config.TOURNAMENT_ID}}})$divisions")
+        if isinstance(ent, list):
+            for dref in ent:
+                pid = api.ref_id(dref)
+                pe = _resolve(f"Division({{id:{pid}}})")
+                out.append((sid, pid, api.name_of(pe)))
+    return out
+
+
+def build():
+    store = api.fetch_store()
+    registry = fetch_data.build_team_registry(store)
+    reg_by_id = {t["id"]: t for t in registry}
+    club_ids = set(reg_by_id)
+    divisions = discover_divisions(store, reg_by_id)
+
+    cat_play, cat_age = {}, {}
+    for did, info in divisions.items():
+        if not rules.rule_profile(info["rule"])["has_tables"]:
+            continue
+        cat = info["category"]
+        cat_age.setdefault(cat, info["age_slug"])
+        if cat not in cat_play:
+            cat_play[cat] = category_playoffs(cat, did)
+
+    by_age = {}
+    for did, info in divisions.items():
+        if not rules.rule_profile(info["rule"])["has_tables"]:
+            continue
+        tier_by_stage = {sid: name for (sid, _p, name) in cat_play.get(info["category"], [])}
+        table = _resolve(f"Division({{id:{did}}})$table") or {}
+        rows = [table_row(r, club_ids, tier_by_stage) for r in table.get("rows", [])]
+        for i, r in enumerate(rows, 1):
+            r["pos"] = i
+        bucket = by_age.setdefault(info["age_slug"], {"groups": [], "playoffs": []})
+        bucket["groups"].append({"name": info["name"], "division_id": did, "rows": rows})
+
+    for cat, plist in cat_play.items():
+        age = cat_age.get(cat)
+        tiers = []
+        for (_sid, pid, name) in plist:
+            q = (f"Division({{id:{pid}}}){{matches:[{{... on Match:"
+                 f"{{start:{{}},home:{{}},away:{{}},arena:{{}},round:{{}},result:{{}}}}}}]}}")
+            st = _store(q)
+            ms = [bracket_match(e, st, club_ids)
+                  for e in st.values() if e.get("__typename") == "Match"]
+            tiers.append({"tier": name, "division_id": pid, "rounds": group_rounds(ms)})
+        if age:
+            by_age.setdefault(age, {"groups": [], "playoffs": []})["playoffs"].extend(tiers)
+
+    for b in by_age.values():
+        b["groups"].sort(key=lambda g: g["name"])
+    return by_age
+
+
+def _hash(by_age):
+    return hashlib.sha256(json.dumps(by_age, ensure_ascii=False,
+                                     sort_keys=True).encode()).hexdigest()
+
+
+def main():
+    try:
+        by_age = build()
+    except Exception as e:
+        print("FEL vid hämtning:", e, "- lämnar standings.json orörd")
+        return 0
+    if not by_age:
+        print("0 grupper - lämnar standings.json orörd")
+        return 0
+    h = _hash(by_age)
+    if os.path.exists(STANDINGS_JSON):
+        try:
+            with open(STANDINGS_JSON, encoding="utf-8") as f:
+                if json.load(f).get("meta", {}).get("data_hash") == h:
+                    print(f"Ingen ändring ({len(by_age)} åldersgrupper). Skriver inte om.")
+                    return 0
+        except Exception:
+            pass
+    now = datetime.now(timezone.utc)
+    doc = {"meta": {"source": "cupmanager API (Division$table + Playoff)",
+                    "generated": now.isoformat(timespec="seconds"),
+                    "seq": int(now.timestamp()), "data_hash": h},
+           "by_age": by_age}
+    with open(STANDINGS_JSON, "w", encoding="utf-8") as f:
+        json.dump(doc, f, ensure_ascii=False, indent=1)
+    print(f"Skrev standings.json för {len(by_age)} åldersgrupper")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
