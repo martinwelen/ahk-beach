@@ -36,3 +36,18 @@ def test_match_query_includes_tournament_and_paging():
     assert "limit:300" in q and "offset:600" in q
     assert "tournamentId:70944382" in q
     assert "MatchWindow" in q and "result:{}" in q
+
+
+def test_fetch_store_stops_at_max_pages(monkeypatch):
+    calls = {"n": 0}
+
+    def fake_call(query):
+        calls["n"] += 1
+        # Returnerar alltid en FULL sida → skulle loopa oändligt utan tak.
+        return {"responses": {f"Match({{id:{calls['n']}-{i}}})":
+                              {"entity": {"__typename": "Match"}}
+                              for i in range(api.PAGE)}}
+
+    monkeypatch.setattr(api, "call", fake_call)
+    api.fetch_store()
+    assert calls["n"] == api.MAX_PAGES

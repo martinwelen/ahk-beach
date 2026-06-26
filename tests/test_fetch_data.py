@@ -181,3 +181,12 @@ def test_write_if_changed_writes_then_skips(tmp_path):
     with open(path, encoding="utf-8") as f:
         doc = json.load(f)
     assert doc["meta"]["seq"] == 1     # andra körningen skrev inte över
+
+
+def test_normalize_match_returns_none_for_untimed_match():
+    m = _match(300, 1783585800000, 5, "Alingsås HK Blå", "X", "Grupp 2", 1, 50)
+    m["start"] = None                        # ännu ej tidssatt (slutspels-TBD)
+    store = _store_for_match(m)
+    reg_by_id = {1: {"id": 1, "slug": "u15-p-bla", "age_slug": "u15",
+                     "gender": "P", "rule": "Classic", "color": "#1f5fbf"}}
+    assert fetch_data.normalize_match(m, store, reg_by_id) is None

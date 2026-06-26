@@ -10,7 +10,7 @@ import urllib.request
 
 import config
 
-_API = ("https://ahusbeachhandboll.cupmanager.net/rest/results_api/call"
+_API = (f"https://{config.API_HOST}/rest/results_api/call"
         "?call={call}&lang=sv&tournamentId=" + config.TOURNAMENT_ID)
 
 
@@ -34,6 +34,7 @@ def store_get(store, ref):
 
 
 PAGE = 300
+MAX_PAGES = 100          # säkerhetstak: oövervakad CI ska aldrig loopa oändligt
 
 
 def match_query(limit, offset):
@@ -63,7 +64,7 @@ def call(query, retries=4):
 def fetch_store():
     """Sidar igenom alla matchfönster → entitets-store {href: entity}."""
     store, offset = {}, 0
-    while True:
+    for _ in range(MAX_PAGES):
         resp = call(match_query(PAGE, offset)).get("responses", {})
         page = 0
         for k, v in resp.items():

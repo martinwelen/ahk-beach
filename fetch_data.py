@@ -6,6 +6,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 
@@ -83,6 +84,9 @@ def normalize_match(e, store, reg_by_id):
     team = reg_by_id.get(hid) or reg_by_id.get(aid)
     if not team:
         return None
+    start_ms = e.get("start")
+    if not start_ms:                       # ännu ej tidssatt match (t.ex. slutspels-TBD)
+        return None
 
     hb = "Hemma" if hid in reg_by_id else "Borta"
     hemma = api.name_of(home_a)
@@ -90,7 +94,6 @@ def normalize_match(e, store, reg_by_id):
     div = api.store_get(store, e.get("division", {}))
     grupp = api.name_of(div)
     bana = _bana_num(api.store_get(store, e.get("arena", {})).get("completeName", ""))
-    start_ms = e["start"]
     dt = datetime.fromtimestamp(start_ms / 1000, _CEST)
     result = _extract_result(api.store_get(store, e.get("result", {})))
 
@@ -185,9 +188,6 @@ def write_if_changed(groups, path, generated, seq):
     return True
 
 
-import sys
-from datetime import datetime as _dt, timezone as _tz
-
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JSON = os.path.join(ROOT, "data.json")
 
@@ -204,7 +204,7 @@ def main():
         return 0
     match_entities = [e for e in store.values() if e.get("__typename") == "Match"]
     groups = bucket_by_age_group(registry, match_entities, store)
-    now = _dt.now(_tz.utc)
+    now = datetime.now(timezone.utc)
     wrote = write_if_changed(groups, DATA_JSON,
                              generated=now.isoformat(timespec="seconds"),
                              seq=int(now.timestamp()))

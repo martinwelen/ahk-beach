@@ -6,6 +6,10 @@ TOURNAMENT_ID = "70944382"
 CLUB_ID = 73383031                       # NameClub({id:73383031}) = Alingsås HK
 CLUB_NAME = "Alingsås HK"
 
+# cupmanager-värd för turneringen. Eventspecifik subdomän – byt om arrangören
+# byter (då räcker inte att bara byta TOURNAMENT_ID).
+API_HOST = "ahusbeachhandboll.cupmanager.net"
+
 PAGES_HOST = "martinwelen.github.io"
 PAGES_PATH = "/ahk-beach"
 PAGES_BASE = f"https://{PAGES_HOST}{PAGES_PATH}"
