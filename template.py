@@ -8,8 +8,7 @@
 # plus de befintliga platshållarna __DATA__, __TEAMS__, __DUR_MIN__, __STANDINGS__,
 # __ROSTERS__, __CAL_ITEMS__, __BASE__, __UPDATED__.
 
-TEMPLATE = r"""\
-<!doctype html>
+TEMPLATE = r"""<!doctype html>
 <html lang="sv">
 <head>
 <meta charset="utf-8">

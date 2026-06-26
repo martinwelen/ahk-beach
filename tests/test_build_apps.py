@@ -123,3 +123,9 @@ def test_render_app_fills_dates_and_teamcount():
     assert "__DATES__" not in html and "__TEAMCOUNT__" not in html
     assert "Måndag 13 juli" in html
     assert "6 lag" not in html and "17 juli" not in html
+
+
+def test_render_app_starts_with_doctype_no_leading_backslash():
+    # Regression: mallen fick en literal '\' först → syntes uppe till vänster.
+    html = build_apps.render_app(_group(), standings=None, base="b", updated="u")
+    assert html.startswith("<!doctype html>")
