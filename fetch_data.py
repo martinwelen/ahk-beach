@@ -108,6 +108,16 @@ def normalize_match(e, store, reg_by_id):
     }
 
 
+def _court_sort_key(m):
+    """Banor sorteras numeriskt; ev. textfallback (bana utan siffra) sist.
+
+    _bana_num ger normalt en int, men returnerar råsträngen om arenan saknar
+    siffra. Vi blandar därför aldrig int och str i samma sorteringsnyckel.
+    """
+    b = m["bana"]
+    return (0, b) if isinstance(b, int) else (1, str(b))
+
+
 def bucket_by_age_group(registry, match_entities, store):
     """Bygger {age_slug: {age,label,rule,profile,teams,matches}} ur lag + matcher."""
     reg_by_id = {t["id"]: t for t in registry}
@@ -126,5 +136,5 @@ def bucket_by_age_group(registry, match_entities, store):
             groups[nm["age_slug"]]["matches"].append(nm)
 
     for g in groups.values():
-        g["matches"].sort(key=lambda m: (m["start_ms"], str(m["bana"])))
+        g["matches"].sort(key=lambda m: (m["start_ms"], _court_sort_key(m)))
     return groups

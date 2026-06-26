@@ -123,3 +123,25 @@ def test_bucket_by_age_group_groups_and_sorts():
     assert g["age"] == 15 and g["label"] == "U15" and g["rule"] == "Classic"
     assert [t["id"] for t in g["teams"]] == [1]
     assert [mm["start_ms"] for mm in g["matches"]] == [1783585800000, 1783589400000]
+
+
+def test_bucket_sorts_courts_numerically_not_lexicographically():
+    reg = [{"id": 1, "slug": "u15-p-bla", "age_slug": "u15", "age": 15,
+            "gender": "P", "rule": "Classic", "team_name": "Alingsås HK Blå",
+            "suffix": "Blå", "color": "#1f5fbf"}]
+    # Samma starttid, banorna 2 och 10 → 2 ska komma före 10 (inte "10" < "2").
+    m10 = _match(1, 1783585800000, 10, "Alingsås HK Blå", "X", "Grupp 2", 1, 50)
+    m2 = _match(2, 1783585800000, 2, "Alingsås HK Blå", "Y", "Grupp 2", 1, 50)
+    store = {}
+    store.update(_store_for_match(m10))
+    store.update(_store_for_match(m2))
+    groups = fetch_data.bucket_by_age_group(reg, [m10, m2], store)
+    assert [mm["bana"] for mm in groups["u15"]["matches"]] == [2, 10]
+
+
+def test_normalize_match_returns_none_for_non_club_match():
+    m = _match(200, 1783585800000, 5, "Lugi HF", "IFK Kristianstad", "Grupp 1", 99, 88)
+    store = _store_for_match(m)
+    reg_by_id = {1: {"id": 1, "slug": "u15-p-bla", "age_slug": "u15",
+                     "gender": "P", "rule": "Classic", "color": "#1f5fbf"}}
+    assert fetch_data.normalize_match(m, store, reg_by_id) is None
