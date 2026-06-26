@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 """Klubbkodsdriven datahämtning → data.json (lag + matcher per åldersgrupp)."""
 
+import hashlib
+import json
+import os
 import re
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
@@ -138,3 +141,45 @@ def bucket_by_age_group(registry, match_entities, store):
     for g in groups.values():
         g["matches"].sort(key=lambda m: (m["start_ms"], _court_sort_key(m)))
     return groups
+
+
+def _hash_groups(groups):
+    key = []
+    for a in sorted(groups):
+        g = groups[a]
+        key.append((a, g["rule"], [t["id"] for t in g["teams"]],
+                    [(m["slug"], m["start_ms"], str(m["bana"]),
+                      m["hemma"], m["borta"], m["grupp"], m.get("result"))
+                     for m in g["matches"]]))
+    return hashlib.sha256(json.dumps(key, ensure_ascii=False,
+                                     sort_keys=True).encode()).hexdigest()
+
+
+def assemble(groups, generated, seq):
+    return {
+        "meta": {
+            "source": f"cupmanager API (klubbkod {config.CLUB_ID}, "
+                      f"tournamentId {config.TOURNAMENT_ID})",
+            "club_id": config.CLUB_ID,
+            "generated": generated, "seq": seq,
+            "data_hash": _hash_groups(groups),
+        },
+        "groups": groups,
+    }
+
+
+def write_if_changed(groups, path, generated, seq):
+    """Skriver data.json bara om innehållet ändrats. Returnerar True om skrivet."""
+    new_hash = _hash_groups(groups)
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                old = json.load(f)
+            if old.get("meta", {}).get("data_hash") == new_hash:
+                return False
+        except Exception:
+            pass
+    doc = assemble(groups, generated, seq)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(doc, f, ensure_ascii=False, indent=1)
+    return True

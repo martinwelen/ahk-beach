@@ -145,3 +145,39 @@ def test_normalize_match_returns_none_for_non_club_match():
     reg_by_id = {1: {"id": 1, "slug": "u15-p-bla", "age_slug": "u15",
                      "gender": "P", "rule": "Classic", "color": "#1f5fbf"}}
     assert fetch_data.normalize_match(m, store, reg_by_id) is None
+
+
+import json
+import os
+
+
+def test_assemble_shapes_doc_with_meta_and_groups():
+    groups = {"u15": {"age": 15, "label": "U15", "rule": "Classic",
+                      "profile": {"duration_min": 11}, "teams": [], "matches": []}}
+    doc = fetch_data.assemble(groups, generated="2026-06-26T00:00:00Z", seq=1)
+    assert doc["meta"]["club_id"] == config.CLUB_ID
+    assert doc["meta"]["seq"] == 1
+    assert "data_hash" in doc["meta"]
+    assert doc["groups"]["u15"]["label"] == "U15"
+
+
+def test_data_hash_stable_regardless_of_meta():
+    groups = {"u15": {"age": 15, "label": "U15", "rule": "Classic",
+                      "profile": {}, "teams": [], "matches": []}}
+    a = fetch_data.assemble(groups, generated="2026-01-01T00:00:00Z", seq=1)
+    b = fetch_data.assemble(groups, generated="2026-09-09T00:00:00Z", seq=2)
+    assert a["meta"]["data_hash"] == b["meta"]["data_hash"]
+
+
+def test_write_if_changed_writes_then_skips(tmp_path):
+    groups = {"u15": {"age": 15, "label": "U15", "rule": "Classic",
+                      "profile": {}, "teams": [], "matches": []}}
+    path = os.path.join(tmp_path, "data.json")
+    wrote1 = fetch_data.write_if_changed(groups, path,
+                                         generated="2026-06-26T00:00:00Z", seq=1)
+    wrote2 = fetch_data.write_if_changed(groups, path,
+                                         generated="2026-06-27T00:00:00Z", seq=2)
+    assert wrote1 is True and wrote2 is False
+    with open(path, encoding="utf-8") as f:
+        doc = json.load(f)
+    assert doc["meta"]["seq"] == 1     # andra körningen skrev inte över
