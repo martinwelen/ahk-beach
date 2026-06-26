@@ -6,8 +6,8 @@ def _group(age_slug="u14", label="U14"):
     return {"age": 14, "label": label, "rule": "Classic",
             "profile": {"duration_min": 11, "has_results": True,
                         "has_tables": True, "has_playoffs": True},
-            "teams": [{"slug": f"{age_slug}-p-bla", "team_name": "Alingsås HK Blå",
-                       "color": "#1f5fbf", "gender": "P"}],
+            "teams": [{"id": 74328265, "slug": f"{age_slug}-p-bla",
+                       "team_name": "Alingsås HK Blå", "color": "#1f5fbf", "gender": "P"}],
             "matches": []}
 
 
@@ -38,8 +38,8 @@ def test_render_app_replaces_placeholders_and_labels():
 
 def test_render_app_builds_gender_classes_from_teams():
     g = _group()
-    g["teams"] = [{"slug": "u14-p-bla", "team_name": "A", "color": "#1f5fbf", "gender": "P"},
-                  {"slug": "u14-f-vit", "team_name": "B", "color": "#c9c2b4", "gender": "F"}]
+    g["teams"] = [{"id": 1, "slug": "u14-p-bla", "team_name": "A", "color": "#1f5fbf", "gender": "P"},
+                  {"id": 2, "slug": "u14-f-vit", "team_name": "B", "color": "#c9c2b4", "gender": "F"}]
     html = build_apps.render_app(g, standings=None, base="b", updated="u")
     classes = json.loads(html.split("const CLASSES = ", 1)[1].split(";\n", 1)[0])
     assert {"cls": "P14", "label": "Pojkar 14"} in classes
@@ -88,3 +88,38 @@ def test_build_apps_writes_each_group_dir(tmp_path, monkeypatch):
     assert (tmp_path / "u14" / "icon-192.png").exists()
     assert not (tmp_path / "u15").exists()       # U15 skippas
     assert n == 1
+
+
+def test_teams_js_uses_numeric_id_for_standings_join():
+    # C1-regression: TEAMS.id måste vara cupmanagers numeriska lag-id (standings
+    # joinar r.team_id===team.id), INTE slug.
+    g = _group()
+    g["teams"] = [{"id": 999001, "slug": "u14-p-bla", "team_name": "Alingsås HK Blå",
+                   "color": "#1f5fbf", "gender": "P"}]
+    teams = build_apps._teams_js(g)
+    assert teams[0]["id"] == 999001
+    assert teams[0]["slug"] == "u14-p-bla"
+
+
+def test_js_matches_uses_team_name_not_slug_for_lag():
+    # I1-regression: schemat ska visa lagnamn, inte slug.
+    g = _group()
+    g["matches"] = [{"start_ms": 1, "tid": "10:00", "bana": 1, "slug": "u14-p-bla",
+                     "grupp": "G1", "hemma": "A", "borta": "B", "hb": "Hemma",
+                     "day_label": "Måndag 13 juli", "color": "#1f5fbf",
+                     "gender": "P", "result": None}]
+    m = build_apps._js_matches(g)[0]
+    assert m["lag"] == "Alingsås HK Blå"
+
+
+def test_render_app_fills_dates_and_teamcount():
+    # I2-regression: header får inte hårdkoda "6 lag" / U15-datum.
+    g = _group()
+    g["matches"] = [{"start_ms": 1, "tid": "10:00", "bana": 1, "slug": "u14-p-bla",
+                     "grupp": "G1", "hemma": "A", "borta": "B", "hb": "Hemma",
+                     "day_label": "Måndag 13 juli", "color": "#1f5fbf",
+                     "gender": "P", "result": None}]
+    html = build_apps.render_app(g, standings=None, base="b", updated="u")
+    assert "__DATES__" not in html and "__TEAMCOUNT__" not in html
+    assert "Måndag 13 juli" in html
+    assert "6 lag" not in html and "17 juli" not in html

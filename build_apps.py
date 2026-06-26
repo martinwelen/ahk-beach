@@ -46,11 +46,13 @@ def _classes(group):
 def _js_matches(group):
     age = group["age"]
     has_res = group["profile"]["has_results"]
+    name_by_slug = {t["slug"]: t["team_name"] for t in group["teams"]}
     out = []
     for m in group["matches"]:
         out.append({
             "ms": m["start_ms"], "t": m["tid"], "bana": m["bana"],
-            "lag": m["slug"], "slug": m["slug"], "klass": f"{m['gender']}{age}",
+            "lag": name_by_slug.get(m["slug"], m["slug"]), "slug": m["slug"],
+            "klass": f"{m['gender']}{age}",
             "grp": m["grupp"], "home": m["hemma"], "away": m["borta"],
             "hb": m["hb"], "day": m["day_label"], "color": m["color"].lstrip("#"),
             "res": m.get("result") if has_res else None,
@@ -61,8 +63,19 @@ def _js_matches(group):
 
 def _teams_js(group):
     age = group["age"]
+    # `id` = cupmanagers numeriska lag-id (standings joinar på det); `slug` = filtervärde.
     return [{"lag": t["team_name"], "slug": t["slug"], "klass": f"{t['gender']}{age}",
-             "id": t["slug"], "color": t["color"].lstrip("#")} for t in group["teams"]]
+             "id": t["id"], "color": t["color"].lstrip("#")} for t in group["teams"]]
+
+
+def _dates(group):
+    """Distinkta speldagar i tidsordning, t.ex. 'Måndag 13 juli &amp; Tisdag 14 juli'."""
+    seen = []
+    for m in group["matches"]:
+        d = m["day_label"]
+        if d not in seen:
+            seen.append(d)
+    return " &amp; ".join(seen) if seen else "&nbsp;"
 
 
 def render_app(group, standings, base, updated):
@@ -77,6 +90,8 @@ def render_app(group, standings, base, updated):
             .replace("__ROSTERS__", "{}")
             .replace("__CAL_ITEMS__", "")
             .replace("__APPLABEL__", group["label"])
+            .replace("__DATES__", _dates(group))
+            .replace("__TEAMCOUNT__", str(len(group["teams"])))
             .replace("__BASE__", base)
             .replace("__UPDATED__", updated))
 

@@ -19,7 +19,7 @@ TEMPLATE = r"""\
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="AHK Åhus">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="description" content="Live-matchschema för Alingsås HK:s sex lag på Åhus Beach Handboll 2026.">
+<meta name="description" content="Live-matchschema för Alingsås HK __APPLABEL__ på Åhus Beach Handboll. Alltid uppdaterat.">
 <meta property="og:title" content="AHK Åhus Beach 2026">
 <meta property="og:description" content="Live-matchschema för Alingsås HK __APPLABEL__. Alltid uppdaterat.">
 <meta property="og:type" content="website">
@@ -227,7 +227,7 @@ footer a{color:var(--sea)}
   <header>
     <div class="kicker">Åhus Beach Handboll 2026</div>
     <h1>Alingsås&nbsp;HK<br><span class="em">matchschema</span></h1>
-    <div class="dates">Fre 17 juli &amp; Lör 18 juli · 6 lag · <span id="count"></span> matcher</div>
+    <div class="dates">__DATES__ · __TEAMCOUNT__ lag · <span id="count"></span> matcher</div>
     <button id="install" class="install" hidden>📲 Lägg till på hemskärmen</button>
     <div class="sea-rule"></div>
   </header>
