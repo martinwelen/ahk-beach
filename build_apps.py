@@ -4,6 +4,7 @@
 
 import os
 import json
+import shutil
 
 import config
 import template
@@ -78,3 +79,45 @@ def render_app(group, standings, base, updated):
             .replace("__APPLABEL__", group["label"])
             .replace("__BASE__", base)
             .replace("__UPDATED__", updated))
+
+
+_ICONS = ("icon-192.png", "icon-512.png", "icon-512-maskable.png",
+          "icon-180.png", "favicon-32.png")
+
+
+def _load(path, default):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    return default
+
+
+def main():
+    data = _load(DATA_JSON, {"groups": {}, "meta": {}})
+    standings = _load(STANDINGS_JSON, {"by_age": {}}).get("by_age", {})
+    updated = data.get("meta", {}).get("generated", "")
+    built = 0
+    for age_slug, group in data.get("groups", {}).items():
+        if age_slug in SKIP_AGE_SLUGS:
+            continue
+        out_dir = os.path.join(ROOT, age_slug)
+        os.makedirs(out_dir, exist_ok=True)
+        base = f"{config.PAGES_BASE}/{age_slug}"
+        html = render_app(group, standings.get(age_slug), base, updated)
+        with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
+            f.write(html)
+        with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
+            json.dump(app_manifest(group), f, ensure_ascii=False, indent=2)
+        with open(os.path.join(out_dir, "sw.js"), "w", encoding="utf-8") as f:
+            f.write(service_worker_js(age_slug))
+        for ic in _ICONS:
+            src = os.path.join(ROOT, ic)
+            if os.path.exists(src):
+                shutil.copy(src, os.path.join(out_dir, ic))
+        built += 1
+    print(f"Byggde {built} appar")
+    return built
+
+
+if __name__ == "__main__":
+    main()

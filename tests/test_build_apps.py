@@ -68,3 +68,23 @@ def test_render_app_strips_results_when_has_results_false():
     html = build_apps.render_app(g, standings=None, base="b", updated="u")
     matches = html.split("const MATCHES = ", 1)[1].split(";\n", 1)[0]
     assert '"res": null' in matches or '"res":null' in matches
+
+
+def test_build_apps_writes_each_group_dir(tmp_path, monkeypatch):
+    data = {"meta": {"generated": "2026-06-26T00:00:00Z"},
+            "groups": {"u14": _group("u14", "U14"), "u15": _group("u15", "U15")}}
+    (tmp_path / "data.json").write_text(json.dumps(data), encoding="utf-8")
+    # skapa ikon-filer som main() försöker kopiera
+    for ic in ("icon-192.png", "icon-512.png", "icon-512-maskable.png",
+               "icon-180.png", "favicon-32.png"):
+        (tmp_path / ic).write_bytes(b"x")
+    monkeypatch.setattr(build_apps, "ROOT", str(tmp_path))
+    monkeypatch.setattr(build_apps, "DATA_JSON", str(tmp_path / "data.json"))
+    monkeypatch.setattr(build_apps, "STANDINGS_JSON", str(tmp_path / "nope.json"))
+    n = build_apps.main()
+    assert (tmp_path / "u14" / "index.html").exists()
+    assert (tmp_path / "u14" / "manifest.json").exists()
+    assert (tmp_path / "u14" / "sw.js").exists()
+    assert (tmp_path / "u14" / "icon-192.png").exists()
+    assert not (tmp_path / "u15").exists()       # U15 skippas
+    assert n == 1
