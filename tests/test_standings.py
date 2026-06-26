@@ -73,7 +73,7 @@ def test_discover_divisions_tags_age_slug():
         "Div({id:500})": {"name": {"sv": "Grupp 2"},
                           "category": {"href": "Category({categoryId:70,tournamentId:2})"}},
     }
-    reg_by_id = {10: {"age_slug": "u15", "rule": "Classic"}}
+    reg_by_id = {10: {"age_slug": "u15", "rule": "Classic", "gender": "P", "age": 15}}
     out = fs.discover_divisions(store, reg_by_id)
-    assert out[500] == {"age_slug": "u15", "rule": "Classic",
+    assert out[500] == {"age_slug": "u15", "rule": "Classic", "klass": "P15",
                         "name": "Grupp 2", "category": "70"}

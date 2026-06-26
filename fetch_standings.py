@@ -114,7 +114,9 @@ def _category_id(division_entity):
 
 
 def discover_divisions(store, reg_by_id):
-    """{division_id: {age_slug, rule, name, category}} för klubbens grupper."""
+    """{division_id: {age_slug, rule, klass, name, category}} för klubbens grupper.
+
+    `klass` är könsklassen (t.ex. 'P14'/'F14') för könsfiltret i apparna."""
     out = {}
     for e in store.values():
         if e.get("__typename") != "Match":
@@ -130,6 +132,7 @@ def discover_divisions(store, reg_by_id):
             continue
         dent = api.store_get(store, e.get("division", {}))
         out[did] = {"age_slug": team["age_slug"], "rule": team["rule"],
+                    "klass": f"{team['gender']}{team['age']}",
                     "name": api.name_of(dent), "category": _category_id(dent)}
     return out
 
@@ -200,7 +203,8 @@ def build():
         for i, r in enumerate(rows, 1):
             r["pos"] = i
         bucket = by_age.setdefault(info["age_slug"], {"groups": [], "playoffs": []})
-        bucket["groups"].append({"name": info["name"], "division_id": did, "rows": rows})
+        bucket["groups"].append({"name": info["name"], "klass": info["klass"],
+                                 "division_id": did, "rows": rows})
 
     for cat, plist in cat_play.items():
         age = cat_age.get(cat)
