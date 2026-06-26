@@ -19,7 +19,11 @@ h1{{font-size:1.4rem}} ul{{list-style:none;padding:0;display:grid;gap:10px;max-w
 a.card{{display:block;padding:14px 16px;background:#fff;border-radius:12px;text-decoration:none;
 color:inherit;border:1px solid #0001;font-weight:700}} small{{color:#5a6b75;font-weight:500}}</style>
 </head><body><h1>Alingsås HK · Åhus Beach Handboll</h1>
-<p>Välj din åldersgrupp och lägg till på hemskärmen.</p><ul>{items}</ul></body></html>"""
+<p>Välj din åldersgrupp och lägg till på hemskärmen.</p><ul>{items}</ul>
+<!-- Cloudflare Web Analytics (cookielöst, ingen samtyckesruta) -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{{"token": "0fbaddb77cfe4155af4e4bdb370de308"}}'></script>
+</body></html>"""
 
 
 def render_hub(data):

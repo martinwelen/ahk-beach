@@ -22,3 +22,9 @@ def test_hub_orders_groups_by_age():
     }}
     html = build_hub.render_hub(data)
     assert html.index("U8") < html.index("U14")
+
+
+def test_hub_includes_analytics_beacon():
+    html = build_hub.render_hub({"groups": {}})
+    assert "static.cloudflareinsights.com/beacon.min.js" in html
+    assert '"token": "0fbaddb77cfe4155af4e4bdb370de308"' in html
