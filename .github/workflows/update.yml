@@ -1,0 +1,58 @@
+name: Uppdatera schema
+
+# Kör i GitHubs moln – ingen lokal dator behövs.
+on:
+  schedule:
+    - cron: "*/30 * * * *"          # normalt: var 30:e minut (no-op om inget ändrats)
+    - cron: "*/10 * 9-18 7 *"       # turneringsveckan 9–18 juli: var 10:e minut
+  workflow_dispatch:                 # + manuell "Run workflow"-knapp
+
+concurrency:
+  group: update-schema
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hämta matcher (klubbkod) från cupmanager
+        run: python fetch_data.py
+
+      - name: Hämta tabeller & slutspel från cupmanager
+        run: python fetch_standings.py
+
+      - name: Avgör om datan ändrats
+        id: changed
+        run: |
+          if git diff --quiet -- data.json standings.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "data.json + standings.json oförändrade – hoppar över bygge/commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bygg om appar, kalendrar och hubb
+        if: steps.changed.outputs.changed == 'true'
+        run: |
+          python build_apps.py
+          python build_ics.py
+          python build_hub.py
+
+      - name: Committa och publicera
+        if: steps.changed.outputs.changed == 'true'
+        run: |
+          git config user.name "ahk-beach-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Auto-uppdatering ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push
+          echo "Ändringar publicerade."
