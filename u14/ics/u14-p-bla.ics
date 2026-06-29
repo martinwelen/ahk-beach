@@ -10,7 +10,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:u14-p-bla-vs-ystads-if-hf-2-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260713T114500Z
 DTEND:20260713T115600Z
 SUMMARY:U14: Ystads IF HF 2 – Alingsås HK Blå
@@ -18,13 +18,13 @@ LOCATION:Bana 17\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar bortalag mot Ystads IF HF 2.\nAvspark
   13:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-dalby-gif-svart-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260713T134500Z
 DTEND:20260713T135600Z
 SUMMARY:U14: Dalby GIF Svart – Alingsås HK Blå
@@ -32,13 +32,13 @@ LOCATION:Bana 16\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar bortalag mot Dalby GIF Svart.\nAvspar
  k 15:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-lodde-vikings-hk-svart-2-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260713T151500Z
 DTEND:20260713T152600Z
 SUMMARY:U14: Lödde Vikings HK Svart 2 – Alingsås HK Blå
@@ -46,13 +46,13 @@ LOCATION:Bana 16\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar bortalag mot Lödde Vikings HK Svart 
  2.\nAvspark 17:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-hk-ankaret-rod-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260713T171500Z
 DTEND:20260713T172600Z
 SUMMARY:U14: HK Ankaret Röd – Alingsås HK Blå
@@ -60,13 +60,13 @@ LOCATION:Bana 13\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar bortalag mot HK Ankaret Röd.\nAvspar
  k 19:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-ifk-kristianstad-4-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260713T184500Z
 DTEND:20260713T185600Z
 SUMMARY:U14: IFK Kristianstad 4 – Alingsås HK Blå
@@ -74,13 +74,13 @@ LOCATION:Bana 5\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar bortalag mot IFK Kristianstad 4.\nAvs
  park 20:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-skuru-ik-vit-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260714T084500Z
 DTEND:20260714T085600Z
 SUMMARY:U14: Alingsås HK Blå – Skuru IK Vit
@@ -88,13 +88,13 @@ LOCATION:Bana 13\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar hemmalag mot Skuru IK Vit.\nAvspark 1
  0:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-monsteras-hk-2-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260714T101500Z
 DTEND:20260714T102600Z
 SUMMARY:U14: Alingsås HK Blå – Mönsterås HK 2
@@ -102,13 +102,13 @@ LOCATION:Bana 5\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar hemmalag mot Mönsterås HK 2.\nAvspa
  rk 12:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-lugi-hf-hjarter-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260714T114500Z
 DTEND:20260714T115600Z
 SUMMARY:U14: Alingsås HK Blå – Lugi HF Hjärter
@@ -116,13 +116,13 @@ LOCATION:Bana 7\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar hemmalag mot Lugi HF Hjärter.\nAvspa
  rk 13:45 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u14-p-bla-vs-if-hallby-hk-bla-grupp-3@ahusbeach.cupmanager.net
-DTSTAMP:20260629T184433Z
+DTSTAMP:20260629T193817Z
 DTSTART:20260714T131500Z
 DTEND:20260714T132600Z
 SUMMARY:U14: Alingsås HK Blå – IF Hallby HK Blå
@@ -130,7 +130,7 @@ LOCATION:Bana 14\, Åhus Beach Handboll\, Åhus
 DESCRIPTION:Grupp 3\nAlingsås spelar hemmalag mot IF Hallby HK Blå.\nAvsp
  ark 15:15 (lokal tid).\nKälla: ahusbeachhandboll.cupmanager.net
 SEQUENCE:1782758522
-LAST-MODIFIED:20260629T184433Z
+LAST-MODIFIED:20260629T193817Z
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
