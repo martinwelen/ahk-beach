@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-06-28T10:48:44+00:00",
-  "seq": 1782643724,
-  "data_hash": "fcd425767a8320ed77e75e60f8d8d6231ed75faeadbc81cc50a7737c3cffb64d"
+  "generated": "2026-06-29T18:44:33+00:00",
+  "seq": 1782758673,
+  "data_hash": "578a20e55e4b4d8393ff0cb7ed8b7a073131aa46b0cab125874d169b7a140b76"
  },
  "by_age": {
   "u12": {
@@ -4134,7 +4134,7 @@
        "pos": 1
       },
       {
-       "name": "Huddinge HK 2 2",
+       "name": "Huddinge HK 2",
        "team_id": 75501301,
        "is_alingsas": false,
        "played": 0,
