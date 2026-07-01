@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-06-29T19:38:17+00:00",
-  "seq": 1782761897,
-  "data_hash": "255276d161bf46aa21bb1ed37a1b9a6f06e5bd594fccce03ab4cad646e50c736"
+  "generated": "2026-07-01T08:28:21+00:00",
+  "seq": 1782894501,
+  "data_hash": "93fa4ca5f4f144b2745e92ee54657a027c27dcb8e60f12a9aeda1bc97a71f9ac"
  },
  "by_age": {
   "u12": {
@@ -17914,792 +17914,6 @@
    ],
    "playoffs": [
     {
-     "klass": "P15",
-     "tiers": [
-      {
-       "tier": "A-Slutspel",
-       "division_id": 82146483,
-       "rounds": [
-        {
-         "name": "1/8 Final",
-         "matches": [
-          {
-           "id": 82146491,
-           "start": 1784388600000,
-           "bana": 11,
-           "round": "1/8 Final",
-           "home": {
-            "label": "1:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "4:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146492,
-           "start": 1784388600000,
-           "bana": 4,
-           "round": "1/8 Final",
-           "home": {
-            "label": "2:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "3:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146494,
-           "start": 1784388600000,
-           "bana": 2,
-           "round": "1/8 Final",
-           "home": {
-            "label": "1:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "4:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146495,
-           "start": 1784388600000,
-           "bana": 12,
-           "round": "1/8 Final",
-           "home": {
-            "label": "2:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "3:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146498,
-           "start": 1784388600000,
-           "bana": 7,
-           "round": "1/8 Final",
-           "home": {
-            "label": "1:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "4:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146499,
-           "start": 1784388600000,
-           "bana": 3,
-           "round": "1/8 Final",
-           "home": {
-            "label": "2:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "3:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146501,
-           "start": 1784388600000,
-           "bana": 5,
-           "round": "1/8 Final",
-           "home": {
-            "label": "1:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "4:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146502,
-           "start": 1784388600000,
-           "bana": 6,
-           "round": "1/8 Final",
-           "home": {
-            "label": "2:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "3:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "1/4 Final",
-         "matches": [
-          {
-           "id": 82146490,
-           "start": 1784394900000,
-           "bana": 2,
-           "round": "1/4 Final",
-           "home": {
-            "label": "Vinn. 18073230",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072430",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146493,
-           "start": 1784394900000,
-           "bana": 3,
-           "round": "1/4 Final",
-           "home": {
-            "label": "Vinn. 18072230",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18073330",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146497,
-           "start": 1784394900000,
-           "bana": 4,
-           "round": "1/4 Final",
-           "home": {
-            "label": "Vinn. 18072730",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072330",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146500,
-           "start": 1784394900000,
-           "bana": 5,
-           "round": "1/4 Final",
-           "home": {
-            "label": "Vinn. 18072530",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072630",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "Semifinal",
-         "matches": [
-          {
-           "id": 82146489,
-           "start": 1784399400000,
-           "bana": 1,
-           "round": "Semifinal",
-           "home": {
-            "label": "Vinn. 18072237",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072337",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146496,
-           "start": 1784400300000,
-           "bana": 1,
-           "round": "Semifinal",
-           "home": {
-            "label": "Vinn. 18072437",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072537",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "Final",
-         "matches": [
-          {
-           "id": 82146488,
-           "start": 1784404800000,
-           "bana": 1,
-           "round": "Final",
-           "home": {
-            "label": "Vinn. 18072142",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072143",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "tier": "B-Slutspel",
-       "division_id": 82146503,
-       "rounds": [
-        {
-         "name": "1/8 Final",
-         "matches": [
-          {
-           "id": 82146512,
-           "start": 1784386800000,
-           "bana": 2,
-           "round": "1/8 Final",
-           "home": {
-            "label": "6:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "7:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146514,
-           "start": 1784386800000,
-           "bana": 3,
-           "round": "1/8 Final",
-           "home": {
-            "label": "6:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "7:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146517,
-           "start": 1784386800000,
-           "bana": 4,
-           "round": "1/8 Final",
-           "home": {
-            "label": "6:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "7:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146519,
-           "start": 1784386800000,
-           "bana": 5,
-           "round": "1/8 Final",
-           "home": {
-            "label": "6:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "7:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "1/4 Final",
-         "matches": [
-          {
-           "id": 82146511,
-           "start": 1784393100000,
-           "bana": 1,
-           "round": "1/4 Final",
-           "home": {
-            "label": "5:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072228",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146513,
-           "start": 1784393100000,
-           "bana": 2,
-           "round": "1/4 Final",
-           "home": {
-            "label": "5:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072328",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146516,
-           "start": 1784393100000,
-           "bana": 3,
-           "round": "1/4 Final",
-           "home": {
-            "label": "5:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072428",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146518,
-           "start": 1784393100000,
-           "bana": 4,
-           "round": "1/4 Final",
-           "home": {
-            "label": "5:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072528",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "Semifinal",
-         "matches": [
-          {
-           "id": 82146510,
-           "start": 1784399400000,
-           "bana": 2,
-           "round": "Semifinal",
-           "home": {
-            "label": "Vinn. 18072135",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072235",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146515,
-           "start": 1784399400000,
-           "bana": 3,
-           "round": "Semifinal",
-           "home": {
-            "label": "Vinn. 18072335",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072435",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "Final",
-         "matches": [
-          {
-           "id": 82146509,
-           "start": 1784403900000,
-           "bana": 2,
-           "round": "Final",
-           "home": {
-            "label": "Vinn. 18072242",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072342",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "tier": "C-Slutspel",
-       "division_id": 82146520,
-       "rounds": [
-        {
-         "name": "1/8 Final",
-         "matches": [
-          {
-           "id": 82146528,
-           "start": 1784386800000,
-           "bana": 6,
-           "round": "1/8 Final",
-           "home": {
-            "label": "9:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "10:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146530,
-           "start": 1784386800000,
-           "bana": 7,
-           "round": "1/8 Final",
-           "home": {
-            "label": "9:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "10:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146533,
-           "start": 1784386800000,
-           "bana": 12,
-           "round": "1/8 Final",
-           "home": {
-            "label": "9:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "10:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146535,
-           "start": 1784386800000,
-           "bana": 11,
-           "round": "1/8 Final",
-           "home": {
-            "label": "9:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "10:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "1/4 Final",
-         "matches": [
-          {
-           "id": 82146527,
-           "start": 1784393100000,
-           "bana": 5,
-           "round": "1/4 Final",
-           "home": {
-            "label": "8:an i Grupp 1",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072628",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146529,
-           "start": 1784393100000,
-           "bana": 6,
-           "round": "1/4 Final",
-           "home": {
-            "label": "8:an i Grupp 4",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072728",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146532,
-           "start": 1784393100000,
-           "bana": 7,
-           "round": "1/4 Final",
-           "home": {
-            "label": "8:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18073328",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146534,
-           "start": 1784393100000,
-           "bana": 11,
-           "round": "1/4 Final",
-           "home": {
-            "label": "8:an i Grupp 3",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18073228",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "Semifinal",
-         "matches": [
-          {
-           "id": 82146526,
-           "start": 1784398500000,
-           "bana": 4,
-           "round": "Semifinal",
-           "home": {
-            "label": "Vinn. 18072535",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072635",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
-           "id": 82146531,
-           "start": 1784398500000,
-           "bana": 5,
-           "round": "Semifinal",
-           "home": {
-            "label": "Vinn. 18072735",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18073235",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        },
-        {
-         "name": "Final",
-         "matches": [
-          {
-           "id": 82146525,
-           "start": 1784403000000,
-           "bana": 3,
-           "round": "Final",
-           "home": {
-            "label": "Vinn. 18072441",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "Vinn. 18072541",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          }
-         ]
-        }
-       ]
-      }
-     ]
-    },
-    {
      "klass": "F15",
      "tiers": [
       {
@@ -19915,6 +19129,792 @@
            },
            "away": {
             "label": "Vinn. 18072540",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "klass": "P15",
+     "tiers": [
+      {
+       "tier": "A-Slutspel",
+       "division_id": 82146483,
+       "rounds": [
+        {
+         "name": "1/8 Final",
+         "matches": [
+          {
+           "id": 82146491,
+           "start": 1784388600000,
+           "bana": 11,
+           "round": "1/8 Final",
+           "home": {
+            "label": "1:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "4:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146492,
+           "start": 1784388600000,
+           "bana": 4,
+           "round": "1/8 Final",
+           "home": {
+            "label": "2:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "3:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146494,
+           "start": 1784388600000,
+           "bana": 2,
+           "round": "1/8 Final",
+           "home": {
+            "label": "1:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "4:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146495,
+           "start": 1784388600000,
+           "bana": 12,
+           "round": "1/8 Final",
+           "home": {
+            "label": "2:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "3:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146498,
+           "start": 1784388600000,
+           "bana": 7,
+           "round": "1/8 Final",
+           "home": {
+            "label": "1:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "4:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146499,
+           "start": 1784388600000,
+           "bana": 3,
+           "round": "1/8 Final",
+           "home": {
+            "label": "2:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "3:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146501,
+           "start": 1784388600000,
+           "bana": 5,
+           "round": "1/8 Final",
+           "home": {
+            "label": "1:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "4:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146502,
+           "start": 1784388600000,
+           "bana": 6,
+           "round": "1/8 Final",
+           "home": {
+            "label": "2:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "3:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "1/4 Final",
+         "matches": [
+          {
+           "id": 82146490,
+           "start": 1784394900000,
+           "bana": 2,
+           "round": "1/4 Final",
+           "home": {
+            "label": "Vinn. 18073230",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072430",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146493,
+           "start": 1784394900000,
+           "bana": 3,
+           "round": "1/4 Final",
+           "home": {
+            "label": "Vinn. 18072230",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18073330",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146497,
+           "start": 1784394900000,
+           "bana": 4,
+           "round": "1/4 Final",
+           "home": {
+            "label": "Vinn. 18072730",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072330",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146500,
+           "start": 1784394900000,
+           "bana": 5,
+           "round": "1/4 Final",
+           "home": {
+            "label": "Vinn. 18072530",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072630",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "Semifinal",
+         "matches": [
+          {
+           "id": 82146489,
+           "start": 1784399400000,
+           "bana": 1,
+           "round": "Semifinal",
+           "home": {
+            "label": "Vinn. 18072237",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072337",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146496,
+           "start": 1784400300000,
+           "bana": 1,
+           "round": "Semifinal",
+           "home": {
+            "label": "Vinn. 18072437",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072537",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "Final",
+         "matches": [
+          {
+           "id": 82146488,
+           "start": 1784404800000,
+           "bana": 1,
+           "round": "Final",
+           "home": {
+            "label": "Vinn. 18072142",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072143",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tier": "B-Slutspel",
+       "division_id": 82146503,
+       "rounds": [
+        {
+         "name": "1/8 Final",
+         "matches": [
+          {
+           "id": 82146512,
+           "start": 1784386800000,
+           "bana": 2,
+           "round": "1/8 Final",
+           "home": {
+            "label": "6:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "7:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146514,
+           "start": 1784386800000,
+           "bana": 3,
+           "round": "1/8 Final",
+           "home": {
+            "label": "6:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "7:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146517,
+           "start": 1784386800000,
+           "bana": 4,
+           "round": "1/8 Final",
+           "home": {
+            "label": "6:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "7:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146519,
+           "start": 1784386800000,
+           "bana": 5,
+           "round": "1/8 Final",
+           "home": {
+            "label": "6:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "7:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "1/4 Final",
+         "matches": [
+          {
+           "id": 82146511,
+           "start": 1784393100000,
+           "bana": 1,
+           "round": "1/4 Final",
+           "home": {
+            "label": "5:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072228",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146513,
+           "start": 1784393100000,
+           "bana": 2,
+           "round": "1/4 Final",
+           "home": {
+            "label": "5:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072328",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146516,
+           "start": 1784393100000,
+           "bana": 3,
+           "round": "1/4 Final",
+           "home": {
+            "label": "5:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072428",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146518,
+           "start": 1784393100000,
+           "bana": 4,
+           "round": "1/4 Final",
+           "home": {
+            "label": "5:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072528",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "Semifinal",
+         "matches": [
+          {
+           "id": 82146510,
+           "start": 1784399400000,
+           "bana": 2,
+           "round": "Semifinal",
+           "home": {
+            "label": "Vinn. 18072135",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072235",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146515,
+           "start": 1784399400000,
+           "bana": 3,
+           "round": "Semifinal",
+           "home": {
+            "label": "Vinn. 18072335",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072435",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "Final",
+         "matches": [
+          {
+           "id": 82146509,
+           "start": 1784403900000,
+           "bana": 2,
+           "round": "Final",
+           "home": {
+            "label": "Vinn. 18072242",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072342",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tier": "C-Slutspel",
+       "division_id": 82146520,
+       "rounds": [
+        {
+         "name": "1/8 Final",
+         "matches": [
+          {
+           "id": 82146528,
+           "start": 1784386800000,
+           "bana": 6,
+           "round": "1/8 Final",
+           "home": {
+            "label": "9:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "10:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146530,
+           "start": 1784386800000,
+           "bana": 7,
+           "round": "1/8 Final",
+           "home": {
+            "label": "9:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "10:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146533,
+           "start": 1784386800000,
+           "bana": 12,
+           "round": "1/8 Final",
+           "home": {
+            "label": "9:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "10:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146535,
+           "start": 1784386800000,
+           "bana": 11,
+           "round": "1/8 Final",
+           "home": {
+            "label": "9:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "10:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "1/4 Final",
+         "matches": [
+          {
+           "id": 82146527,
+           "start": 1784393100000,
+           "bana": 5,
+           "round": "1/4 Final",
+           "home": {
+            "label": "8:an i Grupp 1",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072628",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146529,
+           "start": 1784393100000,
+           "bana": 6,
+           "round": "1/4 Final",
+           "home": {
+            "label": "8:an i Grupp 4",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072728",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146532,
+           "start": 1784393100000,
+           "bana": 7,
+           "round": "1/4 Final",
+           "home": {
+            "label": "8:an i Grupp 2",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18073328",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146534,
+           "start": 1784393100000,
+           "bana": 11,
+           "round": "1/4 Final",
+           "home": {
+            "label": "8:an i Grupp 3",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18073228",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "Semifinal",
+         "matches": [
+          {
+           "id": 82146526,
+           "start": 1784398500000,
+           "bana": 4,
+           "round": "Semifinal",
+           "home": {
+            "label": "Vinn. 18072535",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072635",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          },
+          {
+           "id": 82146531,
+           "start": 1784398500000,
+           "bana": 5,
+           "round": "Semifinal",
+           "home": {
+            "label": "Vinn. 18072735",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18073235",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "winner": null
+          }
+         ]
+        },
+        {
+         "name": "Final",
+         "matches": [
+          {
+           "id": 82146525,
+           "start": 1784403000000,
+           "bana": 3,
+           "round": "Final",
+           "home": {
+            "label": "Vinn. 18072441",
+            "team_id": null,
+            "is_alingsas": false,
+            "goals": null
+           },
+           "away": {
+            "label": "Vinn. 18072541",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
