@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-01T08:28:21+00:00",
-  "seq": 1782894501,
-  "data_hash": "93fa4ca5f4f144b2745e92ee54657a027c27dcb8e60f12a9aeda1bc97a71f9ac"
+  "generated": "2026-07-03T09:46:55+00:00",
+  "seq": 1783072015,
+  "data_hash": "45063e216214c1304670e6eafcf0f0dbf981a2e3bd8bd5ed746e5e057fa76377"
  },
  "by_age": {
   "u12": {
@@ -10328,21 +10328,6 @@
      "division_id": 81853823,
      "rows": [
       {
-       "name": "Vinslövs HK 1",
-       "team_id": 75073273,
-       "is_alingsas": false,
-       "played": 0,
-       "won": 0,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
-       "tier": "A-Slutspel",
-       "pos": 1
-      },
-      {
        "name": "Alingsås HK",
        "team_id": 75872642,
        "is_alingsas": true,
@@ -10355,7 +10340,7 @@
        "diff": 0,
        "points": 0,
        "tier": "A-Slutspel",
-       "pos": 2
+       "pos": 1
       },
       {
        "name": "HK Aranäs BLÅ",
@@ -10370,7 +10355,7 @@
        "diff": 0,
        "points": 0,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 2
       },
       {
        "name": "Lugi HF 1",
@@ -10385,7 +10370,7 @@
        "diff": 0,
        "points": 0,
        "tier": "A-Slutspel",
-       "pos": 4
+       "pos": 3
       },
       {
        "name": "Lödde Vikings HK Röd",
@@ -10399,8 +10384,8 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
-       "tier": null,
-       "pos": 5
+       "tier": "A-Slutspel",
+       "pos": 4
       },
       {
        "name": "Uppsala HK",
@@ -10414,8 +10399,8 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
-       "tier": "B-Slutspel",
-       "pos": 6
+       "tier": null,
+       "pos": 5
       },
       {
        "name": "Skuru IK 2",
@@ -10429,8 +10414,8 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
-       "tier": null,
-       "pos": 7
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "IFK Kristianstad 2",
@@ -10444,8 +10429,8 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
-       "tier": "C-Slutspel",
-       "pos": 8
+       "tier": null,
+       "pos": 7
       },
       {
        "name": "Härnösands Handbollsförening 1",
@@ -10460,7 +10445,7 @@
        "diff": 0,
        "points": 0,
        "tier": "C-Slutspel",
-       "pos": 9
+       "pos": 8
       }
      ]
     }
@@ -11465,25 +11450,6 @@
            "winner": null
           },
           {
-           "id": 81854065,
-           "start": 1784128500000,
-           "bana": 6,
-           "round": "1/8 Final",
-           "home": {
-            "label": "7:e bästa 7:an",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "away": {
-            "label": "9:an i Grupp 6",
-            "team_id": null,
-            "is_alingsas": false,
-            "goals": null
-           },
-           "winner": null
-          },
-          {
            "id": 81854066,
            "start": 1784128500000,
            "bana": 7,
@@ -11589,7 +11555,7 @@
            "bana": 7,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 15072629",
+            "label": "7:e bästa 7:an",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
