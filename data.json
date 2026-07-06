@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-04T14:08:32+00:00",
-  "seq": 1783174112,
-  "data_hash": "8a0534c51c8fdb4fc603ffc2524eb3fade7edbf1b8fe32b9a1ba5f1848722c7e"
+  "generated": "2026-07-06T12:23:24+00:00",
+  "seq": 1783340604,
+  "data_hash": "088ec7f7d380aed71d343560d7e309e2621c48c4c6c53ba5dd9133ffb2ab0a98"
  },
  "groups": {
   "u8": {
@@ -3045,17 +3045,6 @@
      "color": "#e8730c"
     },
     {
-     "id": 75874409,
-     "gender": "P",
-     "age": 14,
-     "rule": "Classic",
-     "suffix": "3",
-     "team_name": "Alingsås HK 3",
-     "age_slug": "u14",
-     "slug": "u14-p-3",
-     "color": "#2f9e44"
-    },
-    {
      "id": 75452202,
      "gender": "P",
      "age": 14,
@@ -3065,6 +3054,17 @@
      "age_slug": "u14",
      "slug": "u14-p-bla",
      "color": "#9c36b5"
+    },
+    {
+     "id": 75874409,
+     "gender": "P",
+     "age": 14,
+     "rule": "Classic",
+     "suffix": "Svart",
+     "team_name": "Alingsås HK Svart",
+     "age_slug": "u14",
+     "slug": "u14-p-svart",
+     "color": "#2f9e44"
     },
     {
      "id": 75452200,
@@ -3181,7 +3181,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -3189,7 +3189,7 @@
      "dag": "Måndag",
      "tid": "14:15",
      "bana": 8,
-     "hemma": "Alingsås HK 3",
+     "hemma": "Alingsås HK Svart",
      "borta": "HK Ankaret Svart",
      "grupp": "Grupp 4",
      "mots": "HK Ankaret Svart",
@@ -3301,7 +3301,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -3310,7 +3310,7 @@
      "tid": "16:00",
      "bana": 4,
      "hemma": "IK Lågan Hörby Blå",
-     "borta": "Alingsås HK 3",
+     "borta": "Alingsås HK Svart",
      "grupp": "Grupp 4",
      "mots": "IK Lågan Hörby Blå",
      "hb": "Borta",
@@ -3461,7 +3461,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -3469,7 +3469,7 @@
      "dag": "Måndag",
      "tid": "17:30",
      "bana": 14,
-     "hemma": "Alingsås HK 3",
+     "hemma": "Alingsås HK Svart",
      "borta": "IFK Kristianstad 1",
      "grupp": "Grupp 4",
      "mots": "IFK Kristianstad 1",
@@ -3601,7 +3601,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -3610,7 +3610,7 @@
      "tid": "19:30",
      "bana": 7,
      "hemma": "Eslövs HK Vit",
-     "borta": "Alingsås HK 3",
+     "borta": "Alingsås HK Svart",
      "grupp": "Grupp 4",
      "mots": "Eslövs HK Vit",
      "hb": "Borta",
@@ -3761,7 +3761,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -3769,7 +3769,7 @@
      "dag": "Måndag",
      "tid": "20:45",
      "bana": 11,
-     "hemma": "Alingsås HK 3",
+     "hemma": "Alingsås HK Svart",
      "borta": "IFK Ystad HK Rd 18",
      "grupp": "Grupp 4",
      "mots": "IFK Ystad HK Rd 18",
@@ -3921,7 +3921,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -3930,7 +3930,7 @@
      "tid": "11:00",
      "bana": 4,
      "hemma": "Falköpings AIK HK Vit",
-     "borta": "Alingsås HK 3",
+     "borta": "Alingsås HK Svart",
      "grupp": "Grupp 4",
      "mots": "Falköpings AIK HK Vit",
      "hb": "Borta",
@@ -4081,7 +4081,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -4089,7 +4089,7 @@
      "dag": "Tisdag",
      "tid": "12:30",
      "bana": 1,
-     "hemma": "Alingsås HK 3",
+     "hemma": "Alingsås HK Svart",
      "borta": "Växjö HF 2",
      "grupp": "Grupp 4",
      "mots": "Växjö HF 2",
@@ -4221,7 +4221,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -4230,7 +4230,7 @@
      "tid": "14:00",
      "bana": 2,
      "hemma": "Dalby GIF Blå",
-     "borta": "Alingsås HK 3",
+     "borta": "Alingsås HK Svart",
      "grupp": "Grupp 4",
      "mots": "Dalby GIF Blå",
      "hb": "Borta",
@@ -4361,7 +4361,7 @@
     },
     {
      "age_slug": "u14",
-     "slug": "u14-p-3",
+     "slug": "u14-p-svart",
      "gender": "P",
      "rule": "Classic",
      "color": "#2f9e44",
@@ -4369,7 +4369,7 @@
      "dag": "Tisdag",
      "tid": "15:30",
      "bana": 7,
-     "hemma": "Alingsås HK 3",
+     "hemma": "Alingsås HK Svart",
      "borta": "RP IF Linköping 1",
      "grupp": "Grupp 4",
      "mots": "RP IF Linköping 1",
@@ -6879,26 +6879,6 @@
      "start_ms": 1783882800000,
      "start_iso": "2026-07-12T21:00+02:00",
      "day_label": "Söndag 12 juli"
-    },
-    {
-     "age_slug": "u17",
-     "slug": "u17-f-1",
-     "gender": "F",
-     "rule": "Classic",
-     "color": "#2f9e44",
-     "datum": "2026-07-13",
-     "dag": "Måndag",
-     "tid": "10:00",
-     "bana": 8,
-     "hemma": "Alingsås HK 1",
-     "borta": "IFK Kristianstad 4",
-     "grupp": "Grupp 2",
-     "mots": "IFK Kristianstad 4",
-     "hb": "Hemma",
-     "result": null,
-     "start_ms": 1783929600000,
-     "start_iso": "2026-07-13T10:00+02:00",
-     "day_label": "Måndag 13 juli"
     },
     {
      "age_slug": "u17",
