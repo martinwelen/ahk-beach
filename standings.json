@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-07T08:19:37+00:00",
-  "seq": 1783412377,
-  "data_hash": "1ec8240901067a993c7c320d2d12bc1257b3110497d6ab951ede51240beefc6d"
+  "generated": "2026-07-08T14:57:27+00:00",
+  "seq": 1783522647,
+  "data_hash": "f1a26f566faa24b091c920acc2eddcdb9dc4befe749ff505c3a4ae79e4bdf6be"
  },
  "by_age": {
   "u12": {
@@ -15793,7 +15793,7 @@
        "pos": 4
       },
       {
-       "name": "IFK Kristianstad 1",
+       "name": "IFK Kristianstad",
        "team_id": 76165018,
        "is_alingsas": false,
        "played": 0,

@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-06T12:23:24+00:00",
-  "seq": 1783340604,
-  "data_hash": "088ec7f7d380aed71d343560d7e309e2621c48c4c6c53ba5dd9133ffb2ab0a98"
+  "generated": "2026-07-08T14:55:17+00:00",
+  "seq": 1783522517,
+  "data_hash": "56f43f7bec1cbf2b8cc9e040a490cb788187598ce79b38e617f83e24f4f809a6"
  },
  "groups": {
   "u8": {
@@ -704,10 +704,10 @@
      "dag": "Söndag",
      "tid": "14:30",
      "bana": 6,
-     "hemma": "Staffanstorps HK Svart",
+     "hemma": "Tollarps IF 2",
      "borta": "Alingsås HK 1",
      "grupp": "Grupp 1",
-     "mots": "Staffanstorps HK Svart",
+     "mots": "Tollarps IF 2",
      "hb": "Borta",
      "result": null,
      "start_ms": 1783859400000,
@@ -7358,10 +7358,10 @@
      "dag": "Torsdag",
      "tid": "14:45",
      "bana": 17,
-     "hemma": "IFK Kristianstad 1",
+     "hemma": "IFK Kristianstad",
      "borta": "Alingsås HK 2",
      "grupp": "Grupp 2",
-     "mots": "IFK Kristianstad 1",
+     "mots": "IFK Kristianstad",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784205900000,
