@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-09T14:36:12+00:00",
-  "seq": 1783607772,
-  "data_hash": "c93691ad8f2b74921bd10ed8360fe5415280e3edb986c7dd1082b1d3782b06a9"
+  "generated": "2026-07-09T16:18:01+00:00",
+  "seq": 1783613881,
+  "data_hash": "c66910867197e5e81a4e07c62a9f5f05627df242cfa906806abae5198d36e2f6"
  },
  "groups": {
   "u8": {
@@ -261,7 +261,10 @@
      "grupp": "Grupp 1",
      "mots": "Staffanstorps HK Hj - 3",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783607400000,
      "start_iso": "2026-07-09T16:30+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1313,7 +1316,10 @@
      "grupp": "Grupp 6",
      "mots": "Växjö HF Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 4,
+      "ag": 8
+     },
      "start_ms": 1783608300000,
      "start_iso": "2026-07-09T16:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1333,7 +1339,10 @@
      "grupp": "Grupp 1",
      "mots": "HK Ankaret vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 16
+     },
      "start_ms": 1783609200000,
      "start_iso": "2026-07-09T17:00+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1353,7 +1362,10 @@
      "grupp": "Grupp 6",
      "mots": "Skuru IK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 5
+     },
      "start_ms": 1783611900000,
      "start_iso": "2026-07-09T17:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1373,7 +1385,10 @@
      "grupp": "Grupp 7",
      "mots": "IFK Kristianstad 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 5
+     },
      "start_ms": 1783611900000,
      "start_iso": "2026-07-09T17:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1393,7 +1408,10 @@
      "grupp": "Grupp 1",
      "mots": "Vinslövs HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 5
+     },
      "start_ms": 1783612800000,
      "start_iso": "2026-07-09T18:00+02:00",
      "day_label": "Torsdag 9 juli"
