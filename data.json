@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-09T16:18:01+00:00",
-  "seq": 1783613881,
-  "data_hash": "c66910867197e5e81a4e07c62a9f5f05627df242cfa906806abae5198d36e2f6"
+  "generated": "2026-07-09T17:14:45+00:00",
+  "seq": 1783617285,
+  "data_hash": "8aa3a89f9fd68db5990e8c8f96ce6baca548769f35fa42ec2ada7c2f59aa57fd"
  },
  "groups": {
   "u8": {
@@ -284,7 +284,10 @@
      "grupp": "Grupp 1",
      "mots": "Ljunghusens HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783615500000,
      "start_iso": "2026-07-09T18:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1431,7 +1434,10 @@
      "grupp": "Grupp 6",
      "mots": "Åhus Handboll 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 8
+     },
      "start_ms": 1783615500000,
      "start_iso": "2026-07-09T18:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1451,7 +1457,10 @@
      "grupp": "Grupp 1",
      "mots": "Eslövs HK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 7
+     },
      "start_ms": 1783616400000,
      "start_iso": "2026-07-09T19:00+02:00",
      "day_label": "Torsdag 9 juli"
