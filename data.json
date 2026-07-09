@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-09T17:14:45+00:00",
-  "seq": 1783617285,
-  "data_hash": "8aa3a89f9fd68db5990e8c8f96ce6baca548769f35fa42ec2ada7c2f59aa57fd"
+  "generated": "2026-07-09T18:13:21+00:00",
+  "seq": 1783620801,
+  "data_hash": "c494b1406a8b9ab6f7d1e7509cd03e1a3cc71c3c2f03313fe724c08a43919729"
  },
  "groups": {
   "u8": {
@@ -1480,7 +1480,10 @@
      "grupp": "Grupp 4",
      "mots": "IK Lågan Hörby",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 7
+     },
      "start_ms": 1783618200000,
      "start_iso": "2026-07-09T19:30+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1500,7 +1503,10 @@
      "grupp": "Grupp 6",
      "mots": "H43 Lund HF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 15,
+      "ag": 8
+     },
      "start_ms": 1783618200000,
      "start_iso": "2026-07-09T19:30+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1520,7 +1526,10 @@
      "grupp": "Grupp 7",
      "mots": "H43 Lund HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 7
+     },
      "start_ms": 1783619100000,
      "start_iso": "2026-07-09T19:45+02:00",
      "day_label": "Torsdag 9 juli"
