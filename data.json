@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-08T14:55:17+00:00",
-  "seq": 1783522517,
-  "data_hash": "56f43f7bec1cbf2b8cc9e040a490cb788187598ce79b38e617f83e24f4f809a6"
+  "generated": "2026-07-09T09:03:44+00:00",
+  "seq": 1783587824,
+  "data_hash": "f091e50d5ec4c8f89f9b74b78796fc13d64863d0f9b138e025bc4d63256af70f"
  },
  "groups": {
   "u8": {
@@ -890,7 +890,10 @@
      "grupp": "Grupp 1",
      "mots": "Åhus Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 9
+     },
      "start_ms": 1783584000000,
      "start_iso": "2026-07-09T10:00+02:00",
      "day_label": "Torsdag 9 juli"
@@ -910,7 +913,10 @@
      "grupp": "Grupp 6",
      "mots": "Stavsten HK 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 1,
+      "ag": 9
+     },
      "start_ms": 1783586700000,
      "start_iso": "2026-07-09T10:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -7131,9 +7137,9 @@
      "tid": "13:15",
      "bana": 7,
      "hemma": "Alingsås HK 1",
-     "borta": "Eslövs HK",
+     "borta": "Eslövs HK 1",
      "grupp": "Grupp 1",
-     "mots": "Eslövs HK",
+     "mots": "Eslövs HK 1",
      "hb": "Hemma",
      "result": null,
      "start_ms": 1783941300000,
