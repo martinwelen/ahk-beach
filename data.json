@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-09T13:43:22+00:00",
-  "seq": 1783604602,
-  "data_hash": "92d2b08981443dd0ceb03db706ef70ade84ccf3745af357177e0d9e49705d33f"
+  "generated": "2026-07-09T14:36:12+00:00",
+  "seq": 1783607772,
+  "data_hash": "c93691ad8f2b74921bd10ed8360fe5415280e3edb986c7dd1082b1d3782b06a9"
  },
  "groups": {
   "u8": {
@@ -1244,7 +1244,10 @@
      "grupp": "Grupp 6",
      "mots": "Staffanstorps HK 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 15
+     },
      "start_ms": 1783603800000,
      "start_iso": "2026-07-09T15:30+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1264,7 +1267,10 @@
      "grupp": "Grupp 7",
      "mots": "IF Hallby HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 9
+     },
      "start_ms": 1783604700000,
      "start_iso": "2026-07-09T15:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1284,7 +1290,10 @@
      "grupp": "Grupp 1",
      "mots": "IFK Bankeryd 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 12
+     },
      "start_ms": 1783605600000,
      "start_iso": "2026-07-09T16:00+02:00",
      "day_label": "Torsdag 9 juli"
