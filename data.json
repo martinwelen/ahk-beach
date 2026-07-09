@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-09T10:52:54+00:00",
-  "seq": 1783594374,
-  "data_hash": "01ab944ae8220b10d2d8e5ee6a1afada3e082c2d2f5a8e6ee5542996c7d16570"
+  "generated": "2026-07-09T11:58:58+00:00",
+  "seq": 1783598338,
+  "data_hash": "c9fd68fcd248283d51304c2774d5e3b1b764c657203db4f589af5a713c576bc6"
  },
  "groups": {
   "u8": {
@@ -215,7 +215,10 @@
      "grupp": "Grupp 1",
      "mots": "Åhus Handboll 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783594800000,
      "start_iso": "2026-07-09T13:00+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1054,7 +1057,10 @@
      "grupp": "Grupp 6",
      "mots": "IFK Bankeryd 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 13
+     },
      "start_ms": 1783593900000,
      "start_iso": "2026-07-09T12:45+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1074,7 +1080,10 @@
      "grupp": "Grupp 1",
      "mots": "Skuru IK 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 13
+     },
      "start_ms": 1783594800000,
      "start_iso": "2026-07-09T13:00+02:00",
      "day_label": "Torsdag 9 juli"
@@ -1094,7 +1103,10 @@
      "grupp": "Grupp 4",
      "mots": "Lugi HF 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 14
+     },
      "start_ms": 1783595700000,
      "start_iso": "2026-07-09T13:15+02:00",
      "day_label": "Torsdag 9 juli"
