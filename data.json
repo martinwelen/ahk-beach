@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T13:07:24+00:00",
-  "seq": 1783688844,
-  "data_hash": "7526ba7ce129890599ca3c12af2575b83ae17557cfcfb53151478d4fbab4c0c5"
+  "generated": "2026-07-10T13:15:19+00:00",
+  "seq": 1783689319,
+  "data_hash": "6c41db7243d636e35a5ff0b3b6b8ebda3371326bf4648cf352e7168d5723e25f"
  },
  "groups": {
   "u8": {
@@ -1946,7 +1946,10 @@
      "grupp": "Grupp 1",
      "mots": "Tomelilla IF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 10
+     },
      "start_ms": 1783688400000,
      "start_iso": "2026-07-10T15:00+02:00",
      "day_label": "Fredag 10 juli"
@@ -2049,6 +2052,26 @@
      "result": null,
      "start_ms": 1783692900000,
      "start_iso": "2026-07-10T16:15+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "17:00",
+     "bana": 3,
+     "hemma": "Alingsås HK 2",
+     "borta": "4:an i Grupp 4",
+     "grupp": "A-Slutspel",
+     "mots": "4:an i Grupp 4",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783695600000,
+     "start_iso": "2026-07-10T17:00+02:00",
      "day_label": "Fredag 10 juli"
     }
    ]
