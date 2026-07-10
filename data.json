@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T14:52:02+00:00",
-  "seq": 1783695122,
-  "data_hash": "f9a0f53f2ac65d5c9c051dde91c792f3f5a90e14bf706b7a189fcc36b632ea46"
+  "generated": "2026-07-10T15:14:40+00:00",
+  "seq": 1783696480,
+  "data_hash": "a768c3dd2a6b273993357a6f961e02961d5044b354b7cce181ca1819cc5262ae"
  },
  "groups": {
   "u8": {
@@ -2090,7 +2090,10 @@
      "grupp": "A-Slutspel",
      "mots": "Vinslövs HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 9
+     },
      "start_ms": 1783695600000,
      "start_iso": "2026-07-10T17:00+02:00",
      "day_label": "Fredag 10 juli"
@@ -2110,7 +2113,10 @@
      "grupp": "A-Slutspel",
      "mots": "HK Ankaret röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 14
+     },
      "start_ms": 1783695600000,
      "start_iso": "2026-07-10T17:00+02:00",
      "day_label": "Fredag 10 juli"
@@ -2153,6 +2159,46 @@
      "result": null,
      "start_ms": 1783698300000,
      "start_iso": "2026-07-10T17:45+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "18:45",
+     "bana": 2,
+     "hemma": "Alingsås HK 2",
+     "borta": "IFK Kristianstad 1",
+     "grupp": "A-Slutspel",
+     "mots": "IFK Kristianstad 1",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783701900000,
+     "start_iso": "2026-07-10T18:45+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-p-1",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "18:45",
+     "bana": 4,
+     "hemma": "Vinn. 10072928",
+     "borta": "Alingsås HK 1",
+     "grupp": "A-Slutspel",
+     "mots": "Vinn. 10072928",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1783701900000,
+     "start_iso": "2026-07-10T18:45+02:00",
      "day_label": "Fredag 10 juli"
     }
    ]
