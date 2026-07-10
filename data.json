@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T14:01:34+00:00",
-  "seq": 1783692094,
-  "data_hash": "aa5ba9f19a10c346f471e3e467d9bb32f4efc466c04c1827ec26f3788a206f0b"
+  "generated": "2026-07-10T14:32:19+00:00",
+  "seq": 1783693939,
+  "data_hash": "4581c78dc64a1467d562fe17a30d09dfcb31e1513e745b5ce8c31ddde2cf77f2"
  },
  "groups": {
   "u8": {
@@ -2041,7 +2041,10 @@
      "grupp": "B-Slutspel",
      "mots": "Uppsala HK Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 0
+     },
      "start_ms": 1783692900000,
      "start_iso": "2026-07-10T16:15+02:00",
      "day_label": "Fredag 10 juli"
@@ -2061,7 +2064,10 @@
      "grupp": "A-Slutspel",
      "mots": "Eslövs HK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 4
+     },
      "start_ms": 1783692900000,
      "start_iso": "2026-07-10T16:15+02:00",
      "day_label": "Fredag 10 juli"
@@ -2104,6 +2110,26 @@
      "result": null,
      "start_ms": 1783695600000,
      "start_iso": "2026-07-10T17:00+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-f-bla",
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "17:45",
+     "bana": 2,
+     "hemma": "Huddinge HK",
+     "borta": "Alingsås HK Blå",
+     "grupp": "B-Slutspel",
+     "mots": "Huddinge HK",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1783698300000,
+     "start_iso": "2026-07-10T17:45+02:00",
      "day_label": "Fredag 10 juli"
     },
     {
