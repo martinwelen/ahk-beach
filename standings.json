@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T15:45:55+00:00",
-  "seq": 1783698355,
-  "data_hash": "d9d4c0b39d2b35d53e82a715ea7ebc0fa064548f372815609c88e46295f5f5e8"
+  "generated": "2026-07-10T16:04:23+00:00",
+  "seq": 1783699463,
+  "data_hash": "e2bcbb49b9ded564cef94282310826e1cfff14ceb501addacae16d910d920835"
  },
  "by_age": {
   "u12": {
@@ -1808,15 +1808,15 @@
             "label": "Höörs HK H 65 Röd",
             "team_id": 73386205,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Ljunghusens HK",
             "team_id": 75017214,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81955884,
@@ -1827,15 +1827,15 @@
             "label": "Alingsås HK 3",
             "team_id": 74507743,
             "is_alingsas": true,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Alingsås HK 4",
             "team_id": 74507745,
             "is_alingsas": true,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955886,
@@ -1846,15 +1846,15 @@
             "label": "Spånga HK",
             "team_id": 77629522,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "HF Limhamn 2",
             "team_id": 77160797,
             "is_alingsas": false,
-            "goals": null
+            "goals": 4
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955887,
@@ -1865,15 +1865,15 @@
             "label": "Mönsterås HK Dunder",
             "team_id": 78048397,
             "is_alingsas": false,
-            "goals": null
+            "goals": 15
            },
            "away": {
             "label": "IFK Malmö HF",
             "team_id": 82383242,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955893,
@@ -1884,15 +1884,15 @@
             "label": "Mönsterås HK Blixt",
             "team_id": 78253242,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "Österlens IK",
             "team_id": 77141375,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81955895,
@@ -1943,15 +1943,15 @@
            "bana": 7,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072331",
-            "team_id": null,
+            "label": "Ljunghusens HK",
+            "team_id": 75017214,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072431",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 3",
+            "team_id": 74507743,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
@@ -1962,14 +1962,14 @@
            "bana": 8,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072731",
-            "team_id": null,
+            "label": "Spånga HK",
+            "team_id": 77629522,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072831",
-            "team_id": null,
+            "label": "Mönsterås HK Dunder",
+            "team_id": 78048397,
             "is_alingsas": false,
             "goals": null
            },
@@ -1987,8 +1987,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10073531",
-            "team_id": null,
+            "label": "Österlens IK",
+            "team_id": 77141375,
             "is_alingsas": false,
             "goals": null
            },
@@ -2977,15 +2977,15 @@
             "label": "Huddinge HK",
             "team_id": 75905925,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Alingsås HK Blå",
             "team_id": 75072857,
             "is_alingsas": true,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -3061,8 +3061,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072231",
-            "team_id": null,
+            "label": "Huddinge HK",
+            "team_id": 75905925,
             "is_alingsas": false,
             "goals": null
            },
