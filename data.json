@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T13:15:19+00:00",
-  "seq": 1783689319,
-  "data_hash": "6c41db7243d636e35a5ff0b3b6b8ebda3371326bf4648cf352e7168d5723e25f"
+  "generated": "2026-07-10T13:31:54+00:00",
+  "seq": 1783690314,
+  "data_hash": "e76934647f748f33bc820929047715fa7cd587eae3359c3145cb1a74fc173f67"
  },
  "groups": {
   "u8": {
@@ -353,7 +353,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Limhamn",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783689300000,
      "start_iso": "2026-07-10T15:15+02:00",
      "day_label": "Fredag 10 juli"
