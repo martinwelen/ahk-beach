@@ -11,14 +11,16 @@ def test_winner_side_home_away_none():
 
 
 def test_table_row_normalizes_and_flags_club():
+    # OBS: API:t returnerar goalsLost som NEGATIVT tal (insläppta mål).
     row = {
         "name": {"sv": "Alingsås HK Blå"}, "team": {"href": "Team({id:1})"},
         "played": 3, "won": 2, "tied": 0, "lost": 1,
-        "goalsWon": 40, "goalsLost": 33, "points": 4,
+        "goalsWon": 40, "goalsLost": -33, "points": 4,
         "targetStage": {"href": "Stage({categoryId:1,stageId:70944379,tournamentId:2})"},
     }
     out = fs.table_row(row, club_team_ids={1}, tier_by_stage={70944379: "A-Slutspel"})
     assert out["team_id"] == 1 and out["is_alingsas"] is True
+    assert out["goals_for"] == 40 and out["goals_against"] == 33
     assert out["diff"] == 7 and out["points"] == 4 and out["tier"] == "A-Slutspel"
 
 

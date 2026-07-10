@@ -35,7 +35,7 @@ def _stage_id(href):
 def table_row(row, club_team_ids, tier_by_stage):
     tid = api.ref_id(row.get("team"))
     gf = row.get("goalsWon", 0) or 0
-    ga = row.get("goalsLost", 0) or 0
+    ga = abs(row.get("goalsLost", 0) or 0)   # API ger insläppta mål som negativt tal
     sid = _stage_id((row.get("targetStage") or {}).get("href", ""))
     return {
         "name": api.name_of(row), "team_id": tid,

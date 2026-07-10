@@ -158,6 +158,8 @@ table.gt{width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums
 .chips{display:flex; gap:6px; align-items:center; margin-bottom:4px; flex-wrap:wrap}
 .lagchip{font-size:.66rem; font-weight:800; color:#fff; padding:2px 8px; border-radius:999px; letter-spacing:.02em}
 .grp{font-size:.7rem; color:var(--ink-soft); font-weight:600}
+.klasschip{font-size:.6rem; font-weight:800; color:var(--ink-soft); border:1px solid var(--line);
+  padding:1px 6px; border-radius:999px; letter-spacing:.04em}
 .vs{font-weight:600; font-size:.98rem}
 .vs .ali{font-weight:800}
 .vs .ali::after{content:""}
@@ -337,7 +339,7 @@ function render(){
         <div class="tag">Bana ${esc(hm.bana)}</div>
         <div class="lbl">${isLive?'<span class="pulse"></span>Pågår nu':"Härnäst"}</div>
         <div class="mt">${esc(hm.home)} <span style="opacity:.7">vs</span> ${esc(hm.away)}</div>
-        <div class="sub">${esc(hm.lag)} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
+        <div class="sub">${esc(hm.lag)}${hm.klass?" · "+esc(hm.klass):""} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
         <div class="cd" data-ms="${hm.ms}">${isLive?"Spelas nu":fmtCountdown(hm.ms-now)}</div>
       </div>`;
   } else {
@@ -357,7 +359,7 @@ function render(){
         <div class="t">${m.t}${st==="live"?'<small class="nowtag">NU</small>':""}</div>
         <div>
           <div class="chips"><span class="lagchip" style="background:#${m.color}">${esc(m.lag)}</span>
-            <span class="grp">${esc(m.grp)}</span></div>
+            ${m.klass?`<span class="klasschip">${esc(m.klass)}</span>`:""}<span class="grp">${esc(m.grp)}</span></div>
           <div class="vs"><span class="${homeAli?"ali":""}">${esc(m.home)}</span> – <span class="${homeAli?"":"ali"}">${esc(m.away)}</span></div>
           ${m.res ? `<div class="score"><b class="${m.res.hg>m.res.ag?'w':m.res.hg<m.res.ag?'l':''}">${m.res.hg}</b><span class="x">–</span><b class="${m.res.ag>m.res.hg?'w':m.res.ag<m.res.hg?'l':''}">${m.res.ag}</b></div>` : ""}
         </div>
