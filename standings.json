@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T17:33:56+00:00",
-  "seq": 1783704836,
-  "data_hash": "151e9a1a05f5172bda6b842b386c224d68618bd9643c5d0b6d832805822e2570"
+  "generated": "2026-07-10T17:44:17+00:00",
+  "seq": 1783705457,
+  "data_hash": "eb467031f7855d89de5254a4852791956195ce88a74e50ee381f37dfc4f9af38"
  },
  "by_age": {
   "u12": {
@@ -2571,15 +2571,15 @@
             "label": "H43 Lund HF 2",
             "team_id": 75071064,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Eslövs HK 2",
             "team_id": 75041775,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81952676,
@@ -2590,15 +2590,15 @@
             "label": "Lödde Vikings HK Svart",
             "team_id": 76523599,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "Rimbo HK Roslagen",
             "team_id": 82346722,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81952684,
@@ -2609,15 +2609,15 @@
             "label": "Åhus Handboll 1",
             "team_id": 74385005,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "Höörs HK H 65 1",
             "team_id": 74004065,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81952691,
@@ -2628,15 +2628,15 @@
             "label": "Höörs HK H 65 2",
             "team_id": 74004067,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Eslövs HK 1",
             "team_id": 75041771,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -2649,14 +2649,14 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 10072136",
-            "team_id": null,
+            "label": "H43 Lund HF 2",
+            "team_id": 75071064,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072238",
-            "team_id": null,
+            "label": "Rimbo HK Roslagen",
+            "team_id": 82346722,
             "is_alingsas": false,
             "goals": null
            },
@@ -2668,14 +2668,14 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 10072338",
-            "team_id": null,
+            "label": "Höörs HK H 65 1",
+            "team_id": 74004065,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072438",
-            "team_id": null,
+            "label": "Eslövs HK 1",
+            "team_id": 75041771,
             "is_alingsas": false,
             "goals": null
            },
