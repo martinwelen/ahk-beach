@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T18:04:33+00:00",
-  "seq": 1783706673,
-  "data_hash": "b2c3267c8994266b604beae6620383fa50a65fc1a3da14deb6cbd687ba7dac57"
+  "generated": "2026-07-10T18:15:35+00:00",
+  "seq": 1783707335,
+  "data_hash": "0a06490fd6ab52bab5e6c048c32b150d3091abe4cc998e47293304aa0eb3842d"
  },
  "by_age": {
   "u12": {
@@ -3082,15 +3082,15 @@
             "label": "IFK Tumba HK",
             "team_id": 73939581,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "H43 Lund HF 1",
             "team_id": 75071062,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81952715,
@@ -3101,15 +3101,15 @@
             "label": "Lugi HF Vinröd",
             "team_id": 76738036,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "Åhus Handboll 3",
             "team_id": 74385010,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -3122,14 +3122,14 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 10072138",
-            "team_id": null,
+            "label": "IFK Tumba HK",
+            "team_id": 73939581,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072240",
-            "team_id": null,
+            "label": "Lugi HF Vinröd",
+            "team_id": 76738036,
             "is_alingsas": false,
             "goals": null
            },
@@ -3355,15 +3355,15 @@
             "label": "Uppsala HK Blå",
             "team_id": 73380435,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "Ljunghusens HK 4",
             "team_id": 76535958,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81952738,
@@ -3374,15 +3374,15 @@
             "label": "Kävlinge HK Blå",
             "team_id": 77052978,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Hässleholms HF",
             "team_id": 74627844,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -3395,14 +3395,14 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 10072340",
-            "team_id": null,
+            "label": "Ljunghusens HK 4",
+            "team_id": 76535958,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072440",
-            "team_id": null,
+            "label": "Kävlinge HK Blå",
+            "team_id": 77052978,
             "is_alingsas": false,
             "goals": null
            },
