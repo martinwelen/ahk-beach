@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T18:45:08+00:00",
-  "seq": 1783709108,
-  "data_hash": "fcb7e555c38c23cfbe5309d7e18fc46262362c47dc492dd36447cd3995712881"
+  "generated": "2026-07-10T19:00:38+00:00",
+  "seq": 1783710038,
+  "data_hash": "e6a4392bb2fcab976734fc5cfe204228b53559aae7a37a846824e784c8aa4bca"
  },
  "by_age": {
   "u12": {
@@ -2671,15 +2671,15 @@
             "label": "Höörs HK H 65 1",
             "team_id": 74004065,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "Eslövs HK 1",
             "team_id": 75041771,
             "is_alingsas": false,
-            "goals": null
+            "goals": 4
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -2698,8 +2698,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072141",
-            "team_id": null,
+            "label": "Höörs HK H 65 1",
+            "team_id": 74004065,
             "is_alingsas": false,
             "goals": null
            },
