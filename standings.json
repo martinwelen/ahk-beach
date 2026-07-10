@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T12:21:39+00:00",
-  "seq": 1783686099,
-  "data_hash": "b1bd50e27396cecebaea0b37a968e310f636ec4eab2dc2df4fcb1c76f56af236"
+  "generated": "2026-07-10T12:34:29+00:00",
+  "seq": 1783686869,
+  "data_hash": "afd442603e3670d4413830a07347c06cf8451aac607b8a3e99a08b25ab1c45f1"
  },
  "by_age": {
   "u12": {
@@ -2133,8 +2133,8 @@
             "goals": null
            },
            "away": {
-            "label": "3:an i Grupp 3",
-            "team_id": null,
+            "label": "Lugi HF Vit",
+            "team_id": 76738038,
             "is_alingsas": false,
             "goals": null
            },
@@ -2228,8 +2228,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 3",
-            "team_id": null,
+            "label": "IFK Malmö HF 1",
+            "team_id": 76999416,
             "is_alingsas": false,
             "goals": null
            },
@@ -2317,8 +2317,8 @@
            "bana": 4,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 3",
-            "team_id": null,
+            "label": "HK Ankaret",
+            "team_id": 80061922,
             "is_alingsas": false,
             "goals": null
            },
@@ -2336,8 +2336,8 @@
            "bana": 7,
            "round": "1/16 Final",
            "home": {
-            "label": "1:an i Grupp 3",
-            "team_id": null,
+            "label": "Eslövs HK 3",
+            "team_id": 75041779,
             "is_alingsas": false,
             "goals": null
            },
@@ -2766,8 +2766,8 @@
            "bana": 9,
            "round": "1/16 Final",
            "home": {
-            "label": "7:an i Grupp 3",
-            "team_id": null,
+            "label": "Ystads IF HF 3",
+            "team_id": 76714823,
             "is_alingsas": false,
             "goals": null
            },
@@ -2980,8 +2980,8 @@
            "bana": 2,
            "round": "1/8 Final",
            "home": {
-            "label": "6:an i Grupp 3",
-            "team_id": null,
+            "label": "Huddinge HK",
+            "team_id": 75905925,
             "is_alingsas": false,
             "goals": null
            },
@@ -3302,8 +3302,8 @@
             "goals": null
            },
            "away": {
-            "label": "9:an i Grupp 3",
-            "team_id": null,
+            "label": "Ljunghusens HK 4",
+            "team_id": 76535958,
             "is_alingsas": false,
             "goals": null
            },
