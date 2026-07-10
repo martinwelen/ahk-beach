@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T15:14:40+00:00",
-  "seq": 1783696480,
-  "data_hash": "a768c3dd2a6b273993357a6f961e02961d5044b354b7cce181ca1819cc5262ae"
+  "generated": "2026-07-10T15:21:59+00:00",
+  "seq": 1783696919,
+  "data_hash": "6113d72f6685ee368118dc18370eebbe2be1f6bd93758eba4cf3eb9a6640418e"
  },
  "groups": {
   "u8": {
@@ -2191,10 +2191,10 @@
      "dag": "Fredag",
      "tid": "18:45",
      "bana": 4,
-     "hemma": "Vinn. 10072928",
+     "hemma": "IFK Kristianstad 2",
      "borta": "Alingsås HK 1",
      "grupp": "A-Slutspel",
-     "mots": "Vinn. 10072928",
+     "mots": "IFK Kristianstad 2",
      "hb": "Borta",
      "result": null,
      "start_ms": 1783701900000,
