@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-09T18:13:21+00:00",
-  "seq": 1783620801,
-  "data_hash": "c494b1406a8b9ab6f7d1e7509cd03e1a3cc71c3c2f03313fe724c08a43919729"
+  "generated": "2026-07-10T09:49:39+00:00",
+  "seq": 1783676979,
+  "data_hash": "eb09671382224e58e0458152d67685dd3aab4d0d7c75f2fa56544be3f17a8d0a"
  },
  "groups": {
   "u8": {
@@ -307,7 +307,10 @@
      "grupp": "Grupp 1",
      "mots": "Vinslövs HK 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783674900000,
      "start_iso": "2026-07-10T11:15+02:00",
      "day_label": "Fredag 10 juli"
@@ -1549,7 +1552,10 @@
      "grupp": "Grupp 1",
      "mots": "Skuru IK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 8
+     },
      "start_ms": 1783670400000,
      "start_iso": "2026-07-10T10:00+02:00",
      "day_label": "Fredag 10 juli"
@@ -1569,7 +1575,10 @@
      "grupp": "Grupp 6",
      "mots": "Kävlinge HK Orange",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 9
+     },
      "start_ms": 1783672200000,
      "start_iso": "2026-07-10T10:30+02:00",
      "day_label": "Fredag 10 juli"
@@ -1589,7 +1598,10 @@
      "grupp": "Grupp 1",
      "mots": "Åhus Handboll 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 12
+     },
      "start_ms": 1783672200000,
      "start_iso": "2026-07-10T10:30+02:00",
      "day_label": "Fredag 10 juli"
@@ -1609,7 +1621,10 @@
      "grupp": "Grupp 4",
      "mots": "Lödde Vikings HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 13
+     },
      "start_ms": 1783673100000,
      "start_iso": "2026-07-10T10:45+02:00",
      "day_label": "Fredag 10 juli"
@@ -1629,7 +1644,10 @@
      "grupp": "Grupp 6",
      "mots": "HF Karlskrona 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 12
+     },
      "start_ms": 1783673100000,
      "start_iso": "2026-07-10T10:45+02:00",
      "day_label": "Fredag 10 juli"
@@ -1649,7 +1667,10 @@
      "grupp": "Grupp 7",
      "mots": "Skuru IK 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 12
+     },
      "start_ms": 1783674000000,
      "start_iso": "2026-07-10T11:00+02:00",
      "day_label": "Fredag 10 juli"
@@ -1669,7 +1690,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Limhamn",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 2,
+      "ag": 9
+     },
      "start_ms": 1783674900000,
      "start_iso": "2026-07-10T11:15+02:00",
      "day_label": "Fredag 10 juli"
