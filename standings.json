@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T19:13:37+00:00",
-  "seq": 1783710817,
-  "data_hash": "907a3ae7f6761194f3758ae620618cba874bc9c8ebf3752fe326d144b9d04229"
+  "generated": "2026-07-10T19:34:37+00:00",
+  "seq": 1783712077,
+  "data_hash": "d595e63a3a0b8feb6f69bc2259d02ebd39096783414d3557802106c8bec6353d"
  },
  "by_age": {
   "u12": {
@@ -1443,15 +1443,15 @@
             "label": "Uppsala HK",
             "team_id": 77035630,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "H43 Lund HF 1",
             "team_id": 73917802,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -1470,8 +1470,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072143",
-            "team_id": null,
+            "label": "Uppsala HK",
+            "team_id": 77035630,
             "is_alingsas": false,
             "goals": null
            },
