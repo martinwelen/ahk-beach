@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T11:43:37+00:00",
-  "seq": 1783683817,
-  "data_hash": "870d774590ced52bed44b63cebd21aa372c9a65e34c88fbbcf93bd18d5dd20dc"
+  "generated": "2026-07-10T11:55:25+00:00",
+  "seq": 1783684525,
+  "data_hash": "804ab79dfbf94143b1560ecb376aa51cd4a6a11b0166b6f417220caea80895bb"
  },
  "groups": {
   "u8": {
@@ -330,7 +330,10 @@
      "grupp": "Grupp 1",
      "mots": "Mörrums GOIS HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783683000000,
      "start_iso": "2026-07-10T13:30+02:00",
      "day_label": "Fredag 10 juli"
@@ -1874,7 +1877,10 @@
      "grupp": "Grupp 4",
      "mots": "HF Limhamn 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 7
+     },
      "start_ms": 1783683000000,
      "start_iso": "2026-07-10T13:30+02:00",
      "day_label": "Fredag 10 juli"
