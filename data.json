@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T11:55:25+00:00",
-  "seq": 1783684525,
-  "data_hash": "804ab79dfbf94143b1560ecb376aa51cd4a6a11b0166b6f417220caea80895bb"
+  "generated": "2026-07-10T12:19:18+00:00",
+  "seq": 1783685958,
+  "data_hash": "c5bbbdabf8df48ff53adc0228e58f0c7c4a678c3bde3024dc6dbc69f97a49ebb"
  },
  "groups": {
   "u8": {
@@ -1900,7 +1900,10 @@
      "grupp": "Grupp 1",
      "mots": "Rimbo HK Roslagen",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 2
+     },
      "start_ms": 1783684800000,
      "start_iso": "2026-07-10T14:00+02:00",
      "day_label": "Fredag 10 juli"
@@ -2003,6 +2006,26 @@
      "result": null,
      "start_ms": 1783691100000,
      "start_iso": "2026-07-10T15:45+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-f-bla",
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "16:15",
+     "bana": 3,
+     "hemma": "Alingsås HK Blå",
+     "borta": "5:e bästa 8:an",
+     "grupp": "B-Slutspel",
+     "mots": "5:e bästa 8:an",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783692900000,
+     "start_iso": "2026-07-10T16:15+02:00",
      "day_label": "Fredag 10 juli"
     }
    ]
