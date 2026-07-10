@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T16:44:59+00:00",
-  "seq": 1783701899,
-  "data_hash": "242324fea98f2403b0bac17db43604919dd00c87a8dfac35e006039f4fba31f8"
+  "generated": "2026-07-10T17:03:57+00:00",
+  "seq": 1783703037,
+  "data_hash": "76b1a5860d86df82ddc59f759d1870d3aa04cf153eeb729558feecd9f7c5141f"
  },
  "by_age": {
   "u12": {
@@ -1186,15 +1186,15 @@
             "label": "HK Önnerediterna",
             "team_id": 76288898,
             "is_alingsas": false,
-            "goals": null
+            "goals": 21
            },
            "away": {
             "label": "Eslövs HK Svart",
             "team_id": 75068482,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955811,
@@ -1205,15 +1205,15 @@
             "label": "Alingsås HK 2",
             "team_id": 74507740,
             "is_alingsas": true,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "IFK Kristianstad 1",
             "team_id": 74422701,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81955815,
@@ -1224,15 +1224,15 @@
             "label": "H43 Lund HF 2",
             "team_id": 73917804,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "Åhus Handboll 1",
             "team_id": 74384946,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955820,
@@ -1243,15 +1243,15 @@
             "label": "IFK Kristianstad 2",
             "team_id": 74422703,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Alingsås HK 1",
             "team_id": 74507738,
             "is_alingsas": true,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955827,
@@ -1262,15 +1262,15 @@
             "label": "Uppsala HK",
             "team_id": 77035630,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
            "away": {
             "label": "Ystads IF HF 2",
             "team_id": 75014662,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955832,
@@ -1281,15 +1281,15 @@
             "label": "Växjö HF 2",
             "team_id": 75014487,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "Lugi HF 1",
             "team_id": 76092610,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81955836,
@@ -1300,15 +1300,15 @@
             "label": "H43 Lund HF 1",
             "team_id": 73917802,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Lödde Vikings HK Röd",
             "team_id": 76523749,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955841,
@@ -1319,15 +1319,15 @@
             "label": "Tyresö Handboll",
             "team_id": 76595859,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Lugi HF 2",
             "team_id": 76092612,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -1340,14 +1340,14 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072133",
-            "team_id": null,
+            "label": "HK Önnerediterna",
+            "team_id": 76288898,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072235",
-            "team_id": null,
+            "label": "IFK Kristianstad 1",
+            "team_id": 74422701,
             "is_alingsas": false,
             "goals": null
            },
@@ -1359,14 +1359,14 @@
            "bana": 2,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072335",
-            "team_id": null,
+            "label": "H43 Lund HF 2",
+            "team_id": 73917804,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072435",
-            "team_id": null,
+            "label": "IFK Kristianstad 2",
+            "team_id": 74422703,
             "is_alingsas": false,
             "goals": null
            },
@@ -1378,14 +1378,14 @@
            "bana": 3,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072735",
-            "team_id": null,
+            "label": "Uppsala HK",
+            "team_id": 77035630,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072835",
-            "team_id": null,
+            "label": "Lugi HF 1",
+            "team_id": 76092610,
             "is_alingsas": false,
             "goals": null
            },
@@ -1397,14 +1397,14 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072935",
-            "team_id": null,
+            "label": "H43 Lund HF 1",
+            "team_id": 73917802,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10073535",
-            "team_id": null,
+            "label": "Lugi HF 2",
+            "team_id": 76092612,
             "is_alingsas": false,
             "goals": null
            },

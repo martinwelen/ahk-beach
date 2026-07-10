@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T16:02:05+00:00",
-  "seq": 1783699325,
-  "data_hash": "94ec57b5128d5f1d418c784fe805492b2abba62c9383c7554091c9aaa997cb94"
+  "generated": "2026-07-10T17:01:48+00:00",
+  "seq": 1783702908,
+  "data_hash": "2daaf648540511e4c0a569ccbe98389f6aee9f7dad016b2c86532cdda9bb6684"
  },
  "groups": {
   "u8": {
@@ -2182,7 +2182,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Kristianstad 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 13
+     },
      "start_ms": 1783701900000,
      "start_iso": "2026-07-10T18:45+02:00",
      "day_label": "Fredag 10 juli"
@@ -2202,7 +2205,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Kristianstad 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 9
+     },
      "start_ms": 1783701900000,
      "start_iso": "2026-07-10T18:45+02:00",
      "day_label": "Fredag 10 juli"
