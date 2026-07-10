@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T09:49:39+00:00",
-  "seq": 1783676979,
-  "data_hash": "eb09671382224e58e0458152d67685dd3aab4d0d7c75f2fa56544be3f17a8d0a"
+  "generated": "2026-07-10T10:27:21+00:00",
+  "seq": 1783679241,
+  "data_hash": "c93adbcc5a090d1783a7e398886e49c5d246da128f0868d5a84173c2c5371f37"
  },
  "groups": {
   "u8": {
@@ -1713,7 +1713,10 @@
      "grupp": "Grupp 6",
      "mots": "IFK Ystad HK 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 8
+     },
      "start_ms": 1783676700000,
      "start_iso": "2026-07-10T11:45+02:00",
      "day_label": "Fredag 10 juli"
@@ -1733,7 +1736,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Karlskrona 3",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 9
+     },
      "start_ms": 1783676700000,
      "start_iso": "2026-07-10T11:45+02:00",
      "day_label": "Fredag 10 juli"
@@ -1753,7 +1759,10 @@
      "grupp": "Grupp 4",
      "mots": "IK Bolton",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 7
+     },
      "start_ms": 1783677600000,
      "start_iso": "2026-07-10T12:00+02:00",
      "day_label": "Fredag 10 juli"
