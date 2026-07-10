@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T18:35:03+00:00",
-  "seq": 1783708503,
-  "data_hash": "8a972ed5d66f7c5c1060d22e50f4330b4b0301a4bf0a465a7b0ae32600dea113"
+  "generated": "2026-07-10T18:45:08+00:00",
+  "seq": 1783709108,
+  "data_hash": "fcb7e555c38c23cfbe5309d7e18fc46262362c47dc492dd36447cd3995712881"
  },
  "by_age": {
   "u12": {
@@ -2652,15 +2652,15 @@
             "label": "H43 Lund HF 2",
             "team_id": 75071064,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Rimbo HK Roslagen",
             "team_id": 82346722,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81952683,
@@ -2692,8 +2692,8 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 10072140",
-            "team_id": null,
+            "label": "Rimbo HK Roslagen",
+            "team_id": 82346722,
             "is_alingsas": false,
             "goals": null
            },
