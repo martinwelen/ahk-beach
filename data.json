@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T10:27:21+00:00",
-  "seq": 1783679241,
-  "data_hash": "c93adbcc5a090d1783a7e398886e49c5d246da128f0868d5a84173c2c5371f37"
+  "generated": "2026-07-10T11:31:14+00:00",
+  "seq": 1783683074,
+  "data_hash": "5737aaf5480e60e22b4a3cc8c3245bd47ada5157127221ffbe3b588133a33cd7"
  },
  "groups": {
   "u8": {
@@ -1782,7 +1782,10 @@
      "grupp": "Grupp 6",
      "mots": "Kävlinge HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 2
+     },
      "start_ms": 1783678500000,
      "start_iso": "2026-07-10T12:15+02:00",
      "day_label": "Fredag 10 juli"
@@ -1802,7 +1805,10 @@
      "grupp": "Grupp 7",
      "mots": "Lödde Vikings HK Röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 8
+     },
      "start_ms": 1783678500000,
      "start_iso": "2026-07-10T12:15+02:00",
      "day_label": "Fredag 10 juli"
@@ -1822,7 +1828,10 @@
      "grupp": "Grupp 1",
      "mots": "KFUM Lundagård",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 5
+     },
      "start_ms": 1783678500000,
      "start_iso": "2026-07-10T12:15+02:00",
      "day_label": "Fredag 10 juli"
@@ -1842,7 +1851,10 @@
      "grupp": "Grupp 6",
      "mots": "Skuru IK Grön",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 5
+     },
      "start_ms": 1783681200000,
      "start_iso": "2026-07-10T13:00+02:00",
      "day_label": "Fredag 10 juli"
