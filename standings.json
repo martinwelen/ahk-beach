@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T20:05:32+00:00",
-  "seq": 1783713932,
-  "data_hash": "2ee7e642d81a794e46b60bdf08c81ea790d3c9e37d7a9844403ff4373ebb9725"
+  "generated": "2026-07-10T20:20:25+00:00",
+  "seq": 1783714825,
+  "data_hash": "c09b5a5ad7c511ff8bb5c63b5abec06e830a73f9b49b2e162fe9297ed84e9c3b"
  },
  "by_age": {
   "u12": {
@@ -2695,15 +2695,15 @@
             "label": "Rimbo HK Roslagen",
             "team_id": 82346722,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "Höörs HK H 65 1",
             "team_id": 74004065,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
