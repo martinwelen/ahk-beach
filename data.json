@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T17:31:48+00:00",
-  "seq": 1783704708,
-  "data_hash": "4175a24ea1f4a3f93887d8406ade7054259a657280634139aecdb7e9d18fc2fe"
+  "generated": "2026-07-10T18:32:01+00:00",
+  "seq": 1783708321,
+  "data_hash": "ec9766ae75b92a2b4f95960052902a5e38646cc35138ca1a21f20c3fc51af9b5"
  },
  "groups": {
   "u8": {
@@ -2251,9 +2251,32 @@
      "grupp": "C-Slutspel",
      "mots": "Spånga HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 5
+     },
      "start_ms": 1783707300000,
      "start_iso": "2026-07-10T20:15+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-p-3",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#9c36b5",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "21:45",
+     "bana": 2,
+     "hemma": "Alingsås HK 3",
+     "borta": "Vinslövs HK 1",
+     "grupp": "C-Slutspel",
+     "mots": "Vinslövs HK 1",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783712700000,
+     "start_iso": "2026-07-10T21:45+02:00",
      "day_label": "Fredag 10 juli"
     }
    ]
