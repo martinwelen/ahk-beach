@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T12:34:29+00:00",
-  "seq": 1783686869,
-  "data_hash": "afd442603e3670d4413830a07347c06cf8451aac607b8a3e99a08b25ab1c45f1"
+  "generated": "2026-07-10T12:43:38+00:00",
+  "seq": 1783687418,
+  "data_hash": "f55746de10b261bb07d3b0095617fbf28c1625c47f79e6571917f8aa7c01ae88"
  },
  "by_age": {
   "u12": {
@@ -681,44 +681,44 @@
        "name": "Växjö HF Svart",
        "team_id": 74743610,
        "is_alingsas": false,
-       "played": 8,
-       "won": 2,
+       "played": 9,
+       "won": 3,
        "tied": 0,
        "lost": 6,
-       "goals_for": 55,
-       "goals_against": 79,
-       "diff": -24,
-       "points": 4,
+       "goals_for": 61,
+       "goals_against": 84,
+       "diff": -23,
+       "points": 6,
        "tier": "B-Slutspel",
        "pos": 7
-      },
-      {
-       "name": "Stavsten HK 1",
-       "team_id": 75577414,
-       "is_alingsas": false,
-       "played": 8,
-       "won": 1,
-       "tied": 1,
-       "lost": 6,
-       "goals_for": 48,
-       "goals_against": 74,
-       "diff": -26,
-       "points": 3,
-       "tier": null,
-       "pos": 8
       },
       {
        "name": "IFK Bankeryd 2",
        "team_id": 74902484,
        "is_alingsas": false,
-       "played": 8,
-       "won": 1,
+       "played": 9,
+       "won": 2,
        "tied": 0,
        "lost": 7,
-       "goals_for": 66,
-       "goals_against": 94,
-       "diff": -28,
-       "points": 2,
+       "goals_for": 76,
+       "goals_against": 100,
+       "diff": -24,
+       "points": 4,
+       "tier": null,
+       "pos": 8
+      },
+      {
+       "name": "Stavsten HK 1",
+       "team_id": 75577414,
+       "is_alingsas": false,
+       "played": 9,
+       "won": 1,
+       "tied": 1,
+       "lost": 7,
+       "goals_for": 53,
+       "goals_against": 80,
+       "diff": -27,
+       "points": 3,
        "tier": "C-Slutspel",
        "pos": 9
       },
@@ -726,13 +726,13 @@
        "name": "Staffanstorps HK",
        "team_id": 74327553,
        "is_alingsas": false,
-       "played": 8,
+       "played": 9,
        "won": 1,
        "tied": 0,
-       "lost": 7,
-       "goals_for": 36,
-       "goals_against": 86,
-       "diff": -50,
+       "lost": 8,
+       "goals_for": 42,
+       "goals_against": 96,
+       "diff": -54,
        "points": 2,
        "tier": "C-Slutspel",
        "pos": 10
@@ -2152,8 +2152,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 4",
-            "team_id": null,
+            "label": "Växjö HF Gul",
+            "team_id": 74743612,
             "is_alingsas": false,
             "goals": null
            },
@@ -2184,8 +2184,8 @@
            "bana": 7,
            "round": "1/16 Final",
            "home": {
-            "label": "1:an i Grupp 4",
-            "team_id": null,
+            "label": "Tollarps IF 2",
+            "team_id": 76603933,
             "is_alingsas": false,
             "goals": null
            },
@@ -2285,8 +2285,8 @@
             "goals": null
            },
            "away": {
-            "label": "3:an i Grupp 4",
-            "team_id": null,
+            "label": "Falköpings AIK HK Röd",
+            "team_id": 75071872,
             "is_alingsas": false,
             "goals": null
            },
@@ -2393,8 +2393,8 @@
            "bana": 14,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 4",
-            "team_id": null,
+            "label": "Eslövs HK 1",
+            "team_id": 75041771,
             "is_alingsas": false,
             "goals": null
            },
@@ -2747,8 +2747,8 @@
            "bana": 8,
            "round": "1/16 Final",
            "home": {
-            "label": "7:an i Grupp 4",
-            "team_id": null,
+            "label": "Ljunghusens HK 2",
+            "team_id": 76535954,
             "is_alingsas": false,
             "goals": null
            },
@@ -2942,8 +2942,8 @@
            "bana": 9,
            "round": "1/8 Final",
            "home": {
-            "label": "6:an i Grupp 4",
-            "team_id": null,
+            "label": "Ystads IF HF 1",
+            "team_id": 76714801,
             "is_alingsas": false,
             "goals": null
            },
@@ -3253,8 +3253,8 @@
            "bana": 14,
            "round": "1/8 Final",
            "home": {
-            "label": "9:an i Grupp 4",
-            "team_id": null,
+            "label": "HK Halmstad 2",
+            "team_id": 76999411,
             "is_alingsas": false,
             "goals": null
            },
