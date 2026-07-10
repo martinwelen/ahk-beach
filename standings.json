@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T19:00:38+00:00",
-  "seq": 1783710038,
-  "data_hash": "e6a4392bb2fcab976734fc5cfe204228b53559aae7a37a846824e784c8aa4bca"
+  "generated": "2026-07-10T19:13:37+00:00",
+  "seq": 1783710817,
+  "data_hash": "907a3ae7f6761194f3758ae620618cba874bc9c8ebf3752fe326d144b9d04229"
  },
  "by_age": {
   "u12": {
@@ -1424,15 +1424,15 @@
             "label": "HK Önnerediterna",
             "team_id": 76288898,
             "is_alingsas": false,
-            "goals": null
+            "goals": 17
            },
            "away": {
             "label": "H43 Lund HF 2",
             "team_id": 73917804,
             "is_alingsas": false,
-            "goals": null
+            "goals": 16
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81955825,
@@ -1464,8 +1464,8 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 10072142",
-            "team_id": null,
+            "label": "HK Önnerediterna",
+            "team_id": 76288898,
             "is_alingsas": false,
             "goals": null
            },
