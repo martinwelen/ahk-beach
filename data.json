@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T17:01:48+00:00",
-  "seq": 1783702908,
-  "data_hash": "2daaf648540511e4c0a569ccbe98389f6aee9f7dad016b2c86532cdda9bb6684"
+  "generated": "2026-07-10T17:31:48+00:00",
+  "seq": 1783704708,
+  "data_hash": "4175a24ea1f4a3f93887d8406ade7054259a657280634139aecdb7e9d18fc2fe"
  },
  "groups": {
   "u8": {
@@ -2228,9 +2228,32 @@
      "grupp": "C-Slutspel",
      "mots": "Ljunghusens HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1783703700000,
      "start_iso": "2026-07-10T19:15+02:00",
+     "day_label": "Fredag 10 juli"
+    },
+    {
+     "age_slug": "u12",
+     "slug": "u12-p-3",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#9c36b5",
+     "datum": "2026-07-10",
+     "dag": "Fredag",
+     "tid": "20:15",
+     "bana": 3,
+     "hemma": "Alingsås HK 3",
+     "borta": "Spånga HK",
+     "grupp": "C-Slutspel",
+     "mots": "Spånga HK",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783707300000,
+     "start_iso": "2026-07-10T20:15+02:00",
      "day_label": "Fredag 10 juli"
     }
    ]
