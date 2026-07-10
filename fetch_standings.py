@@ -201,6 +201,8 @@ def build():
         tier_by_stage = {sid: name for (sid, _p, name) in cat_play.get(info["category"], [])}
         table = _resolve(f"Division({{id:{did}}})$table") or {}
         rows = [table_row(r, club_ids, tier_by_stage) for r in table.get("rows", [])]
+        if not rows:
+            continue          # tom tabell (t.ex. oseeded slutspelsdivision) - ingen poäng att visa
         for i, r in enumerate(rows, 1):
             r["pos"] = i
         bucket = by_age.setdefault(info["age_slug"], {"groups": [], "playoffs": []})

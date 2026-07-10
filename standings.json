@@ -1,37 +1,13 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T14:04:41+00:00",
-  "seq": 1783692281,
-  "data_hash": "a05c8d119a9d3f7a43b94df3a1362cce20534c0a78d1cc26c6cbf8a7f7207344"
+  "generated": "2026-07-10T14:08:03+00:00",
+  "seq": 1783692483,
+  "data_hash": "440730840c2c086ca4cf0ef318c1ac0ac5a6f8a4960da6e4191996dc50ac1314"
  },
  "by_age": {
   "u12": {
    "groups": [
-    {
-     "name": "A-Slutspel",
-     "klass": "P12",
-     "division_id": 81955796,
-     "rows": []
-    },
-    {
-     "name": "A-Slutspel",
-     "klass": "F12",
-     "division_id": 81952661,
-     "rows": []
-    },
-    {
-     "name": "B-Slutspel",
-     "klass": "F12",
-     "division_id": 81952698,
-     "rows": []
-    },
-    {
-     "name": "C-Slutspel",
-     "klass": "P12",
-     "division_id": 81955873,
-     "rows": []
-    },
     {
      "name": "Grupp 1",
      "klass": "F12",
