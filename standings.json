@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T19:43:52+00:00",
-  "seq": 1783712632,
-  "data_hash": "527f0b0381d4e451d94e62d34cafbf40fb387d587d319d2841e73ec4896b2e20"
+  "generated": "2026-07-10T19:54:26+00:00",
+  "seq": 1783713266,
+  "data_hash": "ddf6c70dfd1009138b1945043a0582d9f5eb5dcc430d41b4d86762a35d8e2110"
  },
  "by_age": {
   "u12": {
@@ -3398,15 +3398,15 @@
             "label": "Ljunghusens HK 4",
             "team_id": 76535958,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Kävlinge HK Blå",
             "team_id": 77052978,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
