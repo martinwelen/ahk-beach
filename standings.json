@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T14:46:37+00:00",
-  "seq": 1783694797,
-  "data_hash": "e0924565a5d7704f89c66de10ff1787ec68a16de5f4aaf8aef0637fdbd0e62a1"
+  "generated": "2026-07-10T15:06:45+00:00",
+  "seq": 1783696005,
+  "data_hash": "d306c03e4dd81cd6c06327baa29961f38e6d4902bde5ba33e6dbe450bf50db57"
  },
  "by_age": {
   "u12": {
@@ -3155,15 +3155,15 @@
             "label": "Uppsala HK Blå",
             "team_id": 73380435,
             "is_alingsas": false,
-            "goals": null
+            "goals": 4
            },
            "away": {
             "label": "Vinslövs HK",
             "team_id": 75073263,
             "is_alingsas": false,
-            "goals": null
+            "goals": 3
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81952734,
@@ -3174,15 +3174,15 @@
             "label": "Stavsten HK 1",
             "team_id": 75577414,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "HF Karlskrona",
             "team_id": 77346115,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81952736,
@@ -3193,15 +3193,15 @@
             "label": "Falköpings AIK HK Vit",
             "team_id": 75071874,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "Dalby GIF 2",
             "team_id": 76999421,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81952740,
@@ -3212,15 +3212,15 @@
             "label": "Mönsterås HK",
             "team_id": 76827546,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "Staffanstorps HK",
             "team_id": 74327553,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81952743,
@@ -3231,15 +3231,15 @@
             "label": "HF Limhamn",
             "team_id": 76671121,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "HK Halmstad 1",
             "team_id": 76954945,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81952744,
@@ -3250,15 +3250,15 @@
             "label": "HK Halmstad 2",
             "team_id": 76999411,
             "is_alingsas": false,
-            "goals": null
+            "goals": 2
            },
            "away": {
             "label": "Hässleholms HF",
             "team_id": 74627844,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -3271,14 +3271,14 @@
            "bana": 7,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072127",
-            "team_id": null,
+            "label": "Uppsala HK Blå",
+            "team_id": 73380435,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10072227",
-            "team_id": null,
+            "label": "Stavsten HK 1",
+            "team_id": 75577414,
             "is_alingsas": false,
             "goals": null
            },
@@ -3290,8 +3290,8 @@
            "bana": 8,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072327",
-            "team_id": null,
+            "label": "Dalby GIF 2",
+            "team_id": 76999421,
             "is_alingsas": false,
             "goals": null
            },
@@ -3309,8 +3309,8 @@
            "bana": 9,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072727",
-            "team_id": null,
+            "label": "Staffanstorps HK",
+            "team_id": 74327553,
             "is_alingsas": false,
             "goals": null
            },
@@ -3328,14 +3328,14 @@
            "bana": 14,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 10072927",
-            "team_id": null,
+            "label": "HF Limhamn",
+            "team_id": 76671121,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 10073527",
-            "team_id": null,
+            "label": "Hässleholms HF",
+            "team_id": 74627844,
             "is_alingsas": false,
             "goals": null
            },
