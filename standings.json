@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T19:54:26+00:00",
-  "seq": 1783713266,
-  "data_hash": "ddf6c70dfd1009138b1945043a0582d9f5eb5dcc430d41b4d86762a35d8e2110"
+  "generated": "2026-07-10T20:05:32+00:00",
+  "seq": 1783713932,
+  "data_hash": "2ee7e642d81a794e46b60bdf08c81ea790d3c9e37d7a9844403ff4373ebb9725"
  },
  "by_age": {
   "u12": {
@@ -1778,15 +1778,15 @@
             "label": "Växjö HF 1",
             "team_id": 75014485,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Ystads IF HF 1",
             "team_id": 75014660,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
@@ -2070,15 +2070,15 @@
             "label": "Alingsås HK 3",
             "team_id": 74507743,
             "is_alingsas": true,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Vinslövs HK 1",
             "team_id": 75073239,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
