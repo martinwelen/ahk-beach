@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T09:01:35+00:00",
-  "seq": 1783760495,
-  "data_hash": "e12bb01e61a931b5b91e811d7abaaf195883fd36ec3ebdf4f069afd46c5b080a"
+  "generated": "2026-07-11T09:42:10+00:00",
+  "seq": 1783762930,
+  "data_hash": "01a7aa24ae1020c7caee7dc3791a2531f484eee1a9ebbc7e5be3cc5815bebbbb"
  },
  "groups": {
   "u8": {
@@ -399,7 +399,10 @@
      "grupp": "Grupp 1",
      "mots": "Staffanstorps HK Stp - 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783703700000,
      "start_iso": "2026-07-10T19:15+02:00",
      "day_label": "Fredag 10 juli"
