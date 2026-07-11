@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T14:06:58+00:00",
-  "seq": 1783778818,
-  "data_hash": "76e0c5124c9a411b980f1245f850b198146538269c307234f6a663423e364fa7"
+  "generated": "2026-07-11T14:22:11+00:00",
+  "seq": 1783779731,
+  "data_hash": "57698a505a66d9fdded8cef5cfa6cecba8a53d8130477b2e7e4cf20c27f50a6e"
  },
  "groups": {
   "u8": {
@@ -574,7 +574,10 @@
      "grupp": "Grupp 1",
      "mots": "IK Lågan Hörby Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783778400000,
      "start_iso": "2026-07-11T16:00+02:00",
      "day_label": "Lördag 11 juli"
@@ -7576,9 +7579,9 @@
      "tid": "13:15",
      "bana": 7,
      "hemma": "Alingsås HK 1",
-     "borta": "Eslövs HK 4 1",
+     "borta": "Eslövs HK 0 1",
      "grupp": "Grupp 1",
-     "mots": "Eslövs HK 4 1",
+     "mots": "Eslövs HK 0 1",
      "hb": "Hemma",
      "result": null,
      "start_ms": 1783941300000,
