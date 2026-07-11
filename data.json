@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-10T20:02:09+00:00",
-  "seq": 1783713729,
-  "data_hash": "2c204b763aef7c5cfae712aa6ca64c6764de1043be776b4814af23e524e9663f"
+  "generated": "2026-07-11T08:31:48+00:00",
+  "seq": 1783758708,
+  "data_hash": "99fa5247d356e02564d1f62673b3ba1ad62bcd36271ef31ded47ae545bf569c8"
  },
  "groups": {
   "u8": {
@@ -456,7 +456,10 @@
      "grupp": "Grupp 1",
      "mots": "H43 Lund HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783757700000,
      "start_iso": "2026-07-11T10:15+02:00",
      "day_label": "Lördag 11 juli"
