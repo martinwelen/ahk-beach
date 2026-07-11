@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T10:31:21+00:00",
-  "seq": 1783765881,
-  "data_hash": "aa87158b317be02f0a437c1b165568699a4821ba396a2582dacc383d83a41799"
+  "generated": "2026-07-11T11:47:14+00:00",
+  "seq": 1783770434,
+  "data_hash": "c07663f9bd401c5f3f0c18b60a6aad92a7783d56c9218e69c2a7c620f4ebcd34"
  },
  "groups": {
   "u8": {
@@ -528,7 +528,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Limhamn",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783769400000,
      "start_iso": "2026-07-11T13:30+02:00",
      "day_label": "Lördag 11 juli"
