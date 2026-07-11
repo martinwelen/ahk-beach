@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-10T20:34:41+00:00",
-  "seq": 1783715681,
-  "data_hash": "3b09783c48ecf196cf19927fc7a7e8867e6cd5bb9bc77d18f3c379b0c62168d6"
+  "generated": "2026-07-11T14:10:10+00:00",
+  "seq": 1783779010,
+  "data_hash": "fae2d6f9fd6bf6aa0542fa7c76df03a4d2bc9e45eff717cdfa9dd2d34b65e120"
  },
  "by_age": {
   "u12": {
@@ -3454,7 +3454,7 @@
        "pos": 2
       },
       {
-       "name": "Eslövs HK 1",
+       "name": "Eslövs HK 0 1",
        "team_id": 75013432,
        "is_alingsas": false,
        "played": 0,
