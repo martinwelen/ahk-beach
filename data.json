@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T11:47:14+00:00",
-  "seq": 1783770434,
-  "data_hash": "c07663f9bd401c5f3f0c18b60a6aad92a7783d56c9218e69c2a7c620f4ebcd34"
+  "generated": "2026-07-11T12:21:57+00:00",
+  "seq": 1783772517,
+  "data_hash": "9225bfa36ee3c6bf860a55f90d44126126cdbcd61ba6e0a531213a848668a24e"
  },
  "groups": {
   "u8": {
@@ -551,7 +551,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Karlskrona Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783771200000,
      "start_iso": "2026-07-11T14:00+02:00",
      "day_label": "Lördag 11 juli"
