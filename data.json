@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T15:51:31+00:00",
-  "seq": 1783785091,
-  "data_hash": "3faf126e9556a6b673ec0be13f1a70f72a10d453c0bad09bb71632a4a7771e57"
+  "generated": "2026-07-11T16:21:44+00:00",
+  "seq": 1783786904,
+  "data_hash": "bf6feb713ccc832c0db4d941dfe916384c702bbfd70c4e0139698242cec85d16"
  },
  "groups": {
   "u8": {
@@ -643,7 +643,10 @@
      "grupp": "Grupp 1",
      "mots": "Ystads IF HF 3",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783785600000,
      "start_iso": "2026-07-11T18:00+02:00",
      "day_label": "Lördag 11 juli"
