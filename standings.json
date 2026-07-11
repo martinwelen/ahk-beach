@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-11T14:10:10+00:00",
-  "seq": 1783779010,
-  "data_hash": "fae2d6f9fd6bf6aa0542fa7c76df03a4d2bc9e45eff717cdfa9dd2d34b65e120"
+  "generated": "2026-07-11T15:45:02+00:00",
+  "seq": 1783784702,
+  "data_hash": "9dfad40908a1c6b11eb2f7d7536bb954716ddfe65cea783b707f66d4b04b0cb5"
  },
  "by_age": {
   "u12": {
@@ -15621,7 +15621,7 @@
        "pos": 1
       },
       {
-       "name": "Alingsås HK 1",
+       "name": "Alingsås HK",
        "team_id": 76536042,
        "is_alingsas": true,
        "played": 0,
