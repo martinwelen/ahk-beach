@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T14:33:48+00:00",
-  "seq": 1783780428,
-  "data_hash": "67425eedca38ae90c144c88bc298d0703818d31d9cf6af20c6f4293bb3b9b775"
+  "generated": "2026-07-11T15:21:39+00:00",
+  "seq": 1783783299,
+  "data_hash": "d837f708db8e140ddda80a8c9b8c8a0bc28d5885232c92017c00a2992e0e5a87"
  },
  "groups": {
   "u8": {
@@ -7751,17 +7751,17 @@
      "gender": "P",
      "age": 18,
      "rule": "Classic",
-     "suffix": "1",
-     "team_name": "Alingsås HK 1",
+     "suffix": "",
+     "team_name": "Alingsås HK",
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "color": "#1f5fbf"
     }
    ],
    "matches": [
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -7770,7 +7770,7 @@
      "tid": "12:30",
      "bana": 14,
      "hemma": "Norrköpings HK",
-     "borta": "Alingsås HK 1",
+     "borta": "Alingsås HK",
      "grupp": "Grupp 1",
      "mots": "Norrköpings HK",
      "hb": "Borta",
@@ -7781,7 +7781,7 @@
     },
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -7789,7 +7789,7 @@
      "dag": "Torsdag",
      "tid": "13:45",
      "bana": 11,
-     "hemma": "Alingsås HK 1",
+     "hemma": "Alingsås HK",
      "borta": "IK Bolton Beach Brawl Stars",
      "grupp": "Grupp 1",
      "mots": "IK Bolton Beach Brawl Stars",
@@ -7841,7 +7841,7 @@
     },
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -7850,7 +7850,7 @@
      "tid": "15:00",
      "bana": 11,
      "hemma": "Eslövs HK",
-     "borta": "Alingsås HK 1",
+     "borta": "Alingsås HK",
      "grupp": "Grupp 1",
      "mots": "Eslövs HK",
      "hb": "Borta",
@@ -7921,7 +7921,7 @@
     },
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -7929,7 +7929,7 @@
      "dag": "Torsdag",
      "tid": "18:45",
      "bana": 16,
-     "hemma": "Alingsås HK 1",
+     "hemma": "Alingsås HK",
      "borta": "IK Sund m79:an",
      "grupp": "Grupp 1",
      "mots": "IK Sund m79:an",
@@ -8121,7 +8121,7 @@
     },
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -8129,7 +8129,7 @@
      "dag": "Fredag",
      "tid": "12:30",
      "bana": 3,
-     "hemma": "Alingsås HK 1",
+     "hemma": "Alingsås HK",
      "borta": "IFK Kristianstad 1",
      "grupp": "Grupp 1",
      "mots": "IFK Kristianstad 1",
@@ -8181,7 +8181,7 @@
     },
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -8189,7 +8189,7 @@
      "dag": "Fredag",
      "tid": "15:00",
      "bana": 11,
-     "hemma": "Alingsås HK 1",
+     "hemma": "Alingsås HK",
      "borta": "Spånga HK",
      "grupp": "Grupp 1",
      "mots": "Spånga HK",
@@ -8241,7 +8241,7 @@
     },
     {
      "age_slug": "u18",
-     "slug": "u18-p-1",
+     "slug": "u18-p-lag",
      "gender": "P",
      "rule": "Classic",
      "color": "#1f5fbf",
@@ -8249,7 +8249,7 @@
      "dag": "Fredag",
      "tid": "17:00",
      "bana": 2,
-     "hemma": "Alingsås HK 1",
+     "hemma": "Alingsås HK",
      "borta": "Ajax København",
      "grupp": "Grupp 1",
      "mots": "Ajax København",
