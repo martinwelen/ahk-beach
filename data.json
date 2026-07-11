@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T08:31:48+00:00",
-  "seq": 1783758708,
-  "data_hash": "99fa5247d356e02564d1f62673b3ba1ad62bcd36271ef31ded47ae545bf569c8"
+  "generated": "2026-07-11T09:01:35+00:00",
+  "seq": 1783760495,
+  "data_hash": "e12bb01e61a931b5b91e811d7abaaf195883fd36ec3ebdf4f069afd46c5b080a"
  },
  "groups": {
   "u8": {
@@ -479,7 +479,10 @@
      "grupp": "Grupp 1",
      "mots": "Åhus Handboll 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783759500000,
      "start_iso": "2026-07-11T10:45+02:00",
      "day_label": "Lördag 11 juli"
