@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T08:21:16+00:00",
-  "seq": 1783844476,
-  "data_hash": "0a42674f0a7297d4536be0041b3d97c0e246a6bce39c6d4fa805c197bc64710f"
+  "generated": "2026-07-12T08:32:02+00:00",
+  "seq": 1783845122,
+  "data_hash": "b4d01c2dd8fbebe006def43bd418936b2af310411deca07c89c98cf2b09a8c61"
  },
  "groups": {
   "u8": {
@@ -689,7 +689,10 @@
      "grupp": "Grupp 1",
      "mots": "Staffanstorps HK Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783844100000,
      "start_iso": "2026-07-12T10:15+02:00",
      "day_label": "Söndag 12 juli"
