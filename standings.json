@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T15:34:02+00:00",
-  "seq": 1783870442,
-  "data_hash": "4e67e6e7911427a6e4a0994b1a026c97365e62fe90c49c48b6c256e6f208aaa1"
+  "generated": "2026-07-12T15:45:17+00:00",
+  "seq": 1783871117,
+  "data_hash": "ab6dc8bd4a2260d1342226a7d872980448fcb65402222e0e6d12d443c9e91ef3"
  },
  "by_age": {
   "u12": {
@@ -3596,6 +3596,21 @@
        "pos": 3
       },
       {
+       "name": "Eslövs HK 2",
+       "team_id": 79386588,
+       "is_alingsas": false,
+       "played": 3,
+       "won": 1,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 28,
+       "goals_against": 28,
+       "diff": 0,
+       "points": 3,
+       "tier": null,
+       "pos": 4
+      },
+      {
        "name": "IFK Tumba HK 1",
        "team_id": 79950198,
        "is_alingsas": false,
@@ -3607,38 +3622,38 @@
        "goals_against": 26,
        "diff": -2,
        "points": 3,
-       "tier": null,
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
+      },
+      {
+       "name": "Lugi HF 1",
+       "team_id": 76993451,
+       "is_alingsas": false,
+       "played": 3,
+       "won": 1,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 29,
+       "goals_against": 26,
+       "diff": 3,
+       "points": 2,
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "Åhus Handboll 1",
        "team_id": 74384972,
        "is_alingsas": false,
-       "played": 2,
+       "played": 3,
        "won": 1,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 15,
-       "goals_against": 16,
-       "diff": -1,
+       "lost": 2,
+       "goals_for": 21,
+       "goals_against": 29,
+       "diff": -8,
        "points": 2,
-       "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
-       "name": "HF Karlskrona P09",
-       "team_id": 77620807,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 0,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 15,
-       "goals_against": 16,
-       "diff": -1,
-       "points": 1,
-       "tier": "B-Slutspel",
-       "pos": 6
+       "tier": null,
+       "pos": 7
       },
       {
        "name": "IK Sund 1",
@@ -3652,36 +3667,21 @@
        "goals_against": 20,
        "diff": -2,
        "points": 1,
-       "tier": null,
-       "pos": 7
-      },
-      {
-       "name": "Eslövs HK 2",
-       "team_id": 79386588,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 0,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 18,
-       "goals_against": 20,
-       "diff": -2,
-       "points": 1,
        "tier": "C-Slutspel",
        "pos": 8
       },
       {
-       "name": "Lugi HF 1",
-       "team_id": 76993451,
+       "name": "HF Karlskrona P09",
+       "team_id": 77620807,
        "is_alingsas": false,
-       "played": 2,
+       "played": 3,
        "won": 0,
-       "tied": 0,
+       "tied": 1,
        "lost": 2,
-       "goals_for": 16,
-       "goals_against": 20,
-       "diff": -4,
-       "points": 0,
+       "goals_for": 23,
+       "goals_against": 26,
+       "diff": -3,
+       "points": 1,
        "tier": "C-Slutspel",
        "pos": 9
       }
