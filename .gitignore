@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# U15 byggs till en staging-katalog och publiceras till det externa repot.
+dist-u15/
