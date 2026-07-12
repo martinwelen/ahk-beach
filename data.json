@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T13:01:33+00:00",
-  "seq": 1783861293,
-  "data_hash": "34d5470062a7b74ada11e2780d5a2d5518a641c457c8479dcd6fdc5c5cdb91aa"
+  "generated": "2026-07-12T13:21:18+00:00",
+  "seq": 1783862478,
+  "data_hash": "bf984c1d684542642245de7e960db4e9045ca22468699881c7fdcd8b1efd680f"
  },
  "groups": {
   "u8": {
@@ -6968,7 +6968,10 @@
      "grupp": "Grupp 5",
      "mots": "Eksjö BK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 3,
+      "ag": 6
+     },
      "start_ms": 1783861200000,
      "start_iso": "2026-07-12T15:00+02:00",
      "day_label": "Söndag 12 juli"
