@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T12:21:56+00:00",
-  "seq": 1783858916,
-  "data_hash": "de46b01db435e6c9ce7702168b9a76c5bb45b7d0f9c0b39550644a529cac0856"
+  "generated": "2026-07-12T12:51:45+00:00",
+  "seq": 1783860705,
+  "data_hash": "d2de38fbd98e6e3b78eedbadfefa1f91ab614bf88af740d12607c3686d2079b9"
  },
  "groups": {
   "u8": {
@@ -781,7 +781,10 @@
      "grupp": "Grupp 1",
      "mots": "Tollarps IF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783859400000,
      "start_iso": "2026-07-12T14:30+02:00",
      "day_label": "Söndag 12 juli"
