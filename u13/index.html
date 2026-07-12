@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>AHK U13 · Åhus Beach Handboll</title>
 <meta name="theme-color" content="#13293d">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -54,7 +54,8 @@ h1 .em{color:var(--sun)}
   background:linear-gradient(90deg,var(--sea),var(--sun-2),var(--sun))}
 
 /* vy-flikar */
-.tabs{display:flex; gap:8px; margin:14px 0 2px}
+.tabs{display:flex; gap:8px; margin:14px 0 2px; overflow-x:auto; scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
 .tab{flex:0 0 auto; border:1.5px solid var(--ink); background:transparent; color:var(--ink);
   padding:8px 16px; border-radius:999px; font-weight:800; font-size:.9rem; cursor:pointer;
   font-family:inherit; transition:all .15s}
@@ -284,7 +285,7 @@ footer a{color:var(--sea)}
   </div>
 
   <footer>
-    Live-schema · uppdateras automatiskt · senast: 2026-07-12T18:31:50+00:00<br>
+    Live-schema · uppdateras automatiskt · senast: 2026-07-12T18:47:08+00:00<br>
     Källa: <a href="https://ahusbeachhandboll.cupmanager.net/2026,sv/result/" target="_blank" rel="noopener">cupmanager.net</a>
     · Matchtid 2×5 min + 60 s paus · Tider kan ändras av arrangören<br>
     <span style="opacity:.8">Tips: lägg till sidan på hemskärmen för snabb åtkomst på plats.</span>

@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T18:43:55+00:00",
-  "seq": 1783881835,
-  "data_hash": "6d66f105c103549c0a79fbabfb62b3700791d452787d21eaebc50280b0d7f7dc"
+  "generated": "2026-07-12T18:50:08+00:00",
+  "seq": 1783882208,
+  "data_hash": "23bdba88ba105ed57e19354ac369a40dd56d302e95e1b1a09e193217999c4ab2"
  },
  "by_age": {
   "u12": {
@@ -3427,14 +3427,14 @@
        "name": "Alingsås HK 1",
        "team_id": 75872638,
        "is_alingsas": true,
-       "played": 4,
-       "won": 4,
+       "played": 5,
+       "won": 5,
        "tied": 0,
        "lost": 0,
-       "goals_for": 42,
-       "goals_against": 26,
-       "diff": 16,
-       "points": 8,
+       "goals_for": 52,
+       "goals_against": 34,
+       "diff": 18,
+       "points": 10,
        "tier": "A-Slutspel",
        "pos": 1
       },
@@ -3454,6 +3454,21 @@
        "pos": 2
       },
       {
+       "name": "Eslövs HK 4",
+       "team_id": 75013432,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 2,
+       "tied": 1,
+       "lost": 2,
+       "goals_for": 56,
+       "goals_against": 57,
+       "diff": -1,
+       "points": 5,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "HK Ankaret",
        "team_id": 77053758,
        "is_alingsas": false,
@@ -3465,8 +3480,8 @@
        "goals_against": 37,
        "diff": 3,
        "points": 4,
-       "tier": "A-Slutspel",
-       "pos": 3
+       "tier": null,
+       "pos": 4
       },
       {
        "name": "Spånga HK",
@@ -3480,21 +3495,6 @@
        "goals_against": 34,
        "diff": -2,
        "points": 4,
-       "tier": null,
-       "pos": 4
-      },
-      {
-       "name": "Eslövs HK 4",
-       "team_id": 75013432,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 1,
-       "tied": 1,
-       "lost": 2,
-       "goals_for": 42,
-       "goals_against": 45,
-       "diff": -3,
-       "points": 3,
        "tier": "B-Slutspel",
        "pos": 5
       },
@@ -3502,13 +3502,13 @@
        "name": "IF Hallby HK 1",
        "team_id": 76583059,
        "is_alingsas": false,
-       "played": 2,
+       "played": 3,
        "won": 1,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 19,
-       "goals_against": 17,
-       "diff": 2,
+       "lost": 2,
+       "goals_for": 27,
+       "goals_against": 27,
+       "diff": 0,
        "points": 2,
        "tier": "B-Slutspel",
        "pos": 6
@@ -3517,13 +3517,13 @@
        "name": "Huddinge HK 1",
        "team_id": 74940635,
        "is_alingsas": false,
-       "played": 2,
+       "played": 3,
        "won": 1,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 15,
-       "goals_against": 15,
-       "diff": 0,
+       "lost": 2,
+       "goals_for": 27,
+       "goals_against": 29,
+       "diff": -2,
        "points": 2,
        "tier": null,
        "pos": 7
