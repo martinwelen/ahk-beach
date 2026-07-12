@@ -13,7 +13,7 @@ import roster_data
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JSON = os.path.join(ROOT, "data.json")
 STANDINGS_JSON = os.path.join(ROOT, "standings.json")
-SKIP_AGE_SLUGS = {"u15"}                  # U15 bor kvar i alingsas-ahus-beach-2026
+# (U15 byggs nu också – till config.U15_DIST, publiceras till det externa repot.)
 
 
 def app_manifest(group):
@@ -120,11 +120,13 @@ def main():
     updated = data.get("meta", {}).get("generated", "")
     built = 0
     for age_slug, group in data.get("groups", {}).items():
-        if age_slug in SKIP_AGE_SLUGS:
-            continue
-        out_dir = os.path.join(ROOT, age_slug)
+        if age_slug == config.U15_SLUG:
+            out_dir = os.path.join(ROOT, config.U15_DIST)
+            base = config.U15_PAGES_BASE
+        else:
+            out_dir = os.path.join(ROOT, age_slug)
+            base = f"{config.PAGES_BASE}/{age_slug}"
         os.makedirs(out_dir, exist_ok=True)
-        base = f"{config.PAGES_BASE}/{age_slug}"
         html = render_app(group, standings.get(age_slug), base, updated)
         with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
             f.write(html)

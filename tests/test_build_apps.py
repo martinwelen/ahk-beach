@@ -74,7 +74,6 @@ def test_build_apps_writes_each_group_dir(tmp_path, monkeypatch):
     data = {"meta": {"generated": "2026-06-26T00:00:00Z"},
             "groups": {"u14": _group("u14", "U14"), "u15": _group("u15", "U15")}}
     (tmp_path / "data.json").write_text(json.dumps(data), encoding="utf-8")
-    # skapa ikon-filer som main() försöker kopiera
     for ic in ("icon-192.png", "icon-512.png", "icon-512-maskable.png",
                "icon-180.png", "favicon-32.png"):
         (tmp_path / ic).write_bytes(b"x")
@@ -85,9 +84,10 @@ def test_build_apps_writes_each_group_dir(tmp_path, monkeypatch):
     assert (tmp_path / "u14" / "index.html").exists()
     assert (tmp_path / "u14" / "manifest.json").exists()
     assert (tmp_path / "u14" / "sw.js").exists()
-    assert (tmp_path / "u14" / "icon-192.png").exists()
-    assert not (tmp_path / "u15").exists()       # U15 skippas
-    assert n == 1
+    assert not (tmp_path / "u15").exists()                    # ingen lokal u15/
+    assert (tmp_path / "dist-u15" / "index.html").exists()    # U15 → staging
+    assert (tmp_path / "dist-u15" / "sw.js").exists()
+    assert n == 2
 
 
 def test_teams_js_uses_numeric_id_for_standings_join():
