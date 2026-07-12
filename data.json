@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T14:50:29+00:00",
-  "seq": 1783867829,
-  "data_hash": "34553765d4d1820af06f348fd3bd1f84183bc6fc51f37db0127bd9a4b515af16"
+  "generated": "2026-07-12T15:31:44+00:00",
+  "seq": 1783870304,
+  "data_hash": "bb2263260b8a43948c49ac7bfdef91d6b60646a736a1f7ef66f1c54d4f3eb91e"
  },
  "groups": {
   "u8": {
@@ -7112,7 +7112,10 @@
      "grupp": "Grupp 1",
      "mots": "HK Ankaret",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 8
+     },
      "start_ms": 1783869300000,
      "start_iso": "2026-07-12T17:15+02:00",
      "day_label": "Söndag 12 juli"
