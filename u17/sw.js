@@ -1,6 +1,9 @@
 const C = "ahk-u17-v1";
+const LEGACY = [];
 self.addEventListener("install", e => self.skipWaiting());
-self.addEventListener("activate", e => e.waitUntil(self.clients.claim()));
+self.addEventListener("activate", e => e.waitUntil(
+  Promise.all(LEGACY.map(k => caches.delete(k))).then(() => self.clients.claim())
+));
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;

@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T15:05:57+00:00",
-  "seq": 1783868757,
-  "data_hash": "4757c8452112ab8fc1d9bbc895e864abb80f6a5ef59c588b2983f811cf7e6338"
+  "generated": "2026-07-12T15:21:45+00:00",
+  "seq": 1783869705,
+  "data_hash": "0dd2764e1ade03f3032799ea06238ec12664593c7b54c135ab5997862c102863"
  },
  "by_age": {
   "u12": {
@@ -3469,6 +3469,21 @@
        "pos": 3
       },
       {
+       "name": "Spånga HK",
+       "team_id": 75072588,
+       "is_alingsas": false,
+       "played": 2,
+       "won": 1,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 17,
+       "goals_against": 18,
+       "diff": -1,
+       "points": 2,
+       "tier": null,
+       "pos": 4
+      },
+      {
        "name": "HK Ankaret",
        "team_id": 77053758,
        "is_alingsas": false,
@@ -3480,21 +3495,6 @@
        "goals_against": 9,
        "diff": 2,
        "points": 2,
-       "tier": null,
-       "pos": 4
-      },
-      {
-       "name": "Eslövs HK 4",
-       "team_id": 75013432,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 0,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 22,
-       "goals_against": 24,
-       "diff": -2,
-       "points": 1,
        "tier": "B-Slutspel",
        "pos": 5
       },
@@ -3514,17 +3514,17 @@
        "pos": 6
       },
       {
-       "name": "Spånga HK",
-       "team_id": 75072588,
+       "name": "Eslövs HK 4",
+       "team_id": 75013432,
        "is_alingsas": false,
-       "played": 1,
+       "played": 3,
        "won": 0,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 5,
-       "goals_against": 8,
-       "diff": -3,
-       "points": 0,
+       "tied": 1,
+       "lost": 2,
+       "goals_for": 32,
+       "goals_against": 36,
+       "diff": -4,
+       "points": 1,
        "tier": null,
        "pos": 7
       },
