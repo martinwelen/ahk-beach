@@ -129,3 +129,12 @@ def test_render_app_starts_with_doctype_no_leading_backslash():
     # Regression: mallen fick en literal '\' först → syntes uppe till vänster.
     html = build_apps.render_app(_group(), standings=None, base="b", updated="u")
     assert html.startswith("<!doctype html>")
+
+
+def test_service_worker_purges_stale_caches():
+    sw = build_apps.service_worker_js("u15")
+    assert 'const C = "ahk-u15-v1";' in sw
+    # activate raderar alla cachar utom den aktuella (C)
+    assert "caches.keys()" in sw
+    assert "caches.delete" in sw
+    assert "k !== C" in sw
