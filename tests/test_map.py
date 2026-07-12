@@ -43,3 +43,5 @@ def test_template_has_pointer_based_zoom_handler():
     assert 'pointerdown' in template.TEMPLATE
     assert 'setPointerCapture' in template.TEMPLATE
     assert 'MIN=1, MAX=6' in template.TEMPLATE
+    assert 'clamp' in template.TEMPLATE               # pan-clamp finns
+    assert 'justLifted' in template.TEMPLATE          # ingen pan-hopp vid 2→1

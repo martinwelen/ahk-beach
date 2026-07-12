@@ -601,11 +601,16 @@ document.addEventListener("click", async e=>{
   const img=document.getElementById("mapzoom-img");
   const closeBtn=document.getElementById("mapzoom-close");
   if(!openBtn||!ov||!img||!closeBtn) return;
-  let scale=1, tx=0, ty=0, lastDist=0, lastMid=null, lastTap=0;
+  let scale=1, tx=0, ty=0, lastDist=0, lastMid=null, lastTap=0, justLifted=false;
   const pts=new Map(), MIN=1, MAX=6;
-  const apply=()=>{ img.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; };
+  const clamp=()=>{
+    const w=img.clientWidth*scale, h=img.clientHeight*scale;
+    const ox=Math.max(0,(w-window.innerWidth)/2), oy=Math.max(0,(h-window.innerHeight)/2);
+    tx=Math.max(-ox, Math.min(ox, tx)); ty=Math.max(-oy, Math.min(oy, ty));
+  };
+  const apply=()=>{ clamp(); img.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; };
   const reset=()=>{ scale=1; tx=0; ty=0; apply(); };
-  const open=()=>{ reset(); ov.hidden=false; document.body.style.overflow="hidden"; };
+  const open=()=>{ ov.hidden=false; document.body.style.overflow="hidden"; reset(); };
   const close=()=>{ ov.hidden=true; document.body.style.overflow=""; pts.clear(); lastDist=0; };
   const arr=()=>[...pts.values()];
   const dist=()=>{ const a=arr(); return Math.hypot(a[0].x-a[1].x, a[0].y-a[1].y); };
@@ -615,7 +620,7 @@ document.addEventListener("click", async e=>{
   ov.addEventListener("click", e=>{ if(e.target===ov) close(); });
   document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !ov.hidden) close(); });
   img.addEventListener("pointerdown", e=>{
-    img.setPointerCapture(e.pointerId);
+    try{ img.setPointerCapture(e.pointerId); }catch(_){}
     pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
     if(pts.size===2){ lastDist=dist(); lastMid=mid(); }
     else if(pts.size===1){
@@ -628,7 +633,10 @@ document.addEventListener("click", async e=>{
     if(!pts.has(e.pointerId)) return;
     const prev=pts.get(e.pointerId), cur={x:e.clientX, y:e.clientY};
     pts.set(e.pointerId, cur);
-    if(pts.size===1){ tx+=cur.x-prev.x; ty+=cur.y-prev.y; apply(); }
+    if(pts.size===1){
+      if(!justLifted){ tx+=cur.x-prev.x; ty+=cur.y-prev.y; apply(); }
+      justLifted=false;
+    }
     else if(pts.size===2){
       const d=dist(), m=mid();
       scale=Math.min(MAX, Math.max(MIN, scale*(d/lastDist)));
@@ -639,6 +647,7 @@ document.addEventListener("click", async e=>{
   const up=e=>{
     pts.delete(e.pointerId);
     if(pts.size<2) lastDist=0;
+    if(pts.size===1) justLifted=true;
     if(scale<=1){ tx=0; ty=0; apply(); }
   };
   img.addEventListener("pointerup", up);
