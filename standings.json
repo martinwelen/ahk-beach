@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T18:15:11+00:00",
-  "seq": 1783880111,
-  "data_hash": "95a4c27efa47dd32cdf6539cb962cb954458eda1171c4c023e02278632b3183d"
+  "generated": "2026-07-12T18:23:49+00:00",
+  "seq": 1783880629,
+  "data_hash": "f19a144f71f950dfd90311f7bc48138f20b74edfd3c4adcb334f18486ce25275"
  },
  "by_age": {
   "u12": {
@@ -3768,32 +3768,32 @@
        "pos": 5
       },
       {
-       "name": "IK Bolton",
-       "team_id": 81124783,
+       "name": "Lödde Vikings HK Röd",
+       "team_id": 76524524,
        "is_alingsas": false,
        "played": 3,
-       "won": 0,
-       "tied": 1,
+       "won": 1,
+       "tied": 0,
        "lost": 2,
-       "goals_for": 22,
-       "goals_against": 27,
-       "diff": -5,
-       "points": 1,
+       "goals_for": 24,
+       "goals_against": 26,
+       "diff": -2,
+       "points": 2,
        "tier": "B-Slutspel",
        "pos": 6
       },
       {
-       "name": "Lödde Vikings HK Röd",
-       "team_id": 76524524,
+       "name": "IK Bolton",
+       "team_id": 81124783,
        "is_alingsas": false,
-       "played": 2,
+       "played": 4,
        "won": 0,
-       "tied": 0,
-       "lost": 2,
-       "goals_for": 16,
-       "goals_against": 20,
-       "diff": -4,
-       "points": 0,
+       "tied": 1,
+       "lost": 3,
+       "goals_for": 28,
+       "goals_against": 35,
+       "diff": -7,
+       "points": 1,
        "tier": null,
        "pos": 7
       },
