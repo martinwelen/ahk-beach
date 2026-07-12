@@ -11,7 +11,6 @@ import config
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JSON = os.path.join(ROOT, "data.json")
-SKIP = {"u15"}
 PRODID = "-//Alingsas HK//Ahus Beach Handboll//SV"
 SOURCE_NOTE = "Källa: ahusbeachhandboll.cupmanager.net"
 
@@ -27,6 +26,15 @@ def slug_ascii(s):
     import unicodedata, re
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
     return re.sub(r"[^a-zA-Z0-9]+", "-", s).strip("-").lower()
+
+
+def u15_ics_name(slug):
+    """ahk-beach-slug → gammalt U15-filnamn. 'u15-p-bla' → 'alingsas-p15-bla.ics'."""
+    parts = slug.split("-")                 # ["u15", "p", "bla"]
+    age = parts[0][1:]                      # "15"
+    gender = parts[1]                       # "p"
+    rest = "-".join(parts[2:])              # "bla"
+    return f"alingsas-{gender}{age}-{rest}.ics"
 
 
 def esc(t):
@@ -84,20 +92,25 @@ def main():
     seq = int(data.get("meta", {}).get("seq", 1))
     dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     for age_slug, g in data.get("groups", {}).items():
-        if age_slug in SKIP:
-            continue
-        out_dir = os.path.join(ROOT, age_slug, "ics")
+        if age_slug == config.U15_SLUG:
+            out_dir = os.path.join(ROOT, config.U15_DIST, "ics")
+            alla_name = "alingsas-alla.ics"
+            name_for = u15_ics_name
+        else:
+            out_dir = os.path.join(ROOT, age_slug, "ics")
+            alla_name = "alla.ics"
+            name_for = lambda slug: f"{slug}.ics"
         os.makedirs(out_dir, exist_ok=True)
         dur = g["profile"]["duration_min"]
         by_team = {}
         for m in g["matches"]:
             by_team.setdefault(m["slug"], []).append(m)
-        with open(os.path.join(out_dir, "alla.ics"), "w", encoding="utf-8", newline="") as f:
+        with open(os.path.join(out_dir, alla_name), "w", encoding="utf-8", newline="") as f:
             f.write(build_calendar(g["matches"], f"Alingsås HK {g['label']} (alla) – Åhus Beach",
                                    f"Alla lag i {g['label']}. {SOURCE_NOTE}",
                                    g["label"], dur, seq, dtstamp))
         for t in g["teams"]:
-            with open(os.path.join(out_dir, f"{t['slug']}.ics"), "w",
+            with open(os.path.join(out_dir, name_for(t["slug"])), "w",
                       encoding="utf-8", newline="") as f:
                 f.write(build_calendar(by_team.get(t["slug"], []),
                                        f"{t['team_name']} – Åhus Beach",
