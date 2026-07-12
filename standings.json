@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T14:45:02+00:00",
-  "seq": 1783867502,
-  "data_hash": "9e53d42e6ac7a67fd57eee81bddebce200e8ec5e8d1bb5b1ca481c534a247e38"
+  "generated": "2026-07-12T15:05:57+00:00",
+  "seq": 1783868757,
+  "data_hash": "4757c8452112ab8fc1d9bbc895e864abb80f6a5ef59c588b2983f811cf7e6338"
  },
  "by_age": {
   "u12": {
@@ -4007,6 +4007,21 @@
        "pos": 3
       },
       {
+       "name": "H43 Lund HF",
+       "team_id": 78565795,
+       "is_alingsas": false,
+       "played": 3,
+       "won": 1,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 25,
+       "goals_against": 31,
+       "diff": -6,
+       "points": 2,
+       "tier": null,
+       "pos": 4
+      },
+      {
        "name": "Eksjö BK 2",
        "team_id": 77568127,
        "is_alingsas": false,
@@ -4018,8 +4033,23 @@
        "goals_against": 12,
        "diff": 0,
        "points": 2,
-       "tier": null,
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
+      },
+      {
+       "name": "Hässleholms HF 1",
+       "team_id": 77250104,
+       "is_alingsas": false,
+       "played": 3,
+       "won": 1,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 24,
+       "goals_against": 26,
+       "diff": -2,
+       "points": 2,
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "HK Aranäs VIT",
@@ -4033,23 +4063,8 @@
        "goals_against": 31,
        "diff": -4,
        "points": 2,
-       "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
-       "name": "H43 Lund HF",
-       "team_id": 78565795,
-       "is_alingsas": false,
-       "played": 3,
-       "won": 1,
-       "tied": 0,
-       "lost": 2,
-       "goals_for": 25,
-       "goals_against": 31,
-       "diff": -6,
-       "points": 2,
-       "tier": "B-Slutspel",
-       "pos": 6
+       "tier": null,
+       "pos": 7
       },
       {
        "name": "Eskilstuna Guif IF 1",
@@ -4063,21 +4078,6 @@
        "goals_against": 20,
        "diff": -4,
        "points": 0,
-       "tier": null,
-       "pos": 7
-      },
-      {
-       "name": "Hässleholms HF 1",
-       "team_id": 77250104,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 0,
-       "tied": 0,
-       "lost": 2,
-       "goals_for": 15,
-       "goals_against": 21,
-       "diff": -6,
-       "points": 0,
        "tier": "C-Slutspel",
        "pos": 8
       },
@@ -4085,13 +4085,13 @@
        "name": "H 78 Sölvesborg",
        "team_id": 78286158,
        "is_alingsas": false,
-       "played": 2,
+       "played": 3,
        "won": 0,
        "tied": 0,
-       "lost": 2,
-       "goals_for": 15,
-       "goals_against": 23,
-       "diff": -8,
+       "lost": 3,
+       "goals_for": 20,
+       "goals_against": 32,
+       "diff": -12,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 9
