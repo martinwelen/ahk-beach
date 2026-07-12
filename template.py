@@ -228,7 +228,7 @@ footer a{color:var(--sea)}
 .maphint{position:absolute;right:10px;bottom:10px;background:#13293dcc;color:#fff;
   font-size:.8rem;padding:4px 8px;border-radius:999px}
 .mapsrc{color:#5a6b75;font-size:.75rem;margin:8px 2px 0}
-#mapzoom{position:fixed;inset:0;z-index:1000;background:#0b1620;touch-action:none;
+#mapzoom:not([hidden]){position:fixed;inset:0;z-index:1000;background:#0b1620;touch-action:none;
   overflow:hidden;display:flex;align-items:center;justify-content:center}
 #mapzoom-img{max-width:100%;max-height:100%;user-select:none;-webkit-user-select:none;
   will-change:transform;touch-action:none}

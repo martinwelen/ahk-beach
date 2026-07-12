@@ -39,6 +39,13 @@ def test_template_has_fullscreen_zoom_overlay():
     assert 'id="mapzoom-close"' in template.TEMPLATE
 
 
+def test_mapzoom_overlay_is_hidden_by_default():
+    # Regression: #mapzoom{display:flex} skulle överköra [hidden] → overlay syns
+    # vid laddning och täcker hela appen. display:flex måste gälla :not([hidden]).
+    assert '#mapzoom:not([hidden]){' in template.TEMPLATE
+    assert '#mapzoom{' not in template.TEMPLATE
+
+
 def test_template_has_pointer_based_zoom_handler():
     assert 'pointerdown' in template.TEMPLATE
     assert 'setPointerCapture' in template.TEMPLATE
