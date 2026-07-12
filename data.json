@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T15:31:44+00:00",
-  "seq": 1783870304,
-  "data_hash": "bb2263260b8a43948c49ac7bfdef91d6b60646a736a1f7ef66f1c54d4f3eb91e"
+  "generated": "2026-07-12T16:01:48+00:00",
+  "seq": 1783872108,
+  "data_hash": "586726d79591ec64621d75ba7386f7a7c7724e34b007f43b060b340c1fe1523e"
  },
  "groups": {
   "u8": {
@@ -850,7 +850,10 @@
      "grupp": "Grupp 1",
      "mots": "H43 Lund HF 3",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783871100000,
      "start_iso": "2026-07-12T17:45+02:00",
      "day_label": "Söndag 12 juli"
@@ -7135,7 +7138,10 @@
      "grupp": "Grupp 6",
      "mots": "Åhus HBK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 8
+     },
      "start_ms": 1783871100000,
      "start_iso": "2026-07-12T17:45+02:00",
      "day_label": "Söndag 12 juli"
