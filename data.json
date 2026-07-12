@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T14:12:16+00:00",
-  "seq": 1783865536,
-  "data_hash": "0dd95d102027ec2efda6cad25a478ba712fee9dab83d20975e8e26ec4eb7f0b3"
+  "generated": "2026-07-12T14:21:49+00:00",
+  "seq": 1783866109,
+  "data_hash": "83c897ff32de6c3dd8a4dea9cd0c945e594a2d0f0f49582309c97b0ef75614e9"
  },
  "groups": {
   "u8": {
@@ -827,7 +827,10 @@
      "grupp": "Grupp 1",
      "mots": "Karlshamns HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783864800000,
      "start_iso": "2026-07-12T16:00+02:00",
      "day_label": "Söndag 12 juli"
@@ -7063,7 +7066,10 @@
      "grupp": "Grupp 4",
      "mots": "Eslövs HK 3",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 5
+     },
      "start_ms": 1783864800000,
      "start_iso": "2026-07-12T16:00+02:00",
      "day_label": "Söndag 12 juli"
