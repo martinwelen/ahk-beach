@@ -14,6 +14,12 @@ PAGES_HOST = "martinwelen.github.io"
 PAGES_PATH = "/ahk-beach"
 PAGES_BASE = f"https://{PAGES_HOST}{PAGES_PATH}"
 
+# U15 bor på en egen, redan distribuerad URL (installerade appar får inte flytta).
+# ahk-beach bygger U15 till en staging-katalog och publicerar den dit via CI.
+U15_SLUG = "u15"
+U15_PAGES_BASE = "https://martinwelen.github.io/alingsas-ahus-beach-2026"
+U15_DIST = "dist-u15"
+
 UTC_OFFSET_HOURS = 2                      # Åhus i juli = CEST = UTC+2
 
 CLUB_BLUE = "#1f5fbf"                     # klubbens standardfärg (ensamt lag)
