@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T13:57:58+00:00",
-  "seq": 1783864678,
-  "data_hash": "ad0181314f45913134d3cb68f1244a92a17b49d679dfa517b8b096f80069ac50"
+  "generated": "2026-07-12T14:12:16+00:00",
+  "seq": 1783865536,
+  "data_hash": "0dd95d102027ec2efda6cad25a478ba712fee9dab83d20975e8e26ec4eb7f0b3"
  },
  "groups": {
   "u8": {
@@ -804,7 +804,10 @@
      "grupp": "Grupp 1",
      "mots": "Spånga HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783863900000,
      "start_iso": "2026-07-12T15:45+02:00",
      "day_label": "Söndag 12 juli"
