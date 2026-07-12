@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T17:22:07+00:00",
-  "seq": 1783876927,
-  "data_hash": "0e13a052edd6b4fe6141d999f4df972699cd642f783a28ab215bfd8719fffb10"
+  "generated": "2026-07-12T17:32:06+00:00",
+  "seq": 1783877526,
+  "data_hash": "b1ac4397da419d0dc33a4c42e0818fa6fe8c53487f9e2907527fbee4b6b83cda"
  },
  "groups": {
   "u8": {
@@ -7256,7 +7256,10 @@
      "grupp": "Grupp 2",
      "mots": "HK Aranäs Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 8
+     },
      "start_ms": 1783876500000,
      "start_iso": "2026-07-12T19:15+02:00",
      "day_label": "Söndag 12 juli"
