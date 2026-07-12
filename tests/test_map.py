@@ -46,6 +46,21 @@ def test_mapzoom_overlay_is_hidden_by_default():
     assert '#mapzoom{' not in template.TEMPLATE
 
 
+def test_viewport_disables_native_page_zoom():
+    # Root cause (mobil): webbläsarens sid-zoom kapade nyp-gesten → kartans egen
+    # zoom fungerade inte. Sid-zoom är avstängd så kartzoomen äger nypet.
+    assert 'user-scalable=no' in template.TEMPLATE
+    assert 'maximum-scale=1' in template.TEMPLATE
+
+
+def test_tab_bar_scrolls_horizontally():
+    # Med Karta-fliken blir flikraden bredare än en mobil; utan sid-zoom måste den
+    # kunna svepas i sidled så alla flikar är nåbara (som .filters redan är).
+    import re
+    m = re.search(r'\.tabs\{[^}]*\}', template.TEMPLATE)
+    assert m and 'overflow-x:auto' in m.group(0)
+
+
 def test_template_has_pointer_based_zoom_handler():
     assert 'pointerdown' in template.TEMPLATE
     assert 'setPointerCapture' in template.TEMPLATE

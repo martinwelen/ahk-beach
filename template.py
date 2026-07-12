@@ -12,7 +12,7 @@ TEMPLATE = r"""<!doctype html>
 <html lang="sv">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>AHK __APPLABEL__ · Åhus Beach Handboll</title>
 <meta name="theme-color" content="#13293d">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -64,7 +64,8 @@ h1 .em{color:var(--sun)}
   background:linear-gradient(90deg,var(--sea),var(--sun-2),var(--sun))}
 
 /* vy-flikar */
-.tabs{display:flex; gap:8px; margin:14px 0 2px}
+.tabs{display:flex; gap:8px; margin:14px 0 2px; overflow-x:auto; scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
 .tab{flex:0 0 auto; border:1.5px solid var(--ink); background:transparent; color:var(--ink);
   padding:8px 16px; border-radius:999px; font-weight:800; font-size:.9rem; cursor:pointer;
   font-family:inherit; transition:all .15s}
