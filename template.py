@@ -221,6 +221,13 @@ details.cal summary::before{content:"📅  "}
 .shareicon{display:inline-block; transform:translateY(2px)}
 footer{margin-top:26px; font-size:.78rem; color:var(--ink-soft); text-align:center; line-height:1.7}
 footer a{color:var(--sea)}
+#map{padding:12px}
+.mapbtn{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;
+  border-radius:12px;overflow:hidden;position:relative}
+.mapbtn img{display:block;width:100%;height:auto;border-radius:12px}
+.maphint{position:absolute;right:10px;bottom:10px;background:#13293dcc;color:#fff;
+  font-size:.8rem;padding:4px 8px;border-radius:999px}
+.mapsrc{color:#5a6b75;font-size:.75rem;margin:8px 2px 0}
 </style>
 </head>
 <body>
@@ -238,6 +245,7 @@ footer a{color:var(--sea)}
     <button class="tab" id="tab-tabeller" data-view="tabeller" aria-pressed="false" hidden>Tabeller</button>
     <button class="tab" id="tab-slutspel" data-view="slutspel" aria-pressed="false" hidden>Slutspel</button>
     <button class="tab" id="tab-trupp" data-view="trupp" aria-pressed="false" hidden>Trupp</button>
+    <button class="tab" id="tab-karta" data-view="karta">Karta</button>
   </nav>
 
   <nav class="filters" id="filters" aria-label="Filtrera lag"></nav>
@@ -248,6 +256,13 @@ footer a{color:var(--sea)}
   <section id="tables" hidden></section>
   <section id="bracket" hidden></section>
   <section id="roster" hidden></section>
+  <section id="map" hidden>
+    <button class="mapbtn" id="mapopen" aria-label="Öppna kartan i helskärm">
+      <img src="karta.png" alt="Områdeskarta – Åhus Beach Handboll" loading="lazy">
+      <span class="maphint">Tryck för helskärm</span>
+    </button>
+    <p class="mapsrc">Källa: ahusbeach.com</p>
+  </section>
 
   <details class="cal">
     <summary>Lägg till i din kalender (valfritt)</summary>
@@ -396,6 +411,7 @@ const elBracket = document.getElementById("bracket");
 const elRoster = document.getElementById("roster");
 const elList = document.getElementById("list");
 const elHero = document.getElementById("hero");
+const elMap = document.getElementById("map");
 if(STANDINGS && STANDINGS.groups && STANDINGS.groups.length){
   document.getElementById("tab-tabeller").hidden = false;
   if(STANDINGS.playoffs && STANDINGS.playoffs.length) document.getElementById("tab-slutspel").hidden = false;
@@ -411,6 +427,7 @@ function setView(v){
   elTables.hidden = v!=="tabeller";
   elBracket.hidden = v!=="slutspel";
   elRoster.hidden = v!=="trupp";
+  elMap.hidden = v!=="karta";
   if(v==="tabeller") renderTables();
   if(v==="slutspel") renderBracket();
   if(v==="trupp") renderRoster();
