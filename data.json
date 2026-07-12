@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T11:22:05+00:00",
-  "seq": 1783855325,
-  "data_hash": "21861781a7e92f348aae8b8123c26996be5767cd0459244ee4908e4f3ba1e9c4"
+  "generated": "2026-07-12T11:32:14+00:00",
+  "seq": 1783855934,
+  "data_hash": "2da6c087d78f58e743f0d303f4dec2a6c06c9be782c4dcf97bd4973f3003d346"
  },
  "groups": {
   "u8": {
@@ -6870,7 +6870,10 @@
      "grupp": "Grupp 2",
      "mots": "Lugi HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 12
+     },
      "start_ms": 1783854900000,
      "start_iso": "2026-07-12T13:15+02:00",
      "day_label": "Söndag 12 juli"
