@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T18:21:42+00:00",
-  "seq": 1783880502,
-  "data_hash": "4b4580e5ebf442fdd9efbdcfd9aefdabe9d21b3e9b7791282d318acf3cc9cdce"
+  "generated": "2026-07-12T18:31:50+00:00",
+  "seq": 1783881110,
+  "data_hash": "c4c57fa1c0d682263615ffc0cb6758c635d04a795a238b8a7764eeb538c553ac"
  },
  "groups": {
   "u8": {
@@ -7348,7 +7348,10 @@
      "grupp": "Grupp 5",
      "mots": "HK Aranäs VIT",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 6
+     },
      "start_ms": 1783880100000,
      "start_iso": "2026-07-12T20:15+02:00",
      "day_label": "Söndag 12 juli"
