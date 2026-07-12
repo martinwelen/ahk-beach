@@ -27,7 +27,10 @@ def app_manifest(group):
 
 
 def service_worker_js(age_slug):
-    return template.SERVICE_WORKER_TPL.replace("__CACHE__", f"ahk-{age_slug}-v1")
+    legacy = ["ahus-schema-v1"] if age_slug == config.U15_SLUG else []
+    return (template.SERVICE_WORKER_TPL
+            .replace("__CACHE__", f"ahk-{age_slug}-v1")
+            .replace("__LEGACY__", json.dumps(legacy)))
 
 
 _GENDER_LABEL = {"P": "Pojkar", "F": "Flickor"}

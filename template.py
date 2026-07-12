@@ -635,10 +635,10 @@ MANIFEST_BASE = {
 
 # Service worker: nätverk-först (färsk data online) med cache-fallback (offline på plats).
 SERVICE_WORKER_TPL = """const C = "__CACHE__";
+const LEGACY = __LEGACY__;
 self.addEventListener("install", e => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil(
-  caches.keys().then(ks => Promise.all(ks.filter(k => k !== C).map(k => caches.delete(k))))
-    .then(() => self.clients.claim())
+  Promise.all(LEGACY.map(k => caches.delete(k))).then(() => self.clients.claim())
 ));
 self.addEventListener("fetch", e => {
   const req = e.request;

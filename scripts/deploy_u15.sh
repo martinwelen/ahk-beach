@@ -13,6 +13,7 @@ fi
 mkdir -p ~/.ssh
 printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/u15_deploy
 chmod 600 ~/.ssh/u15_deploy
+trap 'rm -f "$HOME/.ssh/u15_deploy"' EXIT
 export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/u15_deploy -o StrictHostKeyChecking=no"
 
 git clone --depth 1 "$REPO" "$WORK"

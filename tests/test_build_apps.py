@@ -131,10 +131,17 @@ def test_render_app_starts_with_doctype_no_leading_backslash():
     assert html.startswith("<!doctype html>")
 
 
-def test_service_worker_purges_stale_caches():
+def test_service_worker_purges_u15_legacy_cache():
     sw = build_apps.service_worker_js("u15")
     assert 'const C = "ahk-u15-v1";' in sw
-    # activate raderar alla cachar utom den aktuella (C)
-    assert "caches.keys()" in sw
+    assert '"ahus-schema-v1"' in sw          # legacy U15-cache raderas
     assert "caches.delete" in sw
-    assert "k !== C" in sw
+
+
+def test_service_worker_leaves_foreign_caches_for_live_apps():
+    # Origin-delad CacheStorage: en live-app får ALDRIG radera syskonens cachar.
+    sw = build_apps.service_worker_js("u14")
+    assert 'const C = "ahk-u14-v1";' in sw
+    assert "const LEGACY = [];" in sw        # tom lista → raderar ingenting
+    assert "ahus-schema-v1" not in sw
+    assert "ahk-u13" not in sw
