@@ -228,6 +228,13 @@ footer a{color:var(--sea)}
 .maphint{position:absolute;right:10px;bottom:10px;background:#13293dcc;color:#fff;
   font-size:.8rem;padding:4px 8px;border-radius:999px}
 .mapsrc{color:#5a6b75;font-size:.75rem;margin:8px 2px 0}
+#mapzoom{position:fixed;inset:0;z-index:1000;background:#0b1620;touch-action:none;
+  overflow:hidden;display:flex;align-items:center;justify-content:center}
+#mapzoom-img{max-width:100%;max-height:100%;user-select:none;-webkit-user-select:none;
+  will-change:transform;touch-action:none}
+#mapzoom-close{position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px;
+  z-index:1001;width:44px;height:44px;border:0;border-radius:50%;background:#13293dcc;
+  color:#fff;font-size:1.2rem;line-height:1;cursor:pointer}
 </style>
 </head>
 <body>
@@ -263,6 +270,10 @@ footer a{color:var(--sea)}
     </button>
     <p class="mapsrc">Källa: ahusbeach.com</p>
   </section>
+  <div id="mapzoom" hidden>
+    <button id="mapzoom-close" aria-label="Stäng karta">✕</button>
+    <img id="mapzoom-img" src="karta.png" alt="Områdeskarta – Åhus Beach Handboll" draggable="false">
+  </div>
 
   <details class="cal">
     <summary>Lägg till i din kalender (valfritt)</summary>
@@ -583,6 +594,56 @@ document.addEventListener("click", async e=>{
 });
 
 // ---- Lägg till på hemskärmen (Android-prompt + iOS/övrigt-instruktioner) ----
+// Kartzoom: helskärmsöverlägg med nyp-zoom + panorering (Pointer Events, inga libs).
+(function(){
+  const openBtn=document.getElementById("mapopen");
+  const ov=document.getElementById("mapzoom");
+  const img=document.getElementById("mapzoom-img");
+  const closeBtn=document.getElementById("mapzoom-close");
+  if(!openBtn||!ov||!img||!closeBtn) return;
+  let scale=1, tx=0, ty=0, lastDist=0, lastMid=null, lastTap=0;
+  const pts=new Map(), MIN=1, MAX=6;
+  const apply=()=>{ img.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; };
+  const reset=()=>{ scale=1; tx=0; ty=0; apply(); };
+  const open=()=>{ reset(); ov.hidden=false; document.body.style.overflow="hidden"; };
+  const close=()=>{ ov.hidden=true; document.body.style.overflow=""; pts.clear(); lastDist=0; };
+  const arr=()=>[...pts.values()];
+  const dist=()=>{ const a=arr(); return Math.hypot(a[0].x-a[1].x, a[0].y-a[1].y); };
+  const mid=()=>{ const a=arr(); return {x:(a[0].x+a[1].x)/2, y:(a[0].y+a[1].y)/2}; };
+  openBtn.addEventListener("click", open);
+  closeBtn.addEventListener("click", close);
+  ov.addEventListener("click", e=>{ if(e.target===ov) close(); });
+  document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !ov.hidden) close(); });
+  img.addEventListener("pointerdown", e=>{
+    img.setPointerCapture(e.pointerId);
+    pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+    if(pts.size===2){ lastDist=dist(); lastMid=mid(); }
+    else if(pts.size===1){
+      const n=Date.now();
+      if(n-lastTap<300){ scale>1 ? reset() : (scale=2.5, apply()); }
+      lastTap=n;
+    }
+  });
+  img.addEventListener("pointermove", e=>{
+    if(!pts.has(e.pointerId)) return;
+    const prev=pts.get(e.pointerId), cur={x:e.clientX, y:e.clientY};
+    pts.set(e.pointerId, cur);
+    if(pts.size===1){ tx+=cur.x-prev.x; ty+=cur.y-prev.y; apply(); }
+    else if(pts.size===2){
+      const d=dist(), m=mid();
+      scale=Math.min(MAX, Math.max(MIN, scale*(d/lastDist)));
+      tx+=m.x-lastMid.x; ty+=m.y-lastMid.y;
+      lastDist=d; lastMid=m; apply();
+    }
+  });
+  const up=e=>{
+    pts.delete(e.pointerId);
+    if(pts.size<2) lastDist=0;
+    if(scale<=1){ tx=0; ty=0; apply(); }
+  };
+  img.addEventListener("pointerup", up);
+  img.addEventListener("pointercancel", up);
+})();
 if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
 const installBtn = document.getElementById("install");
 const sheet = document.getElementById("sheet");

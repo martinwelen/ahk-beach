@@ -31,3 +31,15 @@ def test_rendered_app_contains_karta_tab():
     html = build_apps.render_app(_group(), standings=None, base="b", updated="u")
     assert 'data-view="karta"' in html
     assert 'karta.png' in html
+
+
+def test_template_has_fullscreen_zoom_overlay():
+    assert 'id="mapzoom"' in template.TEMPLATE
+    assert 'id="mapzoom-img"' in template.TEMPLATE
+    assert 'id="mapzoom-close"' in template.TEMPLATE
+
+
+def test_template_has_pointer_based_zoom_handler():
+    assert 'pointerdown' in template.TEMPLATE
+    assert 'setPointerCapture' in template.TEMPLATE
+    assert 'MIN=1, MAX=6' in template.TEMPLATE
