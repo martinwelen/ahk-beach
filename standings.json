@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T16:14:45+00:00",
-  "seq": 1783872885,
-  "data_hash": "aeaf19a9e8349f96763baa1edb9827c3cff79095bd44da872215f913f6141863"
+  "generated": "2026-07-12T16:34:31+00:00",
+  "seq": 1783874071,
+  "data_hash": "d55924cfb6cc0fe8a67193e6cc8f99e2493d79d4179b6a83973e1e94599e1d3c"
  },
  "by_age": {
   "u12": {
@@ -3693,32 +3693,32 @@
      "division_id": 81522660,
      "rows": [
       {
-       "name": "Höörs HK H 65 3",
-       "team_id": 77860362,
+       "name": "Ystads IF HF",
+       "team_id": 81459140,
        "is_alingsas": false,
        "played": 3,
        "won": 3,
        "tied": 0,
        "lost": 0,
-       "goals_for": 32,
-       "goals_against": 17,
-       "diff": 15,
+       "goals_for": 33,
+       "goals_against": 24,
+       "diff": 9,
        "points": 6,
        "tier": "A-Slutspel",
        "pos": 1
       },
       {
-       "name": "Ystads IF HF",
-       "team_id": 81459140,
+       "name": "Höörs HK H 65 3",
+       "team_id": 77860362,
        "is_alingsas": false,
-       "played": 2,
-       "won": 2,
+       "played": 4,
+       "won": 3,
        "tied": 0,
-       "lost": 0,
-       "goals_for": 23,
-       "goals_against": 16,
-       "diff": 7,
-       "points": 4,
+       "lost": 1,
+       "goals_for": 40,
+       "goals_against": 27,
+       "diff": 13,
+       "points": 6,
        "tier": "A-Slutspel",
        "pos": 2
       },
