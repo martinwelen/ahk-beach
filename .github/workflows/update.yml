@@ -56,3 +56,9 @@ jobs:
           git commit -m "Auto-uppdatering ($(date -u '+%Y-%m-%d %H:%M UTC'))"
           git push
           echo "Ändringar publicerade."
+
+      - name: Publicera U15 till alingsas-ahus-beach-2026
+        if: steps.changed.outputs.changed == 'true'
+        env:
+          DEPLOY_KEY: ${{ secrets.U15_DEPLOY_KEY }}
+        run: bash scripts/deploy_u15.sh
