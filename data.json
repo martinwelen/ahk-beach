@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T10:02:04+00:00",
-  "seq": 1783850524,
-  "data_hash": "fb1aeb0536eb9c7920ae95f78de239d31882039a9456838ed2a57022e5892bd5"
+  "generated": "2026-07-12T10:31:43+00:00",
+  "seq": 1783852303,
+  "data_hash": "7b563c69ef8d92f5a8fbf70e2174ee99001e3063d0ee3143c0052ad1f8269774"
  },
  "groups": {
   "u8": {
@@ -712,7 +712,10 @@
      "grupp": "Grupp 1",
      "mots": "IK Bolton",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783851300000,
      "start_iso": "2026-07-12T12:15+02:00",
      "day_label": "Söndag 12 juli"
