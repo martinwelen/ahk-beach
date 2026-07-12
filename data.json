@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-11T16:21:44+00:00",
-  "seq": 1783786904,
-  "data_hash": "bf6feb713ccc832c0db4d941dfe916384c702bbfd70c4e0139698242cec85d16"
+  "generated": "2026-07-12T08:21:16+00:00",
+  "seq": 1783844476,
+  "data_hash": "0a42674f0a7297d4536be0041b3d97c0e246a6bce39c6d4fa805c197bc64710f"
  },
  "groups": {
   "u8": {
@@ -666,7 +666,10 @@
      "grupp": "Grupp 1",
      "mots": "Höörs HK H 65 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783843200000,
      "start_iso": "2026-07-12T10:00+02:00",
      "day_label": "Söndag 12 juli"
