@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T17:45:00+00:00",
-  "seq": 1783878300,
-  "data_hash": "e6da2d652fcbf23d82fb28472514491e75deb7900a61419d83a0a710854de679"
+  "generated": "2026-07-12T18:01:55+00:00",
+  "seq": 1783879315,
+  "data_hash": "0f3179eeefe4cce1555e8b2d6476bbd3aebc37069118c0860db6a4681bd3ab6e"
  },
  "groups": {
   "u8": {
@@ -7302,7 +7302,10 @@
      "grupp": "Grupp 4",
      "mots": "Lödde Vikings HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 7
+     },
      "start_ms": 1783878300000,
      "start_iso": "2026-07-12T19:45+02:00",
      "day_label": "Söndag 12 juli"
