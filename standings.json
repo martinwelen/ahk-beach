@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T12:15:05+00:00",
-  "seq": 1783858505,
-  "data_hash": "87b6748784391ed47bb4a8492353fed52d5bb2116b4bd0bfe1603283109cdc60"
+  "generated": "2026-07-12T12:45:16+00:00",
+  "seq": 1783860316,
+  "data_hash": "500d6342cbb3282e15af11890b82b4408a608ccb593befe9d216c7d328740778"
  },
  "by_age": {
   "u12": {
@@ -3693,6 +3693,21 @@
      "division_id": 81522660,
      "rows": [
       {
+       "name": "Vinslövs HK",
+       "team_id": 75073275,
+       "is_alingsas": false,
+       "played": 2,
+       "won": 2,
+       "tied": 0,
+       "lost": 0,
+       "goals_for": 22,
+       "goals_against": 15,
+       "diff": 7,
+       "points": 4,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Alingsås HK 1",
        "team_id": 75872644,
        "is_alingsas": true,
@@ -3703,21 +3718,6 @@
        "goals_for": 13,
        "goals_against": 8,
        "diff": 5,
-       "points": 2,
-       "tier": "A-Slutspel",
-       "pos": 1
-      },
-      {
-       "name": "Vinslövs HK",
-       "team_id": 75073275,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 1,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 11,
-       "goals_against": 7,
-       "diff": 4,
        "points": 2,
        "tier": "A-Slutspel",
        "pos": 2
@@ -3801,13 +3801,13 @@
        "name": "Kärra HF",
        "team_id": 74541565,
        "is_alingsas": false,
-       "played": 1,
+       "played": 2,
        "won": 0,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 8,
-       "goals_against": 13,
-       "diff": -5,
+       "lost": 2,
+       "goals_for": 16,
+       "goals_against": 24,
+       "diff": -8,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 8
