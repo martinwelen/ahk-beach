@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T15:45:17+00:00",
-  "seq": 1783871117,
-  "data_hash": "ab6dc8bd4a2260d1342226a7d872980448fcb65402222e0e6d12d443c9e91ef3"
+  "generated": "2026-07-12T15:58:36+00:00",
+  "seq": 1783871916,
+  "data_hash": "971b562311d86c24ef568d9625f97fada696811b146c07d050d400d741993477"
  },
  "by_age": {
   "u12": {
@@ -4119,6 +4119,21 @@
        "pos": 1
       },
       {
+       "name": "Eslövs HK 1",
+       "team_id": 79386586,
+       "is_alingsas": false,
+       "played": 3,
+       "won": 1,
+       "tied": 2,
+       "lost": 0,
+       "goals_for": 30,
+       "goals_against": 28,
+       "diff": 2,
+       "points": 4,
+       "tier": "A-Slutspel",
+       "pos": 2
+      },
+      {
        "name": "HK Drott Halmstad 1",
        "team_id": 77632859,
        "is_alingsas": false,
@@ -4131,22 +4146,22 @@
        "diff": 3,
        "points": 3,
        "tier": "A-Slutspel",
-       "pos": 2
+       "pos": 3
       },
       {
-       "name": "Eslövs HK 1",
-       "team_id": 79386586,
+       "name": "Huddinge HK 2",
+       "team_id": 75501301,
        "is_alingsas": false,
-       "played": 2,
+       "played": 3,
        "won": 1,
        "tied": 1,
-       "lost": 0,
-       "goals_for": 19,
-       "goals_against": 17,
-       "diff": 2,
+       "lost": 1,
+       "goals_for": 31,
+       "goals_against": 34,
+       "diff": -3,
        "points": 3,
-       "tier": "A-Slutspel",
-       "pos": 3
+       "tier": null,
+       "pos": 4
       },
       {
        "name": "Alingsås HK 3",
@@ -4160,8 +4175,8 @@
        "goals_against": 21,
        "diff": 0,
        "points": 2,
-       "tier": null,
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
        "name": "Tyresö Handboll 2",
@@ -4176,7 +4191,22 @@
        "diff": 0,
        "points": 2,
        "tier": "B-Slutspel",
-       "pos": 5
+       "pos": 6
+      },
+      {
+       "name": "Norrköpings HK",
+       "team_id": 76273279,
+       "is_alingsas": false,
+       "played": 2,
+       "won": 0,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 20,
+       "goals_against": 22,
+       "diff": -2,
+       "points": 1,
+       "tier": null,
+       "pos": 7
       },
       {
        "name": "Åhus HBK",
@@ -4190,36 +4220,6 @@
        "goals_against": 19,
        "diff": -3,
        "points": 1,
-       "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
-       "name": "Huddinge HK 2",
-       "team_id": 75501301,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 0,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 19,
-       "goals_against": 23,
-       "diff": -4,
-       "points": 1,
-       "tier": null,
-       "pos": 7
-      },
-      {
-       "name": "Norrköpings HK",
-       "team_id": 76273279,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 0,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 9,
-       "goals_against": 11,
-       "diff": -2,
-       "points": 0,
        "tier": "C-Slutspel",
        "pos": 8
       },
@@ -4227,13 +4227,13 @@
        "name": "KFUM Kalmar HK",
        "team_id": 75546220,
        "is_alingsas": false,
-       "played": 1,
+       "played": 2,
        "won": 0,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 9,
-       "goals_against": 12,
-       "diff": -3,
+       "lost": 2,
+       "goals_for": 20,
+       "goals_against": 24,
+       "diff": -4,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 9
