@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T19:02:04+00:00",
-  "seq": 1783882924,
-  "data_hash": "18a89ddebf61935cb2b8543fe249fda8a7f878d05f5d61d3655b97ce502a4aa4"
+  "generated": "2026-07-12T19:22:08+00:00",
+  "seq": 1783884128,
+  "data_hash": "44a77d72fecf908d8235adc0fd89e22e197379101d28506b86aa403bfe277212"
  },
  "groups": {
   "u8": {
@@ -7417,7 +7417,10 @@
      "grupp": "Grupp 6",
      "mots": "KFUM Kalmar HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1783882800000,
      "start_iso": "2026-07-12T21:00+02:00",
      "day_label": "Söndag 12 juli"
@@ -7437,7 +7440,10 @@
      "grupp": "Grupp 4",
      "mots": "Täby HBK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 13
+     },
      "start_ms": 1783882800000,
      "start_iso": "2026-07-12T21:00+02:00",
      "day_label": "Söndag 12 juli"
