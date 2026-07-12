@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T08:32:02+00:00",
-  "seq": 1783845122,
-  "data_hash": "b4d01c2dd8fbebe006def43bd418936b2af310411deca07c89c98cf2b09a8c61"
+  "generated": "2026-07-12T09:12:08+00:00",
+  "seq": 1783847528,
+  "data_hash": "79913199ed1c19778a60b34ddab456d2cbb1cc16baafd9dc9e966bb09eb09226"
  },
  "groups": {
   "u8": {
@@ -7594,9 +7594,9 @@
      "tid": "13:15",
      "bana": 7,
      "hemma": "Alingsås HK 1",
-     "borta": "Eslövs HK 0 1",
+     "borta": "Eslövs HK 4",
      "grupp": "Grupp 1",
-     "mots": "Eslövs HK 0 1",
+     "mots": "Eslövs HK 4",
      "hb": "Hemma",
      "result": null,
      "start_ms": 1783941300000,
