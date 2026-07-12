@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T18:47:08+00:00",
-  "seq": 1783882028,
-  "data_hash": "906fe03c1c87cc44a03500ab33149c1c5741da017b08d21561887743a80f3694"
+  "generated": "2026-07-12T19:02:04+00:00",
+  "seq": 1783882924,
+  "data_hash": "18a89ddebf61935cb2b8543fe249fda8a7f878d05f5d61d3655b97ce502a4aa4"
  },
  "groups": {
   "u8": {
@@ -7394,7 +7394,10 @@
      "grupp": "Grupp 2",
      "mots": "Åhus Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 16,
+      "ag": 11
+     },
      "start_ms": 1783881900000,
      "start_iso": "2026-07-12T20:45+02:00",
      "day_label": "Söndag 12 juli"

@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T18:57:45+00:00",
-  "seq": 1783882665,
-  "data_hash": "707d5b8af9a7c26767be3259c86e4fb3e9795bdd6d58f853c4c86f43fe0537c1"
+  "generated": "2026-07-12T19:05:48+00:00",
+  "seq": 1783883148,
+  "data_hash": "0ada668da10299d91bec3f166e817fd53ec5d3bcdd3cbb7c23734955191ce363"
  },
  "by_age": {
   "u12": {
@@ -3599,16 +3599,31 @@
        "name": "Ystads IF HF",
        "team_id": 78705197,
        "is_alingsas": false,
-       "played": 3,
+       "played": 4,
        "won": 3,
        "tied": 0,
-       "lost": 0,
-       "goals_for": 30,
-       "goals_against": 21,
-       "diff": 9,
+       "lost": 1,
+       "goals_for": 36,
+       "goals_against": 30,
+       "diff": 6,
        "points": 6,
        "tier": null,
        "pos": 4
+      },
+      {
+       "name": "Lugi HF 1",
+       "team_id": 76993451,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 2,
+       "tied": 0,
+       "lost": 3,
+       "goals_for": 44,
+       "goals_against": 43,
+       "diff": 1,
+       "points": 4,
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
        "name": "HF Karlskrona P09",
@@ -3623,7 +3638,7 @@
        "diff": -5,
        "points": 3,
        "tier": "B-Slutspel",
-       "pos": 5
+       "pos": 6
       },
       {
        "name": "IFK Tumba HK 1",
@@ -3637,8 +3652,8 @@
        "goals_against": 34,
        "diff": -3,
        "points": 3,
-       "tier": "B-Slutspel",
-       "pos": 6
+       "tier": null,
+       "pos": 7
       },
       {
        "name": "IK Sund 1",
@@ -3652,21 +3667,6 @@
        "goals_against": 42,
        "diff": -3,
        "points": 3,
-       "tier": null,
-       "pos": 7
-      },
-      {
-       "name": "Lugi HF 1",
-       "team_id": 76993451,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 1,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 35,
-       "goals_against": 37,
-       "diff": -2,
-       "points": 2,
        "tier": "C-Slutspel",
        "pos": 8
       },
