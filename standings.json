@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-12T13:15:19+00:00",
-  "seq": 1783862119,
-  "data_hash": "52995a9bfecc2d93f84259bfcb7ede260593c33753448a6bd3fd1584d348c95f"
+  "generated": "2026-07-12T13:33:55+00:00",
+  "seq": 1783863235,
+  "data_hash": "5d6db7d33bb59284631d273413745230b40cf523a5939799b37ffc4fa89ffa24"
  },
  "by_age": {
   "u12": {
@@ -3454,17 +3454,17 @@
        "pos": 2
       },
       {
-       "name": "Eslövs HK 4",
-       "team_id": 75013432,
+       "name": "HK Ankaret",
+       "team_id": 77053758,
        "is_alingsas": false,
        "played": 1,
-       "won": 0,
-       "tied": 1,
+       "won": 1,
+       "tied": 0,
        "lost": 0,
-       "goals_for": 13,
-       "goals_against": 13,
-       "diff": 0,
-       "points": 1,
+       "goals_for": 11,
+       "goals_against": 9,
+       "diff": 2,
+       "points": 2,
        "tier": "A-Slutspel",
        "pos": 3
       },
@@ -3484,23 +3484,23 @@
        "pos": 4
       },
       {
-       "name": "IF Hallby HK 1",
-       "team_id": 76583059,
+       "name": "Eslövs HK 4",
+       "team_id": 75013432,
        "is_alingsas": false,
-       "played": 0,
+       "played": 2,
        "won": 0,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 22,
+       "goals_against": 24,
+       "diff": -2,
+       "points": 1,
        "tier": "B-Slutspel",
        "pos": 5
       },
       {
-       "name": "HK Ankaret",
-       "team_id": 77053758,
+       "name": "IF Hallby HK 1",
+       "team_id": 76583059,
        "is_alingsas": false,
        "played": 0,
        "won": 0,
