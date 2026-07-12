@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T09:12:08+00:00",
-  "seq": 1783847528,
-  "data_hash": "79913199ed1c19778a60b34ddab456d2cbb1cc16baafd9dc9e966bb09eb09226"
+  "generated": "2026-07-12T10:02:04+00:00",
+  "seq": 1783850524,
+  "data_hash": "fb1aeb0536eb9c7920ae95f78de239d31882039a9456838ed2a57022e5892bd5"
  },
  "groups": {
   "u8": {
@@ -6818,7 +6818,10 @@
      "grupp": "Grupp 2",
      "mots": "Kärra HF",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 13
+     },
      "start_ms": 1783849500000,
      "start_iso": "2026-07-12T11:45+02:00",
      "day_label": "Söndag 12 juli"
