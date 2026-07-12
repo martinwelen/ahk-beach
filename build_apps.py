@@ -108,6 +108,8 @@ def render_app(group, standings, base, updated):
 
 _ICONS = ("icon-192.png", "icon-512.png", "icon-512-maskable.png",
           "icon-180.png", "favicon-32.png")
+# Statiska filer som kopieras oförändrade till varje app-katalog.
+_ASSETS = _ICONS + ("karta.png",)
 
 
 def _load(path, default):
@@ -137,10 +139,10 @@ def main():
             json.dump(app_manifest(group), f, ensure_ascii=False, indent=2)
         with open(os.path.join(out_dir, "sw.js"), "w", encoding="utf-8") as f:
             f.write(service_worker_js(age_slug))
-        for ic in _ICONS:
-            src = os.path.join(ROOT, ic)
+        for asset in _ASSETS:
+            src = os.path.join(ROOT, asset)
             if os.path.exists(src):
-                shutil.copy(src, os.path.join(out_dir, ic))
+                shutil.copy(src, os.path.join(out_dir, asset))
         built += 1
     print(f"Byggde {built} appar")
     return built

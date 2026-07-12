@@ -145,3 +145,18 @@ def test_service_worker_leaves_foreign_caches_for_live_apps():
     assert "const LEGACY = [];" in sw        # tom lista → raderar ingenting
     assert "ahus-schema-v1" not in sw
     assert "ahk-u13" not in sw
+
+
+def test_build_apps_copies_map_to_every_app(tmp_path, monkeypatch):
+    data = {"meta": {"generated": "x"},
+            "groups": {"u14": _group("u14", "U14"), "u15": _group("u15", "U15")}}
+    (tmp_path / "data.json").write_text(json.dumps(data), encoding="utf-8")
+    for ic in ("icon-192.png", "icon-512.png", "icon-512-maskable.png",
+               "icon-180.png", "favicon-32.png", "karta.png"):
+        (tmp_path / ic).write_bytes(b"x")
+    monkeypatch.setattr(build_apps, "ROOT", str(tmp_path))
+    monkeypatch.setattr(build_apps, "DATA_JSON", str(tmp_path / "data.json"))
+    monkeypatch.setattr(build_apps, "STANDINGS_JSON", str(tmp_path / "nope.json"))
+    build_apps.main()
+    assert (tmp_path / "u14" / "karta.png").exists()
+    assert (tmp_path / "dist-u15" / "karta.png").exists()
