@@ -8,6 +8,7 @@ import shutil
 
 import config
 import template
+import roster_data
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JSON = os.path.join(ROOT, "data.json")
@@ -68,6 +69,12 @@ def _teams_js(group):
              "id": t["id"], "color": t["color"].lstrip("#")} for t in group["teams"]]
 
 
+def _rosters_js(group):
+    """Trupper för gruppens lag → {slug: [spelare]}. Tomt om ingen trupp finns."""
+    slugs = {t["slug"] for t in group["teams"]}
+    return {s: p for s, p in roster_data.rosters.items() if s in slugs}
+
+
 def _dates(group):
     """Distinkta speldagar i tidsordning, t.ex. 'Måndag 13 juli &amp; Tisdag 14 juli'."""
     seen = []
@@ -87,7 +94,7 @@ def render_app(group, standings, base, updated):
             .replace("__CLASSES__", json.dumps(_classes(group), ensure_ascii=False))
             .replace("__DUR_MIN__", str(group["profile"]["duration_min"]))
             .replace("__STANDINGS__", json.dumps(st, ensure_ascii=False))
-            .replace("__ROSTERS__", "{}")
+            .replace("__ROSTERS__", json.dumps(_rosters_js(group), ensure_ascii=False))
             .replace("__CAL_ITEMS__", "")
             .replace("__APPLABEL__", group["label"])
             .replace("__DATES__", _dates(group))
