@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-12T11:32:14+00:00",
-  "seq": 1783855934,
-  "data_hash": "2da6c087d78f58e743f0d303f4dec2a6c06c9be782c4dcf97bd4973f3003d346"
+  "generated": "2026-07-12T12:02:00+00:00",
+  "seq": 1783857720,
+  "data_hash": "41b25f5635f53c4f559b1d26bb2ce8fff2be5618720b090c12e6249f1a2ef0b4"
  },
  "groups": {
   "u8": {
@@ -758,7 +758,10 @@
      "grupp": "Grupp 1",
      "mots": "Åhus Handboll 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1783856700000,
      "start_iso": "2026-07-12T13:45+02:00",
      "day_label": "Söndag 12 juli"
@@ -6893,7 +6896,10 @@
      "grupp": "Grupp 6",
      "mots": "Tyresö Handboll 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 10
+     },
      "start_ms": 1783856700000,
      "start_iso": "2026-07-12T13:45+02:00",
      "day_label": "Söndag 12 juli"
