@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T08:43:42+00:00",
-  "seq": 1783932222,
-  "data_hash": "d4ab3105c9f1f4d3dfcdd3de83d037ef6900b6acd21891b76f86030ab3425444"
+  "generated": "2026-07-13T08:54:46+00:00",
+  "seq": 1783932886,
+  "data_hash": "cc15eac94f79190aa4e7aba7213861b86a1df237cadd24b492f1ec07badf9bd8"
  },
  "by_age": {
   "u12": {
@@ -4022,32 +4022,32 @@
        "pos": 4
       },
       {
-       "name": "HK Aranäs VIT",
-       "team_id": 75922173,
-       "is_alingsas": false,
-       "played": 6,
-       "won": 3,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 49,
-       "goals_against": 57,
-       "diff": -8,
-       "points": 6,
-       "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
        "name": "Eksjö BK 2",
        "team_id": 77568127,
        "is_alingsas": false,
        "played": 5,
        "won": 2,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 31,
+       "tied": 1,
+       "lost": 2,
+       "goals_for": 32,
        "goals_against": 33,
-       "diff": -2,
-       "points": 4,
+       "diff": -1,
+       "points": 5,
+       "tier": "B-Slutspel",
+       "pos": 5
+      },
+      {
+       "name": "HK Aranäs VIT",
+       "team_id": 75922173,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 2,
+       "tied": 1,
+       "lost": 3,
+       "goals_for": 49,
+       "goals_against": 58,
+       "diff": -9,
+       "points": 5,
        "tier": "B-Slutspel",
        "pos": 6
       },
