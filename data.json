@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T16:21:38+00:00",
-  "seq": 1783959698,
-  "data_hash": "3aa95771ca8e949d8b848571ceef37b73da61a069bccdd799719d4483f7a58fe"
+  "generated": "2026-07-13T16:32:04+00:00",
+  "seq": 1783960324,
+  "data_hash": "c77e55c1c31fee4aa13c7c32eca035f60925bc14b198db09179ed40907ec4fbe"
  },
  "groups": {
   "u8": {
@@ -8084,7 +8084,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Tumba HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 9
+     },
      "start_ms": 1783959300000,
      "start_iso": "2026-07-13T18:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8104,7 +8107,10 @@
      "grupp": "A-Slutspel",
      "mots": "Lugi HF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 12
+     },
      "start_ms": 1783959300000,
      "start_iso": "2026-07-13T18:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8127,6 +8133,46 @@
      "result": null,
      "start_ms": 1783961100000,
      "start_iso": "2026-07-13T18:45+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-1",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "19:15",
+     "bana": 1,
+     "hemma": "Alingsås HK 1",
+     "borta": "H43 Lund HF 1",
+     "grupp": "A-Slutspel",
+     "mots": "H43 Lund HF 1",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783962900000,
+     "start_iso": "2026-07-13T19:15+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "19:15",
+     "bana": 4,
+     "hemma": "Alingsås HK 2",
+     "borta": "Norrköpings HK",
+     "grupp": "A-Slutspel",
+     "mots": "Norrköpings HK",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783962900000,
+     "start_iso": "2026-07-13T19:15+02:00",
      "day_label": "Måndag 13 juli"
     }
    ]
