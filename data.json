@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T09:01:37+00:00",
-  "seq": 1783933297,
-  "data_hash": "4cfb66efb26af0ba65d6ff6da239d3c62ca965b10898b608e27557691244e2a8"
+  "generated": "2026-07-13T09:22:16+00:00",
+  "seq": 1783934536,
+  "data_hash": "9375348b1e2606f27a414045e22f3ddad7125ec95a8221e6f3f15f3031f8e59f"
  },
  "groups": {
   "u8": {
@@ -7532,7 +7532,10 @@
      "grupp": "Grupp 6",
      "mots": "Huddinge HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 15,
+      "ag": 11
+     },
      "start_ms": 1783933200000,
      "start_iso": "2026-07-13T11:00+02:00",
      "day_label": "Måndag 13 juli"
@@ -7552,7 +7555,10 @@
      "grupp": "Grupp 4",
      "mots": "Haninge HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 7
+     },
      "start_ms": 1783933200000,
      "start_iso": "2026-07-13T11:00+02:00",
      "day_label": "Måndag 13 juli"
