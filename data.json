@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T13:02:36+00:00",
-  "seq": 1783947756,
-  "data_hash": "e1d356951667598868ac3b1e701b384a7b989ae3f8633d3d354695933f901a85"
+  "generated": "2026-07-13T13:32:26+00:00",
+  "seq": 1783949546,
+  "data_hash": "4055d83d0fecaa99f382d9d1874864ee490af79860a6fe734317455026112ffe"
  },
  "groups": {
   "u8": {
@@ -3765,7 +3765,10 @@
      "grupp": "Grupp 4",
      "mots": "Karlshamns HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 5
+     },
      "start_ms": 1783948500000,
      "start_iso": "2026-07-13T15:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7855,7 +7858,10 @@
      "grupp": "Grupp 2",
      "mots": "HF Karlskrona P09",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 14
+     },
      "start_ms": 1783947600000,
      "start_iso": "2026-07-13T15:00+02:00",
      "day_label": "Måndag 13 juli"
@@ -7875,7 +7881,10 @@
      "grupp": "Grupp 6",
      "mots": "Norrköpings HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 10
+     },
      "start_ms": 1783948500000,
      "start_iso": "2026-07-13T15:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7895,7 +7904,10 @@
      "grupp": "Grupp 4",
      "mots": "Åhus Handboll 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 12
+     },
      "start_ms": 1783948500000,
      "start_iso": "2026-07-13T15:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7938,6 +7950,46 @@
      "result": null,
      "start_ms": 1783953900000,
      "start_iso": "2026-07-13T16:45+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "17:15",
+     "bana": 6,
+     "hemma": "Alingsås HK 2",
+     "borta": "Bästa 4:an",
+     "grupp": "A-Slutspel",
+     "mots": "Bästa 4:an",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783955700000,
+     "start_iso": "2026-07-13T17:15+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-3",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#9c36b5",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "17:30",
+     "bana": 2,
+     "hemma": "Alingsås HK 3",
+     "borta": "Eslövs HK 4",
+     "grupp": "B-Slutspel",
+     "mots": "Eslövs HK 4",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783956600000,
+     "start_iso": "2026-07-13T17:30+02:00",
      "day_label": "Måndag 13 juli"
     },
     {
