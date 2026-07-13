@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T18:51:49+00:00",
-  "seq": 1783968709,
-  "data_hash": "bdfbcac20d0a14cb8268e10d3aead56372d1cee5ccaf3661f00a4e61f01248fd"
+  "generated": "2026-07-13T19:12:08+00:00",
+  "seq": 1783969928,
+  "data_hash": "33a7c4e7329b7933cc476b3a9cefcb09e3800d8535520dd411f92e339d927ccf"
  },
  "groups": {
   "u8": {
@@ -4340,7 +4340,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Kristianstad 4",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 4
+     },
      "start_ms": 1783968300000,
      "start_iso": "2026-07-13T20:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -4360,7 +4363,10 @@
      "grupp": "Grupp 4",
      "mots": "IFK Ystad HK Rd 18",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 16
+     },
      "start_ms": 1783968300000,
      "start_iso": "2026-07-13T20:45+02:00",
      "day_label": "Måndag 13 juli"
