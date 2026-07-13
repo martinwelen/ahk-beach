@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T10:14:50+00:00",
-  "seq": 1783937690,
-  "data_hash": "454ab4a967ea00682d69f6fbd66784e92729b15603f0ae45725a52dc6ecd903a"
+  "generated": "2026-07-13T10:32:09+00:00",
+  "seq": 1783938729,
+  "data_hash": "1d86b37bcb4452f53a6e69ce9ebe41918655c6ad064d4d1531eae9d68fd679d0"
  },
  "groups": {
   "u8": {
@@ -3581,7 +3581,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Karlskrona Svart",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 6
+     },
      "start_ms": 1783937700000,
      "start_iso": "2026-07-13T12:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7647,7 +7650,10 @@
      "grupp": "Grupp 6",
      "mots": "HK Drott Halmstad 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 12
+     },
      "start_ms": 1783937700000,
      "start_iso": "2026-07-13T12:15+02:00",
      "day_label": "Måndag 13 juli"
