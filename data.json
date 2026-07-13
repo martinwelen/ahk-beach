@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T15:02:21+00:00",
-  "seq": 1783954941,
-  "data_hash": "0336036aaba1a94bd0725d31d46dd9356de6409a42dec3f09e37e5af01c5f799"
+  "generated": "2026-07-13T15:21:52+00:00",
+  "seq": 1783956112,
+  "data_hash": "f8db1a1671607c9b5da2f9d8e497493c51885bd72690aca0f82f36be8cfd11ab"
  },
  "groups": {
   "u8": {
@@ -3972,7 +3972,10 @@
      "grupp": "Grupp 1",
      "mots": "IFK Malmö HF Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 8
+     },
      "start_ms": 1783954800000,
      "start_iso": "2026-07-13T17:00+02:00",
      "day_label": "Måndag 13 juli"

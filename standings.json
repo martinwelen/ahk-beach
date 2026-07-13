@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T15:14:51+00:00",
-  "seq": 1783955691,
-  "data_hash": "359c983a5558fe5268cf69882a0db7d4f7719ded9d629dc724c4b68c763d5974"
+  "generated": "2026-07-13T15:24:21+00:00",
+  "seq": 1783956261,
+  "data_hash": "7dcebd7a2cc4c141dc0236c396ee946fdfa1624b01ab28355ec4a3c3acb86333"
  },
  "by_age": {
   "u12": {
@@ -6021,15 +6021,15 @@
             "label": "Uppsala HK Vit",
             "team_id": 77050710,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Falköpings AIK HK 2",
             "team_id": 77307830,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81523016,
@@ -6156,8 +6156,8 @@
            "bana": 5,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072228",
-            "team_id": null,
+            "label": "Uppsala HK Vit",
+            "team_id": 77050710,
             "is_alingsas": false,
             "goals": null
            },
