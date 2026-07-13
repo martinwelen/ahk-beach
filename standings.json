@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T10:43:24+00:00",
-  "seq": 1783939404,
-  "data_hash": "8bc73500c6a9b34115b6ecca31e26ff945dbd7a0639cb6bdf07d1b475aed061f"
+  "generated": "2026-07-13T10:55:58+00:00",
+  "seq": 1783940158,
+  "data_hash": "c952986bbfc79237e5e96a1b741663a0fe81b9385db23d7d0866db39a84e1d20"
  },
  "by_age": {
   "u12": {
@@ -4534,7 +4534,7 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072131",
+            "label": "Vinn. 13072132",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4615,7 +4615,7 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072135",
+            "label": "Vinn. 13072136",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4658,13 +4658,13 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 13072142",
+            "label": "Vinn. 13072143",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072143",
+            "label": "Vinn. 13072144",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4845,7 +4845,7 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072128",
+            "label": "Vinn. 13072129",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4926,7 +4926,7 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072133",
+            "label": "Vinn. 13072134",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5118,7 +5118,7 @@
            "bana": 5,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072129",
+            "label": "Vinn. 13072130",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5553,7 +5553,7 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072130",
+            "label": "Vinn. 13072131",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5634,7 +5634,7 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072134",
+            "label": "Vinn. 13072135",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5677,13 +5677,13 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 13072140",
+            "label": "Vinn. 13072141",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072141",
+            "label": "Vinn. 13072142",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5945,7 +5945,7 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072132",
+            "label": "Vinn. 13072133",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
