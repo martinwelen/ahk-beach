@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T09:46:17+00:00",
-  "seq": 1783935977,
-  "data_hash": "7156fcfc090368f4d9f69aa505706ed71760500f6d49608577b38d374ae1dec0"
+  "generated": "2026-07-13T10:06:23+00:00",
+  "seq": 1783937183,
+  "data_hash": "5a9c594a0dbbf444d296056ad8f5ce1e200c6cf9e3b0c115f6d842ae00a050d6"
  },
  "by_age": {
   "u12": {
@@ -3965,16 +3965,31 @@
        "name": "IFK Kristianstad 1",
        "team_id": 75073394,
        "is_alingsas": false,
-       "played": 5,
-       "won": 5,
+       "played": 6,
+       "won": 6,
        "tied": 0,
        "lost": 0,
-       "goals_for": 55,
-       "goals_against": 37,
-       "diff": 18,
-       "points": 10,
+       "goals_for": 65,
+       "goals_against": 44,
+       "diff": 21,
+       "points": 12,
        "tier": "A-Slutspel",
        "pos": 1
+      },
+      {
+       "name": "Alingsås HK 2",
+       "team_id": 75872646,
+       "is_alingsas": true,
+       "played": 6,
+       "won": 5,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 60,
+       "goals_against": 37,
+       "diff": 23,
+       "points": 10,
+       "tier": "A-Slutspel",
+       "pos": 2
       },
       {
        "name": "Spånga HK Vit",
@@ -3987,21 +4002,6 @@
        "goals_for": 59,
        "goals_against": 48,
        "diff": 11,
-       "points": 10,
-       "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Alingsås HK 2",
-       "team_id": 75872646,
-       "is_alingsas": true,
-       "played": 5,
-       "won": 5,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 53,
-       "goals_against": 27,
-       "diff": 26,
        "points": 10,
        "tier": "A-Slutspel",
        "pos": 3
