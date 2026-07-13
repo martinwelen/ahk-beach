@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T13:51:44+00:00",
-  "seq": 1783950704,
-  "data_hash": "b49d2cb349cfd0659bc23d1626e93dfc9174ae77aaa7d5dbb8d5a5f23a1c2457"
+  "generated": "2026-07-13T14:02:42+00:00",
+  "seq": 1783951362,
+  "data_hash": "e6655b3233b6acfb6c65cf9d7fc63ef2bd156fb059a4dda908ed1336073b5005"
  },
  "groups": {
   "u8": {
@@ -3788,7 +3788,10 @@
      "grupp": "Grupp 1",
      "mots": "HK Halmstad",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 10
+     },
      "start_ms": 1783950300000,
      "start_iso": "2026-07-13T15:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -3808,7 +3811,10 @@
      "grupp": "Grupp 3",
      "mots": "Dalby GIF Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 16,
+      "ag": 11
+     },
      "start_ms": 1783950300000,
      "start_iso": "2026-07-13T15:45+02:00",
      "day_label": "Måndag 13 juli"
