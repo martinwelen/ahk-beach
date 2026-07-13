@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T15:52:06+00:00",
-  "seq": 1783957926,
-  "data_hash": "6e8655536d888f9edc65e043c4772415f059cdf38cbff84352e3cc5cf0b92888"
+  "generated": "2026-07-13T16:02:01+00:00",
+  "seq": 1783958521,
+  "data_hash": "d3e9fb2ce85d9674ad98f07fc7f9dc3f76e319debeeb4a6b631b99dd12200dbe"
  },
  "groups": {
   "u8": {
@@ -4041,7 +4041,10 @@
      "grupp": "Grupp 6",
      "mots": "RP IF Linköping 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 11
+     },
      "start_ms": 1783957500000,
      "start_iso": "2026-07-13T17:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -4061,7 +4064,10 @@
      "grupp": "Grupp 5",
      "mots": "Tyresö Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1783957500000,
      "start_iso": "2026-07-13T17:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -8108,9 +8114,9 @@
      "tid": "18:45",
      "bana": 6,
      "hemma": "Alingsås HK 4",
-     "borta": "Vinn. 13072431",
+     "borta": "Åhus Handboll 1",
      "grupp": "C-Slutspel",
-     "mots": "Vinn. 13072431",
+     "mots": "Åhus Handboll 1",
      "hb": "Hemma",
      "result": null,
      "start_ms": 1783961100000,
