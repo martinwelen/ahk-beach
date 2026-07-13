@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T13:05:18+00:00",
-  "seq": 1783947918,
-  "data_hash": "876cf91ff5bd0b2e1868b2da1f2e5b4f500404d395cffff570a1b9ccbf3a9145"
+  "generated": "2026-07-13T13:16:31+00:00",
+  "seq": 1783948591,
+  "data_hash": "644c72740e6d9fe218331a5ee502655adbaba4301e84d2f8713bd19ae705d7e3"
  },
  "by_age": {
   "u12": {
@@ -3554,14 +3554,14 @@
        "name": "Ystads IF HF",
        "team_id": 78705197,
        "is_alingsas": false,
-       "played": 7,
-       "won": 6,
+       "played": 8,
+       "won": 7,
        "tied": 0,
        "lost": 1,
-       "goals_for": 70,
-       "goals_against": 48,
-       "diff": 22,
-       "points": 12,
+       "goals_for": 80,
+       "goals_against": 54,
+       "diff": 26,
+       "points": 14,
        "tier": "A-Slutspel",
        "pos": 1
       },
@@ -3581,62 +3581,62 @@
        "pos": 2
       },
       {
-       "name": "HK Aranäs Svart",
-       "team_id": 77914109,
-       "is_alingsas": false,
-       "played": 7,
-       "won": 3,
-       "tied": 2,
-       "lost": 2,
-       "goals_for": 54,
-       "goals_against": 53,
-       "diff": 1,
-       "points": 8,
-       "tier": "A-Slutspel",
-       "pos": 3
-      },
-      {
        "name": "Alingsås HK 2",
        "team_id": 75872640,
        "is_alingsas": true,
-       "played": 7,
-       "won": 3,
+       "played": 8,
+       "won": 4,
        "tied": 2,
        "lost": 2,
-       "goals_for": 75,
-       "goals_against": 70,
-       "diff": 5,
-       "points": 8,
-       "tier": null,
-       "pos": 4
+       "goals_for": 89,
+       "goals_against": 80,
+       "diff": 9,
+       "points": 10,
+       "tier": "A-Slutspel",
+       "pos": 3
       },
       {
        "name": "Lugi HF 1",
        "team_id": 76993451,
        "is_alingsas": false,
-       "played": 7,
-       "won": 3,
+       "played": 8,
+       "won": 4,
        "tied": 1,
        "lost": 3,
-       "goals_for": 67,
-       "goals_against": 61,
-       "diff": 6,
-       "points": 7,
-       "tier": "B-Slutspel",
-       "pos": 5
+       "goals_for": 78,
+       "goals_against": 67,
+       "diff": 11,
+       "points": 9,
+       "tier": null,
+       "pos": 4
       },
       {
        "name": "IFK Tumba HK 1",
        "team_id": 79950198,
        "is_alingsas": false,
-       "played": 7,
-       "won": 2,
+       "played": 8,
+       "won": 3,
        "tied": 3,
        "lost": 2,
-       "goals_for": 62,
-       "goals_against": 63,
+       "goals_for": 73,
+       "goals_against": 72,
+       "diff": 1,
+       "points": 9,
+       "tier": "B-Slutspel",
+       "pos": 5
+      },
+      {
+       "name": "HK Aranäs Svart",
+       "team_id": 77914109,
+       "is_alingsas": false,
+       "played": 8,
+       "won": 3,
+       "tied": 2,
+       "lost": 3,
+       "goals_for": 63,
+       "goals_against": 64,
        "diff": -1,
-       "points": 7,
+       "points": 8,
        "tier": "B-Slutspel",
        "pos": 6
       },
@@ -3644,13 +3644,13 @@
        "name": "HF Karlskrona P09",
        "team_id": 77620807,
        "is_alingsas": false,
-       "played": 7,
+       "played": 8,
        "won": 2,
        "tied": 1,
-       "lost": 4,
-       "goals_for": 57,
-       "goals_against": 63,
-       "diff": -6,
+       "lost": 5,
+       "goals_for": 67,
+       "goals_against": 77,
+       "diff": -10,
        "points": 5,
        "tier": null,
        "pos": 7
@@ -3659,13 +3659,13 @@
        "name": "IK Sund 1",
        "team_id": 76780756,
        "is_alingsas": false,
-       "played": 7,
+       "played": 8,
        "won": 1,
        "tied": 1,
-       "lost": 5,
-       "goals_for": 61,
-       "goals_against": 77,
-       "diff": -16,
+       "lost": 6,
+       "goals_for": 67,
+       "goals_against": 88,
+       "diff": -21,
        "points": 3,
        "tier": "C-Slutspel",
        "pos": 8
@@ -3674,13 +3674,13 @@
        "name": "Åhus Handboll 1",
        "team_id": 74384972,
        "is_alingsas": false,
-       "played": 7,
+       "played": 8,
        "won": 1,
        "tied": 0,
-       "lost": 6,
-       "goals_for": 53,
-       "goals_against": 78,
-       "diff": -25,
+       "lost": 7,
+       "goals_for": 59,
+       "goals_against": 88,
+       "diff": -29,
        "points": 2,
        "tier": "C-Slutspel",
        "pos": 9
@@ -4334,9 +4334,9 @@
            "bana": 6,
            "round": "1/16 Final",
            "home": {
-            "label": "3:an i Grupp 2",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 2",
+            "team_id": 75872640,
+            "is_alingsas": true,
             "goals": null
            },
            "away": {
@@ -4396,8 +4396,8 @@
            "bana": 2,
            "round": "1/8 Final",
            "home": {
-            "label": "2:an i Grupp 2",
-            "team_id": null,
+            "label": "Eslövs HK 2",
+            "team_id": 79386588,
             "is_alingsas": false,
             "goals": null
            },
@@ -4453,8 +4453,8 @@
            "bana": 5,
            "round": "1/8 Final",
            "home": {
-            "label": "1:an i Grupp 2",
-            "team_id": null,
+            "label": "Ystads IF HF",
+            "team_id": 78705197,
             "is_alingsas": false,
             "goals": null
            },
@@ -4726,8 +4726,8 @@
            "bana": 3,
            "round": "1/8 Final",
            "home": {
-            "label": "5:an i Grupp 2",
-            "team_id": null,
+            "label": "IFK Tumba HK 1",
+            "team_id": 79950198,
             "is_alingsas": false,
             "goals": null
            },
@@ -4789,8 +4789,8 @@
             "goals": null
            },
            "away": {
-            "label": "6:an i Grupp 2",
-            "team_id": null,
+            "label": "HK Aranäs Svart",
+            "team_id": 77914109,
             "is_alingsas": false,
             "goals": null
            },
@@ -5043,8 +5043,8 @@
             "goals": null
            },
            "away": {
-            "label": "9:an i Grupp 2",
-            "team_id": null,
+            "label": "Åhus Handboll 1",
+            "team_id": 74384972,
             "is_alingsas": false,
             "goals": null
            },
@@ -5181,8 +5181,8 @@
             "goals": null
            },
            "away": {
-            "label": "8:an i Grupp 2",
-            "team_id": null,
+            "label": "IK Sund 1",
+            "team_id": 76780756,
             "is_alingsas": false,
             "goals": null
            },
