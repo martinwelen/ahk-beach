@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T16:32:04+00:00",
-  "seq": 1783960324,
-  "data_hash": "c77e55c1c31fee4aa13c7c32eca035f60925bc14b198db09179ed40907ec4fbe"
+  "generated": "2026-07-13T17:02:06+00:00",
+  "seq": 1783962126,
+  "data_hash": "5979589a83072ac5a5549d4b6a2956a2714b39766a59205312477b3a808ec067"
  },
  "groups": {
   "u8": {
@@ -8130,7 +8130,10 @@
      "grupp": "C-Slutspel",
      "mots": "Åhus Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 8
+     },
      "start_ms": 1783961100000,
      "start_iso": "2026-07-13T18:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -8173,6 +8176,26 @@
      "result": null,
      "start_ms": 1783962900000,
      "start_iso": "2026-07-13T19:15+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-4",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "19:45",
+     "bana": 2,
+     "hemma": "Tyresö Handboll 1",
+     "borta": "Alingsås HK 4",
+     "grupp": "C-Slutspel",
+     "mots": "Tyresö Handboll 1",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1783964700000,
+     "start_iso": "2026-07-13T19:45+02:00",
      "day_label": "Måndag 13 juli"
     }
    ]
