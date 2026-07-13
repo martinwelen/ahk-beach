@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T17:31:25+00:00",
-  "seq": 1783963885,
-  "data_hash": "82e542a14e343e2337531592de3d678d5fd31a5443a91eaafe0cbf59c7b6a31c"
+  "generated": "2026-07-13T17:51:52+00:00",
+  "seq": 1783965112,
+  "data_hash": "641da7146c7f45f8089f0ad3ac19eedee2689f8b100b63004215a7fc4df69997"
  },
  "groups": {
   "u8": {
@@ -4179,7 +4179,10 @@
      "grupp": "Grupp 4",
      "mots": "Eslövs HK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 12
+     },
      "start_ms": 1783963800000,
      "start_iso": "2026-07-13T19:30+02:00",
      "day_label": "Måndag 13 juli"
@@ -4199,7 +4202,10 @@
      "grupp": "Grupp 5",
      "mots": "Åhus Handboll 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 15
+     },
      "start_ms": 1783963800000,
      "start_iso": "2026-07-13T19:30+02:00",
      "day_label": "Måndag 13 juli"
