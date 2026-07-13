@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T12:03:44+00:00",
-  "seq": 1783944224,
-  "data_hash": "5a4270af88571280d23eedfc12a0685cdf7bcbdc8d8d7ba6bdf744a05d5f99c6"
+  "generated": "2026-07-13T12:21:12+00:00",
+  "seq": 1783945272,
+  "data_hash": "0a92937e1366e84ca764c5e6ca45d81402a1984a6332477183ca428523353367"
  },
  "groups": {
   "u8": {
@@ -7800,7 +7800,10 @@
      "grupp": "Grupp 2",
      "mots": "IK Bolton",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 16,
+      "ag": 13
+     },
      "start_ms": 1783944000000,
      "start_iso": "2026-07-13T14:00+02:00",
      "day_label": "Måndag 13 juli"
