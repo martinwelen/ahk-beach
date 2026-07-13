@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T14:32:03+00:00",
-  "seq": 1783953123,
-  "data_hash": "f9da8395b7adef9750454e67559ab348f7a3465c582d16db9d0e45d630497ac7"
+  "generated": "2026-07-13T14:52:06+00:00",
+  "seq": 1783954326,
+  "data_hash": "32522314f31345e0bbc5da72812de3f7c279f5c341d30e91582b3d051f279bbd"
  },
  "groups": {
   "u8": {
@@ -3926,7 +3926,10 @@
      "grupp": "Grupp 4",
      "mots": "Höörs HK H 65 Röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 7
+     },
      "start_ms": 1783953000000,
      "start_iso": "2026-07-13T16:30+02:00",
      "day_label": "Måndag 13 juli"
@@ -7945,7 +7948,10 @@
      "grupp": "A-Slutspel",
      "mots": "H43 Lund HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 7
+     },
      "start_ms": 1783953000000,
      "start_iso": "2026-07-13T16:30+02:00",
      "day_label": "Måndag 13 juli"
@@ -8008,6 +8014,26 @@
      "result": null,
      "start_ms": 1783956600000,
      "start_iso": "2026-07-13T17:30+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-f-2",
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "18:00",
+     "bana": 8,
+     "hemma": "IFK Kristianstad 3",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "IFK Kristianstad 3",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1783958400000,
+     "start_iso": "2026-07-13T18:00+02:00",
      "day_label": "Måndag 13 juli"
     },
     {

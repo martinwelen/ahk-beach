@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T14:44:07+00:00",
-  "seq": 1783953847,
-  "data_hash": "4d24b8230c99771d730f69dbe881ae978493c3a6dbd72a87caa028ef37f53291"
+  "generated": "2026-07-13T14:55:12+00:00",
+  "seq": 1783954512,
+  "data_hash": "191bd66d493fdd69490d04d1066fd5057a6cb0711c510a5030332c453a0a72ee"
  },
  "by_age": {
   "u12": {
@@ -5318,15 +5318,15 @@
             "label": "IFK Tumba HK",
             "team_id": 76236793,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Skuru IK",
             "team_id": 77868418,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81522980,
@@ -5459,8 +5459,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072326",
-            "team_id": null,
+            "label": "Skuru IK",
+            "team_id": 77868418,
             "is_alingsas": false,
             "goals": null
            },
