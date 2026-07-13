@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T19:12:08+00:00",
-  "seq": 1783969928,
-  "data_hash": "33a7c4e7329b7933cc476b3a9cefcb09e3800d8535520dd411f92e339d927ccf"
+  "generated": "2026-07-13T19:21:18+00:00",
+  "seq": 1783970478,
+  "data_hash": "449763034caa73e6f3a8bab4c894024b394cb8517cec5d289c0d81faec782415"
  },
  "groups": {
   "u8": {
@@ -4386,7 +4386,10 @@
      "grupp": "Grupp 5",
      "mots": "HK Björnen Gul",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 13
+     },
      "start_ms": 1783969200000,
      "start_iso": "2026-07-13T21:00+02:00",
      "day_label": "Måndag 13 juli"
@@ -4406,7 +4409,10 @@
      "grupp": "Grupp 6",
      "mots": "Hässleholms HF 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 3
+     },
      "start_ms": 1783969200000,
      "start_iso": "2026-07-13T21:00+02:00",
      "day_label": "Måndag 13 juli"
