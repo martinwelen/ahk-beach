@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T14:22:09+00:00",
-  "seq": 1783952529,
-  "data_hash": "81eb2f6c89bcedab28835840f4d0380d79a9ef93325ac05dd1df85771e40350d"
+  "generated": "2026-07-13T14:32:03+00:00",
+  "seq": 1783953123,
+  "data_hash": "f9da8395b7adef9750454e67559ab348f7a3465c582d16db9d0e45d630497ac7"
  },
  "groups": {
   "u8": {
@@ -3880,7 +3880,10 @@
      "grupp": "Grupp 6",
      "mots": "IFK Malmö HF Blå",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 9
+     },
      "start_ms": 1783952100000,
      "start_iso": "2026-07-13T16:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -3900,7 +3903,10 @@
      "grupp": "Grupp 1",
      "mots": "Haninge HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 7
+     },
      "start_ms": 1783952100000,
      "start_iso": "2026-07-13T16:15+02:00",
      "day_label": "Måndag 13 juli"
