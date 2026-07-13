@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T17:51:52+00:00",
-  "seq": 1783965112,
-  "data_hash": "641da7146c7f45f8089f0ad3ac19eedee2689f8b100b63004215a7fc4df69997"
+  "generated": "2026-07-13T18:02:11+00:00",
+  "seq": 1783965731,
+  "data_hash": "d06bacb2b225ef51966e6b0e13b49d1d074a2781a56f34ce9e166173b9968a71"
  },
  "groups": {
   "u8": {
@@ -4225,7 +4225,10 @@
      "grupp": "Grupp 6",
      "mots": "Staffanstorps HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 13
+     },
      "start_ms": 1783964700000,
      "start_iso": "2026-07-13T19:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -8214,7 +8217,10 @@
      "grupp": "C-Slutspel",
      "mots": "Eskilstuna Guif IF Svenska Guldpojkar",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 12
+     },
      "start_ms": 1783964700000,
      "start_iso": "2026-07-13T19:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -8234,6 +8240,26 @@
      "grupp": "A-Slutspel",
      "mots": "Ystads IF HF",
      "hb": "Borta",
+     "result": null,
+     "start_ms": 1783970100000,
+     "start_iso": "2026-07-13T21:15+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-4",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "21:15",
+     "bana": 2,
+     "hemma": "Alingsås HK 4",
+     "borta": "IF Hallby HK 2",
+     "grupp": "C-Slutspel",
+     "mots": "IF Hallby HK 2",
+     "hb": "Hemma",
      "result": null,
      "start_ms": 1783970100000,
      "start_iso": "2026-07-13T21:15+02:00",
