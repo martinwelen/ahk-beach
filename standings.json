@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T18:14:36+00:00",
-  "seq": 1783966476,
-  "data_hash": "bdf53e48bab6aded29be3b50aaa53614636f0994229f704dfcadc2a451d68d40"
+  "generated": "2026-07-13T18:23:57+00:00",
+  "seq": 1783967037,
+  "data_hash": "df262b268a5d82717b952f467c09c6b44557db35b6518c716c86a652cafc04ee"
  },
  "by_age": {
   "u12": {
@@ -5175,18 +5175,18 @@
            "bana": 8,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072730",
+            "label": "HF Karlskrona P09",
             "team_id": 77620807,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "IK Sund 1",
             "team_id": 76780756,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -6354,6 +6354,21 @@
        "pos": 3
       },
       {
+       "name": "HF Karlskrona Svart",
+       "team_id": 74876324,
+       "is_alingsas": false,
+       "played": 3,
+       "won": 2,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 37,
+       "goals_against": 35,
+       "diff": 2,
+       "points": 4,
+       "tier": "A-Slutspel",
+       "pos": 4
+      },
+      {
        "name": "IFK Malmö HF 2",
        "team_id": 75067346,
        "is_alingsas": false,
@@ -6365,21 +6380,6 @@
        "goals_against": 49,
        "diff": -5,
        "points": 3,
-       "tier": "A-Slutspel",
-       "pos": 4
-      },
-      {
-       "name": "HF Karlskrona Svart",
-       "team_id": 74876324,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 1,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 21,
-       "goals_against": 22,
-       "diff": -1,
-       "points": 2,
        "tier": null,
        "pos": 5
       },
@@ -6402,13 +6402,13 @@
        "name": "Haninge HK",
        "team_id": 74474178,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 1,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 28,
-       "goals_against": 42,
-       "diff": -14,
+       "lost": 4,
+       "goals_for": 41,
+       "goals_against": 58,
+       "diff": -17,
        "points": 2,
        "tier": null,
        "pos": 7
