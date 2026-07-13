@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T10:34:47+00:00",
-  "seq": 1783938887,
-  "data_hash": "bb701d090b18a1d18af3d626a8d522b28d3ea8181967e5adef0bd0c89cbb7ae9"
+  "generated": "2026-07-13T10:43:24+00:00",
+  "seq": 1783939404,
+  "data_hash": "8bc73500c6a9b34115b6ecca31e26ff945dbd7a0639cb6bdf07d1b475aed061f"
  },
  "by_age": {
   "u12": {
@@ -3820,6 +3820,21 @@
      "division_id": 81521864,
      "rows": [
       {
+       "name": "Lödde Vikings HK",
+       "team_id": 76525013,
+       "is_alingsas": false,
+       "played": 7,
+       "won": 4,
+       "tied": 2,
+       "lost": 1,
+       "goals_for": 75,
+       "goals_against": 63,
+       "diff": 12,
+       "points": 10,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "IK Sund 2",
        "team_id": 76780758,
        "is_alingsas": false,
@@ -3832,7 +3847,7 @@
        "diff": 17,
        "points": 9,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
       },
       {
        "name": "IF Hallby HK 3",
@@ -3847,34 +3862,19 @@
        "diff": 7,
        "points": 9,
        "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Lödde Vikings HK",
-       "team_id": 76525013,
-       "is_alingsas": false,
-       "played": 6,
-       "won": 3,
-       "tied": 2,
-       "lost": 1,
-       "goals_for": 66,
-       "goals_against": 56,
-       "diff": 10,
-       "points": 8,
-       "tier": "A-Slutspel",
        "pos": 3
       },
       {
        "name": "Eslövs HK 3",
        "team_id": 79386590,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 4,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 48,
-       "goals_against": 39,
-       "diff": 9,
+       "lost": 2,
+       "goals_for": 55,
+       "goals_against": 48,
+       "diff": 7,
        "points": 8,
        "tier": null,
        "pos": 4
@@ -3883,14 +3883,14 @@
        "name": "IFK Tumba HK 2",
        "team_id": 79950200,
        "is_alingsas": false,
-       "played": 5,
-       "won": 2,
+       "played": 6,
+       "won": 3,
        "tied": 2,
        "lost": 1,
-       "goals_for": 51,
-       "goals_against": 44,
-       "diff": 7,
-       "points": 6,
+       "goals_for": 59,
+       "goals_against": 49,
+       "diff": 10,
+       "points": 8,
        "tier": "B-Slutspel",
        "pos": 5
       },
@@ -3898,13 +3898,13 @@
        "name": "Alingsås HK 4",
        "team_id": 76536139,
        "is_alingsas": true,
-       "played": 6,
+       "played": 7,
        "won": 2,
        "tied": 1,
-       "lost": 3,
-       "goals_for": 51,
-       "goals_against": 55,
-       "diff": -4,
+       "lost": 4,
+       "goals_for": 56,
+       "goals_against": 63,
+       "diff": -7,
        "points": 5,
        "tier": "B-Slutspel",
        "pos": 6
