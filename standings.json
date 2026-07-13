@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T20:25:32+00:00",
-  "seq": 1783974332,
-  "data_hash": "2838e769474e77394c3d2098a817662823419065a070195d126d788e5d326a23"
+  "generated": "2026-07-13T20:45:23+00:00",
+  "seq": 1783975523,
+  "data_hash": "65e52e68189f8e0145a97d4e124771ff69028131f28b9024d49d496cbb8e98d6"
  },
  "by_age": {
   "u12": {
@@ -4661,15 +4661,15 @@
             "label": "H43 Lund HF 1",
             "team_id": 76418122,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Ystads IF HF",
             "team_id": 78705197,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
