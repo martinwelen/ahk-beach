@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T17:11:57+00:00",
-  "seq": 1783962717,
-  "data_hash": "aad493d2730786d81385cd3a28504f007f935e0814613da915c8719505d3497c"
+  "generated": "2026-07-13T17:21:33+00:00",
+  "seq": 1783963293,
+  "data_hash": "7fbbf1cd871f9bbb76e525bd6d34dfa152fd880e0ac0f1736353c8ae83c65ba1"
  },
  "groups": {
   "u8": {
@@ -4110,7 +4110,10 @@
      "grupp": "Grupp 6",
      "mots": "IF Hallby HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 9
+     },
      "start_ms": 1783962000000,
      "start_iso": "2026-07-13T19:00+02:00",
      "day_label": "Måndag 13 juli"
@@ -4130,7 +4133,10 @@
      "grupp": "Grupp 1",
      "mots": "Lugi HF Spader",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 9
+     },
      "start_ms": 1783962000000,
      "start_iso": "2026-07-13T19:00+02:00",
      "day_label": "Måndag 13 juli"
