@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T18:21:41+00:00",
-  "seq": 1783966901,
-  "data_hash": "4934c8be73d5c15566378d962647c8bedd80fcb20497e3d8ac8686f9f616f2a6"
+  "generated": "2026-07-13T18:28:37+00:00",
+  "seq": 1783967317,
+  "data_hash": "46a9dd3d64c7ef5a083b0fa3d77a6b95f84e7656e457e2983bfe915ef9be498a"
  },
  "groups": {
   "u8": {
@@ -4271,7 +4271,10 @@
      "grupp": "Grupp 4",
      "mots": "GT Söder Handbollsklubb",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 7
+     },
      "start_ms": 1783966500000,
      "start_iso": "2026-07-13T20:15+02:00",
      "day_label": "Måndag 13 juli"
