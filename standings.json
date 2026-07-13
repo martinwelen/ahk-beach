@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T17:15:12+00:00",
-  "seq": 1783962912,
-  "data_hash": "47c27d442239866ed1cde88d6c7660e8b24f7072069393a0749aa8598e358c00"
+  "generated": "2026-07-13T17:34:49+00:00",
+  "seq": 1783964089,
+  "data_hash": "72281e1f73646be3f6e20d835c560059a7aed52a57dd79a483357be0c01a56ea"
  },
  "by_age": {
   "u12": {
@@ -4537,15 +4537,15 @@
             "label": "Alingsås HK 1",
             "team_id": 75872638,
             "is_alingsas": true,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "H43 Lund HF 1",
             "team_id": 76418122,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81522072,
@@ -4556,15 +4556,15 @@
             "label": "Eslövs HK 1",
             "team_id": 79386586,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "HK Drott Halmstad 1",
             "team_id": 77632859,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81522078,
@@ -4575,15 +4575,15 @@
             "label": "Ystads IF HF",
             "team_id": 78705197,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Eslövs HK 3",
             "team_id": 79386590,
             "is_alingsas": false,
-            "goals": null
+            "goals": 4
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81522082,
@@ -4594,15 +4594,15 @@
             "label": "Alingsås HK 2",
             "team_id": 75872640,
             "is_alingsas": true,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Norrköpings HK",
             "team_id": 76273279,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -4615,14 +4615,14 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072137",
-            "team_id": null,
+            "label": "H43 Lund HF 1",
+            "team_id": 76418122,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072237",
-            "team_id": null,
+            "label": "HK Drott Halmstad 1",
+            "team_id": 77632859,
             "is_alingsas": false,
             "goals": null
            },
@@ -4634,15 +4634,15 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072337",
-            "team_id": null,
+            "label": "Ystads IF HF",
+            "team_id": 78705197,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072437",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 2",
+            "team_id": 75872640,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
@@ -6593,6 +6593,36 @@
      "division_id": 81848026,
      "rows": [
       {
+       "name": "Skuru IK Vit",
+       "team_id": 76086913,
+       "is_alingsas": false,
+       "played": 4,
+       "won": 3,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 54,
+       "goals_against": 48,
+       "diff": 6,
+       "points": 6,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
+       "name": "IFK Kristianstad 4",
+       "team_id": 77200455,
+       "is_alingsas": false,
+       "played": 4,
+       "won": 3,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 45,
+       "goals_against": 45,
+       "diff": 0,
+       "points": 6,
+       "tier": "A-Slutspel",
+       "pos": 2
+      },
+      {
        "name": "Lugi HF Hjärter",
        "team_id": 77085999,
        "is_alingsas": false,
@@ -6604,36 +6634,6 @@
        "goals_against": 23,
        "diff": 9,
        "points": 5,
-       "tier": "A-Slutspel",
-       "pos": 1
-      },
-      {
-       "name": "Ystads IF HF 2",
-       "team_id": 77223531,
-       "is_alingsas": false,
-       "played": 3,
-       "won": 2,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 42,
-       "goals_against": 30,
-       "diff": 12,
-       "points": 4,
-       "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Skuru IK Vit",
-       "team_id": 76086913,
-       "is_alingsas": false,
-       "played": 3,
-       "won": 2,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 41,
-       "goals_against": 40,
-       "diff": 1,
-       "points": 4,
        "tier": "A-Slutspel",
        "pos": 3
       },
@@ -6653,19 +6653,34 @@
        "pos": 4
       },
       {
-       "name": "IFK Kristianstad 4",
-       "team_id": 77200455,
+       "name": "HK Ankaret Röd",
+       "team_id": 77459348,
+       "is_alingsas": false,
+       "played": 4,
+       "won": 2,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 51,
+       "goals_against": 40,
+       "diff": 11,
+       "points": 4,
+       "tier": null,
+       "pos": 5
+      },
+      {
+       "name": "Ystads IF HF 2",
+       "team_id": 77223531,
        "is_alingsas": false,
        "played": 3,
        "won": 2,
        "tied": 0,
        "lost": 1,
-       "goals_for": 34,
-       "goals_against": 35,
-       "diff": -1,
+       "goals_for": 42,
+       "goals_against": 30,
+       "diff": 12,
        "points": 4,
-       "tier": null,
-       "pos": 5
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "Mönsterås HK 2",
@@ -6680,34 +6695,19 @@
        "diff": 0,
        "points": 3,
        "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
-       "name": "HK Ankaret Röd",
-       "team_id": 77459348,
-       "is_alingsas": false,
-       "played": 3,
-       "won": 1,
-       "tied": 0,
-       "lost": 2,
-       "goals_for": 33,
-       "goals_against": 33,
-       "diff": 0,
-       "points": 2,
-       "tier": "B-Slutspel",
        "pos": 7
       },
       {
        "name": "Lödde Vikings HK Svart 2",
        "team_id": 76524043,
        "is_alingsas": false,
-       "played": 3,
+       "played": 4,
        "won": 1,
        "tied": 0,
-       "lost": 2,
-       "goals_for": 29,
-       "goals_against": 33,
-       "diff": -4,
+       "lost": 3,
+       "goals_for": 37,
+       "goals_against": 46,
+       "diff": -9,
        "points": 2,
        "tier": null,
        "pos": 8
@@ -6716,13 +6716,13 @@
        "name": "IF Hallby HK Blå",
        "team_id": 77179043,
        "is_alingsas": false,
-       "played": 3,
+       "played": 4,
        "won": 1,
        "tied": 0,
-       "lost": 2,
-       "goals_for": 29,
-       "goals_against": 38,
-       "diff": -9,
+       "lost": 3,
+       "goals_for": 39,
+       "goals_against": 49,
+       "diff": -10,
        "points": 2,
        "tier": "C-Slutspel",
        "pos": 9
@@ -6731,13 +6731,13 @@
        "name": "Alingsås HK Blå",
        "team_id": 75452202,
        "is_alingsas": true,
-       "played": 3,
+       "played": 4,
        "won": 0,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 30,
-       "goals_against": 42,
-       "diff": -12,
+       "lost": 4,
+       "goals_for": 37,
+       "goals_against": 60,
+       "diff": -23,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 10

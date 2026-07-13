@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T17:21:33+00:00",
-  "seq": 1783963293,
-  "data_hash": "7fbbf1cd871f9bbb76e525bd6d34dfa152fd880e0ac0f1736353c8ae83c65ba1"
+  "generated": "2026-07-13T17:31:25+00:00",
+  "seq": 1783963885,
+  "data_hash": "82e542a14e343e2337531592de3d678d5fd31a5443a91eaafe0cbf59c7b6a31c"
  },
  "groups": {
   "u8": {
@@ -4156,7 +4156,10 @@
      "grupp": "Grupp 3",
      "mots": "HK Ankaret Röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 18,
+      "ag": 7
+     },
      "start_ms": 1783962900000,
      "start_iso": "2026-07-13T19:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8159,7 +8162,10 @@
      "grupp": "A-Slutspel",
      "mots": "H43 Lund HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 10
+     },
      "start_ms": 1783962900000,
      "start_iso": "2026-07-13T19:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8179,7 +8185,10 @@
      "grupp": "A-Slutspel",
      "mots": "Norrköpings HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 12
+     },
      "start_ms": 1783962900000,
      "start_iso": "2026-07-13T19:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8202,6 +8211,26 @@
      "result": null,
      "start_ms": 1783964700000,
      "start_iso": "2026-07-13T19:45+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "21:15",
+     "bana": 1,
+     "hemma": "Ystads IF HF",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "Ystads IF HF",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1783970100000,
+     "start_iso": "2026-07-13T21:15+02:00",
      "day_label": "Måndag 13 juli"
     }
    ]
