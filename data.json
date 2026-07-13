@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T10:52:07+00:00",
-  "seq": 1783939927,
-  "data_hash": "c8e28c975d341768fb9e98ef2d572c08fe2da1111b49ae23abfe037ac5ee8dc7"
+  "generated": "2026-07-13T11:04:24+00:00",
+  "seq": 1783940664,
+  "data_hash": "32b1ce4278a903cacf81eba893082e6db00ed305e99ffd51d1cb65092925f1bb"
  },
  "groups": {
   "u8": {
@@ -3604,7 +3604,10 @@
      "grupp": "Grupp 4",
      "mots": "IFK Kristianstad",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 9
+     },
      "start_ms": 1783939500000,
      "start_iso": "2026-07-13T12:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -7696,7 +7699,10 @@
      "grupp": "Grupp 2",
      "mots": "Lödde Vikings HK Röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 6
+     },
      "start_ms": 1783939500000,
      "start_iso": "2026-07-13T12:45+02:00",
      "day_label": "Måndag 13 juli"

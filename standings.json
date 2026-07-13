@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T10:55:58+00:00",
-  "seq": 1783940158,
-  "data_hash": "c952986bbfc79237e5e96a1b741663a0fe81b9385db23d7d0866db39a84e1d20"
+  "generated": "2026-07-13T11:08:47+00:00",
+  "seq": 1783940927,
+  "data_hash": "537e745db59feabd48f9b6b9714a32d80c2a82667b45db442c128ead1f84b80b"
  },
  "by_age": {
   "u12": {
@@ -3693,6 +3693,36 @@
      "division_id": 81522660,
      "rows": [
       {
+       "name": "Ystads IF HF",
+       "team_id": 81459140,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 4,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 60,
+       "goals_against": 49,
+       "diff": 11,
+       "points": 9,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
+       "name": "Vinslövs HK",
+       "team_id": 75073275,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 4,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 57,
+       "goals_against": 48,
+       "diff": 9,
+       "points": 8,
+       "tier": "A-Slutspel",
+       "pos": 2
+      },
+      {
        "name": "Höörs HK H 65 3",
        "team_id": 77860362,
        "is_alingsas": false,
@@ -3705,79 +3735,49 @@
        "diff": 13,
        "points": 8,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 3
       },
       {
        "name": "Lugi HF 2",
        "team_id": 78476515,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 3,
        "tied": 2,
-       "lost": 0,
-       "goals_for": 47,
-       "goals_against": 39,
-       "diff": 8,
-       "points": 8,
-       "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Ystads IF HF",
-       "team_id": 81459140,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 3,
-       "tied": 1,
        "lost": 1,
-       "goals_for": 48,
-       "goals_against": 41,
-       "diff": 7,
-       "points": 7,
-       "tier": "A-Slutspel",
-       "pos": 3
-      },
-      {
-       "name": "Vinslövs HK",
-       "team_id": 75073275,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 3,
-       "tied": 0,
-       "lost": 2,
-       "goals_for": 48,
-       "goals_against": 43,
-       "diff": 5,
-       "points": 6,
+       "goals_for": 52,
+       "goals_against": 48,
+       "diff": 4,
+       "points": 8,
        "tier": null,
        "pos": 4
-      },
-      {
-       "name": "Alingsås HK 1",
-       "team_id": 75872644,
-       "is_alingsas": true,
-       "played": 5,
-       "won": 2,
-       "tied": 1,
-       "lost": 2,
-       "goals_for": 47,
-       "goals_against": 47,
-       "diff": 0,
-       "points": 5,
-       "tier": "B-Slutspel",
-       "pos": 5
       },
       {
        "name": "Lödde Vikings HK Röd",
        "team_id": 76524524,
        "is_alingsas": false,
-       "played": 5,
-       "won": 2,
+       "played": 6,
+       "won": 3,
        "tied": 1,
        "lost": 2,
-       "goals_for": 43,
-       "goals_against": 44,
-       "diff": -1,
+       "goals_for": 52,
+       "goals_against": 50,
+       "diff": 2,
+       "points": 7,
+       "tier": "B-Slutspel",
+       "pos": 5
+      },
+      {
+       "name": "Alingsås HK 1",
+       "team_id": 75872644,
+       "is_alingsas": true,
+       "played": 6,
+       "won": 2,
+       "tied": 1,
+       "lost": 3,
+       "goals_for": 53,
+       "goals_against": 56,
+       "diff": -3,
        "points": 5,
        "tier": "B-Slutspel",
        "pos": 6
@@ -3801,13 +3801,13 @@
        "name": "IK Bolton",
        "team_id": 81124783,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 0,
        "tied": 1,
-       "lost": 4,
-       "goals_for": 34,
-       "goals_against": 47,
-       "diff": -13,
+       "lost": 5,
+       "goals_for": 42,
+       "goals_against": 59,
+       "diff": -17,
        "points": 1,
        "tier": "C-Slutspel",
        "pos": 8
@@ -4516,7 +4516,7 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072729",
+            "label": "Vinn. 13072728",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4534,7 +4534,7 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072132",
+            "label": "Vinn. 13072133",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4591,7 +4591,7 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072733",
+            "label": "Vinn. 13072732",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4615,7 +4615,7 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072136",
+            "label": "Vinn. 13072137",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4658,13 +4658,13 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 13072143",
+            "label": "Vinn. 13072144",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072144",
+            "label": "Vinn. 13072145",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4845,7 +4845,7 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072129",
+            "label": "Vinn. 13072130",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4902,7 +4902,7 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072730",
+            "label": "Vinn. 13072729",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -4926,7 +4926,7 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072134",
+            "label": "Vinn. 13072135",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5118,7 +5118,7 @@
            "bana": 5,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072130",
+            "label": "Vinn. 13072131",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5175,7 +5175,7 @@
            "bana": 8,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072731",
+            "label": "Vinn. 13072730",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5218,7 +5218,7 @@
            "bana": 3,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072735",
+            "label": "Vinn. 13072734",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5553,7 +5553,7 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072131",
+            "label": "Vinn. 13072132",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5610,7 +5610,7 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072732",
+            "label": "Vinn. 13072731",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5634,7 +5634,7 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072135",
+            "label": "Vinn. 13072136",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5677,13 +5677,13 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 13072141",
+            "label": "Vinn. 13072142",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072142",
+            "label": "Vinn. 13072143",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5921,7 +5921,7 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 13072727",
+            "label": "Vinn. 13072726",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -5945,7 +5945,7 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072133",
+            "label": "Vinn. 13072134",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -6200,7 +6200,7 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072728",
+            "label": "Vinn. 13072727",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -6256,7 +6256,7 @@
            "bana": 3,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 13072734",
+            "label": "Vinn. 13072733",
             "team_id": null,
             "is_alingsas": false,
             "goals": null
@@ -6750,47 +6750,47 @@
      "division_id": 81848534,
      "rows": [
       {
-       "name": "Höörs HK H 65 Röd",
-       "team_id": 73898941,
+       "name": "HK Eskil 2",
+       "team_id": 76816270,
        "is_alingsas": false,
-       "played": 0,
-       "won": 0,
+       "played": 1,
+       "won": 1,
        "tied": 0,
        "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
+       "goals_for": 7,
+       "goals_against": 3,
+       "diff": 4,
+       "points": 2,
        "tier": "A-Slutspel",
        "pos": 1
       },
       {
-       "name": "Ystads IF HF 1",
-       "team_id": 75072622,
+       "name": "IFK Kristianstad",
+       "team_id": 76866985,
        "is_alingsas": false,
-       "played": 0,
-       "won": 0,
+       "played": 1,
+       "won": 1,
        "tied": 0,
        "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
+       "goals_for": 12,
+       "goals_against": 9,
+       "diff": 3,
+       "points": 2,
        "tier": "A-Slutspel",
        "pos": 2
       },
       {
-       "name": "Alingsås HK 3",
-       "team_id": 76175341,
-       "is_alingsas": true,
-       "played": 0,
-       "won": 0,
+       "name": "Höörs HK H 65 Röd",
+       "team_id": 73898941,
+       "is_alingsas": false,
+       "played": 1,
+       "won": 1,
        "tied": 0,
        "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
+       "goals_for": 9,
+       "goals_against": 6,
+       "diff": 3,
+       "points": 2,
        "tier": "A-Slutspel",
        "pos": 3
       },
@@ -6825,46 +6825,46 @@
        "pos": 5
       },
       {
-       "name": "HK Eskil 2",
-       "team_id": 76816270,
-       "is_alingsas": false,
-       "played": 0,
+       "name": "Alingsås HK 3",
+       "team_id": 76175341,
+       "is_alingsas": true,
+       "played": 1,
        "won": 0,
        "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
+       "lost": 1,
+       "goals_for": 9,
+       "goals_against": 12,
+       "diff": -3,
        "points": 0,
        "tier": "B-Slutspel",
        "pos": 6
       },
       {
-       "name": "IFK Kristianstad",
-       "team_id": 76866985,
+       "name": "Karlshamns HF",
+       "team_id": 77528730,
        "is_alingsas": false,
-       "played": 0,
+       "played": 1,
        "won": 0,
        "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
+       "lost": 1,
+       "goals_for": 6,
+       "goals_against": 9,
+       "diff": -3,
        "points": 0,
        "tier": null,
        "pos": 7
       },
       {
-       "name": "Karlshamns HF",
-       "team_id": 77528730,
+       "name": "Ystads IF HF 1",
+       "team_id": 75072622,
        "is_alingsas": false,
-       "played": 0,
+       "played": 1,
        "won": 0,
        "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
+       "lost": 1,
+       "goals_for": 3,
+       "goals_against": 7,
+       "diff": -4,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 8
