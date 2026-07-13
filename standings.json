@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T19:33:55+00:00",
-  "seq": 1783971235,
-  "data_hash": "e8635b9895550d3ffc3424fb81f0d5ba4c931936d52e1b9d3bb28ca74d35a04d"
+  "generated": "2026-07-13T19:44:52+00:00",
+  "seq": 1783971892,
+  "data_hash": "f3e874c486cc3a98d9eae6cdc15c0bf63890dcc2af38d91267896c6c75bae2cc"
  },
  "by_age": {
   "u12": {
@@ -5991,15 +5991,15 @@
             "label": "IFK Malmö HF 1",
             "team_id": 74330081,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Eskilstuna Guif IF 1",
             "team_id": 76293762,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
