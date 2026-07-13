@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T11:22:32+00:00",
-  "seq": 1783941752,
-  "data_hash": "7a0f16144e347e157cc1c9173a33d5f87af3eff89019166a0331ee0bad87a75f"
+  "generated": "2026-07-13T11:31:49+00:00",
+  "seq": 1783942309,
+  "data_hash": "f7bc06a7fe9e2db60bdaeb9bfd228cf65dca846631889ea0df6ad0612f3ca5cf"
  },
  "groups": {
   "u8": {
@@ -3627,7 +3627,10 @@
      "grupp": "Grupp 6",
      "mots": "HK Malmö RÖD",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 10
+     },
      "start_ms": 1783941300000,
      "start_iso": "2026-07-13T13:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7745,7 +7748,10 @@
      "grupp": "Grupp 1",
      "mots": "Eslövs HK 4",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 6
+     },
      "start_ms": 1783941300000,
      "start_iso": "2026-07-13T13:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7765,7 +7771,10 @@
      "grupp": "Grupp 2",
      "mots": "IFK Tumba HK 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 10
+     },
      "start_ms": 1783941300000,
      "start_iso": "2026-07-13T13:15+02:00",
      "day_label": "Måndag 13 juli"
