@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T19:21:18+00:00",
-  "seq": 1783970478,
-  "data_hash": "449763034caa73e6f3a8bab4c894024b394cb8517cec5d289c0d81faec782415"
+  "generated": "2026-07-13T19:31:41+00:00",
+  "seq": 1783971101,
+  "data_hash": "b4f22d9f2610a399094088a09c616492ca6a8ac84220561ddf10412e0231819a"
  },
  "groups": {
   "u8": {
@@ -8264,7 +8264,10 @@
      "grupp": "A-Slutspel",
      "mots": "Ystads IF HF",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 10
+     },
      "start_ms": 1783970100000,
      "start_iso": "2026-07-13T21:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8284,7 +8287,10 @@
      "grupp": "C-Slutspel",
      "mots": "IF Hallby HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 9
+     },
      "start_ms": 1783970100000,
      "start_iso": "2026-07-13T21:15+02:00",
      "day_label": "Måndag 13 juli"

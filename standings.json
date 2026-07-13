@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T19:15:45+00:00",
-  "seq": 1783970145,
-  "data_hash": "57746f7d731e952a53a3121d94ac80cd3ed7a3fd09c23bc697f0ed60b37b1cd3"
+  "generated": "2026-07-13T19:33:55+00:00",
+  "seq": 1783971235,
+  "data_hash": "e8635b9895550d3ffc3424fb81f0d5ba4c931936d52e1b9d3bb28ca74d35a04d"
  },
  "by_age": {
   "u12": {
@@ -4637,15 +4637,15 @@
             "label": "Ystads IF HF",
             "team_id": 78705197,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Alingsås HK 2",
             "team_id": 75872640,
             "is_alingsas": true,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -4664,8 +4664,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 13072145",
-            "team_id": null,
+            "label": "Ystads IF HF",
+            "team_id": 78705197,
             "is_alingsas": false,
             "goals": null
            },
@@ -5245,15 +5245,15 @@
             "label": "Alingsås HK 4",
             "team_id": 76536139,
             "is_alingsas": true,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "IF Hallby HK 2",
             "team_id": 76583063,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
