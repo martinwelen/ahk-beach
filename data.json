@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T08:52:05+00:00",
-  "seq": 1783932725,
-  "data_hash": "a575170af010407e38f08a6abfaeb3d60f2e712573b4ed262f798a343f8e9ecb"
+  "generated": "2026-07-13T09:01:37+00:00",
+  "seq": 1783933297,
+  "data_hash": "4cfb66efb26af0ba65d6ff6da239d3c62ca965b10898b608e27557691244e2a8"
  },
  "groups": {
   "u8": {
@@ -7509,7 +7509,10 @@
      "grupp": "Grupp 2",
      "mots": "Eslövs HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 11
+     },
      "start_ms": 1783932300000,
      "start_iso": "2026-07-13T10:45+02:00",
      "day_label": "Måndag 13 juli"
