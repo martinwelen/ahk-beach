@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T16:02:01+00:00",
-  "seq": 1783958521,
-  "data_hash": "d3e9fb2ce85d9674ad98f07fc7f9dc3f76e319debeeb4a6b631b99dd12200dbe"
+  "generated": "2026-07-13T16:21:38+00:00",
+  "seq": 1783959698,
+  "data_hash": "3aa95771ca8e949d8b848571ceef37b73da61a069bccdd799719d4483f7a58fe"
  },
  "groups": {
   "u8": {
@@ -4087,7 +4087,10 @@
      "grupp": "Grupp 1",
      "mots": "HK Ceres Norrtälje",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 7
+     },
      "start_ms": 1783958400000,
      "start_iso": "2026-07-13T18:00+02:00",
      "day_label": "Måndag 13 juli"
@@ -8058,7 +8061,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Kristianstad 3",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 9
+     },
      "start_ms": 1783958400000,
      "start_iso": "2026-07-13T18:00+02:00",
      "day_label": "Måndag 13 juli"
