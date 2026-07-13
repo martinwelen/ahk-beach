@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T10:03:35+00:00",
-  "seq": 1783937015,
-  "data_hash": "e2ebbd3c20f022aec3d022a8997ed463b944cbcd0b774ad4519325e7579c08a9"
+  "generated": "2026-07-13T10:14:50+00:00",
+  "seq": 1783937690,
+  "data_hash": "454ab4a967ea00682d69f6fbd66784e92729b15603f0ae45725a52dc6ecd903a"
  },
  "groups": {
   "u8": {
@@ -7624,7 +7624,10 @@
      "grupp": "Grupp 2",
      "mots": "Ystads IF HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 12
+     },
      "start_ms": 1783936800000,
      "start_iso": "2026-07-13T12:00+02:00",
      "day_label": "Måndag 13 juli"
