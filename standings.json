@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T19:44:52+00:00",
-  "seq": 1783971892,
-  "data_hash": "f3e874c486cc3a98d9eae6cdc15c0bf63890dcc2af38d91267896c6c75bae2cc"
+  "generated": "2026-07-13T20:00:20+00:00",
+  "seq": 1783972820,
+  "data_hash": "8662cca9b17fac7495dd19cb151b7bd536c3aa39570212c14ab98cf5f9c4cd68"
  },
  "by_age": {
   "u12": {
@@ -4972,15 +4972,15 @@
             "label": "HK Aranäs Vit",
             "team_id": 74171303,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
            "away": {
             "label": "Lugi HF 3",
             "team_id": 76993455,
             "is_alingsas": false,
-            "goals": null
+            "goals": 15
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
