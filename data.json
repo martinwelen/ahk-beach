@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T12:21:12+00:00",
-  "seq": 1783945272,
-  "data_hash": "0a92937e1366e84ca764c5e6ca45d81402a1984a6332477183ca428523353367"
+  "generated": "2026-07-13T12:31:32+00:00",
+  "seq": 1783945892,
+  "data_hash": "2323e15c188556c95d19c8543c8eb51eec2961ad69e3fb17403802d9959616be"
  },
  "groups": {
   "u8": {
@@ -3696,7 +3696,10 @@
      "grupp": "Grupp 4",
      "mots": "HK Ankaret Svart",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 9
+     },
      "start_ms": 1783944900000,
      "start_iso": "2026-07-13T14:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -3716,7 +3719,10 @@
      "grupp": "Grupp 5",
      "mots": "Lugi HF Ruter",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 5
+     },
      "start_ms": 1783944900000,
      "start_iso": "2026-07-13T14:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7823,7 +7829,10 @@
      "grupp": "Grupp 5",
      "mots": "Hässleholms HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 14
+     },
      "start_ms": 1783944900000,
      "start_iso": "2026-07-13T14:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -7886,6 +7895,26 @@
      "result": null,
      "start_ms": 1783948500000,
      "start_iso": "2026-07-13T15:15+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-f-1",
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "16:45",
+     "bana": 6,
+     "hemma": "5:an i Grupp 5",
+     "borta": "Alingsås HK 1",
+     "grupp": "B-Slutspel",
+     "mots": "5:an i Grupp 5",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1783953900000,
+     "start_iso": "2026-07-13T16:45+02:00",
      "day_label": "Måndag 13 juli"
     }
    ]
