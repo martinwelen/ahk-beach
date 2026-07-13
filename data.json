@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T15:21:52+00:00",
-  "seq": 1783956112,
-  "data_hash": "f8db1a1671607c9b5da2f9d8e497493c51885bd72690aca0f82f36be8cfd11ab"
+  "generated": "2026-07-13T15:30:39+00:00",
+  "seq": 1783956639,
+  "data_hash": "2cc06037ddc204d5abdc2c75a543f29246bb73d8513904dcfa25b32f552bea43"
  },
  "groups": {
   "u8": {
@@ -3995,7 +3995,10 @@
      "grupp": "Grupp 3",
      "mots": "Lödde Vikings HK Svart 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 8
+     },
      "start_ms": 1783955700000,
      "start_iso": "2026-07-13T17:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8000,7 +8003,10 @@
      "grupp": "A-Slutspel",
      "mots": "IK Sund 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 12
+     },
      "start_ms": 1783955700000,
      "start_iso": "2026-07-13T17:15+02:00",
      "day_label": "Måndag 13 juli"
@@ -8056,10 +8062,30 @@
      "tid": "18:15",
      "bana": 1,
      "hemma": "Alingsås HK 1",
-     "borta": "Vinn. 13072229",
+     "borta": "IFK Tumba HK 2",
      "grupp": "A-Slutspel",
-     "mots": "Vinn. 13072229",
+     "mots": "IFK Tumba HK 2",
      "hb": "Hemma",
+     "result": null,
+     "start_ms": 1783959300000,
+     "start_iso": "2026-07-13T18:15+02:00",
+     "day_label": "Måndag 13 juli"
+    },
+    {
+     "age_slug": "u17",
+     "slug": "u17-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-13",
+     "dag": "Måndag",
+     "tid": "18:15",
+     "bana": 7,
+     "hemma": "Lugi HF 2",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "Lugi HF 2",
+     "hb": "Borta",
      "result": null,
      "start_ms": 1783959300000,
      "start_iso": "2026-07-13T18:15+02:00",
