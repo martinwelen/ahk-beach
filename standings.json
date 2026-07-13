@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T14:13:52+00:00",
-  "seq": 1783952032,
-  "data_hash": "abed69fce470e0db61d0b43c688e891027c00f5bed303e006951078f50dbd8d6"
+  "generated": "2026-07-13T14:25:33+00:00",
+  "seq": 1783952733,
+  "data_hash": "ba08a99f2788c237f52953c7f69961b4aaee13c72c90523b118e67d5bd8252aa"
  },
  "by_age": {
   "u12": {
@@ -6623,6 +6623,21 @@
        "pos": 2
       },
       {
+       "name": "Lugi HF Hjärter",
+       "team_id": 77085999,
+       "is_alingsas": false,
+       "played": 2,
+       "won": 1,
+       "tied": 1,
+       "lost": 0,
+       "goals_for": 20,
+       "goals_against": 13,
+       "diff": 7,
+       "points": 3,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "Skuru IK Vit",
        "team_id": 76086913,
        "is_alingsas": false,
@@ -6635,7 +6650,7 @@
        "diff": -1,
        "points": 2,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "IF Hallby HK Blå",
@@ -6648,21 +6663,6 @@
        "goals_for": 19,
        "goals_against": 26,
        "diff": -7,
-       "points": 2,
-       "tier": "A-Slutspel",
-       "pos": 4
-      },
-      {
-       "name": "IFK Kristianstad 4",
-       "team_id": 77200455,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 1,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 15,
-       "goals_against": 10,
-       "diff": 5,
        "points": 2,
        "tier": null,
        "pos": 5
@@ -6683,17 +6683,17 @@
        "pos": 6
       },
       {
-       "name": "Lugi HF Hjärter",
-       "team_id": 77085999,
+       "name": "IFK Kristianstad 4",
+       "team_id": 77200455,
        "is_alingsas": false,
-       "played": 1,
-       "won": 0,
-       "tied": 1,
-       "lost": 0,
-       "goals_for": 7,
-       "goals_against": 7,
-       "diff": 0,
-       "points": 1,
+       "played": 2,
+       "won": 1,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 21,
+       "goals_against": 23,
+       "diff": -2,
+       "points": 2,
        "tier": "B-Slutspel",
        "pos": 7
       },
