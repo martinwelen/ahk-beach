@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T11:31:49+00:00",
-  "seq": 1783942309,
-  "data_hash": "f7bc06a7fe9e2db60bdaeb9bfd228cf65dca846631889ea0df6ad0612f3ca5cf"
+  "generated": "2026-07-13T11:52:32+00:00",
+  "seq": 1783943552,
+  "data_hash": "5565bf3cfbf00e57913c96cabf56583e94bc2c2e5578e512218f7e7a997799cf"
  },
  "groups": {
   "u8": {
@@ -3650,7 +3650,10 @@
      "grupp": "Grupp 1",
      "mots": "Falköpings AIK HK Röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 10
+     },
      "start_ms": 1783942200000,
      "start_iso": "2026-07-13T13:30+02:00",
      "day_label": "Måndag 13 juli"
