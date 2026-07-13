@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-13T20:00:20+00:00",
-  "seq": 1783972820,
-  "data_hash": "8662cca9b17fac7495dd19cb151b7bd536c3aa39570212c14ab98cf5f9c4cd68"
+  "generated": "2026-07-13T20:25:32+00:00",
+  "seq": 1783974332,
+  "data_hash": "2838e769474e77394c3d2098a817662823419065a070195d126d788e5d326a23"
  },
  "by_age": {
   "u12": {
@@ -5680,15 +5680,15 @@
             "label": "IK Sävehof (PBB) Partille Beach Beasts",
             "team_id": 74292548,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Ystads IF HF",
             "team_id": 81459140,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
