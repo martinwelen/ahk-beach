@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T14:52:06+00:00",
-  "seq": 1783954326,
-  "data_hash": "32522314f31345e0bbc5da72812de3f7c279f5c341d30e91582b3d051f279bbd"
+  "generated": "2026-07-13T15:02:21+00:00",
+  "seq": 1783954941,
+  "data_hash": "0336036aaba1a94bd0725d31d46dd9356de6409a42dec3f09e37e5af01c5f799"
  },
  "groups": {
   "u8": {
@@ -3949,7 +3949,10 @@
      "grupp": "Grupp 6",
      "mots": "Västerviks HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 2
+     },
      "start_ms": 1783953900000,
      "start_iso": "2026-07-13T16:45+02:00",
      "day_label": "Måndag 13 juli"
@@ -7971,7 +7974,10 @@
      "grupp": "B-Slutspel",
      "mots": "Eskilstuna Guif IF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 7
+     },
      "start_ms": 1783953900000,
      "start_iso": "2026-07-13T16:45+02:00",
      "day_label": "Måndag 13 juli"
