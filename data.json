@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T17:02:06+00:00",
-  "seq": 1783962126,
-  "data_hash": "5979589a83072ac5a5549d4b6a2956a2714b39766a59205312477b3a808ec067"
+  "generated": "2026-07-13T17:11:57+00:00",
+  "seq": 1783962717,
+  "data_hash": "aad493d2730786d81385cd3a28504f007f935e0814613da915c8719505d3497c"
  },
  "groups": {
   "u8": {
@@ -8188,10 +8188,10 @@
      "dag": "Måndag",
      "tid": "19:45",
      "bana": 2,
-     "hemma": "Tyresö Handboll 1",
+     "hemma": "Eskilstuna Guif IF Svenska Guldpojkar",
      "borta": "Alingsås HK 4",
      "grupp": "C-Slutspel",
-     "mots": "Tyresö Handboll 1",
+     "mots": "Eskilstuna Guif IF Svenska Guldpojkar",
      "hb": "Borta",
      "result": null,
      "start_ms": 1783964700000,
