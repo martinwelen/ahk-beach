@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T11:43:10+00:00",
-  "seq": 1784029390,
-  "data_hash": "872e1e36a8a728a9293222d2a13b9a60a3341f28b764f6564db23b09df22d34c"
+  "generated": "2026-07-14T11:51:26+00:00",
+  "seq": 1784029886,
+  "data_hash": "5c063693dfb0bbec5e7a1a39223583cb1e050f66b85e5cd44194f9d624db1fb8"
  },
  "groups": {
   "u8": {
@@ -4846,7 +4846,10 @@
      "grupp": "Grupp 1",
      "mots": "Mönsterås HK 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 10
+     },
      "start_ms": 1784028600000,
      "start_iso": "2026-07-14T13:30+02:00",
      "day_label": "Tisdag 14 juli"
