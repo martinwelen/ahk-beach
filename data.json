@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T16:22:03+00:00",
-  "seq": 1784046123,
-  "data_hash": "41c17a930b971fea4a447eda8123eaebd170fe8bd84b4b405ae7f16d39bd839d"
+  "generated": "2026-07-14T17:08:30+00:00",
+  "seq": 1784048910,
+  "data_hash": "9558184d5fb0b2c1bba5c5072515bcb04c7d2a552e516d63b6d153dd207184fa"
  },
  "groups": {
   "u8": {
@@ -6027,7 +6027,10 @@
      "grupp": "B-Slutspel",
      "mots": "Lugi HF Spader",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1784047500000,
      "start_iso": "2026-07-14T18:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -6050,7 +6053,10 @@
      "grupp": "C-Slutspel",
      "mots": "Falköpings AIK HK Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 10
+     },
      "start_ms": 1784047500000,
      "start_iso": "2026-07-14T18:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -6076,6 +6082,29 @@
      "result": null,
      "start_ms": 1784048400000,
      "start_iso": "2026-07-14T19:00+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-p-1",
+     "id": 81848350,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "20:15",
+     "bana": 2,
+     "video": "https://solidsport.com/ahusbeach/watch/vinn-14072133-vinn-14072235-d2dd04c0-b3b7-47c0-a514-94dbd783a74e",
+     "runda": "Semifinal",
+     "hemma": "Alingsås HK 1",
+     "borta": "RP IF Linköping 1",
+     "grupp": "B-Slutspel",
+     "mots": "RP IF Linköping 1",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784052900000,
+     "start_iso": "2026-07-14T20:15+02:00",
      "day_label": "Tisdag 14 juli"
     }
    ]
