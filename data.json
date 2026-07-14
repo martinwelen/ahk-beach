@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T18:32:27+00:00",
-  "seq": 1784053947,
-  "data_hash": "75cc24edcf32307b943a604ad1535e150b8261149d075abaccb2ad136b4dd2ea"
+  "generated": "2026-07-14T18:52:42+00:00",
+  "seq": 1784055162,
+  "data_hash": "38d9bd28218fb3a740c382db25fc9325876e73c18df6a0e611ef434885cdaec1"
  },
  "groups": {
   "u8": {
@@ -7880,7 +7880,10 @@
      "grupp": "Grupp 6",
      "mots": "Uppsala HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 12
+     },
      "start_ms": 1784053800000,
      "start_iso": "2026-07-14T20:30+02:00",
      "day_label": "Tisdag 14 juli"
