@@ -656,8 +656,10 @@ document.addEventListener("click", async e=>{
   const openBtn=document.getElementById("mapopen");
   const ov=document.getElementById("mapzoom");
   const img=document.getElementById("mapzoom-img");
+  const stage=document.getElementById("mapzoom-stage");
   const closeBtn=document.getElementById("mapzoom-close");
-  if(!openBtn||!ov||!img||!closeBtn) return;
+  if(!openBtn||!ov||!img||!stage||!closeBtn) return;
+  stage.style.willChange="transform";
   let scale=1, tx=0, ty=0, lastDist=0, lastMid=null, lastTap=0, justLifted=false;
   const pts=new Map(), MIN=1, MAX=6;
   const clamp=()=>{
@@ -665,7 +667,7 @@ document.addEventListener("click", async e=>{
     const ox=Math.max(0,(w-window.innerWidth)/2), oy=Math.max(0,(h-window.innerHeight)/2);
     tx=Math.max(-ox, Math.min(ox, tx)); ty=Math.max(-oy, Math.min(oy, ty));
   };
-  const apply=()=>{ clamp(); img.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; };
+  const apply=()=>{ clamp(); stage.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; };
   const reset=()=>{ scale=1; tx=0; ty=0; apply(); };
   const open=()=>{ ov.hidden=false; document.body.style.overflow="hidden"; reset(); };
   const close=()=>{ ov.hidden=true; document.body.style.overflow=""; pts.clear(); lastDist=0; };

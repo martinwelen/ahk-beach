@@ -77,3 +77,10 @@ def test_map_markers_markup():
     assert 'id="mk-zoom"' in t                  # markörcontainer i helskärmsläget
     assert 'id="mapinfo"' in t                  # infochip under helskärmsläget
     assert "mapmarkers" in t                    # CSS-klassen finns
+
+
+def test_zoom_transforms_stage_not_img():
+    t = template.TEMPLATE
+    assert 'stage.style.transform=' in t        # transform sätts på stage (inte img)
+    assert 'img.style.transform=' not in t      # img transformeras inte direkt
+    assert 'stage.style.willChange="transform"' in t  # willChange på stage
