@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T19:04:26+00:00",
-  "seq": 1784055866,
-  "data_hash": "385ba3e65abff980ae7a1cb66f6bcbb03cebdfd86e988f6ba7a92c37f08691a7"
+  "generated": "2026-07-14T19:12:16+00:00",
+  "seq": 1784056336,
+  "data_hash": "7e9c2a277c09caf06690a81feb8c9903315d13a77618f59814655ea396baeb8e"
  },
  "by_age": {
   "u12": {
@@ -8660,15 +8660,15 @@
             "label": "IK Lågan Hörby",
             "team_id": 74535161,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Huddinge HK Vindslitna",
             "team_id": 76175814,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
@@ -9166,15 +9166,15 @@
             "label": "Åhus Handboll 2",
             "team_id": 74384964,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "IFK Ystad HK Red dynamite",
             "team_id": 77164253,
             "is_alingsas": false,
-            "goals": null
+            "goals": 16
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81848331,
@@ -9206,8 +9206,8 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 14072144",
-            "team_id": null,
+            "label": "IFK Ystad HK Red dynamite",
+            "team_id": 77164253,
             "is_alingsas": false,
             "goals": null
            },
@@ -10040,6 +10040,21 @@
        "pos": 3
       },
       {
+       "name": "Åhus Handboll",
+       "team_id": 74384970,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 2,
+       "tied": 1,
+       "lost": 2,
+       "goals_for": 52,
+       "goals_against": 50,
+       "diff": 2,
+       "points": 5,
+       "tier": "A-Slutspel",
+       "pos": 4
+      },
+      {
        "name": "Tyresö Handboll 1",
        "team_id": 75063058,
        "is_alingsas": false,
@@ -10051,8 +10066,8 @@
        "goals_against": 52,
        "diff": -1,
        "points": 5,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
        "name": "Alingsås HK 1",
@@ -10067,7 +10082,7 @@
        "diff": 3,
        "points": 4,
        "tier": "B-Slutspel",
-       "pos": 5
+       "pos": 6
       },
       {
        "name": "Karlshamns HF",
@@ -10081,21 +10096,6 @@
        "goals_against": 35,
        "diff": 3,
        "points": 4,
-       "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
-       "name": "Åhus Handboll",
-       "team_id": 74384970,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 1,
-       "tied": 1,
-       "lost": 2,
-       "goals_for": 39,
-       "goals_against": 42,
-       "diff": -3,
-       "points": 3,
        "tier": "B-Slutspel",
        "pos": 7
       },
@@ -10133,13 +10133,13 @@
        "name": "IFK Malmö HF 2",
        "team_id": 74991153,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 0,
        "tied": 2,
-       "lost": 2,
-       "goals_for": 40,
-       "goals_against": 47,
-       "diff": -7,
+       "lost": 3,
+       "goals_for": 48,
+       "goals_against": 60,
+       "diff": -12,
        "points": 2,
        "tier": "C-Slutspel",
        "pos": 10
