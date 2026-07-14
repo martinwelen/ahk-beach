@@ -236,6 +236,11 @@ footer a{color:var(--sea)}
 #mapzoom-close{position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px;
   z-index:1001;width:44px;height:44px;border:0;border-radius:50%;background:#13293dcc;
   color:#fff;font-size:1.2rem;line-height:1;cursor:pointer}
+.lscore{display:inline-flex;align-items:center;gap:6px;margin-top:6px;font-weight:800;
+  color:#d22f27;font-size:.95rem}
+.lscore .pulse{width:8px;height:8px;border-radius:50%;background:#d22f27;animation:pulse 1.1s infinite}
+.vidlink{display:inline-block;margin-top:6px;font-weight:800;font-size:.82rem;color:#fff;
+  background:#d22f27;padding:3px 9px;border-radius:999px;text-decoration:none}
 </style>
 </head>
 <body>
@@ -394,13 +399,15 @@ function render(){
     const st = state(m, now);
     const homeAli = m.hb==="Hemma";
     html +=
-      `<article class="match ${st}" style="--c:#${m.color}">
+      `<article class="match ${st}" data-mid="${m.id||''}" style="--c:#${m.color}">
         <div class="t">${m.t}${st==="live"?'<small class="nowtag">NU</small>':""}</div>
         <div>
           <div class="chips"><span class="lagchip" style="background:#${m.color}">${esc(m.lag)}</span>
             ${m.klass?`<span class="klasschip">${esc(m.klass)}</span>`:""}<span class="grp">${esc(m.grp)}</span></div>
           <div class="vs"><span class="${homeAli?"ali":""}">${esc(m.home)}</span> – <span class="${homeAli?"":"ali"}">${esc(m.away)}</span></div>
+          <div class="lscore" hidden></div>
           ${m.res ? `<div class="score"><b class="${m.res.hg>m.res.ag?'w':m.res.hg<m.res.ag?'l':''}">${m.res.hg}</b><span class="x">–</span><b class="${m.res.ag>m.res.hg?'w':m.res.ag<m.res.hg?'l':''}">${m.res.ag}</b></div>` : ""}
+          ${m.video?`<a class="vidlink" href="${m.video}" target="_blank" rel="noopener" aria-label="Se video på solidsport">▶ Video</a>`:""}
         </div>
         <div class="bana"><small>BANA</small><b>${esc(m.bana)}</b></div>
       </article>`;
