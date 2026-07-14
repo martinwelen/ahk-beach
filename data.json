@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T13:22:03+00:00",
-  "seq": 1784035323,
-  "data_hash": "d371db89569197afd952b90f99b6b918516396c4bc014d9a95aaaa43ad95115d"
+  "generated": "2026-07-14T13:32:43+00:00",
+  "seq": 1784035963,
+  "data_hash": "0916f9be1f02a88d1379a74060b73cdc4bffc483dcb8ed4f589874a2aaef0f4a"
  },
  "groups": {
   "u8": {
@@ -5030,7 +5030,10 @@
      "grupp": "Grupp 3",
      "mots": "IF Hallby HK Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 4,
+      "ag": 13
+     },
      "start_ms": 1784034900000,
      "start_iso": "2026-07-14T15:15+02:00",
      "day_label": "Tisdag 14 juli"
