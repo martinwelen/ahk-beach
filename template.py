@@ -251,13 +251,17 @@ footer a{color:var(--sea)}
   background:#e8730c;color:#fff;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
 #mapzoom-stage{position:relative;will-change:transform}
 .mapmarkers{position:absolute;inset:0;pointer-events:none}
-.mapmark{position:absolute;width:22px;height:22px;border-radius:50%;background:#e8730c;
-  border:2px solid #fff;transform:translate(-50%,-50%);display:flex;align-items:center;
-  justify-content:center;font-size:.65rem;font-weight:800;color:#fff;pointer-events:auto;cursor:pointer}
-.mapmark:hover,.mapmark.active{background:#d22f27;z-index:2}
-#mapinfo{position:fixed;bottom:72px;left:50%;transform:translateX(-50%);background:#13293dcc;
-  color:#fff;padding:8px 16px;border-radius:999px;font-size:.9rem;font-weight:700;z-index:1002;
-  white-space:nowrap}
+.mk{position:absolute;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:50%;
+  border:2px solid #fff;box-shadow:0 1px 4px #0006}
+.mk.live{background:#d22f27;animation:pulse 1.1s infinite}
+.mk.next{background:#e8730c}
+#mk-zoom{pointer-events:none}
+#mk-zoom .mk{pointer-events:auto;cursor:pointer}
+#mapinfo{position:fixed;bottom:calc(env(safe-area-inset-bottom,0px) + 16px);left:50%;
+  transform:translateX(-50%);max-width:92vw;background:#13293dee;color:#fff;padding:9px 15px;
+  border-radius:999px;font-size:.92rem;font-weight:600;z-index:1002;box-shadow:0 4px 16px #0007}
+#mapinfo .k{font-weight:800;color:#e8730c;margin-right:6px}
+#mapinfo .ls{color:#ff6a5f;font-weight:800;margin-left:8px}
 </style>
 </head>
 <body>
