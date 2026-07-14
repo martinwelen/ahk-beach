@@ -50,3 +50,12 @@ def test_card_shows_playoff_round():
     assert 'class="rundachip"' in t
     assert 'm.runda' in t
     assert 'hm.runda' in t
+
+
+def test_livescore_shows_final_score_before_robot():
+    # Latensfix: klienten visar slutsiffran från MatchResult (finished) direkt,
+    # men bara om robotens .score inte redan finns (undviker dubbel).
+    t = template.TEMPLATE
+    assert "s.finished" in t
+    assert "Slut " in t
+    assert 'querySelector(".score")' in t

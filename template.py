@@ -239,6 +239,7 @@ footer a{color:var(--sea)}
 .lscore{display:inline-flex;align-items:center;gap:6px;margin-top:6px;font-weight:800;
   color:#d22f27;font-size:.95rem}
 .lscore .pulse{width:8px;height:8px;border-radius:50%;background:#d22f27;animation:pulse 1.1s infinite}
+.lscore.done{color:#13293d}
 .vidlink{display:inline-block;margin-top:6px;font-weight:800;font-size:.82rem;color:#fff;
   background:#d22f27;padding:3px 9px;border-radius:999px;text-decoration:none}
 .herolist{display:flex;flex-direction:column;gap:10px}
@@ -682,8 +683,13 @@ document.addEventListener("click", async e=>{
 function applyLive(id){
   const s = liveState[id];
   for(const el of document.querySelectorAll(`[data-mid="${id}"] .lscore`)){
+    // robotens slutresultat (.score) syns redan? låt då den styra – dubbla inte.
+    const hasRes = el.parentElement && el.parentElement.querySelector(".score");
     if(s && s.live && !s.finished){
-      el.innerHTML = `<span class="pulse"></span>LIVE ${s.hg}–${s.ag}`; el.hidden = false;
+      el.className = "lscore"; el.innerHTML = `<span class="pulse"></span>LIVE ${s.hg}–${s.ag}`; el.hidden = false;
+    } else if(s && s.finished && !isNaN(s.hg) && !hasRes){
+      // slutsiffra från MatchResult innan roboten hunnit skriva om data.json (~10 min)
+      el.className = "lscore done"; el.innerHTML = `Slut ${s.hg}–${s.ag}`; el.hidden = false;
     } else { el.hidden = true; el.innerHTML = ""; }
   }
 }
