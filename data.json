@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T17:17:34+00:00",
-  "seq": 1784049454,
-  "data_hash": "814d86b77e914ef5f3b24205d58c0207c35326ca9bacf79b6fc2751cfad468ed"
+  "generated": "2026-07-14T17:29:18+00:00",
+  "seq": 1784050158,
+  "data_hash": "026623382f653fdffc671d2dd1af9ecfaaf44cb5d682992d9a78da16e532bfc7"
  },
  "groups": {
   "u8": {
@@ -7750,7 +7750,10 @@
      "grupp": "Grupp 6",
      "mots": "Skuru IK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 11
+     },
      "start_ms": 1784049300000,
      "start_iso": "2026-07-14T19:15+02:00",
      "day_label": "Tisdag 14 juli"
