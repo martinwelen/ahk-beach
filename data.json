@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T08:32:18+00:00",
-  "seq": 1784017938,
-  "data_hash": "74d2439040e44c481ccb4b3a0c65530a21724a6c183d030abb89db1c96208754"
+  "generated": "2026-07-14T08:51:19+00:00",
+  "seq": 1784019079,
+  "data_hash": "726584d8d09cda1cf22c0ae35cca219420b1ae8fd75254616c2be1bf0672e244"
  },
  "groups": {
   "u8": {
@@ -4478,7 +4478,10 @@
      "grupp": "Grupp 6",
      "mots": "Hässleholms HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 8
+     },
      "start_ms": 1784017800000,
      "start_iso": "2026-07-14T10:30+02:00",
      "day_label": "Tisdag 14 juli"
@@ -4498,7 +4501,10 @@
      "grupp": "Grupp 1",
      "mots": "Åhus Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 12
+     },
      "start_ms": 1784017800000,
      "start_iso": "2026-07-14T10:30+02:00",
      "day_label": "Tisdag 14 juli"

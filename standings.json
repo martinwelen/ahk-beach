@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T08:44:11+00:00",
-  "seq": 1784018651,
-  "data_hash": "3056d7c177c82fd797e9553c6811a4cf779eb40cab2445b5f7c31391904ba8c2"
+  "generated": "2026-07-14T08:53:36+00:00",
+  "seq": 1784019216,
+  "data_hash": "1c1fa52bd3c87fc5ac16b69f4907c7a33aa8a677b397d9397a67f8c59190dac3"
  },
  "by_age": {
   "u12": {
@@ -7206,6 +7206,21 @@
        "pos": 1
       },
       {
+       "name": "HK Malmö RÖD",
+       "team_id": 76202138,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 4,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 64,
+       "goals_against": 43,
+       "diff": 21,
+       "points": 9,
+       "tier": "A-Slutspel",
+       "pos": 2
+      },
+      {
        "name": "Alingsås HK 2",
        "team_id": 74328267,
        "is_alingsas": true,
@@ -7217,21 +7232,6 @@
        "goals_against": 35,
        "diff": 17,
        "points": 9,
-       "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "HK Malmö RÖD",
-       "team_id": 76202138,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 3,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 50,
-       "goals_against": 35,
-       "diff": 15,
-       "points": 7,
        "tier": "A-Slutspel",
        "pos": 3
       },
@@ -7299,13 +7299,13 @@
        "name": "Huddinge HK Solbrända",
        "team_id": 76175816,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 0,
        "tied": 0,
-       "lost": 4,
-       "goals_for": 33,
-       "goals_against": 45,
-       "diff": -12,
+       "lost": 5,
+       "goals_for": 41,
+       "goals_against": 59,
+       "diff": -18,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 8
