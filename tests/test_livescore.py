@@ -29,3 +29,17 @@ def test_template_has_multihero_logic():
     assert "featured" in t
     assert "herolist" in t
     assert "m.ms===" in t or "m.ms ===" in t
+
+
+def test_livestate_declared_before_initial_render():
+    # Regression: liveState (const) måste initialiseras före första render()-anropet,
+    # annars kastar reapplyLive() ett TDZ ReferenceError och hela appen dör vid load.
+    t = template.TEMPLATE
+    assert t.index("const liveState") < t.index("\nrender();")
+
+
+def test_video_link_is_scheme_checked_and_encoded():
+    t = template.TEMPLATE
+    assert "function videoLink(" in t
+    assert "/^https:" in t          # blockerar javascript:-URI:er
+    assert "encodeURI(" in t        # neutraliserar citattecken i href

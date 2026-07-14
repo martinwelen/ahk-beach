@@ -319,6 +319,7 @@ const CLASSES = __CLASSES__;
 const DUR = __DUR_MIN__ * 60000;
 const API_HOST = "__API_HOST__";
 const TOURNAMENT_ID = "__TOURNAMENT_ID__";
+const liveState = {};   // livescore per match-id; deklareras före första render() (TDZ-säkert)
 const STANDINGS = __STANDINGS__;
 const ROSTERS = __ROSTERS__;
 let view = "schema";
@@ -372,6 +373,7 @@ function fmtCountdown(ms){
   if(h>0) return `om ${h} tim ${mi} min`;
   return `om ${mi} min`;
 }
+function videoLink(u){ return (u && /^https:\/\//.test(u)) ? `<a class="vidlink" href="${encodeURI(u)}" target="_blank" rel="noopener" aria-label="Se video på solidsport">▶ Video</a>` : ""; }
 
 function render(){
   const now = Date.now();
@@ -393,7 +395,7 @@ function render(){
         <div class="sub">${esc(hm.lag)}${hm.klass?' · '+esc(hm.klass):''} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
         <div class="lscore" hidden></div>
         <div class="cd" data-ms="${hm.ms}">${isLive?'Spelas nu':fmtCountdown(hm.ms-now)}</div>
-        ${hm.video?`<a class="vidlink" href="${hm.video}" target="_blank" rel="noopener" aria-label="Se video på solidsport">▶ Video</a>`:''}
+        ${videoLink(hm.video)}
       </div>`;
     }).join('') + `</div>`;
   } else {
@@ -417,7 +419,7 @@ function render(){
           <div class="vs"><span class="${homeAli?"ali":""}">${esc(m.home)}</span> – <span class="${homeAli?"":"ali"}">${esc(m.away)}</span></div>
           <div class="lscore" hidden></div>
           ${m.res ? `<div class="score"><b class="${m.res.hg>m.res.ag?'w':m.res.hg<m.res.ag?'l':''}">${m.res.hg}</b><span class="x">–</span><b class="${m.res.ag>m.res.hg?'w':m.res.ag<m.res.hg?'l':''}">${m.res.ag}</b></div>` : ""}
-          ${m.video?`<a class="vidlink" href="${m.video}" target="_blank" rel="noopener" aria-label="Se video på solidsport">▶ Video</a>`:""}
+          ${videoLink(m.video)}
         </div>
         <div class="bana"><small>BANA</small><b>${esc(m.bana)}</b></div>
       </article>`;
@@ -675,7 +677,6 @@ document.addEventListener("click", async e=>{
   img.addEventListener("pointercancel", up);
 })();
 // Livescore: polla MatchResult för matcher i tidsfönster; uppdatera kort/hero in-place.
-const liveState = {};   // id -> {hg, ag, live, finished}
 function applyLive(id){
   const s = liveState[id];
   for(const el of document.querySelectorAll(`[data-mid="${id}"] .lscore`)){
@@ -692,7 +693,7 @@ function pollOne(id){
     for(const v of Object.values(j.responses||{})){
       const e = (v&&v.entity)||{};
       if(e.__typename==="MatchResult"){
-        liveState[id] = {hg:e.homeGoals, ag:e.awayGoals, live:e.live, finished:e.finished};
+        liveState[id] = {hg:+e.homeGoals, ag:+e.awayGoals, live:e.live, finished:e.finished};
         applyLive(id);
       }
     }
