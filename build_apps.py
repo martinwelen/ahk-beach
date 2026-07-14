@@ -148,6 +148,11 @@ def main():
             src = os.path.join(ROOT, asset)
             if os.path.exists(src):
                 shutil.copy(src, os.path.join(out_dir, asset))
+        sg = standings.get(age_slug)
+        st_group = sg if (sg and group["profile"]["has_tables"]) else None
+        sched = {"matches": _js_matches(group), "standings": st_group, "updated": updated}
+        with open(os.path.join(out_dir, "sched.json"), "w", encoding="utf-8") as f:
+            json.dump(sched, f, ensure_ascii=False)
         built += 1
     print(f"Byggde {built} appar")
     return built

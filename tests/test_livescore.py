@@ -59,3 +59,12 @@ def test_livescore_shows_final_score_before_robot():
     assert "s.finished" in t
     assert "Slut " in t
     assert 'querySelector(".score")' in t
+
+
+def test_background_data_refresh():
+    t = template.TEMPLATE
+    assert "let MATCHES = __DATA__;" in t       # ombytbar för refresh
+    assert "let STANDINGS = __STANDINGS__;" in t
+    assert "function refreshData(" in t
+    assert 'fetch("sched.json")' in t
+    assert "setInterval(refreshData, 60000)" in t

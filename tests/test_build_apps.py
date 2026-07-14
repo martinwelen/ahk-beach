@@ -52,7 +52,7 @@ def test_render_app_strips_hash_from_colors():
                      "grupp": "G1", "hemma": "A", "borta": "B", "hb": "Hemma",
                      "day_label": "x", "color": "#1f5fbf", "gender": "P", "result": None}]
     html = build_apps.render_app(g, standings=None, base="b", updated="u")
-    matches = html.split("const MATCHES = ", 1)[1].split(";\n", 1)[0]
+    matches = html.split("let MATCHES = ", 1)[1].split(";\n", 1)[0]
     assert '"color": "1f5fbf"' in matches or '"color":"1f5fbf"' in matches
     assert "##" not in html
 
@@ -66,7 +66,7 @@ def test_render_app_strips_results_when_has_results_false():
                      "day_label": "x", "color": "#1f5fbf", "gender": "P",
                      "result": {"hg": 5, "ag": 3}}]
     html = build_apps.render_app(g, standings=None, base="b", updated="u")
-    matches = html.split("const MATCHES = ", 1)[1].split(";\n", 1)[0]
+    matches = html.split("let MATCHES = ", 1)[1].split(";\n", 1)[0]
     assert '"res": null' in matches or '"res":null' in matches
 
 
@@ -190,3 +190,17 @@ def test_js_matches_includes_runda():
                      "day_label": "x", "color": "#1f5fbf", "gender": "P", "result": None,
                      "id": 999, "video": None, "runda": "Semifinal"}]
     assert build_apps._js_matches(g)[0]["runda"] == "Semifinal"
+
+
+def test_build_apps_writes_sched_json(tmp_path, monkeypatch):
+    data = {"meta": {"generated": "x"}, "groups": {"u14": _group("u14", "U14")}}
+    (tmp_path / "data.json").write_text(json.dumps(data), encoding="utf-8")
+    monkeypatch.setattr(build_apps, "ROOT", str(tmp_path))
+    monkeypatch.setattr(build_apps, "DATA_JSON", str(tmp_path / "data.json"))
+    monkeypatch.setattr(build_apps, "STANDINGS_JSON", str(tmp_path / "nope.json"))
+    build_apps.main()
+    p = tmp_path / "u14" / "sched.json"
+    assert p.exists()
+    sj = json.loads(p.read_text(encoding="utf-8"))
+    assert "matches" in sj and isinstance(sj["matches"], list)
+    assert "standings" in sj

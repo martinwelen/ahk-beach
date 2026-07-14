@@ -316,14 +316,14 @@ __CAL_ITEMS__
 </div>
 
 <script>
-const MATCHES = __DATA__;
+let MATCHES = __DATA__;
 const TEAMS = __TEAMS__;
 const CLASSES = __CLASSES__;
 const DUR = __DUR_MIN__ * 60000;
 const API_HOST = "__API_HOST__";
 const TOURNAMENT_ID = "__TOURNAMENT_ID__";
 const liveState = {};   // livescore per match-id; deklareras före första render() (TDZ-säkert)
-const STANDINGS = __STANDINGS__;
+let STANDINGS = __STANDINGS__;
 const ROSTERS = __ROSTERS__;
 let view = "schema";
 let filter = "all";
@@ -440,6 +440,22 @@ function render(){
 setInterval(()=>{ for(const cd of document.querySelectorAll(".hero .cd")){ if(cd.dataset.ms){
   const left=+cd.dataset.ms-Date.now(); cd.textContent = left>0?fmtCountdown(left):"Spelas nu"; }}}, 1000);
 setInterval(render, 30000);
+
+// Bakgrundsuppdatering: hämta om schemat (resultat/nya matcher) utan omladdning.
+function refreshData(){
+  if(document.visibilityState!=="visible") return;
+  fetch("sched.json").then(r=>r.json()).then(j=>{
+    if(j && Array.isArray(j.matches)){
+      MATCHES = j.matches;
+      if("standings" in j) STANDINGS = j.standings;
+      render();
+      if(view==="tabeller") renderTables();
+      if(view==="slutspel") renderBracket();
+    }
+  }).catch(()=>{});
+}
+setInterval(refreshData, 60000);
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible") refreshData(); });
 
 // vy-flikar: visa Tabeller/Slutspel bara om data finns
 const tabsWrap = document.getElementById("tabs");
