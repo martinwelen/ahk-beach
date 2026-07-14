@@ -226,6 +226,16 @@ footer a{color:var(--sea)}
 #mapzoom-close{position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px;
   z-index:1001;width:44px;height:44px;border:0;border-radius:50%;background:#13293dcc;
   color:#fff;font-size:1.2rem;line-height:1;cursor:pointer}
+.lscore{display:inline-flex;align-items:center;gap:6px;margin-top:6px;font-weight:800;
+  color:#d22f27;font-size:.95rem}
+.lscore .pulse{width:8px;height:8px;border-radius:50%;background:#d22f27;animation:pulse 1.1s infinite}
+.vidlink{display:inline-block;margin-top:6px;font-weight:800;font-size:.82rem;color:#fff;
+  background:#d22f27;padding:3px 9px;border-radius:999px;text-decoration:none}
+.herolist{display:flex;flex-direction:column;gap:10px}
+.herolist.many .hero{padding:12px 14px}
+.herolist.many .hero .mt{font-size:clamp(1.05rem,4vw,1.4rem)}
+.herolist.many .hero .cd{font-size:1.1rem;margin-top:8px}
+.hero{position:relative}
 </style>
 </head>
 <body>
@@ -293,10 +303,13 @@ footer a{color:var(--sea)}
 </div>
 
 <script>
-const MATCHES = [{"ms": 1784192400000, "t": "11:00", "bana": 15, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Staffanstorps HK Stp-2", "away": "Alingsås HK Lag Blå", "hb": "Borta", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null}, {"ms": 1784197800000, "t": "12:30", "bana": 6, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Alingsås HK Lag Blå", "away": "IFK Kristianstad 4", "hb": "Hemma", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null}, {"ms": 1784203200000, "t": "14:00", "bana": 5, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Alingsås HK Lag Blå", "away": "Åhus Handboll 4", "hb": "Hemma", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null}, {"ms": 1784208600000, "t": "15:30", "bana": 10, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Alingsås HK Lag Blå", "away": "Växjö HF 2", "hb": "Hemma", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null}, {"ms": 1784213100000, "t": "16:45", "bana": 10, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "H43 Lund HF", "away": "Alingsås HK Lag Blå", "hb": "Borta", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null}, {"ms": 1784223000000, "t": "19:30", "bana": 6, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Ystads IF HF 2", "away": "Alingsås HK Lag Blå", "hb": "Borta", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null}];
+const MATCHES = [{"ms": 1784192400000, "t": "11:00", "bana": 15, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Staffanstorps HK Stp-2", "away": "Alingsås HK Lag Blå", "hb": "Borta", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null, "id": null, "video": null}, {"ms": 1784197800000, "t": "12:30", "bana": 6, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Alingsås HK Lag Blå", "away": "IFK Kristianstad 4", "hb": "Hemma", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null, "id": null, "video": null}, {"ms": 1784203200000, "t": "14:00", "bana": 5, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Alingsås HK Lag Blå", "away": "Åhus Handboll 4", "hb": "Hemma", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null, "id": null, "video": null}, {"ms": 1784208600000, "t": "15:30", "bana": 10, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Alingsås HK Lag Blå", "away": "Växjö HF 2", "hb": "Hemma", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null, "id": null, "video": null}, {"ms": 1784213100000, "t": "16:45", "bana": 10, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "H43 Lund HF", "away": "Alingsås HK Lag Blå", "hb": "Borta", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null, "id": null, "video": null}, {"ms": 1784223000000, "t": "19:30", "bana": 6, "lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "grp": "Grupp 1", "home": "Ystads IF HF 2", "away": "Alingsås HK Lag Blå", "hb": "Borta", "day": "Torsdag 16 juli", "color": "1f5fbf", "res": null, "id": null, "video": null}];
 const TEAMS = [{"lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "id": 79865164, "color": "1f5fbf"}];
 const CLASSES = [{"cls": "P8", "label": "Pojkar 8"}];
 const DUR = 11 * 60000;
+const API_HOST = "ahusbeachhandboll.cupmanager.net";
+const TOURNAMENT_ID = "70944382";
+const liveState = {};   // livescore per match-id; deklareras före första render() (TDZ-säkert)
 const STANDINGS = null;
 const ROSTERS = {};
 let view = "schema";
@@ -350,25 +363,31 @@ function fmtCountdown(ms){
   if(h>0) return `om ${h} tim ${mi} min`;
   return `om ${mi} min`;
 }
+function videoLink(u){ return (u && /^https:\/\//.test(u)) ? `<a class="vidlink" href="${encodeURI(u)}" target="_blank" rel="noopener" aria-label="Se video på solidsport">▶ Video</a>` : ""; }
 
 function render(){
   const now = Date.now();
   const rows = MATCHES.filter(matchPass).sort((a,b)=>a.ms-b.ms);
-  // hero: pågående annars nästa
-  const live = rows.find(m=>state(m,now)==="live");
-  const next = rows.find(m=>state(m,now)==="up");
+  // hero: alla pågående; annars alla kommande som delar tidigaste starttid
+  const liveOnes = rows.filter(m=>state(m,now)==="live");
+  let featured;
+  if(liveOnes.length){ featured = liveOnes; }
+  else { const fn = rows.find(m=>state(m,now)==="up");
+         featured = fn ? rows.filter(m=>state(m,now)==="up" && m.ms===fn.ms) : []; }
   const hero = $("#hero");
-  const hm = live || next;
-  if(hm){
-    const isLive = !!live;
-    hero.innerHTML =
-      `<div class="hero ${isLive?"live":""}">
+  if(featured.length){
+    hero.innerHTML = `<div class="herolist${featured.length>1?' many':''}">` + featured.map(hm=>{
+      const isLive = state(hm,now)==="live";
+      return `<div class="hero ${isLive?'live':''}" data-mid="${hm.id||''}">
         <div class="tag">Bana ${esc(hm.bana)}</div>
-        <div class="lbl">${isLive?'<span class="pulse"></span>Pågår nu':"Härnäst"}</div>
+        <div class="lbl">${isLive?'<span class="pulse"></span>Pågår nu':'Härnäst'}</div>
         <div class="mt">${esc(hm.home)} <span style="opacity:.7">vs</span> ${esc(hm.away)}</div>
-        <div class="sub">${esc(hm.lag)}${hm.klass?" · "+esc(hm.klass):""} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
-        <div class="cd" data-ms="${hm.ms}">${isLive?"Spelas nu":fmtCountdown(hm.ms-now)}</div>
+        <div class="sub">${esc(hm.lag)}${hm.klass?' · '+esc(hm.klass):''} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
+        <div class="lscore" hidden></div>
+        <div class="cd" data-ms="${hm.ms}">${isLive?'Spelas nu':fmtCountdown(hm.ms-now)}</div>
+        ${videoLink(hm.video)}
       </div>`;
+    }).join('') + `</div>`;
   } else {
     hero.innerHTML = rows.length
       ? `<div class="hero"><div class="lbl">Klart</div><div class="mt">Alla matcher spelade</div></div>` : "";
@@ -382,28 +401,31 @@ function render(){
     const st = state(m, now);
     const homeAli = m.hb==="Hemma";
     html +=
-      `<article class="match ${st}" style="--c:#${m.color}">
+      `<article class="match ${st}" data-mid="${m.id||''}" style="--c:#${m.color}">
         <div class="t">${m.t}${st==="live"?'<small class="nowtag">NU</small>':""}</div>
         <div>
           <div class="chips"><span class="lagchip" style="background:#${m.color}">${esc(m.lag)}</span>
             ${m.klass?`<span class="klasschip">${esc(m.klass)}</span>`:""}<span class="grp">${esc(m.grp)}</span></div>
           <div class="vs"><span class="${homeAli?"ali":""}">${esc(m.home)}</span> – <span class="${homeAli?"":"ali"}">${esc(m.away)}</span></div>
+          <div class="lscore" hidden></div>
           ${m.res ? `<div class="score"><b class="${m.res.hg>m.res.ag?'w':m.res.hg<m.res.ag?'l':''}">${m.res.hg}</b><span class="x">–</span><b class="${m.res.ag>m.res.hg?'w':m.res.ag<m.res.hg?'l':''}">${m.res.ag}</b></div>` : ""}
+          ${videoLink(m.video)}
         </div>
         <div class="bana"><small>BANA</small><b>${esc(m.bana)}</b></div>
       </article>`;
   }
   list.innerHTML = html;
+  if(typeof reapplyLive==="function") reapplyLive();
   // scrolla till nu/härnäst om turneringen pågår (det finns spelade matcher)
-  if(!render._scrolled && rows.some(m=>state(m,now)==="past") && hm){
+  if(!render._scrolled && rows.some(m=>state(m,now)==="past") && featured.length){
     render._scrolled = true;
     setTimeout(()=>{ const el=document.querySelector(".match.live")||document.querySelector(".match.up"); }, 50);
   }
 }
 
 // nedräkning varje sekund, full omritning ibland
-setInterval(()=>{ const cd=document.querySelector(".hero .cd"); if(cd&&cd.dataset.ms){
-  const left=+cd.dataset.ms-Date.now(); cd.textContent = left>0?fmtCountdown(left):"Spelas nu"; }}, 1000);
+setInterval(()=>{ for(const cd of document.querySelectorAll(".hero .cd")){ if(cd.dataset.ms){
+  const left=+cd.dataset.ms-Date.now(); cd.textContent = left>0?fmtCountdown(left):"Spelas nu"; }}}, 1000);
 setInterval(render, 30000);
 
 // vy-flikar: visa Tabeller/Slutspel bara om data finns
@@ -644,6 +666,41 @@ document.addEventListener("click", async e=>{
   img.addEventListener("pointerup", up);
   img.addEventListener("pointercancel", up);
 })();
+// Livescore: polla MatchResult för matcher i tidsfönster; uppdatera kort/hero in-place.
+function applyLive(id){
+  const s = liveState[id];
+  for(const el of document.querySelectorAll(`[data-mid="${id}"] .lscore`)){
+    if(s && s.live && !s.finished){
+      el.innerHTML = `<span class="pulse"></span>LIVE ${s.hg}–${s.ag}`; el.hidden = false;
+    } else { el.hidden = true; el.innerHTML = ""; }
+  }
+}
+function reapplyLive(){ for(const id in liveState) applyLive(id); }
+function pollOne(id){
+  const call = encodeURIComponent(`MatchResult({id:${id}})`);
+  const url = `https://${API_HOST}/rest/results_api/call?call=${call}&lang=sv&tournamentId=${TOURNAMENT_ID}`;
+  fetch(url).then(r=>r.json()).then(j=>{
+    for(const v of Object.values(j.responses||{})){
+      const e = (v&&v.entity)||{};
+      if(e.__typename==="MatchResult"){
+        liveState[id] = {hg:+e.homeGoals, ag:+e.awayGoals, live:e.live, finished:e.finished};
+        applyLive(id);
+      }
+    }
+  }).catch(()=>{});
+}
+function pollWindow(){
+  if(document.visibilityState!=="visible") return;
+  const now = Date.now();
+  for(const m of MATCHES){
+    if(!m.id) continue;
+    const inWindow = now >= m.ms && now < m.ms + DUR + 600000;
+    if(inWindow && !(liveState[m.id]||{}).finished) pollOne(m.id);
+  }
+}
+setInterval(pollWindow, 10000);
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible") pollWindow(); });
+pollWindow();
 if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
 const installBtn = document.getElementById("install");
 const sheet = document.getElementById("sheet");
