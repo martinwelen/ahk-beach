@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T10:12:36+00:00",
-  "seq": 1784023956,
-  "data_hash": "eec1dd0e42ce1848c8d4e4db321ecfca580ec5ada54d3c762ac7dc000514fddd"
+  "generated": "2026-07-14T10:21:25+00:00",
+  "seq": 1784024485,
+  "data_hash": "bb0b43a553ce62fcf81614d2ea8dd23e8762654a77940df601ad060962e50e4b"
  },
  "groups": {
   "u8": {
@@ -4662,7 +4662,10 @@
      "grupp": "Grupp 6",
      "mots": "Huddinge HK Solbrända",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 1,
+      "ag": 7
+     },
      "start_ms": 1784023200000,
      "start_iso": "2026-07-14T12:00+02:00",
      "day_label": "Tisdag 14 juli"
@@ -4682,7 +4685,10 @@
      "grupp": "Grupp 1",
      "mots": "Ystads IF HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 7
+     },
      "start_ms": 1784023200000,
      "start_iso": "2026-07-14T12:00+02:00",
      "day_label": "Tisdag 14 juli"
