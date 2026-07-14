@@ -11,3 +11,8 @@ def test_fractions_in_range_and_correct():
     assert all(0.0 <= x <= 1.0 and 0.0 <= y <= 1.0 for x, y in fr.values())
     assert fr[9] == [round(789 / 842, 4), round(92 / 1191, 4)]
     assert len(fr) == 19
+
+
+def test_klubbtalt_fraction():
+    fr = bc.klubbtalt_fraction()
+    assert fr == [round(428 / 842, 4), round(776 / 1191, 4)]

@@ -211,3 +211,10 @@ def test_build_apps_writes_sched_json(tmp_path, monkeypatch):
     sj = json.loads(p.read_text(encoding="utf-8"))
     assert "matches" in sj and isinstance(sj["matches"], list)
     assert "standings" in sj
+
+
+def test_render_app_embeds_klubbtalt_and_copies_logo():
+    html = build_apps.render_app(_group(), standings=None, base="b", updated="u")
+    assert "__KLUBBTALT__" not in html
+    assert "const KLUBBTALT" in html
+    assert "Alingsas_HK_logo.svg" in build_apps._ASSETS

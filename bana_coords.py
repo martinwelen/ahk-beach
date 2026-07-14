@@ -16,3 +16,12 @@ BANA_PX = {
 def bana_fractions():
     """{bana: [x_frac, y_frac]} i [0,1] för %-positionering i appen."""
     return {n: [round(x / IMG_W, 4), round(y / IMG_H, 4)] for n, (x, y) in BANA_PX.items()}
+
+
+# Klubbtält – fast markör med AHK-loggan (alltid synlig på kartan).
+KLUBBTALT_PX = (428, 776)
+
+
+def klubbtalt_fraction():
+    """[x_frac, y_frac] för klubbtältet."""
+    return [round(KLUBBTALT_PX[0] / IMG_W, 4), round(KLUBBTALT_PX[1] / IMG_H, 4)]

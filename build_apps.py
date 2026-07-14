@@ -103,6 +103,7 @@ def render_app(group, standings, base, updated):
             .replace("__API_HOST__", config.API_HOST)
             .replace("__TOURNAMENT_ID__", config.TOURNAMENT_ID)
             .replace("__BANA_XY__", json.dumps(bana_coords.bana_fractions()))
+            .replace("__KLUBBTALT__", json.dumps(bana_coords.klubbtalt_fraction()))
             .replace("__STANDINGS__", json.dumps(st, ensure_ascii=False))
             .replace("__ROSTERS__", json.dumps(_rosters_js(group), ensure_ascii=False))
             .replace("__CAL_ITEMS__", "")
@@ -116,7 +117,7 @@ def render_app(group, standings, base, updated):
 _ICONS = ("icon-192.png", "icon-512.png", "icon-512-maskable.png",
           "icon-180.png", "favicon-32.png")
 # Statiska filer som kopieras oförändrade till varje app-katalog.
-_ASSETS = _ICONS + ("karta.png",)
+_ASSETS = _ICONS + ("karta.png", "Alingsas_HK_logo.svg")
 
 
 def _load(path, default):

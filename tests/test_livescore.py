@@ -93,3 +93,12 @@ def test_map_markers_logic():
     assert 'state(m,now)==="live"' in t
     assert "BANA_XY[" in t
     assert "mapMarkers();" in t
+
+
+def test_klubbtalt_marker():
+    t = template.TEMPLATE
+    assert "const KLUBBTALT" in t
+    assert "function showTentInfo(" in t
+    assert "Klubbtält" in t
+    assert "mk tent" in t
+    assert "Alingsas_HK_logo.svg" in t

@@ -255,6 +255,8 @@ footer a{color:var(--sea)}
   border:2px solid #fff;box-shadow:0 1px 4px #0006}
 .mk.live{background:#d22f27;animation:pulse 1.1s infinite}
 .mk.next{background:#e8730c}
+.mk.tent{width:45px;height:45px;background:#fff;padding:4px;overflow:hidden}
+.mk.tent img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none}
 #mk-zoom{pointer-events:none}
 #mk-zoom .mk{pointer-events:auto;cursor:pointer}
 #mapinfo{position:fixed;bottom:calc(env(safe-area-inset-bottom,0px) + 16px);left:50%;
@@ -341,6 +343,7 @@ const DUR = __DUR_MIN__ * 60000;
 const API_HOST = "__API_HOST__";
 const TOURNAMENT_ID = "__TOURNAMENT_ID__";
 const BANA_XY = __BANA_XY__;
+const KLUBBTALT = __KLUBBTALT__;
 const liveState = {};   // livescore per match-id; deklareras före första render() (TDZ-säkert)
 let STANDINGS = __STANDINGS__;
 const ROSTERS = __ROSTERS__;
@@ -504,6 +507,24 @@ function mapMarkers(){
     }
   }
   if(!Object.keys(byBana).length){ const info=document.getElementById("mapinfo"); if(info) info.hidden=true; }
+  // Klubbtält – alltid synlig logga-markör.
+  if(inline){
+    const t=document.createElement("span"); t.className="mk tent";
+    t.style.left=(KLUBBTALT[0]*100)+"%"; t.style.top=(KLUBBTALT[1]*100)+"%";
+    t.innerHTML='<img src="Alingsas_HK_logo.svg" alt="">'; inline.appendChild(t);
+  }
+  if(zoom){
+    const t=document.createElement("button"); t.className="mk tent";
+    t.style.left=(KLUBBTALT[0]*100)+"%"; t.style.top=(KLUBBTALT[1]*100)+"%";
+    t.setAttribute("aria-label","Klubbtält");
+    t.innerHTML='<img src="Alingsas_HK_logo.svg" alt="">';
+    t.addEventListener("click", ev=>{ ev.stopPropagation(); showTentInfo(); }); zoom.appendChild(t);
+  }
+}
+function showTentInfo(){
+  const info=document.getElementById("mapinfo"); if(!info) return;
+  info.innerHTML='<span class="k">Klubbtält</span>Alingsås HK';
+  info.hidden=false;
 }
 function showMapInfo(m, bana){
   const info=document.getElementById("mapinfo"); if(!info) return;
