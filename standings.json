@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T20:20:45+00:00",
-  "seq": 1784060445,
-  "data_hash": "61ef674db798df46b97e73e569d0d68cdbffc6007632a8862bc5cedc01ea4f56"
+  "generated": "2026-07-14T20:39:29+00:00",
+  "seq": 1784061569,
+  "data_hash": "5ac4f48516aae611c3cf01756d1850e8b5488bb1f52de7659746e99392bab596"
  },
  "by_age": {
   "u12": {
@@ -9209,15 +9209,15 @@
             "label": "IFK Ystad HK Red dynamite",
             "team_id": 77164253,
             "is_alingsas": false,
-            "goals": null
+            "goals": 16
            },
            "away": {
             "label": "Ystads IF HF 1",
             "team_id": 77223523,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
