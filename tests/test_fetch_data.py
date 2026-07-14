@@ -190,3 +190,21 @@ def test_normalize_match_returns_none_for_untimed_match():
     reg_by_id = {1: {"id": 1, "slug": "u15-p-bla", "age_slug": "u15",
                      "gender": "P", "rule": "Classic", "color": "#1f5fbf"}}
     assert fetch_data.normalize_match(m, store, reg_by_id) is None
+
+
+def test_normalize_match_includes_cupmanager_id():
+    import fetch_data, api
+    e = {"id": 81848529, "home": {"href": "h"}, "away": {"href": "a"},
+         "start": 1784034000000, "division": {}, "arena": {}, "result": {}}
+    reg = {7: {"id": 7, "age_slug": "u15", "slug": "u15-p-bla", "gender": "P",
+               "rule": "Classic", "color": "#1f5fbf", "age": 15}}
+    orig = (api.ref_id, api.name_of, api.store_get)
+    api.store_get = lambda s, r: {"team": {"href": "Team({id:7})"}}
+    api.ref_id = lambda n: 7
+    api.name_of = lambda x: "Lag"
+    try:
+        m = fetch_data.normalize_match(e, {}, reg)
+    finally:
+        api.ref_id, api.name_of, api.store_get = orig
+    assert m is not None
+    assert m["id"] == 81848529

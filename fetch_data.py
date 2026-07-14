@@ -99,6 +99,7 @@ def normalize_match(e, store, reg_by_id):
 
     return {
         "age_slug": team["age_slug"], "slug": team["slug"],
+        "id": e.get("id"),
         "gender": team["gender"], "rule": team["rule"], "color": team["color"],
         "datum": f"{dt.year:04d}-{dt.month:02d}-{dt.day:02d}",
         "dag": _SV_DAYS[dt.weekday()],
