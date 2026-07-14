@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T19:35:18+00:00",
-  "seq": 1784057718,
-  "data_hash": "aec8f67988166c0207390a079a33c85556fb7190945a00bd460670fa7d68f423"
+  "generated": "2026-07-14T19:46:28+00:00",
+  "seq": 1784058388,
+  "data_hash": "b5a73a5145ffcc1de76aeca3164474d65b5a3613bc373c9e02de658bbb5d47f1"
  },
  "by_age": {
   "u12": {
@@ -8387,15 +8387,15 @@
             "label": "IFK Tumba HK",
             "team_id": 76735096,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Tollarps IF",
             "team_id": 76603935,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
