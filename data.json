@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T13:32:43+00:00",
-  "seq": 1784035963,
-  "data_hash": "0916f9be1f02a88d1379a74060b73cdc4bffc483dcb8ed4f589874a2aaef0f4a"
+  "generated": "2026-07-14T13:52:18+00:00",
+  "seq": 1784037138,
+  "data_hash": "deda5ca888c916df0e50dd5563f0224af159ab11c360428b915b0fe63f505141"
  },
  "groups": {
   "u8": {
@@ -5053,7 +5053,10 @@
      "grupp": "Grupp 4",
      "mots": "RP IF Linköping 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 13
+     },
      "start_ms": 1784035800000,
      "start_iso": "2026-07-14T15:30+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5073,7 +5076,10 @@
      "grupp": "Grupp 5",
      "mots": "Eslövs HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 4
+     },
      "start_ms": 1784035800000,
      "start_iso": "2026-07-14T15:30+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5176,6 +5182,26 @@
      "result": null,
      "start_ms": 1784043000000,
      "start_iso": "2026-07-14T17:30+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-p-bla",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#9c36b5",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "17:45",
+     "bana": 3,
+     "hemma": "6:e bästa 8:an",
+     "borta": "Alingsås HK Blå",
+     "grupp": "C-Slutspel",
+     "mots": "6:e bästa 8:an",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784043900000,
+     "start_iso": "2026-07-14T17:45+02:00",
      "day_label": "Tisdag 14 juli"
     }
    ]
@@ -6442,7 +6468,10 @@
      "grupp": "Grupp 4",
      "mots": "Skuru IK 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 12
+     },
      "start_ms": 1784035800000,
      "start_iso": "2026-07-14T15:30+02:00",
      "day_label": "Tisdag 14 juli"
