@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T09:02:43+00:00",
-  "seq": 1784019763,
-  "data_hash": "19f0c4b30276c6728560f7d690c3df0580d5be8a0805327b22c520bd2858e461"
+  "generated": "2026-07-14T09:22:13+00:00",
+  "seq": 1784020933,
+  "data_hash": "0fc2e521b62802a031fa2c73c0b290a7581a52de426b19e946486817c4cde3c6"
  },
  "groups": {
   "u8": {
@@ -4547,7 +4547,10 @@
      "grupp": "Grupp 4",
      "mots": "Falköpings AIK HK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 11
+     },
      "start_ms": 1784019600000,
      "start_iso": "2026-07-14T11:00+02:00",
      "day_label": "Tisdag 14 juli"
@@ -4567,7 +4570,10 @@
      "grupp": "Grupp 5",
      "mots": "Växjö HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 8
+     },
      "start_ms": 1784019600000,
      "start_iso": "2026-07-14T11:00+02:00",
      "day_label": "Tisdag 14 juli"
