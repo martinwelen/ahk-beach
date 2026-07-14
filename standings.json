@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T18:01:28+00:00",
-  "seq": 1784052088,
-  "data_hash": "cb981ae9505754813676664b3c688dbb5e18d8c942b7db4411cadb237d28fae2"
+  "generated": "2026-07-14T18:14:18+00:00",
+  "seq": 1784052858,
+  "data_hash": "07229f97a2407782763c0f3f913c709677b0d6a0cce9e7bcbfb79cefc4b28b76"
  },
  "by_age": {
   "u12": {
@@ -8344,15 +8344,15 @@
             "label": "Eslövs HK Gul",
             "team_id": 77146239,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "IFK Tumba HK",
             "team_id": 76735096,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81848835,
@@ -8384,8 +8384,8 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 14072240",
-            "team_id": null,
+            "label": "IFK Tumba HK",
+            "team_id": 76735096,
             "is_alingsas": false,
             "goals": null
            },
