@@ -67,8 +67,9 @@ robotberoende (se nedan).
 | `fetch_data.py` | Klubbkodsdriven hämtning → `data.json`. Per match: `id` (för livescore-poll) och `video` (solidsport-URL, bara bana 1–2). Hash-vaktad – **hashen inkluderar `id`+`video`** så nya fält faktiskt skrivs om. |
 | `fetch_standings.py` | Grupptabeller + A/B/C-slutspelsträd → `standings.json`, hash-vaktad. |
 | `roster_data.py` | Statiska spelartrupper per lag (cupmanager saknar spelardata). Keyad på team-slug (`u15-p-bla` …). Bäddas in via `__ROSTERS__`; Trupp-fliken göms tills data finns. |
-| `template.py` | HTML/JS-mallen. Könsfilter, multi-hero, **livescore-poll** (`MatchResult`), **videolänk**, **Karta-flik** (zoombar overlay). `user-scalable=no` + scrollbara flik-/filterrader (mobil). |
-| `build_apps.py` | Renderar en PWA per åldersgrupp (unik manifest + SW-cache `ahk-uXX-v1`, kopierar `karta.png`). Bäddar in match-`id`/`video`, trupper, `API_HOST`/`TOURNAMENT_ID`. **U15 byggs till `dist-u15/`** med extern og-bas. |
+| `bana_coords.py` | Manuellt uppmätta pixelpositioner per bana (`BANA_PX`) + klubbtält, på `karta.png`. `bana_fractions()`/`klubbtalt_fraction()` → andelar, inbäddade som `BANA_XY`/`KLUBBTALT` för kartmarkörerna. |
+| `template.py` | HTML/JS-mallen. Könsfilter, multi-hero, **livescore-poll** (`MatchResult`), **videolänk**, **Karta-flik** (zoombar overlay + **live/nästa-markörer** + klubbtält). `user-scalable=no` + scrollbara flik-/filterrader (mobil). |
+| `build_apps.py` | Renderar en PWA per åldersgrupp (unik manifest + SW-cache `ahk-uXX-v1`, kopierar `karta.png` + AHK-loggan). Bäddar in match-`id`/`video`, trupper, `BANA_XY`, `API_HOST`/`TOURNAMENT_ID`. **U15 byggs till `dist-u15/`** med extern og-bas. |
 | `build_ics.py` | Per-lag-kalendrar. U15 → `dist-u15/ics/` med de gamla `alingsas-*.ics`-filnamnen (bevarar prenumerationer). |
 | `build_hub.py` | Hubbsidan. U15-kortet länkar till det externa repots URL. |
 | `build_all.py` | Orkestrering (data → standings → appar → ics → hubb). |
@@ -92,6 +93,16 @@ direkt från webbläsaren:
 `karta.png` (arrangörens områdeskarta) bäddas in i varje app och kopieras per
 app-katalog. Karta-fliken visar den; tryck öppnar ett helskärms-overlay med
 nyp-zoom + panorering (vanilla Pointer Events, ingen lib).
+
+**Markörer** visar var Alingsås spelar: 🔴 pågående (`state==="live"`) och 🟠 nästa
+(alla som delar tidigaste kommande starttid) på rätt bana. Positionerna kommer från
+`bana_coords.py` (manuellt uppmätta pixlar per bana → andelar, inbäddade som
+`BANA_XY`). En **klubbtält-markör** (AHK-loggan) är alltid synlig. Markörerna finns
+i både flik-kartan och helskärm; i helskärm ligger de i en gemensam "stage" med
+bilden så de **följer med zoom/panorering**. Tryck på en markör (i helskärm) →
+info-panel med klass + lag + bana + tid (+ livescore om live); tältet → "Klubbtält".
+Respekterar det aktiva schema-filtret. Uppdateras via `mapMarkers()` vid render (30 s)
+och bakgrundsrefresh (60 s).
 
 ### U15-publicering
 
