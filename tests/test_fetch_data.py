@@ -243,3 +243,17 @@ def test_normalize_match_sets_video_only_for_courts_1_2():
         assert mk(15)["video"] is None                        # annan bana → ingen
     finally:
         api.ref_id, api.name_of, api.store_get, api.call = orig
+
+
+def test_hash_includes_id_and_video():
+    import copy
+    import fetch_data
+    base = {"u15": {"rule": "Classic", "teams": [{"id": 1}],
+            "matches": [{"slug": "s", "start_ms": 1, "bana": 2, "hemma": "a",
+                         "borta": "b", "grupp": "g", "result": None,
+                         "id": 10, "video": None}]}}
+    h1 = fetch_data._hash_groups(base)
+    b2 = copy.deepcopy(base); b2["u15"]["matches"][0]["video"] = "https://x"
+    b3 = copy.deepcopy(base); b3["u15"]["matches"][0]["id"] = 99
+    assert fetch_data._hash_groups(b2) != h1   # video ändrar hashen → tvingar omskrivning
+    assert fetch_data._hash_groups(b3) != h1   # id ändrar hashen

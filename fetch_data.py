@@ -170,7 +170,8 @@ def _hash_groups(groups):
         g = groups[a]
         key.append((a, g["rule"], [t["id"] for t in g["teams"]],
                     [(m["slug"], m["start_ms"], str(m["bana"]),
-                      m["hemma"], m["borta"], m["grupp"], m.get("result"))
+                      m["hemma"], m["borta"], m["grupp"], m.get("result"),
+                      m.get("id"), m.get("video"))
                      for m in g["matches"]]))
     return hashlib.sha256(json.dumps(key, ensure_ascii=False,
                                      sort_keys=True).encode()).hexdigest()
