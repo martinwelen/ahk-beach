@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T10:21:25+00:00",
-  "seq": 1784024485,
-  "data_hash": "bb0b43a553ce62fcf81614d2ea8dd23e8762654a77940df601ad060962e50e4b"
+  "generated": "2026-07-14T10:33:05+00:00",
+  "seq": 1784025185,
+  "data_hash": "cc1cd53c703d6c0fd999d6b5f1c3dbbcc7e8dfdd578ebe7afe94ccfb64b59ecc"
  },
  "groups": {
   "u8": {
@@ -4708,7 +4708,10 @@
      "grupp": "Grupp 3",
      "mots": "Mönsterås HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 12
+     },
      "start_ms": 1784024100000,
      "start_iso": "2026-07-14T12:15+02:00",
      "day_label": "Tisdag 14 juli"
