@@ -251,11 +251,11 @@ footer a{color:var(--sea)}
   background:#e8730c;color:#fff;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
 #mapzoom-stage{position:relative;will-change:transform}
 .mapmarkers{position:absolute;inset:0;pointer-events:none}
-.mk{position:absolute;transform:translate(-50%,-50%);width:30px;height:30px;border-radius:50%;
+.mk{position:absolute;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:50%;
   border:2px solid #fff;box-shadow:0 1px 4px #0006}
 .mk.live{background:#d22f27;animation:pulse 1.1s infinite}
 .mk.next{background:#e8730c}
-.mk.tent{width:45px;height:45px;background:#fff;padding:4px;overflow:hidden}
+.mk.tent{width:30px;height:30px;background:#fff;padding:3px;overflow:hidden}
 .mk.tent img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none}
 #mk-zoom{pointer-events:none}
 #mk-zoom .mk{pointer-events:auto;cursor:pointer}
