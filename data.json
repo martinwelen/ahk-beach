@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T14:31:05+00:00",
-  "seq": 1784039465,
-  "data_hash": "1adb73df05a412ef9deea2694f43792fb7e958a534bacec8d8b65a807520a218"
+  "generated": "2026-07-14T14:48:09+00:00",
+  "seq": 1784040489,
+  "data_hash": "5cb9a78ebd66e38103f15b6683484d735e1281499f9241da0befd894062c2d60"
  },
  "groups": {
   "u8": {
@@ -5552,7 +5552,10 @@
      "grupp": "A-Slutspel",
      "mots": "Ystads IF HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 8
+     },
      "start_ms": 1784039400000,
      "start_iso": "2026-07-14T16:30+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5574,7 +5577,10 @@
      "grupp": "A-Slutspel",
      "mots": "Kärra HF KHF Flipflops",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 6
+     },
      "start_ms": 1784039400000,
      "start_iso": "2026-07-14T16:30+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5709,6 +5715,28 @@
      "result": null,
      "start_ms": 1784043900000,
      "start_iso": "2026-07-14T17:45+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-f-2",
+     "id": 81848801,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "18:00",
+     "bana": 3,
+     "video": null,
+     "hemma": "Alingsås HK 2",
+     "borta": "HK Malmö RÖD",
+     "grupp": "A-Slutspel",
+     "mots": "HK Malmö RÖD",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784044800000,
+     "start_iso": "2026-07-14T18:00+02:00",
      "day_label": "Tisdag 14 juli"
     }
    ]
@@ -7187,7 +7215,10 @@
      "grupp": "Grupp 4",
      "mots": "Lödde Vikings HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 14
+     },
      "start_ms": 1784039400000,
      "start_iso": "2026-07-14T16:30+02:00",
      "day_label": "Tisdag 14 juli"
