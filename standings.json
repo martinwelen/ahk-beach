@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T15:15:11+00:00",
-  "seq": 1784042111,
-  "data_hash": "db3bc9e13a0a9585f08136300df82b028f7186f45e5c24bf1cdaa1e66b565102"
+  "generated": "2026-07-14T15:25:10+00:00",
+  "seq": 1784042710,
+  "data_hash": "b3cb832e66cdec24c61171238c23d96414ab8a82ed694698a9564f289c3c6886"
  },
  "by_age": {
   "u12": {
@@ -7752,15 +7752,15 @@
             "label": "Alingsås HK 1",
             "team_id": 74328265,
             "is_alingsas": true,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Lödde Vikings HK Svart",
             "team_id": 76523937,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81848821,
@@ -7925,9 +7925,9 @@
            "bana": 8,
            "round": "1/8 Final",
            "home": {
-            "label": "Vinn. 14072527",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 1",
+            "team_id": 74328265,
+            "is_alingsas": true,
             "goals": null
            },
            "away": {
