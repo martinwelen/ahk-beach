@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T19:23:59+00:00",
-  "seq": 1784057039,
-  "data_hash": "457de429b9867c43ecf95598835fc6784191f05236a5853fd314f42b84a39e7e"
+  "generated": "2026-07-14T19:35:18+00:00",
+  "seq": 1784057718,
+  "data_hash": "aec8f67988166c0207390a079a33c85556fb7190945a00bd460670fa7d68f423"
  },
  "by_age": {
   "u12": {
@@ -9185,15 +9185,15 @@
             "label": "Ystads IF HF 1",
             "team_id": 77223523,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
            "away": {
             "label": "Mönsterås HK 1",
             "team_id": 77347620,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -9212,8 +9212,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 14072145",
-            "team_id": null,
+            "label": "Ystads IF HF 1",
+            "team_id": 77223523,
             "is_alingsas": false,
             "goals": null
            },
@@ -9812,15 +9812,15 @@
             "label": "HK Halmstad",
             "team_id": 77153209,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Lugi HF Klöver",
             "team_id": 77086005,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
