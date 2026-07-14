@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T16:02:17+00:00",
-  "seq": 1784044937,
-  "data_hash": "9f0e174f59e4cc95c08929a60237b8919df05dc361a5c8adde553714c5d3652a"
+  "generated": "2026-07-14T16:22:03+00:00",
+  "seq": 1784046123,
+  "data_hash": "41c17a930b971fea4a447eda8123eaebd170fe8bd84b4b405ae7f16d39bd839d"
  },
  "groups": {
   "u8": {
@@ -5975,7 +5975,10 @@
      "grupp": "A-Slutspel",
      "mots": "HK Malmö RÖD",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 7
+     },
      "start_ms": 1784044800000,
      "start_iso": "2026-07-14T18:00+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5998,7 +6001,10 @@
      "grupp": "A-Slutspel",
      "mots": "HK Malmö SVART",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 8
+     },
      "start_ms": 1784044800000,
      "start_iso": "2026-07-14T18:00+02:00",
      "day_label": "Tisdag 14 juli"
@@ -6047,6 +6053,29 @@
      "result": null,
      "start_ms": 1784047500000,
      "start_iso": "2026-07-14T18:45+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-f-2",
+     "id": 81848800,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "19:00",
+     "bana": 2,
+     "video": "https://solidsport.com/ahusbeach/watch/vinn-14072332-vinn-14072432-0d557866-a1bb-4ab9-b7c3-2ff67d8a45e7",
+     "runda": "Kvartsfinal",
+     "hemma": "Alingsås HK 2",
+     "borta": "Åhus Handboll 1",
+     "grupp": "A-Slutspel",
+     "mots": "Åhus Handboll 1",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784048400000,
+     "start_iso": "2026-07-14T19:00+02:00",
      "day_label": "Tisdag 14 juli"
     }
    ]
@@ -7663,7 +7692,10 @@
      "grupp": "Grupp 3",
      "mots": "IK Bolton",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 11
+     },
      "start_ms": 1784044800000,
      "start_iso": "2026-07-14T18:00+02:00",
      "day_label": "Tisdag 14 juli"
