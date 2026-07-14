@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T10:51:44+00:00",
-  "seq": 1784026304,
-  "data_hash": "4bec06a3153c632ae8020262d63f671c67eb85ea1ceb9c2b07098e7233d96825"
+  "generated": "2026-07-14T11:03:22+00:00",
+  "seq": 1784027002,
+  "data_hash": "b350cf0f63204a61ecdff300c26a1e91763110ff8a8fa9a6aa631bf53a0dca85"
  },
  "groups": {
   "u8": {
@@ -4777,7 +4777,10 @@
      "grupp": "Grupp 6",
      "mots": "Lödde Vikings HK Svart 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 9
+     },
      "start_ms": 1784025900000,
      "start_iso": "2026-07-14T12:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -6257,7 +6260,10 @@
      "grupp": "Grupp 4",
      "mots": "HK Aranäs SVART",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 3,
+      "ag": 15
+     },
      "start_ms": 1784025900000,
      "start_iso": "2026-07-14T12:45+02:00",
      "day_label": "Tisdag 14 juli"
