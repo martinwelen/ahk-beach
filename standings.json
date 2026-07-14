@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T12:15:34+00:00",
-  "seq": 1784031334,
-  "data_hash": "e5f6459e19e7723c197dcf47c7e39b6f89e7a6eae3f4be2e71e88b6ee5044540"
+  "generated": "2026-07-14T12:24:18+00:00",
+  "seq": 1784031858,
+  "data_hash": "050e569fd870cf27afc6f74fdcdf671963a5d274905e15e8439d968e26799092"
  },
  "by_age": {
   "u12": {
@@ -9995,49 +9995,19 @@
      "division_id": 81853305,
      "rows": [
       {
-       "name": "Karlshamns HF",
-       "team_id": 80736705,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 1,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 9,
-       "goals_against": 5,
-       "diff": 4,
-       "points": 2,
-       "tier": "A-Slutspel",
-       "pos": 1
-      },
-      {
        "name": "Åhus Handboll",
        "team_id": 74384970,
        "is_alingsas": false,
-       "played": 1,
+       "played": 0,
        "won": 0,
-       "tied": 1,
+       "tied": 0,
        "lost": 0,
-       "goals_for": 9,
-       "goals_against": 9,
+       "goals_for": 0,
+       "goals_against": 0,
        "diff": 0,
-       "points": 1,
+       "points": 0,
        "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "IK Bolton",
-       "team_id": 78345036,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 0,
-       "tied": 1,
-       "lost": 0,
-       "goals_for": 9,
-       "goals_against": 9,
-       "diff": 0,
-       "points": 1,
-       "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 1
       },
       {
        "name": "IFK Malmö HF 2",
@@ -10052,7 +10022,7 @@
        "diff": 0,
        "points": 0,
        "tier": "A-Slutspel",
-       "pos": 4
+       "pos": 2
       },
       {
        "name": "Tyresö Handboll 1",
@@ -10066,8 +10036,8 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
-       "tier": "B-Slutspel",
-       "pos": 5
+       "tier": "A-Slutspel",
+       "pos": 3
       },
       {
        "name": "IFK Tumba HK 2",
@@ -10081,8 +10051,8 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
-       "tier": "B-Slutspel",
-       "pos": 6
+       "tier": "A-Slutspel",
+       "pos": 4
       },
       {
        "name": "Växjö HF 1",
@@ -10097,7 +10067,7 @@
        "diff": 0,
        "points": 0,
        "tier": "B-Slutspel",
-       "pos": 7
+       "pos": 5
       },
       {
        "name": "Alingsås HK 1",
@@ -10111,12 +10081,42 @@
        "goals_against": 0,
        "diff": 0,
        "points": 0,
+       "tier": "B-Slutspel",
+       "pos": 6
+      },
+      {
+       "name": "IFK Ystad HK",
+       "team_id": 76248341,
+       "is_alingsas": false,
+       "played": 0,
+       "won": 0,
+       "tied": 0,
+       "lost": 0,
+       "goals_for": 0,
+       "goals_against": 0,
+       "diff": 0,
+       "points": 0,
+       "tier": "B-Slutspel",
+       "pos": 7
+      },
+      {
+       "name": "IK Bolton",
+       "team_id": 78345036,
+       "is_alingsas": false,
+       "played": 0,
+       "won": 0,
+       "tied": 0,
+       "lost": 0,
+       "goals_for": 0,
+       "goals_against": 0,
+       "diff": 0,
+       "points": 0,
        "tier": "C-Slutspel",
        "pos": 8
       },
       {
-       "name": "Lugi HF 3",
-       "team_id": 81078897,
+       "name": "Karlshamns HF",
+       "team_id": 80736705,
        "is_alingsas": false,
        "played": 0,
        "won": 0,
@@ -10130,16 +10130,16 @@
        "pos": 9
       },
       {
-       "name": "IFK Ystad HK",
-       "team_id": 76248341,
+       "name": "Lugi HF 3",
+       "team_id": 81078897,
        "is_alingsas": false,
-       "played": 1,
+       "played": 0,
        "won": 0,
        "tied": 0,
-       "lost": 1,
-       "goals_for": 5,
-       "goals_against": 9,
-       "diff": -4,
+       "lost": 0,
+       "goals_for": 0,
+       "goals_against": 0,
+       "diff": 0,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 10
