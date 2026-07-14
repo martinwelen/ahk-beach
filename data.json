@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T15:21:54+00:00",
-  "seq": 1784042514,
-  "data_hash": "2115a0fe43f43943a3d6f14456d18841f08ff9bd01685055e37315b5ef8767d8"
+  "generated": "2026-07-14T15:35:45+00:00",
+  "seq": 1784043345,
+  "data_hash": "59c98e4fd77469c9be0372cf1dfb981e394eaa7fa452b4130554d65a65b6314d"
  },
  "groups": {
   "u8": {
@@ -5819,7 +5819,10 @@
      "grupp": "A-Slutspel",
      "mots": "Lödde Vikings HK Svart",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 6
+     },
      "start_ms": 1784040300000,
      "start_iso": "2026-07-14T16:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5842,7 +5845,10 @@
      "grupp": "A-Slutspel",
      "mots": "Åhus Handboll 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 9
+     },
      "start_ms": 1784042100000,
      "start_iso": "2026-07-14T17:15+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5956,6 +5962,29 @@
      "borta": "HK Malmö RÖD",
      "grupp": "A-Slutspel",
      "mots": "HK Malmö RÖD",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784044800000,
+     "start_iso": "2026-07-14T18:00+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-f-1",
+     "id": 81848819,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "18:00",
+     "bana": 8,
+     "video": null,
+     "runda": "1/8-final",
+     "hemma": "Alingsås HK 1",
+     "borta": "HK Malmö SVART",
+     "grupp": "A-Slutspel",
+     "mots": "HK Malmö SVART",
      "hb": "Hemma",
      "result": null,
      "start_ms": 1784044800000,
@@ -7524,7 +7553,10 @@
      "grupp": "Grupp 6",
      "mots": "Lödde Vikings HK Röd",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 11
+     },
      "start_ms": 1784042100000,
      "start_iso": "2026-07-14T17:15+02:00",
      "day_label": "Tisdag 14 juli"
