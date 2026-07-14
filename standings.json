@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T12:56:46+00:00",
-  "seq": 1784033806,
-  "data_hash": "07fac34d7be2953740e92fde930791aad96dd04c7ede3f4eec6b68e554f24ad9"
+  "generated": "2026-07-14T13:06:34+00:00",
+  "seq": 1784034394,
+  "data_hash": "4e309da15c053b1163fa138cf2a71a889902fe9e72e8c4bf74f699083a63e6cf"
  },
  "by_age": {
   "u12": {
@@ -7502,8 +7502,8 @@
            "bana": 2,
            "round": "1/16 Final",
            "home": {
-            "label": "3:an i Grupp 5",
-            "team_id": null,
+            "label": "Skuru IK 4",
+            "team_id": 75073728,
             "is_alingsas": false,
             "goals": null
            },
@@ -7584,8 +7584,8 @@
             "goals": null
            },
            "away": {
-            "label": "3:an i Grupp 3",
-            "team_id": null,
+            "label": "IK Bolton",
+            "team_id": 73903500,
             "is_alingsas": false,
             "goals": null
            },
@@ -7616,8 +7616,8 @@
            "bana": 8,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 5",
-            "team_id": null,
+            "label": "Kärra HF KHF Flipflops",
+            "team_id": 77504890,
             "is_alingsas": false,
             "goals": null
            },
@@ -7679,8 +7679,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 5",
-            "team_id": null,
+            "label": "HK Aranäs",
+            "team_id": 77327368,
             "is_alingsas": false,
             "goals": null
            },
@@ -7692,8 +7692,8 @@
            "bana": 2,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 3",
-            "team_id": null,
+            "label": "United beach handbollsklubb",
+            "team_id": 77793672,
             "is_alingsas": false,
             "goals": null
            },
@@ -7755,8 +7755,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 3",
-            "team_id": null,
+            "label": "Lödde Vikings HK Svart",
+            "team_id": 76523937,
             "is_alingsas": false,
             "goals": null
            },
@@ -8128,8 +8128,8 @@
             "goals": null
            },
            "away": {
-            "label": "6:an i Grupp 5",
-            "team_id": null,
+            "label": "Lödde Vikings HK Röd",
+            "team_id": 76523962,
             "is_alingsas": false,
             "goals": null
            },
@@ -8198,8 +8198,8 @@
            "bana": 2,
            "round": "1/8 Final",
            "home": {
-            "label": "6:an i Grupp 3",
-            "team_id": null,
+            "label": "Tollarps IF",
+            "team_id": 76603935,
             "is_alingsas": false,
             "goals": null
            },
@@ -8439,8 +8439,8 @@
             "goals": null
            },
            "away": {
-            "label": "9:an i Grupp 5",
-            "team_id": null,
+            "label": "Spånga HK",
+            "team_id": 75072592,
             "is_alingsas": false,
             "goals": null
            },
@@ -8471,14 +8471,14 @@
            "bana": 14,
            "round": "1/8 Final",
            "home": {
-            "label": "8:an i Grupp 5",
-            "team_id": null,
+            "label": "Vinslövs HK 2",
+            "team_id": 75073269,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "9:an i Grupp 3",
-            "team_id": null,
+            "label": "Växjö HF",
+            "team_id": 74509635,
             "is_alingsas": false,
             "goals": null
            },
@@ -8558,8 +8558,8 @@
             "goals": null
            },
            "away": {
-            "label": "8:an i Grupp 3",
-            "team_id": null,
+            "label": "Mörrums GOIS HK",
+            "team_id": 75580195,
             "is_alingsas": false,
             "goals": null
            },
