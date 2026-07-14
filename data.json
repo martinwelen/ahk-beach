@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T11:51:26+00:00",
-  "seq": 1784029886,
-  "data_hash": "5c063693dfb0bbec5e7a1a39223583cb1e050f66b85e5cd44194f9d624db1fb8"
+  "generated": "2026-07-14T12:01:40+00:00",
+  "seq": 1784030500,
+  "data_hash": "41328bca5d233223328877d5a3dabbb389ef6b299786c1438a4de4231edd7ac9"
  },
  "groups": {
   "u8": {
@@ -4869,7 +4869,10 @@
      "grupp": "Grupp 3",
      "mots": "Lugi HF Hjärter",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 13
+     },
      "start_ms": 1784029500000,
      "start_iso": "2026-07-14T13:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -6292,7 +6295,10 @@
      "grupp": "Grupp 1",
      "mots": "HK Halmstad",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 8
+     },
      "start_ms": 1784029500000,
      "start_iso": "2026-07-14T13:45+02:00",
      "day_label": "Tisdag 14 juli"
