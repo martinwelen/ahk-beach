@@ -60,6 +60,8 @@ def _js_matches(group):
             "grp": m["grupp"], "home": m["hemma"], "away": m["borta"],
             "hb": m["hb"], "day": m["day_label"], "color": m["color"].lstrip("#"),
             "res": m.get("result") if has_res else None,
+            "id": m.get("id"),
+            "video": m.get("video"),
         })
     out.sort(key=lambda x: x["ms"])
     return out

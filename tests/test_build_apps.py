@@ -147,6 +147,18 @@ def test_service_worker_leaves_foreign_caches_for_live_apps():
     assert "ahk-u13" not in sw
 
 
+def test_js_matches_includes_id_and_video():
+    g = _group()
+    g["teams"] = [{"id": 1, "slug": "u14-p-bla", "team_name": "A", "color": "#1f5fbf", "gender": "P"}]
+    g["matches"] = [{"start_ms": 1, "tid": "10:00", "bana": 2, "slug": "u14-p-bla",
+                     "grupp": "G1", "hemma": "A", "borta": "B", "hb": "Hemma",
+                     "day_label": "x", "color": "#1f5fbf", "gender": "P", "result": None,
+                     "id": 999, "video": "https://solidsport.com/x"}]
+    out = build_apps._js_matches(g)[0]
+    assert out["id"] == 999
+    assert out["video"] == "https://solidsport.com/x"
+
+
 def test_build_apps_copies_map_to_every_app(tmp_path, monkeypatch):
     data = {"meta": {"generated": "x"},
             "groups": {"u14": _group("u14", "U14"), "u15": _group("u15", "U15")}}
