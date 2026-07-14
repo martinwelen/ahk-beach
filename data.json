@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T13:52:18+00:00",
-  "seq": 1784037138,
-  "data_hash": "deda5ca888c916df0e50dd5563f0224af159ab11c360428b915b0fe63f505141"
+  "generated": "2026-07-14T14:02:05+00:00",
+  "seq": 1784037725,
+  "data_hash": "df0d18693c5d498d579430bdb39d23d4e77fc9bc1742036e6106d1f4811337f8"
  },
  "groups": {
   "u8": {
@@ -5099,7 +5099,10 @@
      "grupp": "Grupp 6",
      "mots": "Raklev G&I",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1784036700000,
      "start_iso": "2026-07-14T15:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5166,6 +5169,26 @@
     },
     {
      "age_slug": "u14",
+     "slug": "u14-p-2",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "17:15",
+     "bana": 3,
+     "hemma": "Åhus Handboll 2",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "Åhus Handboll 2",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784042100000,
+     "start_iso": "2026-07-14T17:15+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
      "slug": "u14-p-1",
      "gender": "P",
      "rule": "Classic",
@@ -5174,14 +5197,34 @@
      "dag": "Tisdag",
      "tid": "17:30",
      "bana": 2,
-     "hemma": "6:an i Grupp 6",
+     "hemma": "RP IF Linköping 2",
      "borta": "Alingsås HK 1",
      "grupp": "B-Slutspel",
-     "mots": "6:an i Grupp 6",
+     "mots": "RP IF Linköping 2",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784043000000,
      "start_iso": "2026-07-14T17:30+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-p-svart",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "17:45",
+     "bana": 1,
+     "hemma": "Alingsås HK Svart",
+     "borta": "Ronneby HK 1",
+     "grupp": "C-Slutspel",
+     "mots": "Ronneby HK 1",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784043900000,
+     "start_iso": "2026-07-14T17:45+02:00",
      "day_label": "Tisdag 14 juli"
     },
     {
@@ -5194,10 +5237,30 @@
      "dag": "Tisdag",
      "tid": "17:45",
      "bana": 3,
-     "hemma": "6:e bästa 8:an",
+     "hemma": "HK Halmstad",
      "borta": "Alingsås HK Blå",
      "grupp": "C-Slutspel",
-     "mots": "6:e bästa 8:an",
+     "mots": "HK Halmstad",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784043900000,
+     "start_iso": "2026-07-14T17:45+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-p-vit",
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "17:45",
+     "bana": 5,
+     "hemma": "Lugi HF Klöver",
+     "borta": "Alingsås HK Vit",
+     "grupp": "C-Slutspel",
+     "mots": "Lugi HF Klöver",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784043900000,
@@ -6491,7 +6554,10 @@
      "grupp": "Grupp 6",
      "mots": "Lugi HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 6
+     },
      "start_ms": 1784036700000,
      "start_iso": "2026-07-14T15:45+02:00",
      "day_label": "Tisdag 14 juli"
