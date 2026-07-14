@@ -98,6 +98,8 @@ def render_app(group, standings, base, updated):
             .replace("__TEAMS__", json.dumps(_teams_js(group), ensure_ascii=False))
             .replace("__CLASSES__", json.dumps(_classes(group), ensure_ascii=False))
             .replace("__DUR_MIN__", str(group["profile"]["duration_min"]))
+            .replace("__API_HOST__", config.API_HOST)
+            .replace("__TOURNAMENT_ID__", config.TOURNAMENT_ID)
             .replace("__STANDINGS__", json.dumps(st, ensure_ascii=False))
             .replace("__ROSTERS__", json.dumps(_rosters_js(group), ensure_ascii=False))
             .replace("__CAL_ITEMS__", "")

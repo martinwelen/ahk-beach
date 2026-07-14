@@ -159,6 +159,14 @@ def test_js_matches_includes_id_and_video():
     assert out["video"] == "https://solidsport.com/x"
 
 
+def test_render_app_embeds_api_host_and_tournament():
+    html = build_apps.render_app(_group(), standings=None, base="b", updated="u")
+    import config
+    assert config.API_HOST in html
+    assert config.TOURNAMENT_ID in html
+    assert "__API_HOST__" not in html and "__TOURNAMENT_ID__" not in html
+
+
 def test_build_apps_copies_map_to_every_app(tmp_path, monkeypatch):
     data = {"meta": {"generated": "x"},
             "groups": {"u14": _group("u14", "U14"), "u15": _group("u15", "U15")}}
