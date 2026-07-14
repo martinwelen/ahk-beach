@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T12:33:56+00:00",
-  "seq": 1784032436,
-  "data_hash": "3adff55e4ed87a1b65e448d554996a4257a1d41e42bbd04e560bc31f0c5a9068"
+  "generated": "2026-07-14T12:46:59+00:00",
+  "seq": 1784033219,
+  "data_hash": "818bfeabbf51f44ed962ded69745e904d3d36d6745b91b225e0226135d560b41"
  },
  "by_age": {
   "u12": {
@@ -6309,6 +6309,21 @@
      "division_id": 81848394,
      "rows": [
       {
+       "name": "Alingsås HK 1",
+       "team_id": 74328265,
+       "is_alingsas": true,
+       "played": 7,
+       "won": 6,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 62,
+       "goals_against": 53,
+       "diff": 9,
+       "points": 12,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Höörs HK H 65 Svart",
        "team_id": 73898937,
        "is_alingsas": false,
@@ -6321,7 +6336,7 @@
        "diff": 23,
        "points": 12,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
       },
       {
        "name": "KFUM Lundagård",
@@ -6335,21 +6350,6 @@
        "goals_against": 57,
        "diff": 20,
        "points": 11,
-       "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Alingsås HK 1",
-       "team_id": 74328265,
-       "is_alingsas": true,
-       "played": 6,
-       "won": 5,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 55,
-       "goals_against": 47,
-       "diff": 8,
-       "points": 10,
        "tier": "A-Slutspel",
        "pos": 3
       },
@@ -6417,13 +6417,13 @@
        "name": "Hässleholms HF 3",
        "team_id": 77250102,
        "is_alingsas": false,
-       "played": 6,
+       "played": 7,
        "won": 1,
        "tied": 0,
-       "lost": 5,
-       "goals_for": 51,
-       "goals_against": 64,
-       "diff": -13,
+       "lost": 6,
+       "goals_for": 57,
+       "goals_against": 71,
+       "diff": -14,
        "points": 2,
        "tier": "C-Slutspel",
        "pos": 8
@@ -7508,8 +7508,8 @@
             "goals": null
            },
            "away": {
-            "label": "3:an i Grupp 7",
-            "team_id": null,
+            "label": "Önnereds HK",
+            "team_id": 76821927,
             "is_alingsas": false,
             "goals": null
            },
@@ -7521,8 +7521,8 @@
            "bana": 3,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 1",
-            "team_id": null,
+            "label": "Höörs HK H 65 Svart",
+            "team_id": 73898937,
             "is_alingsas": false,
             "goals": null
            },
@@ -7603,8 +7603,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 7",
-            "team_id": null,
+            "label": "HK Ankaret",
+            "team_id": 77005349,
             "is_alingsas": false,
             "goals": null
            },
@@ -7654,8 +7654,8 @@
            "bana": 14,
            "round": "1/16 Final",
            "home": {
-            "label": "3:an i Grupp 1",
-            "team_id": null,
+            "label": "KFUM Lundagård",
+            "team_id": 77590509,
             "is_alingsas": false,
             "goals": null
            },
@@ -7730,8 +7730,8 @@
            "bana": 4,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 7",
-            "team_id": null,
+            "label": "Hässleholms HF 2",
+            "team_id": 74627849,
             "is_alingsas": false,
             "goals": null
            },
@@ -7774,8 +7774,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 1",
-            "team_id": null,
+            "label": "HF Karlskrona Svart",
+            "team_id": 74876324,
             "is_alingsas": false,
             "goals": null
            },
@@ -8160,8 +8160,8 @@
            "bana": 14,
            "round": "1/8 Final",
            "home": {
-            "label": "6:an i Grupp 1",
-            "team_id": null,
+            "label": "HK Ceres Norrtälje",
+            "team_id": 76957375,
             "is_alingsas": false,
             "goals": null
            },
@@ -8242,8 +8242,8 @@
             "goals": null
            },
            "away": {
-            "label": "6:an i Grupp 7",
-            "team_id": null,
+            "label": "IFK Bankeryd Blå",
+            "team_id": 76792105,
             "is_alingsas": false,
             "goals": null
            },
@@ -8420,8 +8420,8 @@
             "goals": null
            },
            "away": {
-            "label": "8:an i Grupp 7",
-            "team_id": null,
+            "label": "IK Lågan Hörby",
+            "team_id": 74535161,
             "is_alingsas": false,
             "goals": null
            },
@@ -8490,14 +8490,14 @@
            "bana": 15,
            "round": "1/8 Final",
            "home": {
-            "label": "8:an i Grupp 1",
-            "team_id": null,
+            "label": "Hässleholms HF 3",
+            "team_id": 77250102,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "9:an i Grupp 7",
-            "team_id": null,
+            "label": "Huddinge HK Vindslitna",
+            "team_id": 76175814,
             "is_alingsas": false,
             "goals": null
            },
