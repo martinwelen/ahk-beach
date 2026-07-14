@@ -192,6 +192,13 @@ def test_js_matches_includes_runda():
     assert build_apps._js_matches(g)[0]["runda"] == "Semifinal"
 
 
+def test_render_app_embeds_bana_xy():
+    html = build_apps.render_app(_group(), standings=None, base="b", updated="u")
+    assert "__BANA_XY__" not in html
+    assert "0.9371" in html   # bana 9 x-andel (789/842)
+    assert "const BANA_XY" in html
+
+
 def test_build_apps_writes_sched_json(tmp_path, monkeypatch):
     data = {"meta": {"generated": "x"}, "groups": {"u14": _group("u14", "U14")}}
     (tmp_path / "data.json").write_text(json.dumps(data), encoding="utf-8")

@@ -9,6 +9,7 @@ import shutil
 import config
 import template
 import roster_data
+import bana_coords
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_JSON = os.path.join(ROOT, "data.json")
@@ -101,6 +102,7 @@ def render_app(group, standings, base, updated):
             .replace("__DUR_MIN__", str(group["profile"]["duration_min"]))
             .replace("__API_HOST__", config.API_HOST)
             .replace("__TOURNAMENT_ID__", config.TOURNAMENT_ID)
+            .replace("__BANA_XY__", json.dumps(bana_coords.bana_fractions()))
             .replace("__STANDINGS__", json.dumps(st, ensure_ascii=False))
             .replace("__ROSTERS__", json.dumps(_rosters_js(group), ensure_ascii=False))
             .replace("__CAL_ITEMS__", "")

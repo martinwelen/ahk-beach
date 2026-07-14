@@ -322,6 +322,7 @@ const CLASSES = __CLASSES__;
 const DUR = __DUR_MIN__ * 60000;
 const API_HOST = "__API_HOST__";
 const TOURNAMENT_ID = "__TOURNAMENT_ID__";
+const BANA_XY = __BANA_XY__;
 const liveState = {};   // livescore per match-id; deklareras före första render() (TDZ-säkert)
 let STANDINGS = __STANDINGS__;
 const ROSTERS = __ROSTERS__;
