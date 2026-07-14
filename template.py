@@ -246,6 +246,8 @@ footer a{color:var(--sea)}
 .herolist.many .hero .mt{font-size:clamp(1.05rem,4vw,1.4rem)}
 .herolist.many .hero .cd{font-size:1.1rem;margin-top:8px}
 .hero{position:relative}
+.rundachip{margin-left:6px;font-weight:800;font-size:.72rem;padding:2px 8px;border-radius:999px;
+  background:#e8730c;color:#fff;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -392,7 +394,7 @@ function render(){
         <div class="tag">Bana ${esc(hm.bana)}</div>
         <div class="lbl">${isLive?'<span class="pulse"></span>Pågår nu':'Härnäst'}</div>
         <div class="mt">${esc(hm.home)} <span style="opacity:.7">vs</span> ${esc(hm.away)}</div>
-        <div class="sub">${esc(hm.lag)}${hm.klass?' · '+esc(hm.klass):''} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
+        <div class="sub">${esc(hm.lag)}${hm.klass?' · '+esc(hm.klass):''} · ${esc(hm.grp)}${hm.runda?' · '+esc(hm.runda):''} · ${hm.t} · ${esc(hm.day)}</div>
         <div class="lscore" hidden></div>
         <div class="cd" data-ms="${hm.ms}">${isLive?'Spelas nu':fmtCountdown(hm.ms-now)}</div>
         ${videoLink(hm.video)}
@@ -415,7 +417,7 @@ function render(){
         <div class="t">${m.t}${st==="live"?'<small class="nowtag">NU</small>':""}</div>
         <div>
           <div class="chips"><span class="lagchip" style="background:#${m.color}">${esc(m.lag)}</span>
-            ${m.klass?`<span class="klasschip">${esc(m.klass)}</span>`:""}<span class="grp">${esc(m.grp)}</span></div>
+            ${m.klass?`<span class="klasschip">${esc(m.klass)}</span>`:""}<span class="grp">${esc(m.grp)}</span>${m.runda?`<span class="rundachip">${esc(m.runda)}</span>`:""}</div>
           <div class="vs"><span class="${homeAli?"ali":""}">${esc(m.home)}</span> – <span class="${homeAli?"":"ali"}">${esc(m.away)}</span></div>
           <div class="lscore" hidden></div>
           ${m.res ? `<div class="score"><b class="${m.res.hg>m.res.ag?'w':m.res.hg<m.res.ag?'l':''}">${m.res.hg}</b><span class="x">–</span><b class="${m.res.ag>m.res.hg?'w':m.res.ag<m.res.hg?'l':''}">${m.res.ag}</b></div>` : ""}

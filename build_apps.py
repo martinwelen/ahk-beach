@@ -62,6 +62,7 @@ def _js_matches(group):
             "res": m.get("result") if has_res else None,
             "id": m.get("id"),
             "video": m.get("video"),
+            "runda": m.get("runda"),
         })
     out.sort(key=lambda x: x["ms"])
     return out

@@ -72,6 +72,43 @@ def _extract_result(res):
     return {"hg": hg, "ag": ag}
 
 
+def _runda_sv(name):
+    """cupmanagers rundnamn (en) → svensk kortform. Robust mot ord-/bråkvarianter
+    och versaler: 'Semi final'/'1/2 Final'→Semifinal, 'Quarter final'/'1/4 Final'→
+    Kvartsfinal, 'Final'→Final, '1/8 Final'→'1/8-final'. Okänt → råtext."""
+    if not name:
+        return None
+    n = name.strip()
+    low = n.lower()
+    if low == "final":
+        return "Final"
+    if "semi" in low or low == "1/2 final":
+        return "Semifinal"
+    if "quarter" in low or low == "1/4 final":
+        return "Kvartsfinal"
+    m = re.match(r"^(1/\d+)\s*final$", low)
+    if m:
+        return f"{m.group(1)}-final"
+    return n
+
+
+def _round_name(mid):
+    """Resolvar Match($roundName) → svensk kortform, annars None."""
+    if not mid:
+        return None
+    try:
+        resp = api.call(f"Match({{id:{mid}}})$roundName").get("responses", {})
+    except Exception:
+        return None
+    for v in resp.values():
+        ent = v.get("entity", {}) if isinstance(v, dict) else {}
+        if isinstance(ent, dict) and ent.get("__typename") == "Match$RoundName":
+            nm = ent.get("name")
+            en = nm.get("en") if isinstance(nm, dict) else nm
+            return _runda_sv(en)
+    return None
+
+
 def _video_url(mid):
     """Resolvar Match($video) → solidsport externalLink, annars None."""
     if not mid:
@@ -110,6 +147,7 @@ def normalize_match(e, store, reg_by_id):
     grupp = api.name_of(div)
     bana = _bana_num(api.store_get(store, e.get("arena", {})).get("completeName", ""))
     video = _video_url(e.get("id")) if bana in (1, 2) else None
+    runda = _round_name(e.get("id")) if "slutspel" in grupp.lower() else None
     dt = datetime.fromtimestamp(start_ms / 1000, _CEST)
     result = _extract_result(api.store_get(store, e.get("result", {})))
 
@@ -122,6 +160,7 @@ def normalize_match(e, store, reg_by_id):
         "tid": f"{dt.hour:02d}:{dt.minute:02d}",
         "bana": bana,
         "video": video,
+        "runda": runda,
         "hemma": hemma, "borta": borta,
         "grupp": grupp,
         "mots": borta if hb == "Hemma" else hemma,
@@ -171,7 +210,7 @@ def _hash_groups(groups):
         key.append((a, g["rule"], [t["id"] for t in g["teams"]],
                     [(m["slug"], m["start_ms"], str(m["bana"]),
                       m["hemma"], m["borta"], m["grupp"], m.get("result"),
-                      m.get("id"), m.get("video"))
+                      m.get("id"), m.get("video"), m.get("runda"))
                      for m in g["matches"]]))
     return hashlib.sha256(json.dumps(key, ensure_ascii=False,
                                      sort_keys=True).encode()).hexdigest()

@@ -257,3 +257,61 @@ def test_hash_includes_id_and_video():
     b3 = copy.deepcopy(base); b3["u15"]["matches"][0]["id"] = 99
     assert fetch_data._hash_groups(b2) != h1   # video ändrar hashen → tvingar omskrivning
     assert fetch_data._hash_groups(b3) != h1   # id ändrar hashen
+
+
+def test_runda_sv_mapping():
+    import fetch_data as f
+    assert f._runda_sv("Final") == "Final"
+    assert f._runda_sv("1/2 Final") == "Semifinal"
+    assert f._runda_sv("Semi final") == "Semifinal"      # verkligt källnamn
+    assert f._runda_sv("1/4 Final") == "Kvartsfinal"
+    assert f._runda_sv("Quarter final") == "Kvartsfinal"
+    assert f._runda_sv("1/8 Final") == "1/8-final"
+    assert f._runda_sv("1/16 Final") == "1/16-final"
+    assert f._runda_sv(None) is None
+    assert f._runda_sv("Bronsmatch") == "Bronsmatch"  # okänt → råtext
+
+
+def test_round_name_resolves_swedish():
+    import fetch_data, api
+    orig = api.call
+    api.call = lambda q: {"responses": {"r": {"entity": {
+        "__typename": "Match$RoundName", "name": {"en": "1/2 Final"}}}}}
+    try:
+        assert fetch_data._round_name(5) == "Semifinal"
+        api.call = lambda q: {"responses": {}}
+        assert fetch_data._round_name(5) is None
+    finally:
+        api.call = orig
+
+
+def test_normalize_sets_runda_only_for_slutspel():
+    import fetch_data, api
+    reg = {7: {"id": 7, "age_slug": "u12", "slug": "u12-p-bla", "gender": "P",
+               "rule": "Classic", "color": "#1f5fbf", "age": 12}}
+    orig = (api.ref_id, api.name_of, api.store_get, api.call)
+    api.ref_id = lambda n: 7
+    api.call = lambda q: {"responses": {"r": {"entity": {
+        "__typename": "Match$RoundName", "name": {"en": "1/8 Final"}}}}}
+    def mk(grupp):
+        api.name_of = lambda x: grupp
+        api.store_get = lambda s, r: {"completeName": "Bana 5", "team": {"href": "t"}}
+        return fetch_data.normalize_match(
+            {"id": 1, "home": {"href": "h"}, "away": {"href": "a"}, "start": 1784034000000,
+             "division": {}, "arena": {}, "result": {}}, {}, reg)
+    try:
+        assert mk("A-Slutspel")["runda"] == "1/8-final"
+        assert mk("Grupp 1")["runda"] is None
+    finally:
+        api.ref_id, api.name_of, api.store_get, api.call = orig
+
+
+def test_hash_includes_runda():
+    import copy, fetch_data
+    base = {"u12": {"rule": "Classic", "teams": [{"id": 1}],
+            "matches": [{"slug": "s", "start_ms": 1, "bana": 2, "hemma": "a",
+                         "borta": "b", "grupp": "A-Slutspel", "result": None,
+                         "id": 10, "video": None, "runda": "Semifinal"}]}}
+    h1 = fetch_data._hash_groups(base)
+    b2 = copy.deepcopy(base); b2["u12"]["matches"][0]["runda"] = "Final"
+    assert fetch_data._hash_groups(b2) != h1

@@ -180,3 +180,13 @@ def test_build_apps_copies_map_to_every_app(tmp_path, monkeypatch):
     build_apps.main()
     assert (tmp_path / "u14" / "karta.png").exists()
     assert (tmp_path / "dist-u15" / "karta.png").exists()
+
+
+def test_js_matches_includes_runda():
+    g = _group()
+    g["teams"] = [{"id": 1, "slug": "u14-p-bla", "team_name": "A", "color": "#1f5fbf", "gender": "P"}]
+    g["matches"] = [{"start_ms": 1, "tid": "10:00", "bana": 2, "slug": "u14-p-bla",
+                     "grupp": "A-Slutspel", "hemma": "A", "borta": "B", "hb": "Hemma",
+                     "day_label": "x", "color": "#1f5fbf", "gender": "P", "result": None,
+                     "id": 999, "video": None, "runda": "Semifinal"}]
+    assert build_apps._js_matches(g)[0]["runda"] == "Semifinal"

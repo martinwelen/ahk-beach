@@ -43,3 +43,10 @@ def test_video_link_is_scheme_checked_and_encoded():
     assert "function videoLink(" in t
     assert "/^https:" in t          # blockerar javascript:-URI:er
     assert "encodeURI(" in t        # neutraliserar citattecken i href
+
+
+def test_card_shows_playoff_round():
+    t = template.TEMPLATE
+    assert 'class="rundachip"' in t
+    assert 'm.runda' in t
+    assert 'hm.runda' in t
