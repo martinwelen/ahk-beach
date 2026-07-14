@@ -208,3 +208,38 @@ def test_normalize_match_includes_cupmanager_id():
         api.ref_id, api.name_of, api.store_get = orig
     assert m is not None
     assert m["id"] == 81848529
+
+
+def test_video_url_extracts_external_link():
+    import fetch_data, api
+    orig = api.call
+    api.call = lambda q: {"responses": {"Video({id:1})": {"entity": {
+        "__typename": "Video", "externalLink": "https://solidsport.com/x"}}}}
+    try:
+        assert fetch_data._video_url(123) == "https://solidsport.com/x"
+        api.call = lambda q: {"responses": {}}
+        assert fetch_data._video_url(123) is None
+        assert fetch_data._video_url(None) is None
+    finally:
+        api.call = orig
+
+
+def test_normalize_match_sets_video_only_for_courts_1_2():
+    import fetch_data, api
+    reg = {7: {"id": 7, "age_slug": "u15", "slug": "u15-p-bla", "gender": "P",
+               "rule": "Classic", "color": "#1f5fbf", "age": 15}}
+    orig = (api.ref_id, api.name_of, api.store_get, api.call)
+    api.ref_id = lambda n: 7
+    api.name_of = lambda x: "Lag"
+    api.call = lambda q: {"responses": {"v": {"entity": {
+        "__typename": "Video", "externalLink": "https://solidsport.com/x"}}}}
+    def mk(bana):
+        api.store_get = lambda s, r: {"completeName": f"Bana {bana}", "team": {"href": "t"}}
+        return fetch_data.normalize_match(
+            {"id": 1, "home": {"href": "h"}, "away": {"href": "a"}, "start": 1784034000000,
+             "division": {}, "arena": {}, "result": {}}, {}, reg)
+    try:
+        assert mk(2)["video"] == "https://solidsport.com/x"   # bana 2 → video
+        assert mk(15)["video"] is None                        # annan bana → ingen
+    finally:
+        api.ref_id, api.name_of, api.store_get, api.call = orig

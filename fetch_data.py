@@ -72,6 +72,21 @@ def _extract_result(res):
     return {"hg": hg, "ag": ag}
 
 
+def _video_url(mid):
+    """Resolvar Match($video) → solidsport externalLink, annars None."""
+    if not mid:
+        return None
+    try:
+        resp = api.call(f"Match({{id:{mid}}})$video").get("responses", {})
+    except Exception:
+        return None
+    for v in resp.values():
+        ent = v.get("entity", {}) if isinstance(v, dict) else {}
+        if isinstance(ent, dict) and ent.get("__typename") == "Video":
+            return ent.get("externalLink")
+    return None
+
+
 def normalize_match(e, store, reg_by_id):
     """En Match-entitet → normaliserad dict, knuten till klubbens lag.
 
@@ -94,6 +109,7 @@ def normalize_match(e, store, reg_by_id):
     div = api.store_get(store, e.get("division", {}))
     grupp = api.name_of(div)
     bana = _bana_num(api.store_get(store, e.get("arena", {})).get("completeName", ""))
+    video = _video_url(e.get("id")) if bana in (1, 2) else None
     dt = datetime.fromtimestamp(start_ms / 1000, _CEST)
     result = _extract_result(api.store_get(store, e.get("result", {})))
 
@@ -105,6 +121,7 @@ def normalize_match(e, store, reg_by_id):
         "dag": _SV_DAYS[dt.weekday()],
         "tid": f"{dt.hour:02d}:{dt.minute:02d}",
         "bana": bana,
+        "video": video,
         "hemma": hemma, "borta": borta,
         "grupp": grupp,
         "mots": borta if hb == "Hemma" else hemma,
