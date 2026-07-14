@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-13T19:31:41+00:00",
-  "seq": 1783971101,
-  "data_hash": "b4f22d9f2610a399094088a09c616492ca6a8ac84220561ddf10412e0231819a"
+  "generated": "2026-07-14T07:30:53+00:00",
+  "seq": 1784014253,
+  "data_hash": "8d8a4bbac9c288acb5ef9f70dcfc291c5fb81a1d610fe9d826b2361a684411aa"
  },
  "groups": {
   "u8": {
@@ -49,26 +49,6 @@
      "result": null,
      "start_ms": 1784192400000,
      "start_iso": "2026-07-16T11:00+02:00",
-     "day_label": "Torsdag 16 juli"
-    },
-    {
-     "age_slug": "u8",
-     "slug": "u8-p-lag-bla",
-     "gender": "P",
-     "rule": "Mini",
-     "color": "#1f5fbf",
-     "datum": "2026-07-16",
-     "dag": "Torsdag",
-     "tid": "12:30",
-     "bana": 6,
-     "hemma": "Alingsås HK Lag Blå",
-     "borta": "Kristianstad HK Röd",
-     "grupp": "Grupp 1",
-     "mots": "Kristianstad HK Röd",
-     "hb": "Hemma",
-     "result": null,
-     "start_ms": 1784197800000,
-     "start_iso": "2026-07-16T12:30+02:00",
      "day_label": "Torsdag 16 juli"
     },
     {
