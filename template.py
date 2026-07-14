@@ -413,6 +413,7 @@ function render(){
       </article>`;
   }
   list.innerHTML = html;
+  if(typeof reapplyLive==="function") reapplyLive();
   // scrolla till nu/härnäst om turneringen pågår (det finns spelade matcher)
   if(!render._scrolled && rows.some(m=>state(m,now)==="past") && hm){
     render._scrolled = true;
@@ -663,6 +664,42 @@ document.addEventListener("click", async e=>{
   img.addEventListener("pointerup", up);
   img.addEventListener("pointercancel", up);
 })();
+// Livescore: polla MatchResult för matcher i tidsfönster; uppdatera kort/hero in-place.
+const liveState = {};   // id -> {hg, ag, live, finished}
+function applyLive(id){
+  const s = liveState[id];
+  for(const el of document.querySelectorAll(`[data-mid="${id}"] .lscore`)){
+    if(s && s.live && !s.finished){
+      el.innerHTML = `<span class="pulse"></span>LIVE ${s.hg}–${s.ag}`; el.hidden = false;
+    } else { el.hidden = true; el.innerHTML = ""; }
+  }
+}
+function reapplyLive(){ for(const id in liveState) applyLive(id); }
+function pollOne(id){
+  const call = encodeURIComponent(`MatchResult({id:${id}})`);
+  const url = `https://${API_HOST}/rest/results_api/call?call=${call}&lang=sv&tournamentId=${TOURNAMENT_ID}`;
+  fetch(url).then(r=>r.json()).then(j=>{
+    for(const v of Object.values(j.responses||{})){
+      const e = (v&&v.entity)||{};
+      if(e.__typename==="MatchResult"){
+        liveState[id] = {hg:e.homeGoals, ag:e.awayGoals, live:e.live, finished:e.finished};
+        applyLive(id);
+      }
+    }
+  }).catch(()=>{});
+}
+function pollWindow(){
+  if(document.visibilityState!=="visible") return;
+  const now = Date.now();
+  for(const m of MATCHES){
+    if(!m.id) continue;
+    const inWindow = now >= m.ms && now < m.ms + DUR + 600000;
+    if(inWindow && !(liveState[m.id]||{}).finished) pollOne(m.id);
+  }
+}
+setInterval(pollWindow, 10000);
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible") pollWindow(); });
+pollWindow();
 if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
 const installBtn = document.getElementById("install");
 const sheet = document.getElementById("sheet");
