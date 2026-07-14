@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T15:53:40+00:00",
-  "seq": 1784044420,
-  "data_hash": "24e63831cab6ff30d0a9379c7977e393b1eb6d6235e2ece0de404c89b12bbdf9"
+  "generated": "2026-07-14T16:02:17+00:00",
+  "seq": 1784044937,
+  "data_hash": "9f0e174f59e4cc95c08929a60237b8919df05dc361a5c8adde553714c5d3652a"
  },
  "groups": {
   "u8": {
@@ -5897,7 +5897,10 @@
      "grupp": "C-Slutspel",
      "mots": "Ronneby HK 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 6
+     },
      "start_ms": 1784043900000,
      "start_iso": "2026-07-14T17:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5920,7 +5923,10 @@
      "grupp": "C-Slutspel",
      "mots": "HK Halmstad",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 7
+     },
      "start_ms": 1784043900000,
      "start_iso": "2026-07-14T17:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5943,7 +5949,10 @@
      "grupp": "C-Slutspel",
      "mots": "Lugi HF Klöver",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 7
+     },
      "start_ms": 1784043900000,
      "start_iso": "2026-07-14T17:45+02:00",
      "day_label": "Tisdag 14 juli"
@@ -6012,6 +6021,29 @@
      "grupp": "B-Slutspel",
      "mots": "Lugi HF Spader",
      "hb": "Borta",
+     "result": null,
+     "start_ms": 1784047500000,
+     "start_iso": "2026-07-14T18:45+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-p-svart",
+     "id": 81848371,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "18:45",
+     "bana": 5,
+     "video": null,
+     "runda": "Kvartsfinal",
+     "hemma": "Alingsås HK Svart",
+     "borta": "Falköpings AIK HK Vit",
+     "grupp": "C-Slutspel",
+     "mots": "Falköpings AIK HK Vit",
+     "hb": "Hemma",
      "result": null,
      "start_ms": 1784047500000,
      "start_iso": "2026-07-14T18:45+02:00",
@@ -7605,7 +7637,10 @@
      "grupp": "Grupp 1",
      "mots": "Hultsfreds HF Real Hultsfred",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 12
+     },
      "start_ms": 1784043900000,
      "start_iso": "2026-07-14T17:45+02:00",
      "day_label": "Tisdag 14 juli"
