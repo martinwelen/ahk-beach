@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-14T19:12:16+00:00",
-  "seq": 1784056336,
-  "data_hash": "7e9c2a277c09caf06690a81feb8c9903315d13a77618f59814655ea396baeb8e"
+  "generated": "2026-07-14T19:23:59+00:00",
+  "seq": 1784057039,
+  "data_hash": "457de429b9867c43ecf95598835fc6784191f05236a5853fd314f42b84a39e7e"
  },
  "by_age": {
   "u12": {
@@ -9868,6 +9868,21 @@
        "pos": 2
       },
       {
+       "name": "Tyresö Handboll 2",
+       "team_id": 75063060,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 4,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 60,
+       "goals_against": 48,
+       "diff": 12,
+       "points": 8,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "IFK Kristianstad Blå",
        "team_id": 75022524,
        "is_alingsas": false,
@@ -9878,21 +9893,6 @@
        "goals_for": 48,
        "goals_against": 51,
        "diff": -3,
-       "points": 6,
-       "tier": "A-Slutspel",
-       "pos": 3
-      },
-      {
-       "name": "Tyresö Handboll 2",
-       "team_id": 75063060,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 3,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 48,
-       "goals_against": 38,
-       "diff": 10,
        "points": 6,
        "tier": "A-Slutspel",
        "pos": 4
@@ -9958,21 +9958,6 @@
        "pos": 8
       },
       {
-       "name": "Hultsfreds HF Real Hultsfred",
-       "team_id": 76451857,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 0,
-       "tied": 0,
-       "lost": 4,
-       "goals_for": 25,
-       "goals_against": 49,
-       "diff": -24,
-       "points": 0,
-       "tier": "C-Slutspel",
-       "pos": 9
-      },
-      {
        "name": "Lugi HF 1",
        "team_id": 81078893,
        "is_alingsas": false,
@@ -9982,6 +9967,21 @@
        "lost": 5,
        "goals_for": 40,
        "goals_against": 66,
+       "diff": -26,
+       "points": 0,
+       "tier": "C-Slutspel",
+       "pos": 9
+      },
+      {
+       "name": "Hultsfreds HF Real Hultsfred",
+       "team_id": 76451857,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 0,
+       "tied": 0,
+       "lost": 5,
+       "goals_for": 35,
+       "goals_against": 61,
        "diff": -26,
        "points": 0,
        "tier": "C-Slutspel",
@@ -9995,6 +9995,21 @@
      "division_id": 81853305,
      "rows": [
       {
+       "name": "Växjö HF 1",
+       "team_id": 75589564,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 3,
+       "tied": 2,
+       "lost": 0,
+       "goals_for": 57,
+       "goals_against": 49,
+       "diff": 8,
+       "points": 8,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "IK Bolton",
        "team_id": 78345036,
        "is_alingsas": false,
@@ -10007,37 +10022,37 @@
        "diff": 6,
        "points": 8,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
       },
       {
-       "name": "Växjö HF 1",
-       "team_id": 75589564,
-       "is_alingsas": false,
-       "played": 4,
+       "name": "Alingsås HK 1",
+       "team_id": 75872636,
+       "is_alingsas": true,
+       "played": 5,
        "won": 2,
        "tied": 2,
-       "lost": 0,
-       "goals_for": 45,
-       "goals_against": 39,
-       "diff": 6,
+       "lost": 1,
+       "goals_for": 49,
+       "goals_against": 40,
+       "diff": 9,
        "points": 6,
        "tier": "A-Slutspel",
-       "pos": 2
+       "pos": 3
       },
       {
        "name": "IFK Tumba HK 2",
        "team_id": 75072842,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 2,
        "tied": 2,
-       "lost": 0,
-       "goals_for": 41,
-       "goals_against": 39,
-       "diff": 2,
+       "lost": 1,
+       "goals_for": 46,
+       "goals_against": 50,
+       "diff": -4,
        "points": 6,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "Åhus Handboll",
@@ -10051,8 +10066,8 @@
        "goals_against": 50,
        "diff": 2,
        "points": 5,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
        "name": "Tyresö Handboll 1",
@@ -10067,34 +10082,19 @@
        "diff": -1,
        "points": 5,
        "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
-       "name": "Alingsås HK 1",
-       "team_id": 75872636,
-       "is_alingsas": true,
-       "played": 4,
-       "won": 1,
-       "tied": 2,
-       "lost": 1,
-       "goals_for": 38,
-       "goals_against": 35,
-       "diff": 3,
-       "points": 4,
-       "tier": "B-Slutspel",
        "pos": 6
       },
       {
        "name": "Karlshamns HF",
        "team_id": 80736705,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 2,
        "tied": 0,
-       "lost": 2,
-       "goals_for": 38,
-       "goals_against": 35,
-       "diff": 3,
+       "lost": 3,
+       "goals_for": 48,
+       "goals_against": 47,
+       "diff": 1,
        "points": 4,
        "tier": "B-Slutspel",
        "pos": 7
