@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T15:35:45+00:00",
-  "seq": 1784043345,
-  "data_hash": "59c98e4fd77469c9be0372cf1dfb981e394eaa7fa452b4130554d65a65b6314d"
+  "generated": "2026-07-14T15:53:40+00:00",
+  "seq": 1784044420,
+  "data_hash": "24e63831cab6ff30d0a9379c7977e393b1eb6d6235e2ece0de404c89b12bbdf9"
  },
  "groups": {
   "u8": {
@@ -5871,7 +5871,10 @@
      "grupp": "B-Slutspel",
      "mots": "RP IF Linköping 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 10
+     },
      "start_ms": 1784043000000,
      "start_iso": "2026-07-14T17:30+02:00",
      "day_label": "Tisdag 14 juli"
@@ -5989,6 +5992,29 @@
      "result": null,
      "start_ms": 1784044800000,
      "start_iso": "2026-07-14T18:00+02:00",
+     "day_label": "Tisdag 14 juli"
+    },
+    {
+     "age_slug": "u14",
+     "slug": "u14-p-1",
+     "id": 81848351,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-14",
+     "dag": "Tisdag",
+     "tid": "18:45",
+     "bana": 1,
+     "video": "https://solidsport.com/ahusbeach/watch/vinn-14072128-vinn-14072230-7d231a8f-bcf1-48a1-a0a6-c28abda505ea",
+     "runda": "Kvartsfinal",
+     "hemma": "Lugi HF Spader",
+     "borta": "Alingsås HK 1",
+     "grupp": "B-Slutspel",
+     "mots": "Lugi HF Spader",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784047500000,
+     "start_iso": "2026-07-14T18:45+02:00",
      "day_label": "Tisdag 14 juli"
     }
    ]
