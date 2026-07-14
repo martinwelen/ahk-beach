@@ -448,6 +448,7 @@ function render(){
   }
   list.innerHTML = html;
   if(typeof reapplyLive==="function") reapplyLive();
+  if(typeof mapMarkers==="function") mapMarkers();
   // scrolla till nu/härnäst om turneringen pågår (det finns spelade matcher)
   if(!render._scrolled && rows.some(m=>state(m,now)==="past") && featured.length){
     render._scrolled = true;
@@ -472,6 +473,44 @@ function refreshData(){
       if(view==="slutspel") renderBracket();
     }
   }).catch(()=>{});
+}
+// Kartmarkörer: var Alingsås spelar nu (live) / härnäst (up), på rätt bana.
+function mapMarkers(){
+  const now = Date.now();
+  const rows = MATCHES.filter(matchPass);
+  const liveOnes = rows.filter(m=>state(m,now)==="live");
+  const fn = rows.find(m=>state(m,now)==="up");
+  const next = fn ? rows.filter(m=>state(m,now)==="up" && m.ms===fn.ms) : [];
+  const byBana = {};
+  for(const m of next) if(BANA_XY[m.bana] && !byBana[m.bana]) byBana[m.bana]={m,kind:"next"};
+  for(const m of liveOnes) if(BANA_XY[m.bana]) byBana[m.bana]={m,kind:"live"};
+  const inline = document.getElementById("mk-inline");
+  const zoom = document.getElementById("mk-zoom");
+  if(inline) inline.innerHTML="";
+  if(zoom) zoom.innerHTML="";
+  for(const bana in byBana){
+    const it = byBana[bana], xy = BANA_XY[bana];
+    if(inline){
+      const d=document.createElement("span");
+      d.className="mk "+it.kind; d.style.left=(xy[0]*100)+"%"; d.style.top=(xy[1]*100)+"%";
+      inline.appendChild(d);
+    }
+    if(zoom){
+      const b=document.createElement("button");
+      b.className="mk "+it.kind; b.style.left=(xy[0]*100)+"%"; b.style.top=(xy[1]*100)+"%";
+      b.setAttribute("aria-label", `Bana ${bana}: ${it.m.home} mot ${it.m.away}`);
+      b.addEventListener("click", ev=>{ ev.stopPropagation(); showMapInfo(it.m, bana); });
+      zoom.appendChild(b);
+    }
+  }
+  if(!Object.keys(byBana).length){ const info=document.getElementById("mapinfo"); if(info) info.hidden=true; }
+}
+function showMapInfo(m, bana){
+  const info=document.getElementById("mapinfo"); if(!info) return;
+  const s=liveState[m.id];
+  const sc=(s && s.live && !s.finished) ? `<span class="ls">🔴 ${s.hg}–${s.ag}</span>` : "";
+  info.innerHTML = `<span class="k">${esc(m.klass||"")}</span>${esc(m.home)} – ${esc(m.away)} · bana ${esc(bana)} · ${esc(m.t)}${sc}`;
+  info.hidden=false;
 }
 setInterval(refreshData, 60000);
 document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible") refreshData(); });
@@ -500,6 +539,7 @@ function setView(v){
   elBracket.hidden = v!=="slutspel";
   elRoster.hidden = v!=="trupp";
   elMap.hidden = v!=="karta";
+  if(v==="karta" && typeof mapMarkers==="function") mapMarkers();
   if(v==="tabeller") renderTables();
   if(v==="slutspel") renderBracket();
   if(v==="trupp") renderRoster();
@@ -673,8 +713,8 @@ document.addEventListener("click", async e=>{
   };
   const apply=()=>{ clamp(); stage.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; };
   const reset=()=>{ scale=1; tx=0; ty=0; apply(); };
-  const open=()=>{ ov.hidden=false; document.body.style.overflow="hidden"; reset(); };
-  const close=()=>{ ov.hidden=true; document.body.style.overflow=""; pts.clear(); lastDist=0; };
+  const open=()=>{ ov.hidden=false; document.body.style.overflow="hidden"; reset(); if(typeof mapMarkers==="function") mapMarkers(); };
+  const close=()=>{ ov.hidden=true; document.body.style.overflow=""; pts.clear(); lastDist=0; const info=document.getElementById("mapinfo"); if(info) info.hidden=true; };
   const arr=()=>[...pts.values()];
   const dist=()=>{ const a=arr(); return Math.hypot(a[0].x-a[1].x, a[0].y-a[1].y); };
   const mid=()=>{ const a=arr(); return {x:(a[0].x+a[1].x)/2, y:(a[0].y+a[1].y)/2}; };

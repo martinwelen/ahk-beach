@@ -84,3 +84,12 @@ def test_zoom_transforms_stage_not_img():
     assert 'stage.style.transform=' in t        # transform sätts på stage (inte img)
     assert 'img.style.transform=' not in t      # img transformeras inte direkt
     assert 'stage.style.willChange="transform"' in t  # willChange på stage
+
+
+def test_map_markers_logic():
+    t = template.TEMPLATE
+    assert "function mapMarkers(" in t
+    assert "function showMapInfo(" in t
+    assert 'state(m,now)==="live"' in t
+    assert "BANA_XY[" in t
+    assert "mapMarkers();" in t
