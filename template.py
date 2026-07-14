@@ -231,8 +231,8 @@ footer a{color:var(--sea)}
 .mapsrc{color:#5a6b75;font-size:.75rem;margin:8px 2px 0}
 #mapzoom:not([hidden]){position:fixed;inset:0;z-index:1000;background:#0b1620;touch-action:none;
   overflow:hidden;display:flex;align-items:center;justify-content:center}
-#mapzoom-img{max-width:100%;max-height:100%;user-select:none;-webkit-user-select:none;
-  will-change:transform;touch-action:none}
+#mapzoom-img{max-width:100vw;max-height:100vh;user-select:none;-webkit-user-select:none;
+  touch-action:none}
 #mapzoom-close{position:fixed;top:calc(env(safe-area-inset-top,0px) + 10px);right:12px;
   z-index:1001;width:44px;height:44px;border:0;border-radius:50%;background:#13293dcc;
   color:#fff;font-size:1.2rem;line-height:1;cursor:pointer}
@@ -249,6 +249,15 @@ footer a{color:var(--sea)}
 .hero{position:relative}
 .rundachip{margin-left:6px;font-weight:800;font-size:.72rem;padding:2px 8px;border-radius:999px;
   background:#e8730c;color:#fff;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+#mapzoom-stage{position:relative;will-change:transform}
+.mapmarkers{position:absolute;inset:0;pointer-events:none}
+.mapmark{position:absolute;width:22px;height:22px;border-radius:50%;background:#e8730c;
+  border:2px solid #fff;transform:translate(-50%,-50%);display:flex;align-items:center;
+  justify-content:center;font-size:.65rem;font-weight:800;color:#fff;pointer-events:auto;cursor:pointer}
+.mapmark:hover,.mapmark.active{background:#d22f27;z-index:2}
+#mapinfo{position:fixed;bottom:72px;left:50%;transform:translateX(-50%);background:#13293dcc;
+  color:#fff;padding:8px 16px;border-radius:999px;font-size:.9rem;font-weight:700;z-index:1002;
+  white-space:nowrap}
 </style>
 </head>
 <body>
@@ -280,13 +289,18 @@ footer a{color:var(--sea)}
   <section id="map" hidden>
     <button class="mapbtn" id="mapopen" aria-label="Öppna kartan i helskärm">
       <img src="karta.png" alt="Områdeskarta – Åhus Beach Handboll" loading="lazy">
+      <span class="mapmarkers" id="mk-inline" aria-hidden="true"></span>
       <span class="maphint">Tryck för helskärm</span>
     </button>
     <p class="mapsrc">Källa: ahusbeach.com</p>
   </section>
   <div id="mapzoom" hidden>
     <button id="mapzoom-close" aria-label="Stäng karta">✕</button>
-    <img id="mapzoom-img" src="karta.png" alt="Områdeskarta – Åhus Beach Handboll" draggable="false">
+    <div id="mapzoom-stage">
+      <img id="mapzoom-img" src="karta.png" alt="Områdeskarta – Åhus Beach Handboll" draggable="false">
+      <div class="mapmarkers" id="mk-zoom" aria-hidden="true"></div>
+    </div>
+    <div id="mapinfo" hidden></div>
   </div>
 
   <details class="cal">

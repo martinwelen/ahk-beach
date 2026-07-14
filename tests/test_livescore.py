@@ -68,3 +68,12 @@ def test_background_data_refresh():
     assert "function refreshData(" in t
     assert 'fetch("sched.json")' in t
     assert "setInterval(refreshData, 60000)" in t
+
+
+def test_map_markers_markup():
+    t = template.TEMPLATE
+    assert 'id="mk-inline"' in t               # markörcontainer i inline-kartan
+    assert 'id="mapzoom-stage"' in t            # stage-wrapper runt helskärmsbilden
+    assert 'id="mk-zoom"' in t                  # markörcontainer i helskärmsläget
+    assert 'id="mapinfo"' in t                  # infochip under helskärmsläget
+    assert "mapmarkers" in t                    # CSS-klassen finns
