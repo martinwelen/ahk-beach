@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T12:31:33+00:00",
-  "seq": 1784032293,
-  "data_hash": "1552e60d0636584f0dd5ac104af4994f1a4ecb71545e7a4feadd97ca3545ed97"
+  "generated": "2026-07-14T12:53:52+00:00",
+  "seq": 1784033632,
+  "data_hash": "b30bfc8237d9c60d69fed647db36dc3781300c5cddb512fa6be343bcebfb0e71"
  },
  "groups": {
   "u8": {
@@ -4961,7 +4961,10 @@
      "grupp": "Grupp 1",
      "mots": "Hässleholms HF 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 6
+     },
      "start_ms": 1784032200000,
      "start_iso": "2026-07-14T14:30+02:00",
      "day_label": "Tisdag 14 juli"
