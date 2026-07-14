@@ -21,3 +21,11 @@ def test_match_card_has_mid_and_live_slot_and_video():
     assert 'class="lscore"' in t                 # plats för livescore-badge
     assert 'class="vidlink"' in t                # videolänk (bana 1-2)
     assert 'm.video' in t                        # renderas villkorat på video
+
+
+def test_template_has_multihero_logic():
+    t = template.TEMPLATE
+    assert 'filter(m=>state(m,now)==="live")' in t
+    assert "featured" in t
+    assert "herolist" in t
+    assert "m.ms===" in t or "m.ms ===" in t

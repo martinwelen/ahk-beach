@@ -241,6 +241,11 @@ footer a{color:var(--sea)}
 .lscore .pulse{width:8px;height:8px;border-radius:50%;background:#d22f27;animation:pulse 1.1s infinite}
 .vidlink{display:inline-block;margin-top:6px;font-weight:800;font-size:.82rem;color:#fff;
   background:#d22f27;padding:3px 9px;border-radius:999px;text-decoration:none}
+.herolist{display:flex;flex-direction:column;gap:10px}
+.herolist.many .hero{padding:12px 14px}
+.herolist.many .hero .mt{font-size:clamp(1.05rem,4vw,1.4rem)}
+.herolist.many .hero .cd{font-size:1.1rem;margin-top:8px}
+.hero{position:relative}
 </style>
 </head>
 <body>
@@ -371,21 +376,26 @@ function fmtCountdown(ms){
 function render(){
   const now = Date.now();
   const rows = MATCHES.filter(matchPass).sort((a,b)=>a.ms-b.ms);
-  // hero: pågående annars nästa
-  const live = rows.find(m=>state(m,now)==="live");
-  const next = rows.find(m=>state(m,now)==="up");
+  // hero: alla pågående; annars alla kommande som delar tidigaste starttid
+  const liveOnes = rows.filter(m=>state(m,now)==="live");
+  let featured;
+  if(liveOnes.length){ featured = liveOnes; }
+  else { const fn = rows.find(m=>state(m,now)==="up");
+         featured = fn ? rows.filter(m=>state(m,now)==="up" && m.ms===fn.ms) : []; }
   const hero = $("#hero");
-  const hm = live || next;
-  if(hm){
-    const isLive = !!live;
-    hero.innerHTML =
-      `<div class="hero ${isLive?"live":""}">
+  if(featured.length){
+    hero.innerHTML = `<div class="herolist${featured.length>1?' many':''}">` + featured.map(hm=>{
+      const isLive = state(hm,now)==="live";
+      return `<div class="hero ${isLive?'live':''}" data-mid="${hm.id||''}">
         <div class="tag">Bana ${esc(hm.bana)}</div>
-        <div class="lbl">${isLive?'<span class="pulse"></span>Pågår nu':"Härnäst"}</div>
+        <div class="lbl">${isLive?'<span class="pulse"></span>Pågår nu':'Härnäst'}</div>
         <div class="mt">${esc(hm.home)} <span style="opacity:.7">vs</span> ${esc(hm.away)}</div>
-        <div class="sub">${esc(hm.lag)}${hm.klass?" · "+esc(hm.klass):""} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
-        <div class="cd" data-ms="${hm.ms}">${isLive?"Spelas nu":fmtCountdown(hm.ms-now)}</div>
+        <div class="sub">${esc(hm.lag)}${hm.klass?' · '+esc(hm.klass):''} · ${esc(hm.grp)} · ${hm.t} · ${esc(hm.day)}</div>
+        <div class="lscore" hidden></div>
+        <div class="cd" data-ms="${hm.ms}">${isLive?'Spelas nu':fmtCountdown(hm.ms-now)}</div>
+        ${hm.video?`<a class="vidlink" href="${hm.video}" target="_blank" rel="noopener" aria-label="Se video på solidsport">▶ Video</a>`:''}
       </div>`;
+    }).join('') + `</div>`;
   } else {
     hero.innerHTML = rows.length
       ? `<div class="hero"><div class="lbl">Klart</div><div class="mt">Alla matcher spelade</div></div>` : "";
@@ -415,15 +425,15 @@ function render(){
   list.innerHTML = html;
   if(typeof reapplyLive==="function") reapplyLive();
   // scrolla till nu/härnäst om turneringen pågår (det finns spelade matcher)
-  if(!render._scrolled && rows.some(m=>state(m,now)==="past") && hm){
+  if(!render._scrolled && rows.some(m=>state(m,now)==="past") && featured.length){
     render._scrolled = true;
     setTimeout(()=>{ const el=document.querySelector(".match.live")||document.querySelector(".match.up"); }, 50);
   }
 }
 
 // nedräkning varje sekund, full omritning ibland
-setInterval(()=>{ const cd=document.querySelector(".hero .cd"); if(cd&&cd.dataset.ms){
-  const left=+cd.dataset.ms-Date.now(); cd.textContent = left>0?fmtCountdown(left):"Spelas nu"; }}, 1000);
+setInterval(()=>{ for(const cd of document.querySelectorAll(".hero .cd")){ if(cd.dataset.ms){
+  const left=+cd.dataset.ms-Date.now(); cd.textContent = left>0?fmtCountdown(left):"Spelas nu"; }}}, 1000);
 setInterval(render, 30000);
 
 // vy-flikar: visa Tabeller/Slutspel bara om data finns
