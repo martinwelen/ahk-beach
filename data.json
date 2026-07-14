@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T19:21:35+00:00",
-  "seq": 1784056895,
-  "data_hash": "9bd3d61d088a3e7b2247ccbd330f59bad31da17aab90e7c3a758e7cf625c9f5b"
+  "generated": "2026-07-14T20:02:16+00:00",
+  "seq": 1784059336,
+  "data_hash": "ed439f83ee99aea4c523c59bd43f64efba84708b2300af2f879c39ad0ef4e2d7"
  },
  "groups": {
   "u8": {
@@ -6131,7 +6131,10 @@
      "grupp": "B-Slutspel",
      "mots": "Eslövs HK Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 7
+     },
      "start_ms": 1784058300000,
      "start_iso": "2026-07-14T21:45+02:00",
      "day_label": "Tisdag 14 juli"
