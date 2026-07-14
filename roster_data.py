@@ -11,7 +11,6 @@ rosters = {
     "u15-p-bla": [
         {"namn": "Oskar Viklund", "pos": "UT"},
         {"namn": "Alfred Lindblad", "pos": "MV", "smek": "Affe"},
-        {"namn": "Theodor Kangas", "pos": "UT"},
         {"namn": "Maurits Fridberg", "pos": "UT", "smek": "Marre"},
         {"namn": "Filip Holmgren", "pos": "UT"},
         {"namn": "Terje Hegge", "pos": "UT"},
@@ -26,7 +25,7 @@ rosters = {
     ],
     "u15-p-vit": [
         {"namn": "Samuel Welén", "pos": "MV"},
-        {"namn": "Filip Landström", "pos": "UT"},
+        {"namn": "Ture Thunberg", "pos": "UT"},
         {"namn": "Sixten Herbertsson", "pos": "UT"},
         {"namn": "Filip Larsson", "pos": "UT"},
         {"namn": "Liam Bergaoui", "pos": "UT"},
