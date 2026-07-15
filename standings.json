@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T09:07:52+00:00",
-  "seq": 1784106472,
-  "data_hash": "ef9853c089e90088700e6da2e87cc0062910f3b9ff29dc88e478d6f24d54500e"
+  "generated": "2026-07-15T09:18:18+00:00",
+  "seq": 1784107098,
+  "data_hash": "bdf04e26440daa21ce60b2f83b6bf7d752462befcbbd872027413381bb5556b2"
  },
  "by_age": {
   "u12": {
@@ -9868,6 +9868,21 @@
        "pos": 2
       },
       {
+       "name": "Alingsås HK 2",
+       "team_id": 80962476,
+       "is_alingsas": true,
+       "played": 6,
+       "won": 3,
+       "tied": 2,
+       "lost": 1,
+       "goals_for": 54,
+       "goals_against": 45,
+       "diff": 9,
+       "points": 8,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "Ystads IF HF",
        "team_id": 78825069,
        "is_alingsas": false,
@@ -9880,7 +9895,7 @@
        "diff": 25,
        "points": 8,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "HK Halmstad",
@@ -9894,8 +9909,8 @@
        "goals_against": 52,
        "diff": 0,
        "points": 7,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
        "name": "IFK Kristianstad Blå",
@@ -9908,21 +9923,6 @@
        "goals_for": 54,
        "goals_against": 58,
        "diff": -4,
-       "points": 6,
-       "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
-       "name": "Alingsås HK 2",
-       "team_id": 80962476,
-       "is_alingsas": true,
-       "played": 5,
-       "won": 2,
-       "tied": 2,
-       "lost": 1,
-       "goals_for": 44,
-       "goals_against": 39,
-       "diff": 5,
        "points": 6,
        "tier": "B-Slutspel",
        "pos": 6
@@ -9958,21 +9958,6 @@
        "pos": 8
       },
       {
-       "name": "Lugi HF 1",
-       "team_id": 81078893,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 0,
-       "tied": 0,
-       "lost": 5,
-       "goals_for": 40,
-       "goals_against": 66,
-       "diff": -26,
-       "points": 0,
-       "tier": "C-Slutspel",
-       "pos": 9
-      },
-      {
        "name": "Hultsfreds HF Real Hultsfred",
        "team_id": 76451857,
        "is_alingsas": false,
@@ -9983,6 +9968,21 @@
        "goals_for": 42,
        "goals_against": 71,
        "diff": -29,
+       "points": 0,
+       "tier": "C-Slutspel",
+       "pos": 9
+      },
+      {
+       "name": "Lugi HF 1",
+       "team_id": 81078893,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 0,
+       "tied": 0,
+       "lost": 6,
+       "goals_for": 46,
+       "goals_against": 76,
+       "diff": -30,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 10
@@ -10025,6 +10025,21 @@
        "pos": 2
       },
       {
+       "name": "Tyresö Handboll 1",
+       "team_id": 75063058,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 3,
+       "tied": 1,
+       "lost": 2,
+       "goals_for": 62,
+       "goals_against": 59,
+       "diff": 3,
+       "points": 7,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "Alingsås HK 1",
        "team_id": 75872636,
        "is_alingsas": true,
@@ -10037,7 +10052,7 @@
        "diff": 9,
        "points": 6,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "IFK Tumba HK 2",
@@ -10051,35 +10066,20 @@
        "goals_against": 50,
        "diff": -4,
        "points": 6,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
        "name": "Åhus Handboll",
        "team_id": 74384970,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 2,
        "tied": 1,
-       "lost": 2,
-       "goals_for": 52,
-       "goals_against": 50,
-       "diff": 2,
-       "points": 5,
-       "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
-       "name": "Tyresö Handboll 1",
-       "team_id": 75063058,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 2,
-       "tied": 1,
-       "lost": 2,
-       "goals_for": 51,
-       "goals_against": 52,
-       "diff": -1,
+       "lost": 3,
+       "goals_for": 59,
+       "goals_against": 61,
+       "diff": -2,
        "points": 5,
        "tier": "B-Slutspel",
        "pos": 6
