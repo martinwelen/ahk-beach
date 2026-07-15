@@ -88,6 +88,20 @@ direkt från webbläsaren:
 - **Video:** matcher på **bana 1 & 2** filmas (solidsport). `fetch_data` resolvar
   `Match($video)` → `externalLink`; kortet får en ▶ Video-länk (scheme-validerad).
 
+**Att ett slutresultat inte får försvinna (två gotchas):**
+
+- **Pollfönstret måste överstiga robotens persistens-latens.** In-memory-`liveState`
+  (som visar "Slut h–a" innan roboten hunnit skriva sparat resultat) töms vid refresh.
+  Efter reload pollas en match bara medan `now < start + DUR + POLL_GRACE_MS`. Roboten
+  kan dröja ~25–30 min med att persista slutresultatet (matchslut + missad cykel +
+  CI-körtid), så `POLL_GRACE_MS = 40 min` – annars blir kortet blankt i glappet.
+- **Bakgrundsuppdateringen måste kringgå HTTP-cachen.** GitHub Pages serverar
+  `sched.json` med `Cache-Control: max-age=600`. `refreshData` hämtar därför med
+  `{cache:"no-store"}`; annars kan en inaktuell (cachead) `sched.json` skriva över ett
+  redan visat resultat tills cachen löper ut (~10 min). Offline-fallbacken är
+  oförändrad – service workern lägger ändå kopian i CacheStorage (no-store rör bara
+  HTTP-cachen).
+
 ### Karta
 
 `karta.png` (arrangörens områdeskarta) bäddas in i varje app och kopieras per
