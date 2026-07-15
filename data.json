@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T12:44:07+00:00",
-  "seq": 1784119447,
-  "data_hash": "8273c0a59f25b7762dfae80d13b217563865722b4673aa1e21997369e2c05aed"
+  "generated": "2026-07-15T13:12:02+00:00",
+  "seq": 1784121122,
+  "data_hash": "115b8816f8e98508077632bdebfd2cbfd9f9d9ad65bf181d924cd7d9d590823d"
  },
  "groups": {
   "u8": {
@@ -2908,7 +2908,10 @@
      "grupp": "Grupp 2",
      "mots": "Ljunghusens HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 4
+     },
      "start_ms": 1784119500000,
      "start_iso": "2026-07-15T14:45+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8268,7 +8271,10 @@
      "grupp": "Grupp 4",
      "mots": "Täby HBK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 14
+     },
      "start_ms": 1784119500000,
      "start_iso": "2026-07-15T14:45+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8340,6 +8346,29 @@
      "result": null,
      "start_ms": 1784123100000,
      "start_iso": "2026-07-15T15:45+02:00",
+     "day_label": "Onsdag 15 juli"
+    },
+    {
+     "age_slug": "u16",
+     "slug": "u16-f-ahk-2",
+     "id": 81854027,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#d22f27",
+     "datum": "2026-07-15",
+     "dag": "Onsdag",
+     "tid": "17:00",
+     "bana": 8,
+     "video": null,
+     "runda": "1/16-final",
+     "hemma": "Alingsås HK AHK 2",
+     "borta": "HK Aranäs VIT",
+     "grupp": "A-Slutspel",
+     "mots": "HK Aranäs VIT",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784127600000,
+     "start_iso": "2026-07-15T17:00+02:00",
      "day_label": "Onsdag 15 juli"
     }
    ]
