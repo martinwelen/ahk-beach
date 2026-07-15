@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T18:47:07+00:00",
-  "seq": 1784141227,
-  "data_hash": "2833561d19a7bf5115a83de19b842d7765a1f7325827b10b38415d6f11e94d63"
+  "generated": "2026-07-15T19:04:07+00:00",
+  "seq": 1784142247,
+  "data_hash": "e4f801f8d566386fd0051199a1f4ab56ac750b23aeaf40b78f263a7e091df68e"
  },
  "by_age": {
   "u12": {
@@ -10983,15 +10983,15 @@
             "label": "Lugi HF 1",
             "team_id": 76420278,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Alingsås HK",
             "team_id": 75872642,
             "is_alingsas": true,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -11010,9 +11010,9 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072141",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK",
+            "team_id": 75872642,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
@@ -12736,6 +12736,21 @@
      "division_id": 81910366,
      "rows": [
       {
+       "name": "Åhus Handboll 1",
+       "team_id": 74384954,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 4,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 63,
+       "goals_against": 40,
+       "diff": 23,
+       "points": 8,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Skuru IK",
        "team_id": 78709475,
        "is_alingsas": false,
@@ -12748,7 +12763,7 @@
        "diff": 10,
        "points": 8,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
       },
       {
        "name": "Lugi HF 4",
@@ -12763,35 +12778,20 @@
        "diff": 17,
        "points": 6,
        "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Åhus Handboll 1",
-       "team_id": 74384954,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 3,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 46,
-       "goals_against": 27,
-       "diff": 19,
-       "points": 6,
-       "tier": "A-Slutspel",
        "pos": 3
       },
       {
        "name": "Vinslövs HK 1",
        "team_id": 75073245,
        "is_alingsas": false,
-       "played": 3,
-       "won": 2,
+       "played": 4,
+       "won": 3,
        "tied": 0,
        "lost": 1,
-       "goals_for": 35,
-       "goals_against": 30,
-       "diff": 5,
-       "points": 4,
+       "goals_for": 53,
+       "goals_against": 41,
+       "diff": 12,
+       "points": 6,
        "tier": "A-Slutspel",
        "pos": 4
       },
@@ -12811,47 +12811,47 @@
        "pos": 5
       },
       {
-       "name": "Alingsås HK 3",
-       "team_id": 73383053,
-       "is_alingsas": true,
+       "name": "Huddinge HK 2",
+       "team_id": 74030278,
+       "is_alingsas": false,
        "played": 4,
        "won": 1,
        "tied": 0,
        "lost": 3,
-       "goals_for": 29,
-       "goals_against": 37,
-       "diff": -8,
+       "goals_for": 37,
+       "goals_against": 43,
+       "diff": -6,
        "points": 2,
        "tier": "B-Slutspel",
        "pos": 6
       },
       {
-       "name": "Växjö HF 2",
-       "team_id": 78630792,
-       "is_alingsas": false,
-       "played": 4,
+       "name": "Alingsås HK 3",
+       "team_id": 73383053,
+       "is_alingsas": true,
+       "played": 5,
        "won": 1,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 30,
-       "goals_against": 52,
-       "diff": -22,
+       "lost": 4,
+       "goals_for": 37,
+       "goals_against": 50,
+       "diff": -13,
        "points": 2,
        "tier": "B-Slutspel",
        "pos": 7
       },
       {
-       "name": "Huddinge HK 2",
-       "team_id": 74030278,
+       "name": "Växjö HF 2",
+       "team_id": 78630792,
        "is_alingsas": false,
-       "played": 3,
-       "won": 0,
+       "played": 5,
+       "won": 1,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 24,
-       "goals_against": 35,
-       "diff": -11,
-       "points": 0,
+       "lost": 4,
+       "goals_for": 41,
+       "goals_against": 70,
+       "diff": -29,
+       "points": 2,
        "tier": null,
        "pos": 8
       },
@@ -12859,13 +12859,13 @@
        "name": "IFK Bankeryd 3",
        "team_id": 75597934,
        "is_alingsas": false,
-       "played": 3,
+       "played": 4,
        "won": 0,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 24,
-       "goals_against": 36,
-       "diff": -12,
+       "lost": 4,
+       "goals_for": 37,
+       "goals_against": 53,
+       "diff": -16,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 9
@@ -13038,13 +13038,13 @@
        "name": "Lugi HF 1",
        "team_id": 78441935,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 3,
        "tied": 1,
-       "lost": 0,
-       "goals_for": 49,
-       "goals_against": 40,
-       "diff": 9,
+       "lost": 1,
+       "goals_for": 59,
+       "goals_against": 51,
+       "diff": 8,
        "points": 7,
        "tier": "A-Slutspel",
        "pos": 1
@@ -13065,6 +13065,21 @@
        "pos": 2
       },
       {
+       "name": "Eskilstuna Guif IF 2",
+       "team_id": 76803973,
+       "is_alingsas": false,
+       "played": 4,
+       "won": 3,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 42,
+       "goals_against": 42,
+       "diff": 0,
+       "points": 6,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "Spånga HK 1",
        "team_id": 76229897,
        "is_alingsas": false,
@@ -13077,7 +13092,7 @@
        "diff": 7,
        "points": 5,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "Lödde Vikings HK Röd",
@@ -13091,23 +13106,23 @@
        "goals_against": 31,
        "diff": 6,
        "points": 4,
-       "tier": "A-Slutspel",
-       "pos": 4
-      },
-      {
-       "name": "Eskilstuna Guif IF 2",
-       "team_id": 76803973,
-       "is_alingsas": false,
-       "played": 3,
-       "won": 2,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 31,
-       "goals_against": 32,
-       "diff": -1,
-       "points": 4,
        "tier": null,
        "pos": 5
+      },
+      {
+       "name": "Habo HK 2",
+       "team_id": 75747102,
+       "is_alingsas": false,
+       "played": 5,
+       "won": 2,
+       "tied": 0,
+       "lost": 3,
+       "goals_for": 48,
+       "goals_against": 53,
+       "diff": -5,
+       "points": 4,
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "Alingsås HK 2",
@@ -13122,34 +13137,19 @@
        "diff": 5,
        "points": 3,
        "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
-       "name": "Habo HK 2",
-       "team_id": 75747102,
-       "is_alingsas": false,
-       "played": 4,
-       "won": 1,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 35,
-       "goals_against": 41,
-       "diff": -6,
-       "points": 2,
-       "tier": "B-Slutspel",
        "pos": 7
       },
       {
        "name": "IFK Bankeryd 2",
        "team_id": 75597932,
        "is_alingsas": false,
-       "played": 3,
+       "played": 4,
        "won": 0,
        "tied": 1,
-       "lost": 2,
-       "goals_for": 29,
-       "goals_against": 42,
-       "diff": -13,
+       "lost": 3,
+       "goals_for": 41,
+       "goals_against": 55,
+       "diff": -14,
        "points": 1,
        "tier": null,
        "pos": 8
