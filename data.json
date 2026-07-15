@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T11:52:11+00:00",
-  "seq": 1784116331,
-  "data_hash": "afef399bed121e4e6a1571336a7dd48de086b5690c038b2bb83085b9faae6375"
+  "generated": "2026-07-15T12:03:25+00:00",
+  "seq": 1784117005,
+  "data_hash": "99c59c5ac305c2c9512b43f81e847b20940d535baae252fb389f2d9ccd4759d0"
  },
  "groups": {
   "u8": {
@@ -2804,7 +2804,10 @@
      "grupp": "Grupp 4",
      "mots": "Falköpings AIK HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 7
+     },
      "start_ms": 1784115900000,
      "start_iso": "2026-07-15T13:45+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8204,7 +8207,10 @@
      "grupp": "Grupp 1",
      "mots": "Täby HBK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 9
+     },
      "start_ms": 1784115900000,
      "start_iso": "2026-07-15T13:45+02:00",
      "day_label": "Onsdag 15 juli"
