@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T12:03:25+00:00",
-  "seq": 1784117005,
-  "data_hash": "99c59c5ac305c2c9512b43f81e847b20940d535baae252fb389f2d9ccd4759d0"
+  "generated": "2026-07-15T12:32:43+00:00",
+  "seq": 1784118763,
+  "data_hash": "6f00d64a3d4c4a97b1ac4e0dc417257a5190fc1619b99876d766fa5a9e754b55"
  },
  "groups": {
   "u8": {
@@ -2830,7 +2830,10 @@
      "grupp": "Grupp 5",
      "mots": "Lugi HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 11
+     },
      "start_ms": 1784117700000,
      "start_iso": "2026-07-15T14:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -2853,7 +2856,10 @@
      "grupp": "Grupp 6",
      "mots": "Staffanstorps HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 12
+     },
      "start_ms": 1784117700000,
      "start_iso": "2026-07-15T14:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8233,7 +8239,10 @@
      "grupp": "Grupp 3",
      "mots": "Åhus Handboll",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 12
+     },
      "start_ms": 1784117700000,
      "start_iso": "2026-07-15T14:15+02:00",
      "day_label": "Onsdag 15 juli"
