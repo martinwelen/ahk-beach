@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-14T20:02:16+00:00",
-  "seq": 1784059336,
-  "data_hash": "ed439f83ee99aea4c523c59bd43f64efba84708b2300af2f879c39ad0ef4e2d7"
+  "generated": "2026-07-15T08:32:39+00:00",
+  "seq": 1784104359,
+  "data_hash": "ca2e0e407c3fb4248b8931455e823e0678e1c0ba96434ef43ae9d22cce76b779"
  },
  "groups": {
   "u8": {
@@ -7961,7 +7961,10 @@
      "grupp": "Grupp 4",
      "mots": "Dalby GIF",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 17
+     },
      "start_ms": 1784103300000,
      "start_iso": "2026-07-15T10:15+02:00",
      "day_label": "Onsdag 15 juli"
