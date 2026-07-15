@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T10:05:02+00:00",
-  "seq": 1784109902,
-  "data_hash": "3cdc8bdb485218ecc31c76ee27eb40d78a5f0891e58f2285596f0ba10fc11062"
+  "generated": "2026-07-15T10:22:16+00:00",
+  "seq": 1784110936,
+  "data_hash": "1d83129ef1db8e014e4c19f51e035348d7ede16bf4dfa96d1303d35bea167c06"
  },
  "groups": {
   "u8": {
@@ -2726,7 +2726,10 @@
      "grupp": "Grupp 1",
      "mots": "IK Lågan Hörby 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 4
+     },
      "start_ms": 1784109600000,
      "start_iso": "2026-07-15T12:00+02:00",
      "day_label": "Onsdag 15 juli"
