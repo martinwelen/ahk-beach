@@ -39,6 +39,10 @@ export default {
       return handleApi(env);
     }
 
+    if (parts.length === 2 && parts[1] === "diag") {
+      return handleDiag(env);
+    }
+
     return new Response("Not found", { status: 404 });
   },
 };
@@ -92,6 +96,52 @@ async function handleApi(env) {
       topPages: (acct.topPages || []).map((row) => ({
         path: row?.dimensions?.requestPath || "(okänd)",
         views: est(row.count, row.avg?.sampleInterval),
+      })),
+    });
+  } catch (err) {
+    return json({ error: String(err) }, 500);
+  }
+}
+
+// Diagnos: frågar account-brett (senaste 24h), grupperat på siteTag, för att se
+// vilka taggar som faktiskt har data under kontot. Avslöjar fel siteTag/account.
+async function handleDiag(env) {
+  try {
+    const missing = ["CF_API_TOKEN", "CF_ACCOUNT_ID"].filter((k) => !env[k]);
+    if (missing.length) {
+      return json({ error: `Saknar variabler: ${missing.join(", ")}` }, 500);
+    }
+    const now = new Date();
+    const since = new Date(now.getTime() - 24 * 60 * 60_000).toISOString();
+    const query = `
+      query ($accountTag: String!) {
+        viewer {
+          accounts(filter: { accountTag: $accountTag }) {
+            rumPageloadEventsAdaptiveGroups(
+              limit: 20, orderBy: [count_DESC],
+              filter: { datetime_geq: "${since}", datetime_leq: "${now.toISOString()}" }
+            ) {
+              count
+              sum { visits }
+              dimensions { siteTag }
+            }
+          }
+        }
+      }`;
+    const resp = await fetch(GRAPHQL_ENDPOINT, {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${env.CF_API_TOKEN}` },
+      body: JSON.stringify({ query, variables: { accountTag: env.CF_ACCOUNT_ID } }),
+    });
+    const body = await resp.json();
+    return json({
+      configured_account: env.CF_ACCOUNT_ID,
+      configured_siteTag: env.CF_SITE_TAG || null,
+      graphql_errors: body.errors || null,
+      sitesWithData: (body?.data?.viewer?.accounts?.[0]?.rumPageloadEventsAdaptiveGroups || []).map((r) => ({
+        siteTag: r?.dimensions?.siteTag,
+        count: r.count,
+        visits: r.sum?.visits,
       })),
     });
   } catch (err) {
