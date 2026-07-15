@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T10:34:25+00:00",
-  "seq": 1784111665,
-  "data_hash": "b4a89c7f2ab18f522c1154c998c66897c1c5342e13cbd548eb197f35ada55574"
+  "generated": "2026-07-15T11:04:58+00:00",
+  "seq": 1784113498,
+  "data_hash": "601260fb9bbb1ce04a66874ba32194024338c147432733b9e0fd3f33be43659d"
  },
  "groups": {
   "u8": {
@@ -2778,7 +2778,10 @@
      "grupp": "Grupp 5",
      "mots": "Åhus Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 10
+     },
      "start_ms": 1784112300000,
      "start_iso": "2026-07-15T12:45+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8123,7 +8126,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Malmö HF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 15
+     },
      "start_ms": 1784112300000,
      "start_iso": "2026-07-15T12:45+02:00",
      "day_label": "Onsdag 15 juli"
