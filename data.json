@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T08:32:39+00:00",
-  "seq": 1784104359,
-  "data_hash": "ca2e0e407c3fb4248b8931455e823e0678e1c0ba96434ef43ae9d22cce76b779"
+  "generated": "2026-07-15T08:52:56+00:00",
+  "seq": 1784105576,
+  "data_hash": "81899930446b6fcc572dcf470fb01174407b5f6969f5a28a45536cc1a32d6408"
  },
  "groups": {
   "u8": {
@@ -7987,7 +7987,10 @@
      "grupp": "Grupp 6",
      "mots": "Härnösands Handbollsförening 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 5
+     },
      "start_ms": 1784104200000,
      "start_iso": "2026-07-15T10:30+02:00",
      "day_label": "Onsdag 15 juli"
