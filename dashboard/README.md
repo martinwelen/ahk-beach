@@ -21,10 +21,17 @@ klistra in den i Cloudflare-dashboarden (se nedan). Inget CLI/Node behövs.
 Cloudflare-dashboarden → välj din sajt/konto → högerspalten visar **Account ID**.
 (Eller: URL:en i dashboarden innehåller `dash.cloudflare.com/<ACCOUNT_ID>/...`.)
 
-### 2. Web Analytics "site tag"
-Dashboarden → **Analytics & Logs → Web Analytics** → din sajt → **Manage site**
-(eller kugghjulet). Site-taggen är strängen i JS-snippeten (`token: "xxxx…"`) – det är
-`CF_SITE_TAG`.
+### 2. Web Analytics "site tag" — OBS: INTE beacon-token!
+> ⚠️ **Fälla (kostade oss en stund):** GraphQL-API:ts `siteTag` är **inte** samma sak
+> som `token`-strängen i beacon-snutten (`data-cf-beacon='{"token":"…"}'`). Båda är
+> 32 hex-tecken och ser likadana ut, men har olika värden. Fyller du i beacon-token
+> som `CF_SITE_TAG` svarar API:t `0` **utan felmeddelande**.
+
+Säkraste sättet att hitta rätt `CF_SITE_TAG` är `/diag`-endpointen (se nedan) — den
+listar vilka site-taggar som faktiskt har data under kontot. Sätt först `CF_ACCOUNT_ID`
+och `CF_API_TOKEN`, deploya, öppna
+`https://<worker>/<DASH_SECRET>/diag` och läs `sitesWithData[].siteTag`. Det värdet
+(inte beacon-token) är `CF_SITE_TAG`.
 
 ### 3. API-token (håll hemlig!)
 Dashboarden → översta högra menyn → **My Profile → API Tokens → Create Token →
@@ -81,5 +88,15 @@ https://ahk-stats.<ditt-subhandle>.workers.dev/<DASH_SECRET>/api
   saknas på Workern.
 - **`{"error":"..."}` med GraphQL-text** – token saknar `Account Analytics: Read`, fel
   account-id, eller fel site tag. Felmeddelandet från Cloudflare visas rakt av.
-- **Bara nollor** – rätt uppsatt men inga (samplade) besök i fönstret ännu, eller fel
-  site tag. Jämför med Cloudflares egen Web Analytics-vy.
+- **Bara nollor utan fel** – nästan alltid **fel `CF_SITE_TAG`** (beacon-token istället
+  för GraphQL-siteTag, se avsnitt 2). Öppna `/diag` och jämför: `configured_siteTag` mot
+  `sitesWithData[].siteTag`. Skiljer de sig → sätt `CF_SITE_TAG` till taggen i
+  `sitesWithData`. Är `sitesWithData` tom → fel `CF_ACCOUNT_ID` (eller ingen data alls).
+  RUM-data kan dessutom släpa ~10–20 min innan den syns i GraphQL, så helt färska besök
+  dyker inte upp direkt.
+
+### `/diag` (setup-/felsökningsverktyg)
+`https://<worker>/<DASH_SECRET>/diag` frågar account-brett utan siteTag-filter och
+returnerar vilka site-taggar som har data (senaste 24h) plus vad workern är
+konfigurerad med. Använd den för att hitta rätt `CF_SITE_TAG`. Den ligger bakom samma
+hemliga path som resten, så den är inte publik.
