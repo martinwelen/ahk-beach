@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T20:24:35+00:00",
-  "seq": 1784147075,
-  "data_hash": "c1e36ad47a6ae1e2424528717560d6250dbbfb5c12873d3035a1cbfe3a6b6543"
+  "generated": "2026-07-15T20:45:02+00:00",
+  "seq": 1784148302,
+  "data_hash": "80a3e47ceec7e9e1c73982dd95a3a6bf785b472e022bf3e4718c2e7f02523902"
  },
  "by_age": {
   "u12": {
@@ -11926,15 +11926,15 @@
             "label": "IK Sund",
             "team_id": 76780754,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Alingsås HK 1",
             "team_id": 75872636,
             "is_alingsas": true,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
