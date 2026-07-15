@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T13:22:31+00:00",
-  "seq": 1784121751,
-  "data_hash": "dadf80cecadd0a947daba9d6eaf0f4456e85dc29f3ca10aa8202eaba836a4a03"
+  "generated": "2026-07-15T13:32:37+00:00",
+  "seq": 1784122357,
+  "data_hash": "30daffa849c5f4a95059173635a99ac812e82626a82aeb2a35b70e6187d11078"
  },
  "groups": {
   "u8": {
@@ -2934,7 +2934,10 @@
      "grupp": "Grupp 5",
      "mots": "IK Bolton",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 8
+     },
      "start_ms": 1784121300000,
      "start_iso": "2026-07-15T15:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8349,6 +8352,29 @@
      "result": null,
      "start_ms": 1784123100000,
      "start_iso": "2026-07-15T15:45+02:00",
+     "day_label": "Onsdag 15 juli"
+    },
+    {
+     "age_slug": "u16",
+     "slug": "u16-f-lag",
+     "id": 81854026,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-15",
+     "dag": "Onsdag",
+     "tid": "17:00",
+     "bana": 7,
+     "video": null,
+     "runda": "1/16-final",
+     "hemma": "Alingsås HK",
+     "borta": "Kävlinge HK Blå",
+     "grupp": "A-Slutspel",
+     "mots": "Kävlinge HK Blå",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784127600000,
+     "start_iso": "2026-07-15T17:00+02:00",
      "day_label": "Onsdag 15 juli"
     },
     {
