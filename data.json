@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T15:21:37+00:00",
-  "seq": 1784128897,
-  "data_hash": "c1e520c924e196ae321317415e4925efdf24542696bf30d942068ef12ce80e56"
+  "generated": "2026-07-15T16:07:14+00:00",
+  "seq": 1784131634,
+  "data_hash": "8d52c526db28b3694650c5a712f8d8e1478dd92edeacc480fba8e07d99f30305"
  },
  "groups": {
   "u8": {
@@ -3116,7 +3116,10 @@
      "grupp": "Grupp 4",
      "mots": "Skuru IK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 6
+     },
      "start_ms": 1784129400000,
      "start_iso": "2026-07-15T17:30+02:00",
      "day_label": "Onsdag 15 juli"
@@ -3139,7 +3142,10 @@
      "grupp": "Grupp 5",
      "mots": "IFK Bankeryd 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 16
+     },
      "start_ms": 1784129400000,
      "start_iso": "2026-07-15T17:30+02:00",
      "day_label": "Onsdag 15 juli"
@@ -3162,7 +3168,10 @@
      "grupp": "Grupp 6",
      "mots": "IK Lågan Hörby Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 10
+     },
      "start_ms": 1784130300000,
      "start_iso": "2026-07-15T17:45+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8448,7 +8457,10 @@
      "grupp": "B-Slutspel",
      "mots": "Växjö HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 7
+     },
      "start_ms": 1784130300000,
      "start_iso": "2026-07-15T17:45+02:00",
      "day_label": "Onsdag 15 juli"
