@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T17:52:27+00:00",
-  "seq": 1784137947,
-  "data_hash": "31796dc0ebed963ef1666df820dd22c801fecba6773842cbe1a135df2ab6dd99"
+  "generated": "2026-07-15T18:03:18+00:00",
+  "seq": 1784138598,
+  "data_hash": "4a1f24047b1e347955da090062010ed9e372fccc460012e126bbed638e7d4cb7"
  },
  "groups": {
   "u8": {
@@ -3324,7 +3324,10 @@
      "grupp": "Grupp 1",
      "mots": "Haninge HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 16
+     },
      "start_ms": 1784137500000,
      "start_iso": "2026-07-15T19:45+02:00",
      "day_label": "Onsdag 15 juli"
@@ -3347,7 +3350,10 @@
      "grupp": "Grupp 2",
      "mots": "IF Hallby HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 12
+     },
      "start_ms": 1784137500000,
      "start_iso": "2026-07-15T19:45+02:00",
      "day_label": "Onsdag 15 juli"
