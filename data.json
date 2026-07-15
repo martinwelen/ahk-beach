@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T11:32:08+00:00",
-  "seq": 1784115128,
-  "data_hash": "cf7189a10df5072fbc4642c57f92cd50468cbc32d602a3d79ab461f880ea9d6f"
+  "generated": "2026-07-15T11:52:11+00:00",
+  "seq": 1784116331,
+  "data_hash": "afef399bed121e4e6a1571336a7dd48de086b5690c038b2bb83085b9faae6375"
  },
  "groups": {
   "u8": {
@@ -8178,7 +8178,10 @@
      "grupp": "Grupp 6",
      "mots": "IFK Kristianstad 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 4,
+      "ag": 10
+     },
      "start_ms": 1784115000000,
      "start_iso": "2026-07-15T13:30+02:00",
      "day_label": "Onsdag 15 juli"
