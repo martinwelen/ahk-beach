@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T12:19:25+00:00",
-  "seq": 1784117965,
-  "data_hash": "3e1691da4d7ce15c2eb347ebd3c8889da67c14c7cde99f00f5b906f9edb528de"
+  "generated": "2026-07-15T12:24:48+00:00",
+  "seq": 1784118288,
+  "data_hash": "0cbc61fc886b4ecc7a8053ddf1581f4b27bc9f8ea0e85a1ce8420c698e585cad"
  },
  "by_age": {
   "u12": {
@@ -12781,8 +12781,8 @@
        "pos": 3
       },
       {
-       "name": "IFK Bankeryd 3",
-       "team_id": 75597934,
+       "name": "Växjö HF 2",
+       "team_id": 78630792,
        "is_alingsas": false,
        "played": 1,
        "won": 1,
@@ -12826,8 +12826,8 @@
        "pos": 6
       },
       {
-       "name": "Växjö HF 2",
-       "team_id": 78630792,
+       "name": "IFK Bankeryd 3",
+       "team_id": 75597934,
        "is_alingsas": false,
        "played": 1,
        "won": 0,
