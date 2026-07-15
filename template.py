@@ -340,6 +340,10 @@ let MATCHES = __DATA__;
 const TEAMS = __TEAMS__;
 const CLASSES = __CLASSES__;
 const DUR = __DUR_MIN__ * 60000;
+// Hur länge efter matchslut vi fortsätter polla MatchResult. Måste överstiga
+// robotens värsta persistens-latens (~25-30 min: matchslut + missad cykel + CI-tid),
+// annars kan liveState-"Slut" inte överbrygga glappet innan sparat resultat finns.
+const POLL_GRACE_MS = 40*60000;
 const API_HOST = "__API_HOST__";
 const TOURNAMENT_ID = "__TOURNAMENT_ID__";
 const BANA_XY = __BANA_XY__;
@@ -467,7 +471,7 @@ setInterval(render, 30000);
 // Bakgrundsuppdatering: hämta om schemat (resultat/nya matcher) utan omladdning.
 function refreshData(){
   if(document.visibilityState!=="visible") return;
-  fetch("sched.json").then(r=>r.json()).then(j=>{
+  fetch("sched.json", {cache:"no-store"}).then(r=>r.json()).then(j=>{
     if(j && Array.isArray(j.matches)){
       MATCHES = j.matches;
       if("standings" in j) STANDINGS = j.standings;
@@ -810,7 +814,7 @@ function pollWindow(){
   const now = Date.now();
   for(const m of MATCHES){
     if(!m.id) continue;
-    const inWindow = now >= m.ms && now < m.ms + DUR + 600000;
+    const inWindow = now >= m.ms && now < m.ms + DUR + POLL_GRACE_MS;
     if(inWindow && !(liveState[m.id]||{}).finished) pollOne(m.id);
   }
 }

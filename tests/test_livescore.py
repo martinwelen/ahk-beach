@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import re
+
 import template
 
 
@@ -52,6 +54,21 @@ def test_card_shows_playoff_round():
     assert 'hm.runda' in t
 
 
+def test_live_poll_window_bridges_robot_persistence_lag():
+    # Regression: liveState (slut-siffran) lever bara i minnet och töms vid refresh.
+    # Efter reload pollas en avslutad match bara medan den ligger i tidsfönstret.
+    # Robotens persisterade slutresultat kan dröja ~25-30 min (matchslut + missad
+    # cykel + CI-körtid), så fönstret MÅSTE sträcka sig väl bortom det – annars blir
+    # kortet blankt (varken live-"Slut" eller sparat resultat) i glappet.
+    t = template.TEMPLATE
+    m = re.search(r"POLL_GRACE_MS\s*=\s*(\d+)\s*\*\s*60000", t)
+    assert m, "hittar inte POLL_GRACE_MS-konstanten"
+    grace_min = int(m.group(1))
+    assert grace_min >= 30, f"grace {grace_min} min för kort för robotlatensen (~30 min)"
+    # pollWindow måste använda konstanten (inte en hårdkodad kort grace).
+    assert "m.ms + DUR + POLL_GRACE_MS" in t
+
+
 def test_livescore_shows_final_score_before_robot():
     # Latensfix: klienten visar slutsiffran från MatchResult (finished) direkt,
     # men bara om robotens .score inte redan finns (undviker dubbel).
@@ -66,8 +83,17 @@ def test_background_data_refresh():
     assert "let MATCHES = __DATA__;" in t       # ombytbar för refresh
     assert "let STANDINGS = __STANDINGS__;" in t
     assert "function refreshData(" in t
-    assert 'fetch("sched.json")' in t
+    assert 'fetch("sched.json", {cache:"no-store"})' in t
     assert "setInterval(refreshData, 60000)" in t
+
+
+def test_background_refresh_bypasses_http_cache():
+    # Regression: GitHub Pages serverar sched.json med Cache-Control: max-age=600.
+    # refreshData MÅSTE hämta med {cache:"no-store"}, annars kan bakgrunds-
+    # uppdateringen läsa en inaktuell (cachead) sched.json och RADERA ett redan
+    # visat resultat tills HTTP-cachen löper ut (~10 min). En manuell reload
+    # revaliderar index.html och "återfår" resultatet – exakt det observerade felet.
+    assert 'fetch("sched.json", {cache:"no-store"})' in template.TEMPLATE
 
 
 def test_map_markers_markup():
