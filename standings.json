@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T16:34:18+00:00",
-  "seq": 1784133258,
-  "data_hash": "7fb5dd8a32ac3dcf406a6aea3c73e55c514ec1d9e268eb1d75f54a6d69f6c237"
+  "generated": "2026-07-15T16:52:07+00:00",
+  "seq": 1784134327,
+  "data_hash": "4e32c1b2bd71653bea0ed3ddd206c6e322f6d60a8032a9b26328baf981de9e82"
  },
  "by_age": {
   "u12": {
@@ -11194,15 +11194,15 @@
             "label": "IFK Malmö HF 2",
             "team_id": 78086210,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
            "away": {
             "label": "IK Bolton",
             "team_id": 76068632,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854038,
@@ -11213,15 +11213,15 @@
             "label": "Lödde Vikings HK Röd",
             "team_id": 76524313,
             "is_alingsas": false,
-            "goals": null
+            "goals": 4
            },
            "away": {
             "label": "IK Lågan Hörby Svart",
             "team_id": 74535165,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854042,
@@ -11232,15 +11232,15 @@
             "label": "IFK Tumba HK",
             "team_id": 76236791,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "IFK Kristianstad 2",
             "team_id": 78566940,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854046,
@@ -11251,15 +11251,15 @@
             "label": "IFK Ystad HK Röd",
             "team_id": 77673990,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Höörs HK H 65 1",
             "team_id": 79288307,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -11272,14 +11272,14 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 15072132",
-            "team_id": null,
+            "label": "IFK Malmö HF 2",
+            "team_id": 78086210,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072234",
-            "team_id": null,
+            "label": "IK Lågan Hörby Svart",
+            "team_id": 74535165,
             "is_alingsas": false,
             "goals": null
            },
@@ -11291,14 +11291,14 @@
            "bana": 3,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 15072334",
-            "team_id": null,
+            "label": "IFK Kristianstad 2",
+            "team_id": 78566940,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072434",
-            "team_id": null,
+            "label": "Höörs HK H 65 1",
+            "team_id": 79288307,
             "is_alingsas": false,
             "goals": null
            },
@@ -11486,15 +11486,15 @@
             "label": "IFK Ystad HK Vit",
             "team_id": 77673992,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "HK Aranäs BLÅ",
             "team_id": 75922169,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854060,
@@ -11505,15 +11505,15 @@
             "label": "HK Varberg Svart",
             "team_id": 78608934,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "IFK Malmö HF Grön",
             "team_id": 79085178,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854064,
@@ -11524,15 +11524,15 @@
             "label": "Härnösands Handbollsförening 1",
             "team_id": 78983942,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Habo HK Vit",
             "team_id": 78541131,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854067,
@@ -11543,15 +11543,15 @@
             "label": "Härnösands Handbollsförening 2",
             "team_id": 78983944,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "IFK Bankeryd Vit",
             "team_id": 75070765,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -11564,14 +11564,14 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 15072534",
-            "team_id": null,
+            "label": "HK Aranäs BLÅ",
+            "team_id": 75922169,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072634",
-            "team_id": null,
+            "label": "HK Varberg Svart",
+            "team_id": 78608934,
             "is_alingsas": false,
             "goals": null
            },
@@ -11583,14 +11583,14 @@
            "bana": 3,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 15072734",
-            "team_id": null,
+            "label": "Härnösands Handbollsförening 1",
+            "team_id": 78983942,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072834",
-            "team_id": null,
+            "label": "Härnösands Handbollsförening 2",
+            "team_id": 78983944,
             "is_alingsas": false,
             "goals": null
            },

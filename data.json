@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T16:26:58+00:00",
-  "seq": 1784132818,
-  "data_hash": "1e3931e7fae29c35228c3aa14ab3010eb640b926a59fe7e4c26ca0130d01f03d"
+  "generated": "2026-07-15T16:48:25+00:00",
+  "seq": 1784134105,
+  "data_hash": "aaf686ea8589e0c9b7e5c911b29c7993898584dd6b85256bef93aaa1ef2207b7"
  },
  "groups": {
   "u8": {
@@ -3220,7 +3220,10 @@
      "grupp": "Grupp 2",
      "mots": "Skuru IK Rosa",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 8
+     },
      "start_ms": 1784132100000,
      "start_iso": "2026-07-15T18:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8512,7 +8515,10 @@
      "grupp": "A-Slutspel",
      "mots": "Tyresö Handboll 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 10
+     },
      "start_ms": 1784132100000,
      "start_iso": "2026-07-15T18:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8538,6 +8544,29 @@
      "result": null,
      "start_ms": 1784134800000,
      "start_iso": "2026-07-15T19:00+02:00",
+     "day_label": "Onsdag 15 juli"
+    },
+    {
+     "age_slug": "u16",
+     "slug": "u16-p-1",
+     "id": 81853478,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-15",
+     "dag": "Onsdag",
+     "tid": "19:15",
+     "bana": 3,
+     "video": null,
+     "runda": "Kvartsfinal",
+     "hemma": "IFK Tumba HK 3",
+     "borta": "Alingsås HK 1",
+     "grupp": "A-Slutspel",
+     "mots": "IFK Tumba HK 3",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784135700000,
+     "start_iso": "2026-07-15T19:15+02:00",
      "day_label": "Onsdag 15 juli"
     }
    ]
