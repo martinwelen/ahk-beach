@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T13:43:31+00:00",
-  "seq": 1784123011,
-  "data_hash": "c63d664704920b06a46f2a11cae2ca9ce8d3483b24a47cd1b6c8a0eb7b78358e"
+  "generated": "2026-07-15T14:04:55+00:00",
+  "seq": 1784124295,
+  "data_hash": "66e48c2a7b441b8ad02631375d6707d546f4e00cbefeccfd7d1da1df1b84bf3c"
  },
  "groups": {
   "u8": {
@@ -8352,7 +8352,10 @@
      "grupp": "Grupp 3",
      "mots": "Karlshamns HF",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 10
+     },
      "start_ms": 1784123100000,
      "start_iso": "2026-07-15T15:45+02:00",
      "day_label": "Onsdag 15 juli"
