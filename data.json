@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T13:12:02+00:00",
-  "seq": 1784121122,
-  "data_hash": "115b8816f8e98508077632bdebfd2cbfd9f9d9ad65bf181d924cd7d9d590823d"
+  "generated": "2026-07-15T13:22:31+00:00",
+  "seq": 1784121751,
+  "data_hash": "dadf80cecadd0a947daba9d6eaf0f4456e85dc29f3ca10aa8202eaba836a4a03"
  },
  "groups": {
   "u8": {
@@ -8297,7 +8297,10 @@
      "grupp": "Grupp 6",
      "mots": "HK Aranäs BLÅ",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 7
+     },
      "start_ms": 1784120400000,
      "start_iso": "2026-07-15T15:00+02:00",
      "day_label": "Onsdag 15 juli"
