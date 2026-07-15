@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T11:09:37+00:00",
-  "seq": 1784113777,
-  "data_hash": "94f0feea631df34a4637905fbd2ce1564c73d4360c01193e81562cab5cd7077a"
+  "generated": "2026-07-15T11:21:42+00:00",
+  "seq": 1784114502,
+  "data_hash": "08459d1a886beead67a63a1079602ac6a3600b640e04eec5a3401c3801985d36"
  },
  "by_age": {
   "u12": {
@@ -12908,6 +12908,21 @@
        "pos": 2
       },
       {
+       "name": "Lödde Vikings HK Svart",
+       "team_id": 76523806,
+       "is_alingsas": false,
+       "played": 1,
+       "won": 1,
+       "tied": 0,
+       "lost": 0,
+       "goals_for": 10,
+       "goals_against": 8,
+       "diff": 2,
+       "points": 2,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "Gustavsbergs IF HK 1",
        "team_id": 74112480,
        "is_alingsas": false,
@@ -12920,7 +12935,7 @@
        "diff": 1,
        "points": 2,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "Åhus Handboll 1",
@@ -12934,8 +12949,8 @@
        "goals_against": 10,
        "diff": 0,
        "points": 1,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": null,
+       "pos": 5
       },
       {
        "name": "Alingsås HK Svart",
@@ -12949,38 +12964,8 @@
        "goals_against": 10,
        "diff": 0,
        "points": 1,
-       "tier": null,
-       "pos": 5
-      },
-      {
-       "name": "Lödde Vikings HK Svart",
-       "team_id": 76523806,
-       "is_alingsas": false,
-       "played": 0,
-       "won": 0,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
        "tier": "B-Slutspel",
        "pos": 6
-      },
-      {
-       "name": "Habo HK 1",
-       "team_id": 77136864,
-       "is_alingsas": false,
-       "played": 0,
-       "won": 0,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
-       "tier": "B-Slutspel",
-       "pos": 7
       },
       {
        "name": "Stavsten HK",
@@ -12993,6 +12978,21 @@
        "goals_for": 8,
        "goals_against": 9,
        "diff": -1,
+       "points": 0,
+       "tier": "B-Slutspel",
+       "pos": 7
+      },
+      {
+       "name": "Habo HK 1",
+       "team_id": 77136864,
+       "is_alingsas": false,
+       "played": 1,
+       "won": 0,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 8,
+       "goals_against": 10,
+       "diff": -2,
        "points": 0,
        "tier": null,
        "pos": 8
