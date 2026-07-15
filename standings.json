@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T17:07:17+00:00",
-  "seq": 1784135237,
-  "data_hash": "7a855de5c9d7d0512953183997a8d813888eeebd41a59f157d3bfef3beb16d9a"
+  "generated": "2026-07-15T17:21:38+00:00",
+  "seq": 1784136098,
+  "data_hash": "2c27e672022a8c53fadc399f3dfa8ded5ea5d1ec9eb1c1cff79560583710d33a"
  },
  "by_age": {
   "u12": {
@@ -10883,15 +10883,15 @@
             "label": "Lugi HF 3",
             "team_id": 76420290,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Hässleholms HF 2",
             "team_id": 78491602,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854005,
@@ -10902,15 +10902,15 @@
             "label": "Raklev G&I 1",
             "team_id": 73515506,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "IFK Tumba HK Blå",
             "team_id": 76735102,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854014,
@@ -10921,15 +10921,15 @@
             "label": "Lugi HF 1",
             "team_id": 76420278,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "united beach handbollsklubb",
             "team_id": 78602736,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854021,
@@ -10940,15 +10940,15 @@
             "label": "Lugi HF 2",
             "team_id": 76420284,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Alingsås HK",
             "team_id": 75872642,
             "is_alingsas": true,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -10961,14 +10961,14 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 15072134",
-            "team_id": null,
+            "label": "Hässleholms HF 2",
+            "team_id": 78491602,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072236",
-            "team_id": null,
+            "label": "Raklev G&I 1",
+            "team_id": 73515506,
             "is_alingsas": false,
             "goals": null
            },
@@ -10980,15 +10980,15 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 15072336",
-            "team_id": null,
+            "label": "Lugi HF 1",
+            "team_id": 76420278,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072436",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK",
+            "team_id": 75872642,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
@@ -15696,7 +15696,7 @@
        "pos": 6
       },
       {
-       "name": "IK Bolton Beach Brawl Stars",
+       "name": "IK Bolton 😈BEACH BRAWL STARS!😈",
        "team_id": 81130646,
        "is_alingsas": false,
        "played": 0,
