@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T18:06:27+00:00",
-  "seq": 1784138787,
-  "data_hash": "928187968823f0d54a5200aedd73e81b2b7157cb144ec29a879be0dd51c97a0b"
+  "generated": "2026-07-15T18:17:10+00:00",
+  "seq": 1784139430,
+  "data_hash": "2b835b47fea9281e69feca4f45d6a4b570c29c2a0e7d28f3cdfd181e534175b8"
  },
  "by_age": {
   "u12": {
@@ -11275,15 +11275,15 @@
             "label": "IFK Malmö HF 2",
             "team_id": 78086210,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "IK Lågan Hörby Svart",
             "team_id": 74535165,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854041,
@@ -11294,15 +11294,15 @@
             "label": "IFK Kristianstad 2",
             "team_id": 78566940,
             "is_alingsas": false,
-            "goals": null
+            "goals": 4
            },
            "away": {
             "label": "Höörs HK H 65 1",
             "team_id": 79288307,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -11315,14 +11315,14 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 15072240",
-            "team_id": null,
+            "label": "IK Lågan Hörby Svart",
+            "team_id": 74535165,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072340",
-            "team_id": null,
+            "label": "Höörs HK H 65 1",
+            "team_id": 79288307,
             "is_alingsas": false,
             "goals": null
            },
