@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T09:14:35+00:00",
-  "seq": 1784106875,
-  "data_hash": "a1267a273c29f763b093a5076ec1be2f33f9afd2de7cb7a8bb33ed7dbaa5851e"
+  "generated": "2026-07-15T09:32:32+00:00",
+  "seq": 1784107952,
+  "data_hash": "a4f61371ff82ca2c8462ac60f82186fa74478a0f8d435e9a65139478f3aa2428"
  },
  "groups": {
   "u8": {
@@ -8039,7 +8039,10 @@
      "grupp": "Grupp 3",
      "mots": "Växjö HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 13
+     },
      "start_ms": 1784106900000,
      "start_iso": "2026-07-15T11:15+02:00",
      "day_label": "Onsdag 15 juli"
