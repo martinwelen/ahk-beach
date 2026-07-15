@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T14:04:55+00:00",
-  "seq": 1784124295,
-  "data_hash": "66e48c2a7b441b8ad02631375d6707d546f4e00cbefeccfd7d1da1df1b84bf3c"
+  "generated": "2026-07-15T14:22:09+00:00",
+  "seq": 1784125329,
+  "data_hash": "bcbd87708dc2b0b19802d94c9e0c1d328356de098fb4758591e336d4a4d75db7"
  },
  "groups": {
   "u8": {
@@ -2960,7 +2960,10 @@
      "grupp": "Grupp 4",
      "mots": "Åhus Handboll 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 5
+     },
      "start_ms": 1784124000000,
      "start_iso": "2026-07-15T16:00+02:00",
      "day_label": "Onsdag 15 juli"
@@ -2983,7 +2986,10 @@
      "grupp": "Grupp 5",
      "mots": "HK Björnen",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 9
+     },
      "start_ms": 1784124000000,
      "start_iso": "2026-07-15T16:00+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8419,14 +8425,37 @@
      "bana": 3,
      "video": null,
      "runda": "1/8-final",
-     "hemma": "6:an i Grupp 3",
+     "hemma": "Växjö HF 1",
      "borta": "Alingsås HK 2",
      "grupp": "B-Slutspel",
-     "mots": "6:an i Grupp 3",
+     "mots": "Växjö HF 1",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784130300000,
      "start_iso": "2026-07-15T17:45+02:00",
+     "day_label": "Onsdag 15 juli"
+    },
+    {
+     "age_slug": "u16",
+     "slug": "u16-p-1",
+     "id": 81853480,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-15",
+     "dag": "Onsdag",
+     "tid": "18:15",
+     "bana": 6,
+     "video": null,
+     "runda": "1/8-final",
+     "hemma": "Alingsås HK 1",
+     "borta": "Tyresö Handboll 2",
+     "grupp": "A-Slutspel",
+     "mots": "Tyresö Handboll 2",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784132100000,
+     "start_iso": "2026-07-15T18:15+02:00",
      "day_label": "Onsdag 15 juli"
     }
    ]
