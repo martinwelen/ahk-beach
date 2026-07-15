@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T11:04:58+00:00",
-  "seq": 1784113498,
-  "data_hash": "601260fb9bbb1ce04a66874ba32194024338c147432733b9e0fd3f33be43659d"
+  "generated": "2026-07-15T11:32:08+00:00",
+  "seq": 1784115128,
+  "data_hash": "cf7189a10df5072fbc4642c57f92cd50468cbc32d602a3d79ab461f880ea9d6f"
  },
  "groups": {
   "u8": {
@@ -8152,7 +8152,10 @@
      "grupp": "Grupp 4",
      "mots": "IFK Malmö HF LILA",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 17,
+      "ag": 6
+     },
      "start_ms": 1784114100000,
      "start_iso": "2026-07-15T13:15+02:00",
      "day_label": "Onsdag 15 juli"
