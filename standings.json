@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T19:17:17+00:00",
-  "seq": 1784143037,
-  "data_hash": "db2cf0edfd713471481bed2da1c899cb4cb3e70202977dcf2e1203f05335ac62"
+  "generated": "2026-07-15T19:36:10+00:00",
+  "seq": 1784144170,
+  "data_hash": "6c968051b7a85a3d78d8d3c7dbdaf85808d033fb90ca8d38ddd5ea5e9cd3e95e"
  },
  "by_age": {
   "u12": {
@@ -11902,15 +11902,15 @@
             "label": "Alingsås HK 1",
             "team_id": 75872636,
             "is_alingsas": true,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "HK Aranäs 1",
             "team_id": 74257626,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -11929,9 +11929,9 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072143",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 1",
+            "team_id": 75872636,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
@@ -12396,15 +12396,15 @@
             "label": "Raklev G&I 1",
             "team_id": 73515498,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Karlshamns HF",
             "team_id": 80736705,
             "is_alingsas": false,
-            "goals": null
+            "goals": 15
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }

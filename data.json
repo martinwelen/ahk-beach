@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T19:13:30+00:00",
-  "seq": 1784142810,
-  "data_hash": "a1a3ab953f46fcbd4834491419d473893a11ea3b7aa2bfd6acd896df8444a17b"
+  "generated": "2026-07-15T19:32:53+00:00",
+  "seq": 1784143973,
+  "data_hash": "fc4482a153ccee1feaa3c70247c135e090d0d0404ee4fb13b7c31676c109b124"
  },
  "groups": {
   "u8": {
@@ -8646,7 +8646,10 @@
      "grupp": "A-Slutspel",
      "mots": "HK Aranäs 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 10
+     },
      "start_ms": 1784142900000,
      "start_iso": "2026-07-15T21:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -8672,6 +8675,29 @@
      "result": null,
      "start_ms": 1784145600000,
      "start_iso": "2026-07-15T22:00+02:00",
+     "day_label": "Onsdag 15 juli"
+    },
+    {
+     "age_slug": "u16",
+     "slug": "u16-p-1",
+     "id": 81853469,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-15",
+     "dag": "Onsdag",
+     "tid": "22:15",
+     "bana": 1,
+     "video": "https://ahusbeachplay.com/ahusbeach/watch/finalsaendning-15e-juli",
+     "runda": "Final",
+     "hemma": "IK Sund",
+     "borta": "Alingsås HK 1",
+     "grupp": "A-Slutspel",
+     "mots": "IK Sund",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784146500000,
+     "start_iso": "2026-07-15T22:15+02:00",
      "day_label": "Onsdag 15 juli"
     }
    ]
