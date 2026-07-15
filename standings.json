@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T15:04:43+00:00",
-  "seq": 1784127883,
-  "data_hash": "ee24aee26b07cee074ff4b2bc6710c8934326a07cd48c34c7e0002ff286320c4"
+  "generated": "2026-07-15T15:26:22+00:00",
+  "seq": 1784129182,
+  "data_hash": "ae7d40b3d24eb123eb8535ae171abb1b59d13b6b2fce868407fe8ecd2042550a"
  },
  "by_age": {
   "u12": {
@@ -10588,15 +10588,15 @@
             "label": "Hammarby IF HF",
             "team_id": 77650269,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Lugi HF 1",
             "team_id": 76420278,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854019,
@@ -10607,15 +10607,15 @@
             "label": "united beach handbollsklubb",
             "team_id": 78602736,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "IK Lågan Hörby Blå",
             "team_id": 74535163,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854020,
@@ -10626,15 +10626,15 @@
             "label": "Önnereds HK",
             "team_id": 81124752,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "IFK Kristianstad 1",
             "team_id": 74019310,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854023,
@@ -10645,15 +10645,15 @@
             "label": "Lugi HF 2",
             "team_id": 76420284,
             "is_alingsas": false,
-            "goals": null
+            "goals": 15
            },
            "away": {
             "label": "HK Aranäs SVART",
             "team_id": 75922171,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854024,
@@ -10664,15 +10664,15 @@
             "label": "Skuru IK 1",
             "team_id": 75610722,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Stenungsunds HK",
             "team_id": 78413188,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81854026,
@@ -10683,15 +10683,15 @@
             "label": "Alingsås HK",
             "team_id": 75872642,
             "is_alingsas": true,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Kävlinge HK Blå",
             "team_id": 78334485,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81854027,
@@ -10702,15 +10702,15 @@
             "label": "Alingsås HK AHK 2",
             "team_id": 75061954,
             "is_alingsas": true,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "HK Aranäs VIT",
             "team_id": 75922167,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -10805,8 +10805,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072228",
-            "team_id": null,
+            "label": "Lugi HF 1",
+            "team_id": 76420278,
             "is_alingsas": false,
             "goals": null
            },
@@ -10818,14 +10818,14 @@
            "bana": 6,
            "round": "1/8 Final",
            "home": {
-            "label": "Vinn. 15072328",
-            "team_id": null,
+            "label": "united beach handbollsklubb",
+            "team_id": 78602736,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072428",
-            "team_id": null,
+            "label": "Önnereds HK",
+            "team_id": 81124752,
             "is_alingsas": false,
             "goals": null
            },
@@ -10837,14 +10837,14 @@
            "bana": 7,
            "round": "1/8 Final",
            "home": {
-            "label": "Vinn. 15072528",
-            "team_id": null,
+            "label": "Lugi HF 2",
+            "team_id": 76420284,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072628",
-            "team_id": null,
+            "label": "Stenungsunds HK",
+            "team_id": 78413188,
             "is_alingsas": false,
             "goals": null
            },
@@ -10856,15 +10856,15 @@
            "bana": 8,
            "round": "1/8 Final",
            "home": {
-            "label": "Vinn. 15072728",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK",
+            "team_id": 75872642,
+            "is_alingsas": true,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 15072828",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK AHK 2",
+            "team_id": 75061954,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
