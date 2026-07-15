@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T18:03:18+00:00",
-  "seq": 1784138598,
-  "data_hash": "4a1f24047b1e347955da090062010ed9e372fccc460012e126bbed638e7d4cb7"
+  "generated": "2026-07-15T18:32:52+00:00",
+  "seq": 1784140372,
+  "data_hash": "5436f6170d3931948d5f7ae4bbf89deab01c326a37c80df8cb9f30b8eda510d6"
  },
  "groups": {
   "u8": {
@@ -3376,7 +3376,10 @@
      "grupp": "Grupp 5",
      "mots": "Lödde Vikings HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 10
+     },
      "start_ms": 1784139300000,
      "start_iso": "2026-07-15T20:15+02:00",
      "day_label": "Onsdag 15 juli"
