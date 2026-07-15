@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T16:48:25+00:00",
-  "seq": 1784134105,
-  "data_hash": "aaf686ea8589e0c9b7e5c911b29c7993898584dd6b85256bef93aaa1ef2207b7"
+  "generated": "2026-07-15T17:03:30+00:00",
+  "seq": 1784135010,
+  "data_hash": "cddbd4887c4c357d2e489021b5465f42f9bdd5e23df7292d1e2a84888de8e650"
  },
  "groups": {
   "u8": {
@@ -3246,7 +3246,10 @@
      "grupp": "Grupp 5",
      "mots": "Stavsten HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 12
+     },
      "start_ms": 1784133900000,
      "start_iso": "2026-07-15T18:45+02:00",
      "day_label": "Onsdag 15 juli"
