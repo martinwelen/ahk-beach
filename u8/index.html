@@ -330,6 +330,10 @@ let MATCHES = [{"ms": 1784192400000, "t": "11:00", "bana": 15, "lag": "Alingsås
 const TEAMS = [{"lag": "Alingsås HK Lag Blå", "slug": "u8-p-lag-bla", "klass": "P8", "id": 79865164, "color": "1f5fbf"}];
 const CLASSES = [{"cls": "P8", "label": "Pojkar 8"}];
 const DUR = 11 * 60000;
+// Hur länge efter matchslut vi fortsätter polla MatchResult. Måste överstiga
+// robotens värsta persistens-latens (~25-30 min: matchslut + missad cykel + CI-tid),
+// annars kan liveState-"Slut" inte överbrygga glappet innan sparat resultat finns.
+const POLL_GRACE_MS = 40*60000;
 const API_HOST = "ahusbeachhandboll.cupmanager.net";
 const TOURNAMENT_ID = "70944382";
 const BANA_XY = {"1": [0.6093, 0.4257], "2": [0.6045, 0.3291], "3": [0.6663, 0.3325], "4": [0.6615, 0.2561], "5": [0.8159, 0.1965], "6": [0.9109, 0.2082], "7": [0.8314, 0.1327], "8": [0.924, 0.1444], "9": [0.9371, 0.0772], "10": [0.7245, 0.1545], "11": [0.3979, 0.4702], "12": [0.3979, 0.3988], "13": [0.4549, 0.3199], "14": [0.3278, 0.55], "15": [0.3147, 0.466], "16": [0.272, 0.4114], "17": [0.2411, 0.466], "18": [0.1686, 0.466], "19": [0.0867, 0.4601]};
@@ -457,7 +461,7 @@ setInterval(render, 30000);
 // Bakgrundsuppdatering: hämta om schemat (resultat/nya matcher) utan omladdning.
 function refreshData(){
   if(document.visibilityState!=="visible") return;
-  fetch("sched.json").then(r=>r.json()).then(j=>{
+  fetch("sched.json", {cache:"no-store"}).then(r=>r.json()).then(j=>{
     if(j && Array.isArray(j.matches)){
       MATCHES = j.matches;
       if("standings" in j) STANDINGS = j.standings;
@@ -800,7 +804,7 @@ function pollWindow(){
   const now = Date.now();
   for(const m of MATCHES){
     if(!m.id) continue;
-    const inWindow = now >= m.ms && now < m.ms + DUR + 600000;
+    const inWindow = now >= m.ms && now < m.ms + DUR + POLL_GRACE_MS;
     if(inWindow && !(liveState[m.id]||{}).finished) pollOne(m.id);
   }
 }
