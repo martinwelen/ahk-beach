@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T14:22:09+00:00",
-  "seq": 1784125329,
-  "data_hash": "bcbd87708dc2b0b19802d94c9e0c1d328356de098fb4758591e336d4a4d75db7"
+  "generated": "2026-07-15T14:31:55+00:00",
+  "seq": 1784125915,
+  "data_hash": "ec266552db9fc9b9083fb35200d47b93c421d364170b478ee4154d0bfea7509e"
  },
  "groups": {
   "u8": {
@@ -3012,7 +3012,10 @@
      "grupp": "Grupp 6",
      "mots": "Uppsala HK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 12
+     },
      "start_ms": 1784124900000,
      "start_iso": "2026-07-15T16:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -3035,7 +3038,10 @@
      "grupp": "Grupp 1",
      "mots": "HF Karlskrona 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 15
+     },
      "start_ms": 1784124900000,
      "start_iso": "2026-07-15T16:15+02:00",
      "day_label": "Onsdag 15 juli"
@@ -3058,7 +3064,10 @@
      "grupp": "Grupp 2",
      "mots": "Staffanstorps HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 5
+     },
      "start_ms": 1784124900000,
      "start_iso": "2026-07-15T16:15+02:00",
      "day_label": "Onsdag 15 juli"
