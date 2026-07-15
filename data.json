@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T19:32:53+00:00",
-  "seq": 1784143973,
-  "data_hash": "fc4482a153ccee1feaa3c70247c135e090d0d0404ee4fb13b7c31676c109b124"
+  "generated": "2026-07-15T20:22:08+00:00",
+  "seq": 1784146928,
+  "data_hash": "f333191c926192ec690bfaf567bb500820694d744ad2a83f8688c12bb5195305"
  },
  "groups": {
   "u8": {
@@ -8672,7 +8672,10 @@
      "grupp": "A-Slutspel",
      "mots": "Raklev G&I 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 5
+     },
      "start_ms": 1784145600000,
      "start_iso": "2026-07-15T22:00+02:00",
      "day_label": "Onsdag 15 juli"

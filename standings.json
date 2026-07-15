@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T19:57:32+00:00",
-  "seq": 1784145452,
-  "data_hash": "97a093530590e37fe9c67a713157f922ff9b79f31cf95b589127f91c287d3c77"
+  "generated": "2026-07-15T20:24:35+00:00",
+  "seq": 1784147075,
+  "data_hash": "c1e36ad47a6ae1e2424528717560d6250dbbfb5c12873d3035a1cbfe3a6b6543"
  },
  "by_age": {
   "u12": {
@@ -11007,15 +11007,15 @@
             "label": "Raklev G&I 1",
             "team_id": 73515506,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "Alingsås HK",
             "team_id": 75872642,
             "is_alingsas": true,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
