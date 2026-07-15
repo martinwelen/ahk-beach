@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-15T19:36:10+00:00",
-  "seq": 1784144170,
-  "data_hash": "6c968051b7a85a3d78d8d3c7dbdaf85808d033fb90ca8d38ddd5ea5e9cd3e95e"
+  "generated": "2026-07-15T19:46:31+00:00",
+  "seq": 1784144791,
+  "data_hash": "36a0da68915ee711239589d7ce3a3966a536f4fb051d7e1d134509ba065041fc"
  },
  "by_age": {
   "u12": {
@@ -11318,15 +11318,15 @@
             "label": "IK Lågan Hörby Svart",
             "team_id": 74535165,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "Höörs HK H 65 1",
             "team_id": 79288307,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
