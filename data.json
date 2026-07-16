@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T09:31:34+00:00",
-  "seq": 1784194294,
-  "data_hash": "5e308b8eccae5738cffa972f98f9e7368cab9b50964522edbe00db3c00748cb4"
+  "generated": "2026-07-16T10:06:37+00:00",
+  "seq": 1784196397,
+  "data_hash": "60939a0fe22870218e840914d11d44835641f1fe96017a28c750aea7805acbc7"
  },
  "groups": {
   "u8": {
@@ -3613,7 +3613,10 @@
      "grupp": "Grupp 1",
      "mots": "Lugi HF 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 4
+     },
      "start_ms": 1784193300000,
      "start_iso": "2026-07-16T11:15+02:00",
      "day_label": "Torsdag 16 juli"
@@ -3662,7 +3665,10 @@
      "grupp": "Grupp 5",
      "mots": "Gustavsbergs IF HK 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 10
+     },
      "start_ms": 1784194200000,
      "start_iso": "2026-07-16T11:30+02:00",
      "day_label": "Torsdag 16 juli"
