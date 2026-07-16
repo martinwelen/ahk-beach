@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T18:28:54+00:00",
-  "seq": 1784226534,
-  "data_hash": "7d205edd238be278a5e4ac563e50d777a7595e50c449ac3ec6ba15e82da41595"
+  "generated": "2026-07-16T18:45:37+00:00",
+  "seq": 1784227537,
+  "data_hash": "84c52c1641f912ea09c23f0d779f0a40f54a3b1882c702735bf7edae337d9b14"
  },
  "by_age": {
   "u12": {
@@ -13820,15 +13820,15 @@
             "label": "Alingsås HK Vit",
             "team_id": 75071420,
             "is_alingsas": true,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "AIK Handbollsförening",
             "team_id": 77181805,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81910065,
@@ -13860,8 +13860,8 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 16072139",
-            "team_id": null,
+            "label": "AIK Handbollsförening",
+            "team_id": 77181805,
             "is_alingsas": false,
             "goals": null
            },
