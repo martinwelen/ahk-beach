@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T15:03:00+00:00",
-  "seq": 1784214180,
-  "data_hash": "dda2d340107533f2921e20926cdbd1a81c27596c5ee8b88b13014e58147096c7"
+  "generated": "2026-07-16T16:06:33+00:00",
+  "seq": 1784217993,
+  "data_hash": "72ed05f9924ff13aa4f9a276ec8bc4f64442585045bad067cadd3be944f97205"
  },
  "groups": {
   "u8": {
@@ -4145,7 +4145,10 @@
      "grupp": "A-Slutspel",
      "mots": "Skuru IK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 12
+     },
      "start_ms": 1784216700000,
      "start_iso": "2026-07-16T17:45+02:00",
      "day_label": "Torsdag 16 juli"
@@ -4168,7 +4171,10 @@
      "grupp": "A-Slutspel",
      "mots": "HK Ankaret 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 13
+     },
      "start_ms": 1784216700000,
      "start_iso": "2026-07-16T17:45+02:00",
      "day_label": "Torsdag 16 juli"
@@ -4240,6 +4246,29 @@
      "result": null,
      "start_ms": 1784219400000,
      "start_iso": "2026-07-16T18:30+02:00",
+     "day_label": "Torsdag 16 juli"
+    },
+    {
+     "age_slug": "u13",
+     "slug": "u13-p-1",
+     "id": 81910617,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#9c36b5",
+     "datum": "2026-07-16",
+     "dag": "Torsdag",
+     "tid": "18:45",
+     "bana": 7,
+     "video": null,
+     "runda": "1/8-final",
+     "hemma": "Lugi HF 4",
+     "borta": "Alingsås HK 1",
+     "grupp": "A-Slutspel",
+     "mots": "Lugi HF 4",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784220300000,
+     "start_iso": "2026-07-16T18:45+02:00",
      "day_label": "Torsdag 16 juli"
     }
    ]
