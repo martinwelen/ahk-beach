@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T16:06:33+00:00",
-  "seq": 1784217993,
-  "data_hash": "72ed05f9924ff13aa4f9a276ec8bc4f64442585045bad067cadd3be944f97205"
+  "generated": "2026-07-16T16:13:32+00:00",
+  "seq": 1784218412,
+  "data_hash": "1d65cc7c358b59fd20efac210efc8b31c814926564586183ba76d23bcbc0ad96"
  },
  "groups": {
   "u8": {
@@ -4197,7 +4197,10 @@
      "grupp": "C-Slutspel",
      "mots": "IFK Bankeryd 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 14
+     },
      "start_ms": 1784217600000,
      "start_iso": "2026-07-16T18:00+02:00",
      "day_label": "Torsdag 16 juli"
@@ -10849,7 +10852,10 @@
      "grupp": "Grupp 2",
      "mots": "AIK Handbollsförening",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 14
+     },
      "start_ms": 1784217600000,
      "start_iso": "2026-07-16T18:00+02:00",
      "day_label": "Torsdag 16 juli"
