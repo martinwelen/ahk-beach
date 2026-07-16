@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T08:40:42+00:00",
-  "seq": 1784191242,
-  "data_hash": "925b2b8b3f10617c13732d1aa0a8246382e8eb9668d224d7ba78596abc826871"
+  "generated": "2026-07-16T09:04:57+00:00",
+  "seq": 1784192697,
+  "data_hash": "2133347dfaeacb3f9738c7c4a68aad73ebb75c61fd06b709191e41f351b0f5fb"
  },
  "by_age": {
   "u12": {
@@ -12736,6 +12736,21 @@
      "division_id": 81910366,
      "rows": [
       {
+       "name": "Skuru IK",
+       "team_id": 78709475,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 5,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 72,
+       "goals_against": 60,
+       "diff": 12,
+       "points": 10,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Lugi HF 4",
        "team_id": 78441942,
        "is_alingsas": false,
@@ -12746,21 +12761,6 @@
        "goals_for": 54,
        "goals_against": 33,
        "diff": 21,
-       "points": 8,
-       "tier": "A-Slutspel",
-       "pos": 1
-      },
-      {
-       "name": "Skuru IK",
-       "team_id": 78709475,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 4,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 57,
-       "goals_against": 51,
-       "diff": 6,
        "points": 8,
        "tier": "A-Slutspel",
        "pos": 2
@@ -12811,19 +12811,34 @@
        "pos": 5
       },
       {
+       "name": "Växjö HF 2",
+       "team_id": 78630792,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 2,
+       "tied": 0,
+       "lost": 4,
+       "goals_for": 51,
+       "goals_against": 78,
+       "diff": -27,
+       "points": 4,
+       "tier": "B-Slutspel",
+       "pos": 6
+      },
+      {
        "name": "Huddinge HK 2",
        "team_id": 74030278,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 1,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 37,
-       "goals_against": 43,
-       "diff": -6,
+       "lost": 4,
+       "goals_for": 45,
+       "goals_against": 53,
+       "diff": -8,
        "points": 2,
        "tier": "B-Slutspel",
-       "pos": 6
+       "pos": 7
       },
       {
        "name": "Alingsås HK 3",
@@ -12837,21 +12852,6 @@
        "goals_against": 50,
        "diff": -13,
        "points": 2,
-       "tier": "B-Slutspel",
-       "pos": 7
-      },
-      {
-       "name": "Växjö HF 2",
-       "team_id": 78630792,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 1,
-       "tied": 0,
-       "lost": 4,
-       "goals_for": 41,
-       "goals_against": 70,
-       "diff": -29,
-       "points": 2,
        "tier": null,
        "pos": 8
       },
@@ -12859,13 +12859,13 @@
        "name": "IFK Bankeryd 3",
        "team_id": 75597934,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 0,
        "tied": 0,
-       "lost": 4,
-       "goals_for": 37,
-       "goals_against": 53,
-       "diff": -16,
+       "lost": 5,
+       "goals_for": 46,
+       "goals_against": 68,
+       "diff": -22,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 9
@@ -12878,6 +12878,21 @@
      "division_id": 81909870,
      "rows": [
       {
+       "name": "Lödde Vikings HK Svart",
+       "team_id": 76523806,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 5,
+       "tied": 1,
+       "lost": 0,
+       "goals_for": 69,
+       "goals_against": 49,
+       "diff": 20,
+       "points": 11,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Ystads IF HF 3",
        "team_id": 77368976,
        "is_alingsas": false,
@@ -12889,21 +12904,6 @@
        "goals_against": 40,
        "diff": 17,
        "points": 10,
-       "tier": "A-Slutspel",
-       "pos": 1
-      },
-      {
-       "name": "Lödde Vikings HK Svart",
-       "team_id": 76523806,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 4,
-       "tied": 1,
-       "lost": 0,
-       "goals_for": 57,
-       "goals_against": 44,
-       "diff": 13,
-       "points": 9,
        "tier": "A-Slutspel",
        "pos": 2
       },
@@ -12986,13 +12986,13 @@
        "name": "Bjärnums HK",
        "team_id": 75588997,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 1,
        "tied": 1,
-       "lost": 3,
-       "goals_for": 30,
-       "goals_against": 37,
-       "diff": -7,
+       "lost": 4,
+       "goals_for": 35,
+       "goals_against": 49,
+       "diff": -14,
        "points": 3,
        "tier": null,
        "pos": 8
