@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T17:03:00+00:00",
-  "seq": 1784221380,
-  "data_hash": "0115b9ed0e019ccb70ad9859f2b7af211752ec70d824adeeae699e90812cae01"
+  "generated": "2026-07-16T17:55:23+00:00",
+  "seq": 1784224523,
+  "data_hash": "dddde7bd3afe5e0aa4babb9ea6e74fb2adc523fe2b65982dde0dcd60c05145b1"
  },
  "groups": {
   "u8": {
@@ -179,7 +179,10 @@
      "grupp": "Grupp 1",
      "mots": "Ystads IF HF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1784223000000,
      "start_iso": "2026-07-16T19:30+02:00",
      "day_label": "Torsdag 16 juli"
@@ -4301,9 +4304,35 @@
      "grupp": "A-Slutspel",
      "mots": "Raklev G&I 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 7
+     },
      "start_ms": 1784223000000,
      "start_iso": "2026-07-16T19:30+02:00",
+     "day_label": "Torsdag 16 juli"
+    },
+    {
+     "age_slug": "u13",
+     "slug": "u13-f-vit",
+     "id": 81910052,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-16",
+     "dag": "Torsdag",
+     "tid": "20:30",
+     "bana": 1,
+     "video": "https://ahusbeachplay.com/ahusbeach/watch/finalsaendning-16e-juli",
+     "runda": "Semifinal",
+     "hemma": "Alingsås HK Vit",
+     "borta": "AIK Handbollsförening",
+     "grupp": "A-Slutspel",
+     "mots": "AIK Handbollsförening",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784226600000,
+     "start_iso": "2026-07-16T20:30+02:00",
      "day_label": "Torsdag 16 juli"
     }
    ]
@@ -10962,7 +10991,10 @@
      "grupp": "Grupp 2",
      "mots": "IK Lågan Hörby",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 9
+     },
      "start_ms": 1784223000000,
      "start_iso": "2026-07-16T19:30+02:00",
      "day_label": "Torsdag 16 juli"
