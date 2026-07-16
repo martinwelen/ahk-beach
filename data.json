@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T10:32:44+00:00",
-  "seq": 1784197964,
-  "data_hash": "8cfb872a26ac7de3adbb2d274eba1de46b71db76a1601e214ee1b87770559988"
+  "generated": "2026-07-16T10:53:01+00:00",
+  "seq": 1784199181,
+  "data_hash": "7b678d297d85f909d911572560fc851675310ca7c4a8b619393adfee08062e65"
  },
  "groups": {
   "u8": {
@@ -75,7 +75,10 @@
      "grupp": "Grupp 1",
      "mots": "IFK Kristianstad 4",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 0,
+      "ag": 0
+     },
      "start_ms": 1784197800000,
      "start_iso": "2026-07-16T12:30+02:00",
      "day_label": "Torsdag 16 juli"
@@ -3743,7 +3746,10 @@
      "grupp": "Grupp 6",
      "mots": "Täby HBK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 10
+     },
      "start_ms": 1784197800000,
      "start_iso": "2026-07-16T12:30+02:00",
      "day_label": "Torsdag 16 juli"
@@ -3766,7 +3772,10 @@
      "grupp": "Grupp 1",
      "mots": "Höörs HK H 65 Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 1
+     },
      "start_ms": 1784197800000,
      "start_iso": "2026-07-16T12:30+02:00",
      "day_label": "Torsdag 16 juli"
@@ -10420,7 +10429,10 @@
      "grupp": "Grupp 1",
      "mots": "Norrköpings HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 9
+     },
      "start_ms": 1784197800000,
      "start_iso": "2026-07-16T12:30+02:00",
      "day_label": "Torsdag 16 juli"

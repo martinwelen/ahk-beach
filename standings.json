@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T10:47:11+00:00",
-  "seq": 1784198831,
-  "data_hash": "a64de348afbf5756a7a11fec61addc81028c850c0604d02b5f132f252ac58fc8"
+  "generated": "2026-07-16T10:57:16+00:00",
+  "seq": 1784199436,
+  "data_hash": "abd0c2b8ab27e91c442ab1f2cd83f1600cf45ea865561541dc6732b6f6813ed5"
  },
  "by_age": {
   "u12": {
@@ -13300,14 +13300,14 @@
        "name": "Växjö HF 1",
        "team_id": 75031711,
        "is_alingsas": false,
-       "played": 6,
-       "won": 0,
+       "played": 7,
+       "won": 1,
        "tied": 0,
        "lost": 6,
-       "goals_for": 39,
-       "goals_against": 72,
-       "diff": -33,
-       "points": 0,
+       "goals_for": 49,
+       "goals_against": 80,
+       "diff": -31,
+       "points": 2,
        "tier": "C-Slutspel",
        "pos": 9
       },
@@ -13315,13 +13315,13 @@
        "name": "Uppsala HK 2",
        "team_id": 75354459,
        "is_alingsas": false,
-       "played": 6,
+       "played": 7,
        "won": 0,
        "tied": 0,
-       "lost": 6,
-       "goals_for": 46,
-       "goals_against": 86,
-       "diff": -40,
+       "lost": 7,
+       "goals_for": 54,
+       "goals_against": 96,
+       "diff": -42,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 10
@@ -15606,6 +15606,21 @@
      "division_id": 81911828,
      "rows": [
       {
+       "name": "Eslövs HK",
+       "team_id": 76732340,
+       "is_alingsas": false,
+       "played": 1,
+       "won": 1,
+       "tied": 0,
+       "lost": 0,
+       "goals_for": 10,
+       "goals_against": 8,
+       "diff": 2,
+       "points": 2,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Alingsås HK",
        "team_id": 76536042,
        "is_alingsas": true,
@@ -15618,7 +15633,7 @@
        "diff": 2,
        "points": 2,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
       },
       {
        "name": "IK Sund m79:an",
@@ -15632,21 +15647,6 @@
        "goals_against": 7,
        "diff": 1,
        "points": 2,
-       "tier": "A-Slutspel",
-       "pos": 2
-      },
-      {
-       "name": "Eslövs HK",
-       "team_id": 76732340,
-       "is_alingsas": false,
-       "played": 0,
-       "won": 0,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
        "tier": "A-Slutspel",
        "pos": 3
       },
@@ -15681,21 +15681,6 @@
        "pos": 5
       },
       {
-       "name": "IK Bolton 😈BEACH BRAWL STARS!😈",
-       "team_id": 81130646,
-       "is_alingsas": false,
-       "played": 0,
-       "won": 0,
-       "tied": 0,
-       "lost": 0,
-       "goals_for": 0,
-       "goals_against": 0,
-       "diff": 0,
-       "points": 0,
-       "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
        "name": "Spånga HK",
        "team_id": 75072590,
        "is_alingsas": false,
@@ -15706,6 +15691,21 @@
        "goals_for": 7,
        "goals_against": 8,
        "diff": -1,
+       "points": 0,
+       "tier": "B-Slutspel",
+       "pos": 6
+      },
+      {
+       "name": "IK Bolton 😈BEACH BRAWL STARS!😈",
+       "team_id": 81130646,
+       "is_alingsas": false,
+       "played": 1,
+       "won": 0,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 8,
+       "goals_against": 10,
+       "diff": -2,
        "points": 0,
        "tier": "B-Slutspel",
        "pos": 7
