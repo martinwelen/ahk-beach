@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T13:52:53+00:00",
-  "seq": 1784209973,
-  "data_hash": "3ca994b8d614263f5238f339bdaed146cd7a3d8b16a6472f3a08de8cb12f7a29"
+  "generated": "2026-07-16T14:03:04+00:00",
+  "seq": 1784210584,
+  "data_hash": "a4669f972174746091fcdb825372b61ad887622b775234c4b07f1dcd1fd8d817"
  },
  "groups": {
   "u8": {
@@ -4012,7 +4012,10 @@
      "grupp": "Grupp 4",
      "mots": "IFK Bankeryd 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 8
+     },
      "start_ms": 1784209500000,
      "start_iso": "2026-07-16T15:45+02:00",
      "day_label": "Torsdag 16 juli"
