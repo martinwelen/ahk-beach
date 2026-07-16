@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T18:17:03+00:00",
-  "seq": 1784225823,
-  "data_hash": "3cf084a73e892eb6af5684bfe02059a54ddf63d5029493515fbe056b71f9846e"
+  "generated": "2026-07-16T18:28:54+00:00",
+  "seq": 1784226534,
+  "data_hash": "7d205edd238be278a5e4ac563e50d777a7595e50c449ac3ec6ba15e82da41595"
  },
  "by_age": {
   "u12": {
@@ -14131,15 +14131,15 @@
             "label": "Skuru IK Vit",
             "team_id": 74937228,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Uppsala HK",
             "team_id": 75742891,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81910091,
@@ -14150,15 +14150,15 @@
             "label": "Åhus Handboll 1",
             "team_id": 74385016,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Särökometernas HK Svart",
             "team_id": 73384983,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -14171,14 +14171,14 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 16072338",
-            "team_id": null,
+            "label": "Skuru IK Vit",
+            "team_id": 74937228,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 16072738",
-            "team_id": null,
+            "label": "Åhus Handboll 1",
+            "team_id": 74385016,
             "is_alingsas": false,
             "goals": null
            },
@@ -15302,15 +15302,15 @@
             "label": "IFK Kristianstad 3",
             "team_id": 78238676,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "IFK Bankeryd 1",
             "team_id": 75597930,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81910641,
@@ -15321,15 +15321,15 @@
             "label": "Huddinge HK 3",
             "team_id": 74030280,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "IK Lågan Hörby Svart",
             "team_id": 74535137,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -15342,14 +15342,14 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 16072238",
-            "team_id": null,
+            "label": "IFK Kristianstad 3",
+            "team_id": 78238676,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 16072438",
-            "team_id": null,
+            "label": "IK Lågan Hörby Svart",
+            "team_id": 74535137,
             "is_alingsas": false,
             "goals": null
            },

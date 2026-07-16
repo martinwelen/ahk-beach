@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T17:55:23+00:00",
-  "seq": 1784224523,
-  "data_hash": "dddde7bd3afe5e0aa4babb9ea6e74fb2adc523fe2b65982dde0dcd60c05145b1"
+  "generated": "2026-07-16T18:25:59+00:00",
+  "seq": 1784226359,
+  "data_hash": "ecfb513a50a9575305a68665c0eb0d9fae87f541e6b08b7cc573eab2c4dd9e37"
  },
  "groups": {
   "u8": {
@@ -11017,7 +11017,10 @@
      "grupp": "Grupp 3",
      "mots": "Kärra HF woow",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 13
+     },
      "start_ms": 1784224800000,
      "start_iso": "2026-07-16T20:00+02:00",
      "day_label": "Torsdag 16 juli"
