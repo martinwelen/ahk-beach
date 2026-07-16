@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T10:06:37+00:00",
-  "seq": 1784196397,
-  "data_hash": "60939a0fe22870218e840914d11d44835641f1fe96017a28c750aea7805acbc7"
+  "generated": "2026-07-16T10:32:44+00:00",
+  "seq": 1784197964,
+  "data_hash": "8cfb872a26ac7de3adbb2d274eba1de46b71db76a1601e214ee1b87770559988"
  },
  "groups": {
   "u8": {
@@ -3691,7 +3691,10 @@
      "grupp": "Grupp 4",
      "mots": "Växjö HF 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 11
+     },
      "start_ms": 1784196900000,
      "start_iso": "2026-07-16T12:15+02:00",
      "day_label": "Torsdag 16 juli"
@@ -3714,7 +3717,10 @@
      "grupp": "Grupp 5",
      "mots": "Lödde Vikings HK Röd",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 7
+     },
      "start_ms": 1784196900000,
      "start_iso": "2026-07-16T12:15+02:00",
      "day_label": "Torsdag 16 juli"
