@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T11:06:43+00:00",
-  "seq": 1784200003,
-  "data_hash": "a6a673cdd3962470ce51c95adf52229995c49675cd96646014efcec298b0171b"
+  "generated": "2026-07-16T11:22:50+00:00",
+  "seq": 1784200970,
+  "data_hash": "e2256c2918fed1c41faad05cdcf9441a8f691bd7110051f42acd050b90a207f9"
  },
  "groups": {
   "u8": {
@@ -3824,7 +3824,10 @@
      "grupp": "Grupp 5",
      "mots": "Bjärnums HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 7
+     },
      "start_ms": 1784199600000,
      "start_iso": "2026-07-16T13:00+02:00",
      "day_label": "Torsdag 16 juli"
