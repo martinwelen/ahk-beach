@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T20:26:42+00:00",
-  "seq": 1784233602,
-  "data_hash": "e3ed41f7b461dbce3ead97648aec08d109a76e7e9b73a357d94ff95d1de28a07"
+  "generated": "2026-07-16T20:40:54+00:00",
+  "seq": 1784234454,
+  "data_hash": "7a5e73b8a33e8f5e201fae1718e228b21d2e19f90a5a2e3e9e59d0e9690266b1"
  },
  "by_age": {
   "u12": {
@@ -15034,15 +15034,15 @@
             "label": "Lugi HF 3",
             "team_id": 78441940,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
            "away": {
             "label": "Vinslövs HK 1",
             "team_id": 75073245,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
