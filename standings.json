@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T19:45:11+00:00",
-  "seq": 1784231111,
-  "data_hash": "2f287987514ef60e5e0e6b2ec449aabf54a90a353725a57e7d6267857e2dc666"
+  "generated": "2026-07-16T19:56:49+00:00",
+  "seq": 1784231809,
+  "data_hash": "67975deb3bbaf8a72edc0c72e594c06b2751cfc402de2c09fb79900802571e1c"
  },
  "by_age": {
   "u12": {
@@ -15345,15 +15345,15 @@
             "label": "IFK Kristianstad 3",
             "team_id": 78238676,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "IK Lågan Hörby Svart",
             "team_id": 74535137,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
