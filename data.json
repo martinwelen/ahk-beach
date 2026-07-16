@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T12:25:04+00:00",
-  "seq": 1784204704,
-  "data_hash": "a77970fc53793581e0758b865614ae63e4c640e7fce79b922f69e5af266ad7d5"
+  "generated": "2026-07-16T12:33:15+00:00",
+  "seq": 1784205195,
+  "data_hash": "fa80b1813493aec145efca3891547eff3d97c29d3d5e74b4e106fc903a3b1bee"
  },
  "groups": {
   "u8": {
@@ -3957,7 +3957,10 @@
      "grupp": "Grupp 2",
      "mots": "Halmstad Handboll 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 7
+     },
      "start_ms": 1784204100000,
      "start_iso": "2026-07-16T14:15+02:00",
      "day_label": "Torsdag 16 juli"
