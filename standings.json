@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T13:36:47+00:00",
-  "seq": 1784209007,
-  "data_hash": "9a307c489491be9b661779113e45fc57cd344b337fc00eacda0a62eb00f85415"
+  "generated": "2026-07-16T13:45:37+00:00",
+  "seq": 1784209537,
+  "data_hash": "2a40bfb8eb71e94af2e67fe23015c9715cb0b7da69fc2f608caffa504e88a1ba"
  },
  "by_age": {
   "u12": {
@@ -14536,8 +14536,8 @@
            "bana": 2,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 2",
-            "team_id": null,
+            "label": "Uppsala HK 1",
+            "team_id": 75354457,
             "is_alingsas": false,
             "goals": null
            },
@@ -14580,8 +14580,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 2",
-            "team_id": null,
+            "label": "Falköpings AIK HK 1",
+            "team_id": 75074246,
             "is_alingsas": false,
             "goals": null
            },
@@ -14688,8 +14688,8 @@
            "bana": 19,
            "round": "1/16 Final",
            "home": {
-            "label": "3:an i Grupp 2",
-            "team_id": null,
+            "label": "IFK Kristianstad 2",
+            "team_id": 78238674,
             "is_alingsas": false,
             "goals": null
            },
@@ -15099,8 +15099,8 @@
            "bana": 3,
            "round": "1/8 Final",
            "home": {
-            "label": "6:an i Grupp 2",
-            "team_id": null,
+            "label": "Huddinge HK 1",
+            "team_id": 74030276,
             "is_alingsas": false,
             "goals": null
            },
@@ -15162,8 +15162,8 @@
             "goals": null
            },
            "away": {
-            "label": "7:an i Grupp 2",
-            "team_id": null,
+            "label": "Vinslövs HK 2",
+            "team_id": 75073247,
             "is_alingsas": false,
             "goals": null
            },
@@ -15416,8 +15416,8 @@
             "goals": null
            },
            "away": {
-            "label": "10:an i Grupp 2",
-            "team_id": null,
+            "label": "HK Ankaret 2",
+            "team_id": 78890994,
             "is_alingsas": false,
             "goals": null
            },
@@ -15516,8 +15516,8 @@
             "goals": null
            },
            "away": {
-            "label": "9:an i Grupp 2",
-            "team_id": null,
+            "label": "IFK Skövde HK 1",
+            "team_id": 78608956,
             "is_alingsas": false,
             "goals": null
            },
