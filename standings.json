@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T13:15:27+00:00",
-  "seq": 1784207727,
-  "data_hash": "257f239757b64b82e6fa14e19d1eb5f47208b58d041d87620cef846202af0d48"
+  "generated": "2026-07-16T13:36:47+00:00",
+  "seq": 1784209007,
+  "data_hash": "9a307c489491be9b661779113e45fc57cd344b337fc00eacda0a62eb00f85415"
  },
  "by_age": {
   "u12": {
@@ -14574,8 +14574,8 @@
            "bana": 4,
            "round": "1/16 Final",
            "home": {
-            "label": "3:an i Grupp 1",
-            "team_id": null,
+            "label": "IFK Kristianstad 1",
+            "team_id": 78238672,
             "is_alingsas": false,
             "goals": null
            },
@@ -14650,8 +14650,8 @@
            "bana": 17,
            "round": "1/16 Final",
            "home": {
-            "label": "2:an i Grupp 1",
-            "team_id": null,
+            "label": "Stenungsunds HK",
+            "team_id": 77629153,
             "is_alingsas": false,
             "goals": null
            },
@@ -14694,8 +14694,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 1",
-            "team_id": null,
+            "label": "Lödde Vikings HK Svart",
+            "team_id": 76523831,
             "is_alingsas": false,
             "goals": null
            },
@@ -15086,8 +15086,8 @@
             "goals": null
            },
            "away": {
-            "label": "7:an i Grupp 1",
-            "team_id": null,
+            "label": "HF Karlskrona",
+            "team_id": 77181439,
             "is_alingsas": false,
             "goals": null
            },
@@ -15175,8 +15175,8 @@
            "bana": 9,
            "round": "1/8 Final",
            "home": {
-            "label": "6:an i Grupp 1",
-            "team_id": null,
+            "label": "IFK Tumba HK",
+            "team_id": 76201660,
             "is_alingsas": false,
             "goals": null
            },
@@ -15410,8 +15410,8 @@
            "bana": 4,
            "round": "1/8 Final",
            "home": {
-            "label": "9:an i Grupp 1",
-            "team_id": null,
+            "label": "IK Lågan Hörby Blå",
+            "team_id": 74535135,
             "is_alingsas": false,
             "goals": null
            },
