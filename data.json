@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T19:00:41+00:00",
-  "seq": 1784228441,
-  "data_hash": "d95c0fe2ba097c54ca2826ad0a60a2d9bd9dd8947e4e93678b5d8718df3727d1"
+  "generated": "2026-07-16T19:22:28+00:00",
+  "seq": 1784229748,
+  "data_hash": "459a0ff8c7b5a74ebea3c56831e5f333f8741ab77fc3e171ef06ee6495400af9"
  },
  "groups": {
   "u8": {
@@ -11072,7 +11072,10 @@
      "grupp": "Grupp 3",
      "mots": "Kristianstad HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 11
+     },
      "start_ms": 1784228400000,
      "start_iso": "2026-07-16T21:00+02:00",
      "day_label": "Torsdag 16 juli"
