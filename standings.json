@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T11:16:34+00:00",
-  "seq": 1784200594,
-  "data_hash": "3cb289d937ff27548afb97cb71d2069ada2aed5b5984d46618125acdd141d904"
+  "generated": "2026-07-16T11:46:30+00:00",
+  "seq": 1784202390,
+  "data_hash": "53fdcbe9df087e81d79e78dc78985cf9dba57bfc792891aee2e201b77a0963da"
  },
  "by_age": {
   "u12": {
@@ -12739,14 +12739,14 @@
        "name": "Lugi HF 4",
        "team_id": 78441942,
        "is_alingsas": false,
-       "played": 6,
-       "won": 6,
+       "played": 7,
+       "won": 7,
        "tied": 0,
        "lost": 0,
-       "goals_for": 76,
-       "goals_against": 48,
-       "diff": 28,
-       "points": 12,
+       "goals_for": 84,
+       "goals_against": 52,
+       "diff": 32,
+       "points": 14,
        "tier": "A-Slutspel",
        "pos": 1
       },
@@ -12844,13 +12844,13 @@
        "name": "Alingsås HK 3",
        "team_id": 73383053,
        "is_alingsas": true,
-       "played": 6,
+       "played": 7,
        "won": 1,
        "tied": 0,
-       "lost": 5,
-       "goals_for": 44,
-       "goals_against": 61,
-       "diff": -17,
+       "lost": 6,
+       "goals_for": 48,
+       "goals_against": 69,
+       "diff": -21,
        "points": 2,
        "tier": null,
        "pos": 8
