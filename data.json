@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T18:25:59+00:00",
-  "seq": 1784226359,
-  "data_hash": "ecfb513a50a9575305a68665c0eb0d9fae87f541e6b08b7cc573eab2c4dd9e37"
+  "generated": "2026-07-16T18:52:06+00:00",
+  "seq": 1784227926,
+  "data_hash": "5eb9a751b8c1179d1ab474f9f5b9afb2f494f34fa3a7045fa71a00974a3e70c0"
  },
  "groups": {
   "u8": {
@@ -4330,7 +4330,10 @@
      "grupp": "A-Slutspel",
      "mots": "AIK Handbollsförening",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 8
+     },
      "start_ms": 1784226600000,
      "start_iso": "2026-07-16T20:30+02:00",
      "day_label": "Torsdag 16 juli"
