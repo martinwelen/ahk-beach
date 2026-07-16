@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T15:36:45+00:00",
-  "seq": 1784216205,
-  "data_hash": "a771f0c4cb25211287038e72119fc8c1b3b07ff1dc5d1011290ca410466d90ae"
+  "generated": "2026-07-16T15:56:34+00:00",
+  "seq": 1784217394,
+  "data_hash": "74bb2158e195112a378c49bd5cb3217b87b04d94d1f5dc8cf61404f7341b86ec"
  },
  "by_age": {
   "u12": {
@@ -14691,15 +14691,15 @@
             "label": "IFK Kristianstad 2",
             "team_id": 78238674,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Lödde Vikings HK Svart",
             "team_id": 76523831,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81910626,
@@ -14870,8 +14870,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 16074023",
-            "team_id": null,
+            "label": "IFK Kristianstad 2",
+            "team_id": 78238674,
             "is_alingsas": false,
             "goals": null
            },
