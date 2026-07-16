@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T19:35:08+00:00",
-  "seq": 1784230508,
-  "data_hash": "0d429b9d95b48fa92d2ab7bf3bd33ca11a46d097d8ee12508dc245d5608bdc56"
+  "generated": "2026-07-16T19:45:11+00:00",
+  "seq": 1784231111,
+  "data_hash": "2f287987514ef60e5e0e6b2ec449aabf54a90a353725a57e7d6267857e2dc666"
  },
  "by_age": {
   "u12": {
@@ -14174,15 +14174,15 @@
             "label": "Skuru IK Vit",
             "team_id": 74937228,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Åhus Handboll 1",
             "team_id": 74385016,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
