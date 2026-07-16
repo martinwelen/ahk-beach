@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T19:56:49+00:00",
-  "seq": 1784231809,
-  "data_hash": "67975deb3bbaf8a72edc0c72e594c06b2751cfc402de2c09fb79900802571e1c"
+  "generated": "2026-07-16T20:26:42+00:00",
+  "seq": 1784233602,
+  "data_hash": "e3ed41f7b461dbce3ead97648aec08d109a76e7e9b73a357d94ff95d1de28a07"
  },
  "by_age": {
   "u12": {
@@ -13863,15 +13863,15 @@
             "label": "AIK Handbollsförening",
             "team_id": 77181805,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "Höörs HK H 65 Röd",
             "team_id": 74323196,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
