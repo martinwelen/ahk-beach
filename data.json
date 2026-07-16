@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T14:22:57+00:00",
-  "seq": 1784211777,
-  "data_hash": "fec64e8b1838e3135bc44b9d3d16f4c2d04d5545f6c7c1deb26a2d64f6376de0"
+  "generated": "2026-07-16T14:34:42+00:00",
+  "seq": 1784212482,
+  "data_hash": "58bb6c2a755ae2ad754826c5956ea0edfdc9402d9a73eacd931c7ee95f9ec59c"
  },
  "groups": {
   "u8": {
@@ -4064,7 +4064,10 @@
      "grupp": "Grupp 6",
      "mots": "Växjö HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 11
+     },
      "start_ms": 1784211300000,
      "start_iso": "2026-07-16T16:15+02:00",
      "day_label": "Torsdag 16 juli"
@@ -4117,6 +4120,52 @@
     },
     {
      "age_slug": "u13",
+     "slug": "u13-p-2",
+     "id": 81910605,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-16",
+     "dag": "Torsdag",
+     "tid": "17:45",
+     "bana": 1,
+     "video": "https://solidsport.com/ahusbeach/watch/3-an-i-grupp-4-3-an-i-grupp-5-ad25b583-0662-4aa3-b7e9-77534991b882",
+     "runda": "1/16-final",
+     "hemma": "Skuru IK",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "Skuru IK",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784216700000,
+     "start_iso": "2026-07-16T17:45+02:00",
+     "day_label": "Torsdag 16 juli"
+    },
+    {
+     "age_slug": "u13",
+     "slug": "u13-p-1",
+     "id": 81910618,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#9c36b5",
+     "datum": "2026-07-16",
+     "dag": "Torsdag",
+     "tid": "17:45",
+     "bana": 9,
+     "video": null,
+     "runda": "1/16-final",
+     "hemma": "HK Ankaret 1",
+     "borta": "Alingsås HK 1",
+     "grupp": "A-Slutspel",
+     "mots": "HK Ankaret 1",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784216700000,
+     "start_iso": "2026-07-16T17:45+02:00",
+     "day_label": "Torsdag 16 juli"
+    },
+    {
+     "age_slug": "u13",
      "slug": "u13-p-3",
      "id": 81910657,
      "gender": "P",
@@ -4129,9 +4178,9 @@
      "video": "https://solidsport.com/ahusbeach/watch/9-an-i-grupp-4-9-an-i-grupp-5-86de5604-6626-46f7-ab14-8798f6e58d18",
      "runda": "1/8-final",
      "hemma": "Alingsås HK 3",
-     "borta": "9:an i Grupp 5",
+     "borta": "IFK Bankeryd 2",
      "grupp": "C-Slutspel",
-     "mots": "9:an i Grupp 5",
+     "mots": "IFK Bankeryd 2",
      "hb": "Hemma",
      "result": null,
      "start_ms": 1784217600000,
@@ -10713,7 +10762,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Kristianstad F09",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 9
+     },
      "start_ms": 1784211300000,
      "start_iso": "2026-07-16T16:15+02:00",
      "day_label": "Torsdag 16 juli"
