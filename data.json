@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-15T20:42:28+00:00",
-  "seq": 1784148148,
-  "data_hash": "8a914fcf636b687fa21360692de5da526937a1052bc5a198774b22bb5df647ed"
+  "generated": "2026-07-16T08:34:44+00:00",
+  "seq": 1784190884,
+  "data_hash": "95c7175932a13ea5a299c6242c55546ec4c541e47b7c52fc8dbfdd2684f7192a"
  },
  "groups": {
   "u8": {
@@ -3480,7 +3480,10 @@
      "grupp": "Grupp 1",
      "mots": "Ystads IF HF 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 6
+     },
      "start_ms": 1784188800000,
      "start_iso": "2026-07-16T10:00+02:00",
      "day_label": "Torsdag 16 juli"
@@ -3503,7 +3506,10 @@
      "grupp": "Grupp 2",
      "mots": "Raklev G&I 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 14
+     },
      "start_ms": 1784188800000,
      "start_iso": "2026-07-16T10:00+02:00",
      "day_label": "Torsdag 16 juli"
@@ -3526,7 +3532,10 @@
      "grupp": "Grupp 5",
      "mots": "IFK Malmö HF BLÅ",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 11
+     },
      "start_ms": 1784189700000,
      "start_iso": "2026-07-16T10:15+02:00",
      "day_label": "Torsdag 16 juli"
