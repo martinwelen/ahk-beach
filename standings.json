@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T14:47:31+00:00",
-  "seq": 1784213251,
-  "data_hash": "5814e384eedce34e375cf22c377e0917c6c630547e8eabecb7eb23b63fab4497"
+  "generated": "2026-07-16T14:56:15+00:00",
+  "seq": 1784213775,
+  "data_hash": "15a2f2820e880d1e571e4165bc44b4c3d8579ea307951a7ebde87ea9380d9d26"
  },
  "by_age": {
   "u12": {
@@ -13387,15 +13387,15 @@
             "label": "Växjö HF",
             "team_id": 75061374,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Lödde Vikings HK Röd",
             "team_id": 76523818,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81910061,
@@ -13604,8 +13604,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 16072326",
-            "team_id": null,
+            "label": "Växjö HF",
+            "team_id": 75061374,
             "is_alingsas": false,
             "goals": null
            },
