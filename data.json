@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T15:03:02+00:00",
-  "seq": 1784300582,
-  "data_hash": "f21fa028f559524ac2f7cafd4323812c98089fdbb23a7df16a99805a54ca71c4"
+  "generated": "2026-07-17T15:19:36+00:00",
+  "seq": 1784301576,
+  "data_hash": "43b39d8a2f168be017951fcd3718c27695da46b25a69217d19e68fb311473368"
  },
  "groups": {
   "u8": {
@@ -11400,7 +11400,10 @@
      "grupp": "Grupp 1",
      "mots": "Ajax København",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 11
+     },
      "start_ms": 1784300400000,
      "start_iso": "2026-07-17T17:00+02:00",
      "day_label": "Fredag 17 juli"
