@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T12:22:37+00:00",
-  "seq": 1784290957,
-  "data_hash": "e51bdbb035720351cd7800d0770f10d80558e18f84a77dfafae6eba89715aefb"
+  "generated": "2026-07-17T12:32:44+00:00",
+  "seq": 1784291564,
+  "data_hash": "a79bbbe0536c4ceb9ba166535a2b9958f9c1334a2caf29fbeeb307bcdef2f2eb"
  },
  "groups": {
   "u8": {
@@ -6776,7 +6776,10 @@
      "grupp": "Grupp 4",
      "mots": "Spånga HK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 12
+     },
      "start_ms": 1784290500000,
      "start_iso": "2026-07-17T14:15+02:00",
      "day_label": "Fredag 17 juli"
@@ -11266,7 +11269,10 @@
      "grupp": "Grupp 3",
      "mots": "Borlänge HK Lag 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 14,
+      "ag": 6
+     },
      "start_ms": 1784290500000,
      "start_iso": "2026-07-17T14:15+02:00",
      "day_label": "Fredag 17 juli"
