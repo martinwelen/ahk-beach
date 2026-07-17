@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T13:14:57+00:00",
-  "seq": 1784294097,
-  "data_hash": "791f1ec2235c8b6c26aa9d4f8449512c08b5b83711bbb96a83e3467c00578667"
+  "generated": "2026-07-17T13:36:21+00:00",
+  "seq": 1784295381,
+  "data_hash": "c3136c6056a99203bb5766099676d798031a11f44e2acfded48850b8c1fc96e9"
  },
  "by_age": {
   "u12": {
@@ -17094,6 +17094,21 @@
      "division_id": 82146197,
      "rows": [
       {
+       "name": "IFK Kristianstad 3",
+       "team_id": 74166516,
+       "is_alingsas": false,
+       "played": 2,
+       "won": 1,
+       "tied": 1,
+       "lost": 0,
+       "goals_for": 24,
+       "goals_against": 21,
+       "diff": 3,
+       "points": 3,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "IF Hallby HK Vit",
        "team_id": 73931072,
        "is_alingsas": false,
@@ -17106,7 +17121,7 @@
        "diff": 6,
        "points": 2,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
       },
       {
        "name": "HK Halmstad Röd",
@@ -17121,7 +17136,7 @@
        "diff": 3,
        "points": 2,
        "tier": "A-Slutspel",
-       "pos": 2
+       "pos": 3
       },
       {
        "name": "IFK Tumba HK 2",
@@ -17136,7 +17151,7 @@
        "diff": 3,
        "points": 2,
        "tier": "A-Slutspel",
-       "pos": 3
+       "pos": 4
       },
       {
        "name": "Alingsås HK VIT",
@@ -17150,21 +17165,6 @@
        "goals_against": 7,
        "diff": 1,
        "points": 2,
-       "tier": "A-Slutspel",
-       "pos": 4
-      },
-      {
-       "name": "IFK Kristianstad 3",
-       "team_id": 74166516,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 0,
-       "tied": 1,
-       "lost": 0,
-       "goals_for": 9,
-       "goals_against": 9,
-       "diff": 0,
-       "points": 1,
        "tier": "B-Slutspel",
        "pos": 5
       },
@@ -17199,21 +17199,6 @@
        "pos": 7
       },
       {
-       "name": "Höörs HK H 65 H65 vit",
-       "team_id": 77406759,
-       "is_alingsas": false,
-       "played": 1,
-       "won": 0,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 14,
-       "goals_against": 17,
-       "diff": -3,
-       "points": 0,
-       "tier": "C-Slutspel",
-       "pos": 8
-      },
-      {
        "name": "HF Karlskrona Blå",
        "team_id": 75059271,
        "is_alingsas": false,
@@ -17224,6 +17209,21 @@
        "goals_for": 7,
        "goals_against": 10,
        "diff": -3,
+       "points": 0,
+       "tier": "C-Slutspel",
+       "pos": 8
+      },
+      {
+       "name": "Höörs HK H 65 H65 vit",
+       "team_id": 77406759,
+       "is_alingsas": false,
+       "played": 2,
+       "won": 0,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 26,
+       "goals_against": 32,
+       "diff": -6,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 9
