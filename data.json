@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T16:22:26+00:00",
-  "seq": 1784305346,
-  "data_hash": "d9f92232d3b6d9f1b802e9fe596e9cb9b700473a58ad1d3a5d8b866114e55dfb"
+  "generated": "2026-07-17T16:32:07+00:00",
+  "seq": 1784305927,
+  "data_hash": "ce979718997f2dc784923f878e986b0c72f700cb7decddb4c956d214afa76786"
  },
  "groups": {
   "u8": {
@@ -7140,7 +7140,10 @@
      "grupp": "Grupp 3",
      "mots": "Lugi HF 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 5
+     },
      "start_ms": 1784304900000,
      "start_iso": "2026-07-17T18:15+02:00",
      "day_label": "Fredag 17 juli"
