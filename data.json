@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-16T19:22:28+00:00",
-  "seq": 1784229748,
-  "data_hash": "459a0ff8c7b5a74ebea3c56831e5f333f8741ab77fc3e171ef06ee6495400af9"
+  "generated": "2026-07-17T09:03:27+00:00",
+  "seq": 1784279007,
+  "data_hash": "d850efd20b851c84ab6d806a0d655b3fb58691f0975b30d332c45aeb24b9dc91"
  },
  "groups": {
   "u8": {
@@ -11098,7 +11098,10 @@
      "grupp": "Grupp 2",
      "mots": "Raklev G&I 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 12
+     },
      "start_ms": 1784277900000,
      "start_iso": "2026-07-17T10:45+02:00",
      "day_label": "Fredag 17 juli"
@@ -11121,7 +11124,10 @@
      "grupp": "Grupp 3",
      "mots": "Spånga HK Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 12
+     },
      "start_ms": 1784277900000,
      "start_iso": "2026-07-17T10:45+02:00",
      "day_label": "Fredag 17 juli"
