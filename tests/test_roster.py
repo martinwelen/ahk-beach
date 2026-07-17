@@ -14,7 +14,9 @@ def _group(age_slug="u15", age=15):
 def test_rosters_js_returns_players_for_group_teams():
     r = build_apps._rosters_js(_group())
     assert "u15-p-bla" in r
-    assert {"namn": "Oskar Viklund", "pos": "UT"} in r["u15-p-bla"]
+    # Kollar närvaro på namn (inte exakt dict) så trupp-detaljer som tröjnummer/pos
+    # kan ändras utan att detta test blir falskt rött.
+    assert any(p["namn"] == "Oskar Viklund" for p in r["u15-p-bla"])
 
 
 def test_rosters_js_empty_for_group_without_roster_data():

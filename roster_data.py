@@ -9,10 +9,10 @@ trupp: tom lista. Trupp-fliken göms automatiskt tills minst ett lag har spelare
 
 rosters = {
     "u15-p-bla": [
-        {"namn": "Oskar Viklund", "pos": "UT"},
+        {"namn": "Oskar Viklund", "nr": 0, "pos": "UT"},
         {"namn": "Alfred Lindblad", "nr": 72, "pos": "MV", "smek": "Affe"},
         {"namn": "Maurits Fridberg", "nr": 67, "pos": "UT", "smek": "Marre"},
-        {"namn": "Filip Holmgren", "pos": "UT"},
+        {"namn": "Filip Holmgren", "nr": 69, "pos": "UT"},
         {"namn": "Terje Hegge", "nr": 17, "pos": "UT"},
         {"namn": "Theodor Kangas", "nr": 91, "pos": "MV"},
         {"namn": "Silas Klintefelt", "nr": 38, "pos": "UT"},
