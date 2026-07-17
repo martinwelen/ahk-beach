@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T10:54:04+00:00",
-  "seq": 1784285644,
-  "data_hash": "c05d1853acf3ee93a548036a40c3164df8b353ae22917c6eae442e00c8f1cfe9"
+  "generated": "2026-07-17T11:07:25+00:00",
+  "seq": 1784286445,
+  "data_hash": "ecb67696a7d326d0e21e9a6b68e004b271af237f5a002eb01fef3f1a9bf4b077"
  },
  "groups": {
   "u8": {
@@ -6672,7 +6672,10 @@
      "grupp": "Grupp 1",
      "mots": "H 78 Sölvesborg",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 6
+     },
      "start_ms": 1784285100000,
      "start_iso": "2026-07-17T12:45+02:00",
      "day_label": "Fredag 17 juli"
