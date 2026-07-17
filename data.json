@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T18:13:21+00:00",
-  "seq": 1784312001,
-  "data_hash": "1de9b6c8f62e731c5284f0f09d55f6ca5362ed9bb3d812a7b75362b94e7278ef"
+  "generated": "2026-07-17T18:32:53+00:00",
+  "seq": 1784313173,
+  "data_hash": "92e61206d0bb9923f24e563846cbda4d28d1e37b8d729942406ebba1b48ebe45"
  },
  "groups": {
   "u8": {
@@ -7296,7 +7296,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Bankeryd Vit",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 12
+     },
      "start_ms": 1784312100000,
      "start_iso": "2026-07-17T20:15+02:00",
      "day_label": "Fredag 17 juli"
