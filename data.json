@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T16:32:07+00:00",
-  "seq": 1784305927,
-  "data_hash": "ce979718997f2dc784923f878e986b0c72f700cb7decddb4c956d214afa76786"
+  "generated": "2026-07-17T16:51:21+00:00",
+  "seq": 1784307081,
+  "data_hash": "ecfa11a79c5d121c25c4aeb2546178bc08df4be58e48ad72d80b269c748f6a30"
  },
  "groups": {
   "u8": {
@@ -7166,7 +7166,10 @@
      "grupp": "Grupp 4",
      "mots": "Åhus Handboll 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 8
+     },
      "start_ms": 1784305800000,
      "start_iso": "2026-07-17T18:30+02:00",
      "day_label": "Fredag 17 juli"
@@ -11441,7 +11444,10 @@
      "grupp": "A-Slutspel",
      "mots": "AIK Handbollsförening Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 13
+     },
      "start_ms": 1784305800000,
      "start_iso": "2026-07-17T18:30+02:00",
      "day_label": "Fredag 17 juli"
@@ -11467,6 +11473,29 @@
      "result": null,
      "start_ms": 1784306700000,
      "start_iso": "2026-07-17T18:45+02:00",
+     "day_label": "Fredag 17 juli"
+    },
+    {
+     "age_slug": "u18",
+     "slug": "u18-f-2",
+     "id": 81912187,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-17",
+     "dag": "Fredag",
+     "tid": "19:30",
+     "bana": 3,
+     "video": null,
+     "runda": "Kvartsfinal",
+     "hemma": "Uppsala HK Vit",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "Uppsala HK Vit",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784309400000,
+     "start_iso": "2026-07-17T19:30+02:00",
      "day_label": "Fredag 17 juli"
     },
     {
