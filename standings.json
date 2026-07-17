@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T17:56:00+00:00",
-  "seq": 1784310960,
-  "data_hash": "d02b6e2dabe7e8208f31c322a7a0d33180b6569f727145a37d0c5c3cea7cc719"
+  "generated": "2026-07-17T18:09:18+00:00",
+  "seq": 1784311758,
+  "data_hash": "fb9b5e24806372ca3843a696f7e538fdcc358f96bbdc19379cf4264a06ac567e"
  },
  "by_age": {
   "u12": {
@@ -16062,15 +16062,15 @@
             "label": "Eslövs HK",
             "team_id": 76732340,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "IFK Tumba HK",
             "team_id": 78928530,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81911929,
@@ -16081,15 +16081,15 @@
             "label": "IFK Kristianstad 2",
             "team_id": 79814083,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Alingsås HK",
             "team_id": 76536042,
             "is_alingsas": true,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81911931,
@@ -16100,15 +16100,15 @@
             "label": "Lödde Vikings HK",
             "team_id": 76525059,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Ajax København",
             "team_id": 77475724,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81911932,
@@ -16119,15 +16119,15 @@
             "label": "IK Sund m79:an",
             "team_id": 78037837,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Handbollsföreningen Karlskrona p18",
             "team_id": 81354428,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -16140,14 +16140,14 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 17072137",
-            "team_id": null,
+            "label": "IFK Tumba HK",
+            "team_id": 78928530,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 17072239",
-            "team_id": null,
+            "label": "IFK Kristianstad 2",
+            "team_id": 79814083,
             "is_alingsas": false,
             "goals": null
            },
@@ -16159,14 +16159,14 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 17072339",
-            "team_id": null,
+            "label": "Lödde Vikings HK",
+            "team_id": 76525059,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 17072430",
-            "team_id": null,
+            "label": "IK Sund m79:an",
+            "team_id": 78037837,
             "is_alingsas": false,
             "goals": null
            },
