@@ -20,8 +20,8 @@ rosters = {
     "u15-p-orange": [
         {"namn": "Olle Laas", "nr": 35, "pos": "MV"},
         {"namn": "Hjalmar Oscarsson", "nr": 28, "pos": "UT", "smek": "Hjalle"},
-        {"namn": "Alexander Westberg", "pos": "UT"},
-        {"namn": "Theodor Herou", "pos": "UT"},
+        {"namn": "Alexander Westberg", "nr": 27, "pos": "UT"},
+        {"namn": "Theodor Herou", "nr": 56, "pos": "UT"},
         {"namn": "Fabian Mattsson", "nr": 13, "pos": "UT", "smek": "Fabbe"},
         {"namn": "Frank Jannerland", "nr": 1, "pos": "MV"},
     ],
