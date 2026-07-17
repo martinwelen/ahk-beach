@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T19:17:54+00:00",
-  "seq": 1784315874,
-  "data_hash": "40187535b3fede234267eb8b3da845d23d4d7dbf249a93b890d7bd666269b80f"
+  "generated": "2026-07-17T19:35:23+00:00",
+  "seq": 1784316923,
+  "data_hash": "3f2946c3d815a4bd6a3870b117e6b210db4e7372febd8f042e12e7a6fd6a5739"
  },
  "by_age": {
   "u12": {
@@ -16162,15 +16162,15 @@
             "label": "Lödde Vikings HK",
             "team_id": 76525059,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "IK Sund m79:an",
             "team_id": 78037837,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -16189,8 +16189,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 17072143",
-            "team_id": null,
+            "label": "IK Sund m79:an",
+            "team_id": 78037837,
             "is_alingsas": false,
             "goals": null
            },
@@ -17752,6 +17752,21 @@
        "pos": 4
       },
       {
+       "name": "Lödde Vikings HK",
+       "team_id": 76524249,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 3,
+       "tied": 1,
+       "lost": 2,
+       "goals_for": 59,
+       "goals_against": 63,
+       "diff": -4,
+       "points": 7,
+       "tier": "B-Slutspel",
+       "pos": 5
+      },
+      {
        "name": "Lugi HF 4",
        "team_id": 77344849,
        "is_alingsas": false,
@@ -17763,21 +17778,6 @@
        "goals_against": 73,
        "diff": -7,
        "points": 6,
-       "tier": "B-Slutspel",
-       "pos": 5
-      },
-      {
-       "name": "Lödde Vikings HK",
-       "team_id": 76524249,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 2,
-       "tied": 1,
-       "lost": 2,
-       "goals_for": 48,
-       "goals_against": 54,
-       "diff": -6,
-       "points": 5,
        "tier": "B-Slutspel",
        "pos": 6
       },
@@ -17830,13 +17830,13 @@
        "name": "IF Hallby HK Svart",
        "team_id": 73931074,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 0,
        "tied": 0,
-       "lost": 4,
-       "goals_for": 37,
-       "goals_against": 52,
-       "diff": -15,
+       "lost": 5,
+       "goals_for": 46,
+       "goals_against": 63,
+       "diff": -17,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 10
