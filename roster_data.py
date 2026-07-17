@@ -13,8 +13,8 @@ rosters = {
         {"namn": "Alfred Lindblad", "nr": 72, "pos": "MV", "smek": "Affe"},
         {"namn": "Maurits Fridberg", "nr": 67, "pos": "UT", "smek": "Marre"},
         {"namn": "Filip Holmgren", "pos": "UT"},
-        {"namn": "Terje Hegge", "pos": "UT"},
-        {"namn": "Theodor Kangas", "pos": "MV"},
+        {"namn": "Terje Hegge", "nr": 17, "pos": "UT"},
+        {"namn": "Theodor Kangas", "nr": 91, "pos": "MV"},
         {"namn": "Silas Klintefelt", "nr": 38, "pos": "UT"},
     ],
     "u15-p-orange": [
