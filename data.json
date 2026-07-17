@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T14:29:12+00:00",
-  "seq": 1784298552,
-  "data_hash": "b8a8758d765c3052f1f51640f3790e90844236c34b8ee0564e594689d6dd9478"
+  "generated": "2026-07-17T14:52:45+00:00",
+  "seq": 1784299965,
+  "data_hash": "76bfa4774554309c0a856e7f5ef4b9fc82d49b97073a662e524bdb768bf0ee9b"
  },
  "groups": {
   "u8": {
@@ -11368,7 +11368,10 @@
      "grupp": "Grupp 3",
      "mots": "Stavsten HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 10
+     },
      "start_ms": 1784298600000,
      "start_iso": "2026-07-17T16:30+02:00",
      "day_label": "Fredag 17 juli"
@@ -11394,6 +11397,29 @@
      "result": null,
      "start_ms": 1784300400000,
      "start_iso": "2026-07-17T17:00+02:00",
+     "day_label": "Fredag 17 juli"
+    },
+    {
+     "age_slug": "u18",
+     "slug": "u18-f-2",
+     "id": 81912188,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-17",
+     "dag": "Fredag",
+     "tid": "18:30",
+     "bana": 4,
+     "video": null,
+     "runda": "1/8-final",
+     "hemma": "AIK Handbollsförening Svart",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "AIK Handbollsförening Svart",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784305800000,
+     "start_iso": "2026-07-17T18:30+02:00",
      "day_label": "Fredag 17 juli"
     }
    ]
