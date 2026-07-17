@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T09:20:25+00:00",
-  "seq": 1784280025,
-  "data_hash": "be636324453bea15eea5d2bab460bd5f97e5d65edde66ed8d6b07e2544fa2566"
+  "generated": "2026-07-17T09:44:22+00:00",
+  "seq": 1784281462,
+  "data_hash": "dc6a6f597085632d6ffed37e095ce90b2588c46f7c2cde8a4beb2c37a84e5e3d"
  },
  "by_age": {
   "u12": {
@@ -15841,14 +15841,14 @@
        "name": "H43 Lund HF vit",
        "team_id": 78341490,
        "is_alingsas": false,
-       "played": 6,
-       "won": 1,
+       "played": 7,
+       "won": 2,
        "tied": 0,
        "lost": 5,
-       "goals_for": 46,
-       "goals_against": 66,
-       "diff": -20,
-       "points": 2,
+       "goals_for": 54,
+       "goals_against": 73,
+       "diff": -19,
+       "points": 4,
        "tier": null,
        "pos": 8
       },
@@ -15871,13 +15871,13 @@
        "name": "Hässleholms HF",
        "team_id": 77250106,
        "is_alingsas": false,
-       "played": 6,
+       "played": 7,
        "won": 0,
        "tied": 0,
-       "lost": 6,
-       "goals_for": 38,
-       "goals_against": 68,
-       "diff": -30,
+       "lost": 7,
+       "goals_for": 45,
+       "goals_against": 76,
+       "diff": -31,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 10
