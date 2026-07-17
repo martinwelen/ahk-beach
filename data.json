@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T19:14:17+00:00",
-  "seq": 1784315657,
-  "data_hash": "402fd2fa789a686a0df9e3c20f9e856d1c9d0cefe1fc5ed59c93f42bea5ff1d4"
+  "generated": "2026-07-17T20:02:14+00:00",
+  "seq": 1784318534,
+  "data_hash": "3a4d8c0dff6c9a4a4b6bffd2e2461ce5d758a2eb43b21be563d8122c4fc67a43"
  },
  "groups": {
   "u8": {
@@ -11624,7 +11624,10 @@
      "grupp": "C-Slutspel",
      "mots": "Hässleholms HF",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1784317500000,
      "start_iso": "2026-07-17T21:45+02:00",
      "day_label": "Fredag 17 juli"
