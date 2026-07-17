@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T15:32:38+00:00",
-  "seq": 1784302358,
-  "data_hash": "674e91d8a98eb5d887ae079c052708c69391f7c10237b8f173ef8e2c023d8af6"
+  "generated": "2026-07-17T15:53:48+00:00",
+  "seq": 1784303628,
+  "data_hash": "a7dfb4b7f2b568c3b37f2f553445e3962b778de705c0571470b64a7463e9aab0"
  },
  "groups": {
   "u8": {
@@ -7062,7 +7062,10 @@
      "grupp": "Grupp 2",
      "mots": "IF Hallby HK Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 9
+     },
      "start_ms": 1784302200000,
      "start_iso": "2026-07-17T17:30+02:00",
      "day_label": "Fredag 17 juli"
@@ -11470,10 +11473,10 @@
      "bana": 2,
      "video": "https://solidsport.com/ahusbeach/watch/2-an-i-grupp-2-3-an-i-grupp-1-5e2b0382-984b-4ba6-b861-773209dec411",
      "runda": "Kvartsfinal",
-     "hemma": "2:an i Grupp 2",
+     "hemma": "IFK Kristianstad 2",
      "borta": "Alingsås HK",
      "grupp": "A-Slutspel",
-     "mots": "2:an i Grupp 2",
+     "mots": "IFK Kristianstad 2",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784310300000,
