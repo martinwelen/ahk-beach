@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T13:12:23+00:00",
-  "seq": 1784293943,
-  "data_hash": "3a5e01cde058b9edb2e4313a277c236dd74692087322534535d003794bbf1c45"
+  "generated": "2026-07-17T13:22:41+00:00",
+  "seq": 1784294561,
+  "data_hash": "ecacb79570204b0dbfc201e97becd08ddb154a55411defc34fdb7e116a49336b"
  },
  "groups": {
   "u8": {
@@ -6856,7 +6856,7 @@
      "hb": "Hemma",
      "result": {
       "hg": 10,
-      "ag": 3
+      "ag": 2
      },
      "start_ms": 1784293200000,
      "start_iso": "2026-07-17T15:00+02:00",
@@ -11304,7 +11304,10 @@
      "grupp": "Grupp 1",
      "mots": "Spånga HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 12
+     },
      "start_ms": 1784293200000,
      "start_iso": "2026-07-17T15:00+02:00",
      "day_label": "Fredag 17 juli"
