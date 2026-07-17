@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T18:32:53+00:00",
-  "seq": 1784313173,
-  "data_hash": "92e61206d0bb9923f24e563846cbda4d28d1e37b8d729942406ebba1b48ebe45"
+  "generated": "2026-07-17T18:59:31+00:00",
+  "seq": 1784314771,
+  "data_hash": "152fd537d0010540a0debec581abf8422986ba464266f7a7529ebf46ab21fdd6"
  },
  "groups": {
   "u8": {
@@ -7322,7 +7322,10 @@
      "grupp": "Grupp 1",
      "mots": "HK Halmstad Röd",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 14
+     },
      "start_ms": 1784313900000,
      "start_iso": "2026-07-17T20:45+02:00",
      "day_label": "Fredag 17 juli"
@@ -11563,7 +11566,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Tumba HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 11
+     },
      "start_ms": 1784313900000,
      "start_iso": "2026-07-17T20:45+02:00",
      "day_label": "Fredag 17 juli"
@@ -11586,9 +11592,58 @@
      "grupp": "C-Slutspel",
      "mots": "Gökstens BK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 9
+     },
      "start_ms": 1784313900000,
      "start_iso": "2026-07-17T20:45+02:00",
+     "day_label": "Fredag 17 juli"
+    },
+    {
+     "age_slug": "u18",
+     "slug": "u18-f-1",
+     "id": 81912207,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-17",
+     "dag": "Fredag",
+     "tid": "21:45",
+     "bana": 2,
+     "video": "https://solidsport.com/ahusbeach/watch/vinn-17072242-vinn-17072243-82da254a-e658-4354-a04e-eb53d3fdb903",
+     "runda": "Final",
+     "hemma": "Hässleholms HF",
+     "borta": "Alingsås HK 1",
+     "grupp": "C-Slutspel",
+     "mots": "Hässleholms HF",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784317500000,
+     "start_iso": "2026-07-17T21:45+02:00",
+     "day_label": "Fredag 17 juli"
+    },
+    {
+     "age_slug": "u18",
+     "slug": "u18-f-2",
+     "id": 81912179,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#2f9e44",
+     "datum": "2026-07-17",
+     "dag": "Fredag",
+     "tid": "22:00",
+     "bana": 1,
+     "video": "https://ahusbeachplay.com/ahusbeach/watch/finalsaendning-17e-juli",
+     "runda": "Final",
+     "hemma": "IFK Kristianstad",
+     "borta": "Alingsås HK 2",
+     "grupp": "A-Slutspel",
+     "mots": "IFK Kristianstad",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784318400000,
+     "start_iso": "2026-07-17T22:00+02:00",
      "day_label": "Fredag 17 juli"
     }
    ]
