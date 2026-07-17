@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-16T20:40:54+00:00",
-  "seq": 1784234454,
-  "data_hash": "7a5e73b8a33e8f5e201fae1718e228b21d2e19f90a5a2e3e9e59d0e9690266b1"
+  "generated": "2026-07-17T08:37:15+00:00",
+  "seq": 1784277435,
+  "data_hash": "53a65f63383764754d8a71ef2e5a93ce1c4712fa6fd3eb387c2c78a8efee7640"
  },
  "by_age": {
   "u12": {
@@ -15736,14 +15736,14 @@
        "name": "IFK Kristianstad",
        "team_id": 76165018,
        "is_alingsas": false,
-       "played": 5,
-       "won": 4,
+       "played": 6,
+       "won": 5,
        "tied": 0,
        "lost": 1,
-       "goals_for": 53,
-       "goals_against": 39,
-       "diff": 14,
-       "points": 8,
+       "goals_for": 67,
+       "goals_against": 48,
+       "diff": 19,
+       "points": 10,
        "tier": "A-Slutspel",
        "pos": 1
       },
@@ -15841,13 +15841,13 @@
        "name": "H43 Lund HF vit",
        "team_id": 78341490,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 1,
        "tied": 0,
-       "lost": 4,
-       "goals_for": 37,
-       "goals_against": 52,
-       "diff": -15,
+       "lost": 5,
+       "goals_for": 46,
+       "goals_against": 66,
+       "diff": -20,
        "points": 2,
        "tier": null,
        "pos": 8
