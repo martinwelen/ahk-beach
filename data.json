@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T15:19:36+00:00",
-  "seq": 1784301576,
-  "data_hash": "43b39d8a2f168be017951fcd3718c27695da46b25a69217d19e68fb311473368"
+  "generated": "2026-07-17T15:32:38+00:00",
+  "seq": 1784302358,
+  "data_hash": "674e91d8a98eb5d887ae079c052708c69391f7c10237b8f173ef8e2c023d8af6"
  },
  "groups": {
   "u8": {
@@ -7036,7 +7036,10 @@
      "grupp": "Grupp 1",
      "mots": "IF Hallby HK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 10
+     },
      "start_ms": 1784301300000,
      "start_iso": "2026-07-17T17:15+02:00",
      "day_label": "Fredag 17 juli"
@@ -11452,6 +11455,29 @@
      "result": null,
      "start_ms": 1784306700000,
      "start_iso": "2026-07-17T18:45+02:00",
+     "day_label": "Fredag 17 juli"
+    },
+    {
+     "age_slug": "u18",
+     "slug": "u18-p-lag",
+     "id": 81911929,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-17",
+     "dag": "Fredag",
+     "tid": "19:45",
+     "bana": 2,
+     "video": "https://solidsport.com/ahusbeach/watch/2-an-i-grupp-2-3-an-i-grupp-1-5e2b0382-984b-4ba6-b861-773209dec411",
+     "runda": "Kvartsfinal",
+     "hemma": "2:an i Grupp 2",
+     "borta": "Alingsås HK",
+     "grupp": "A-Slutspel",
+     "mots": "2:an i Grupp 2",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784310300000,
+     "start_iso": "2026-07-17T19:45+02:00",
      "day_label": "Fredag 17 juli"
     }
    ]
