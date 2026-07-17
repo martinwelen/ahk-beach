@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T09:07:30+00:00",
-  "seq": 1784279250,
-  "data_hash": "32ad7b3eaaec0c18d4720c58cd326bef711f10880a5c598119c20724bea5f4b1"
+  "generated": "2026-07-17T09:20:25+00:00",
+  "seq": 1784280025,
+  "data_hash": "be636324453bea15eea5d2bab460bd5f97e5d65edde66ed8d6b07e2544fa2566"
  },
  "by_age": {
   "u12": {
@@ -15890,6 +15890,21 @@
      "division_id": 81912089,
      "rows": [
       {
+       "name": "Uppsala HK Vit",
+       "team_id": 75840190,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 4,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 66,
+       "goals_against": 61,
+       "diff": 5,
+       "points": 9,
+       "tier": "A-Slutspel",
+       "pos": 1
+      },
+      {
        "name": "Borlänge HK Lag 1",
        "team_id": 75916514,
        "is_alingsas": false,
@@ -15902,7 +15917,22 @@
        "diff": 15,
        "points": 9,
        "tier": "A-Slutspel",
-       "pos": 1
+       "pos": 2
+      },
+      {
+       "name": "Lödde Vikings HK",
+       "team_id": 76525030,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 4,
+       "tied": 0,
+       "lost": 2,
+       "goals_for": 61,
+       "goals_against": 55,
+       "diff": 6,
+       "points": 8,
+       "tier": "A-Slutspel",
+       "pos": 3
       },
       {
        "name": "H43 Lund HF blå",
@@ -15917,52 +15947,37 @@
        "diff": 4,
        "points": 8,
        "tier": "A-Slutspel",
-       "pos": 2
+       "pos": 4
       },
       {
-       "name": "Uppsala HK Vit",
-       "team_id": 75840190,
+       "name": "Kristianstad HK 2",
+       "team_id": 77797057,
        "is_alingsas": false,
-       "played": 5,
-       "won": 3,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 55,
-       "goals_against": 51,
-       "diff": 4,
-       "points": 7,
-       "tier": "A-Slutspel",
-       "pos": 3
-      },
-      {
-       "name": "Lödde Vikings HK",
-       "team_id": 76525030,
-       "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 3,
        "tied": 0,
-       "lost": 2,
-       "goals_for": 48,
-       "goals_against": 43,
-       "diff": 5,
+       "lost": 3,
+       "goals_for": 64,
+       "goals_against": 61,
+       "diff": 3,
        "points": 6,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": null,
+       "pos": 5
       },
       {
        "name": "IFK Kristianstad F09",
        "team_id": 77971066,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 2,
        "tied": 1,
-       "lost": 2,
-       "goals_for": 50,
-       "goals_against": 50,
-       "diff": 0,
+       "lost": 3,
+       "goals_for": 60,
+       "goals_against": 61,
+       "diff": -1,
        "points": 5,
-       "tier": null,
-       "pos": 5
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "Spånga HK Blå",
@@ -15977,49 +15992,34 @@
        "diff": -2,
        "points": 5,
        "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
-       "name": "Stavsten HK Svart",
-       "team_id": 76740744,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 2,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 50,
-       "goals_against": 58,
-       "diff": -8,
-       "points": 4,
-       "tier": "B-Slutspel",
        "pos": 7
       },
       {
        "name": "Kärra HF woow",
        "team_id": 74541567,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 1,
        "tied": 2,
-       "lost": 2,
-       "goals_for": 50,
-       "goals_against": 55,
-       "diff": -5,
+       "lost": 3,
+       "goals_for": 60,
+       "goals_against": 71,
+       "diff": -11,
        "points": 4,
        "tier": null,
        "pos": 8
       },
       {
-       "name": "Kristianstad HK 2",
-       "team_id": 77797057,
+       "name": "Stavsten HK Svart",
+       "team_id": 76740744,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 2,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 48,
-       "goals_against": 51,
-       "diff": -3,
+       "lost": 4,
+       "goals_for": 62,
+       "goals_against": 71,
+       "diff": -9,
        "points": 4,
        "tier": "C-Slutspel",
        "pos": 9
