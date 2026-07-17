@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T18:59:31+00:00",
-  "seq": 1784314771,
-  "data_hash": "152fd537d0010540a0debec581abf8422986ba464266f7a7529ebf46ab21fdd6"
+  "generated": "2026-07-17T19:14:17+00:00",
+  "seq": 1784315657,
+  "data_hash": "402fd2fa789a686a0df9e3c20f9e856d1c9d0cefe1fc5ed59c93f42bea5ff1d4"
  },
  "groups": {
   "u8": {
@@ -7348,7 +7348,10 @@
      "grupp": "Grupp 2",
      "mots": "Ystads IF HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 14
+     },
      "start_ms": 1784314800000,
      "start_iso": "2026-07-17T21:00+02:00",
      "day_label": "Fredag 17 juli"
@@ -7371,7 +7374,10 @@
      "grupp": "Grupp 4",
      "mots": "Täby HBK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 13
+     },
      "start_ms": 1784314800000,
      "start_iso": "2026-07-17T21:00+02:00",
      "day_label": "Fredag 17 juli"
