@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T13:22:41+00:00",
-  "seq": 1784294561,
-  "data_hash": "ecacb79570204b0dbfc201e97becd08ddb154a55411defc34fdb7e116a49336b"
+  "generated": "2026-07-17T13:43:06+00:00",
+  "seq": 1784295786,
+  "data_hash": "855a95d5b8cb6a2b8f6def3b3eede911855a1e50dce54bbbab2a955223c9d73a"
  },
  "groups": {
   "u8": {
@@ -6880,7 +6880,10 @@
      "grupp": "Grupp 1",
      "mots": "IFK Tumba HK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 10
+     },
      "start_ms": 1784295000000,
      "start_iso": "2026-07-17T15:30+02:00",
      "day_label": "Fredag 17 juli"
@@ -6903,7 +6906,10 @@
      "grupp": "Grupp 2",
      "mots": "Staffanstorps HK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 5
+     },
      "start_ms": 1784295000000,
      "start_iso": "2026-07-17T15:30+02:00",
      "day_label": "Fredag 17 juli"
