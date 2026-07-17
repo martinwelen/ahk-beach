@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T14:02:30+00:00",
-  "seq": 1784296950,
-  "data_hash": "d3f911b54f213b6acc0ff67a1ac2b4bdc27b277a7084bd0739fdf274880f6bc8"
+  "generated": "2026-07-17T14:29:12+00:00",
+  "seq": 1784298552,
+  "data_hash": "b8a8758d765c3052f1f51640f3790e90844236c34b8ee0564e594689d6dd9478"
  },
  "groups": {
   "u8": {
@@ -6958,7 +6958,10 @@
      "grupp": "Grupp 1",
      "mots": "Eslövs HK 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 10
+     },
      "start_ms": 1784297700000,
      "start_iso": "2026-07-17T16:15+02:00",
      "day_label": "Fredag 17 juli"
@@ -11339,7 +11342,10 @@
      "grupp": "Grupp 2",
      "mots": "Gökstens BK",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 11
+     },
      "start_ms": 1784297700000,
      "start_iso": "2026-07-17T16:15+02:00",
      "day_label": "Fredag 17 juli"
