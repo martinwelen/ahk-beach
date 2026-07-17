@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T20:17:29+00:00",
-  "seq": 1784319449,
-  "data_hash": "6102340690d912b9c17b102812b62868dd2e94238e6f7bc84797985629f9a370"
+  "generated": "2026-07-17T20:36:32+00:00",
+  "seq": 1784320592,
+  "data_hash": "24d9686508fa24fafdbc9881cdfeb2287e8fcd11dc81451919cc7ef74ec9833f"
  },
  "by_age": {
   "u12": {
@@ -16186,15 +16186,15 @@
             "label": "IFK Tumba HK",
             "team_id": 78928530,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "IK Sund m79:an",
             "team_id": 78037837,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
