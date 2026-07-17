@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T11:07:25+00:00",
-  "seq": 1784286445,
-  "data_hash": "ecb67696a7d326d0e21e9a6b68e004b271af237f5a002eb01fef3f1a9bf4b077"
+  "generated": "2026-07-17T11:34:34+00:00",
+  "seq": 1784288074,
+  "data_hash": "00ec79cb881f4e74249d4fe0f38c7169650d70079e4abb9873f94ff323c07fc6"
  },
  "groups": {
   "u8": {
@@ -6698,7 +6698,10 @@
      "grupp": "Grupp 4",
      "mots": "Skara HF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 11
+     },
      "start_ms": 1784286900000,
      "start_iso": "2026-07-17T13:15+02:00",
      "day_label": "Fredag 17 juli"
