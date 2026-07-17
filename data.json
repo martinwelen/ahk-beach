@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T16:51:21+00:00",
-  "seq": 1784307081,
-  "data_hash": "ecfa11a79c5d121c25c4aeb2546178bc08df4be58e48ad72d80b269c748f6a30"
+  "generated": "2026-07-17T17:02:36+00:00",
+  "seq": 1784307756,
+  "data_hash": "dab7d6d73a6f6c4f85b70208803639e8baa6304297f65ad7be33ec4a726c86eb"
  },
  "groups": {
   "u8": {
@@ -11470,7 +11470,10 @@
      "grupp": "C-Slutspel",
      "mots": "IK Lågan Hörby",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 5,
+      "ag": 15
+     },
      "start_ms": 1784306700000,
      "start_iso": "2026-07-17T18:45+02:00",
      "day_label": "Fredag 17 juli"
@@ -11519,6 +11522,29 @@
      "result": null,
      "start_ms": 1784310300000,
      "start_iso": "2026-07-17T19:45+02:00",
+     "day_label": "Fredag 17 juli"
+    },
+    {
+     "age_slug": "u18",
+     "slug": "u18-f-1",
+     "id": 81912211,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-17",
+     "dag": "Fredag",
+     "tid": "20:45",
+     "bana": 2,
+     "video": "https://solidsport.com/ahusbeach/watch/vinn-17072335-vinn-17072424",
+     "runda": "Semifinal",
+     "hemma": "Alingsås HK 1",
+     "borta": "Gökstens BK",
+     "grupp": "C-Slutspel",
+     "mots": "Gökstens BK",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784313900000,
+     "start_iso": "2026-07-17T20:45+02:00",
      "day_label": "Fredag 17 juli"
     }
    ]

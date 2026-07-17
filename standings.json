@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T16:46:42+00:00",
-  "seq": 1784306802,
-  "data_hash": "840b5c794048de50e4af51d31cbe41872a1d3e4a9308a0a3b67580cf09e2c511"
+  "generated": "2026-07-17T17:05:28+00:00",
+  "seq": 1784307928,
+  "data_hash": "97d0ae91827ccdd7d2d8cc9359a5cf109e85e0d4fbdc254ccb37bfdeebd93b1a"
  },
  "by_age": {
   "u12": {
@@ -16802,15 +16802,15 @@
             "label": "IFK Kristianstad F09",
             "team_id": 77971066,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Sandstorm BK",
             "team_id": 73588385,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81912210,
@@ -16821,15 +16821,15 @@
             "label": "Hässleholms HF",
             "team_id": 77250106,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Kärra HF woow",
             "team_id": 74541567,
             "is_alingsas": false,
-            "goals": null
+            "goals": 3
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81912212,
@@ -16840,15 +16840,15 @@
             "label": "IK Lågan Hörby",
             "team_id": 74535167,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
            "away": {
             "label": "Alingsås HK 1",
             "team_id": 75872648,
             "is_alingsas": true,
-            "goals": null
+            "goals": 15
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81912213,
@@ -16859,15 +16859,15 @@
             "label": "Stavsten HK Vinröd",
             "team_id": 76740742,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
            "away": {
             "label": "Gökstens BK",
             "team_id": 77244523,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -16880,14 +16880,14 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 17072133",
-            "team_id": null,
+            "label": "IFK Kristianstad F09",
+            "team_id": 77971066,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 17072235",
-            "team_id": null,
+            "label": "Hässleholms HF",
+            "team_id": 77250106,
             "is_alingsas": false,
             "goals": null
            },
@@ -16899,14 +16899,14 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 17072335",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 1",
+            "team_id": 75872648,
+            "is_alingsas": true,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 17072426",
-            "team_id": null,
+            "label": "Gökstens BK",
+            "team_id": 77244523,
             "is_alingsas": false,
             "goals": null
            },
