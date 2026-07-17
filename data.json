@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T13:03:11+00:00",
-  "seq": 1784293391,
-  "data_hash": "245b3974ddf2fa0eb8b0aa375d15bf1b519ba5c3e25cea4d8f659da924e6aa98"
+  "generated": "2026-07-17T13:12:23+00:00",
+  "seq": 1784293943,
+  "data_hash": "3a5e01cde058b9edb2e4313a277c236dd74692087322534535d003794bbf1c45"
  },
  "groups": {
   "u8": {
@@ -6854,7 +6854,10 @@
      "grupp": "Grupp 4",
      "mots": "Stavsten HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 3
+     },
      "start_ms": 1784293200000,
      "start_iso": "2026-07-17T15:00+02:00",
      "day_label": "Fredag 17 juli"
