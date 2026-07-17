@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T14:07:28+00:00",
-  "seq": 1784297248,
-  "data_hash": "bf5909ddd97fa190c8229d6f3978ab42790d134b9022d1a12d86ae50ded9cf09"
+  "generated": "2026-07-17T14:15:22+00:00",
+  "seq": 1784297722,
+  "data_hash": "6d976a6abed2865a6b827dd9a07282a776b6d2b614c495a9dcd65c31d0027a47"
  },
  "by_age": {
   "u12": {
@@ -15826,14 +15826,14 @@
        "name": "H43 Lund HF vit",
        "team_id": 78341490,
        "is_alingsas": false,
-       "played": 8,
-       "won": 2,
+       "played": 9,
+       "won": 3,
        "tied": 0,
        "lost": 6,
-       "goals_for": 63,
-       "goals_against": 87,
-       "diff": -24,
-       "points": 4,
+       "goals_for": 75,
+       "goals_against": 97,
+       "diff": -22,
+       "points": 6,
        "tier": "B-Slutspel",
        "pos": 7
       },
@@ -15841,13 +15841,13 @@
        "name": "IK Lågan Hörby",
        "team_id": 74535167,
        "is_alingsas": false,
-       "played": 8,
+       "played": 9,
        "won": 2,
        "tied": 0,
-       "lost": 6,
-       "goals_for": 62,
-       "goals_against": 88,
-       "diff": -26,
+       "lost": 7,
+       "goals_for": 72,
+       "goals_against": 100,
+       "diff": -28,
        "points": 4,
        "tier": null,
        "pos": 8
@@ -16391,8 +16391,8 @@
            "bana": 2,
            "round": "1/8 Final",
            "home": {
-            "label": "2:an i Grupp 1",
-            "team_id": null,
+            "label": "Lugi HF",
+            "team_id": 77506658,
             "is_alingsas": false,
             "goals": null
            },
@@ -16429,8 +16429,8 @@
            "bana": 4,
            "round": "1/8 Final",
            "home": {
-            "label": "3:an i Grupp 1",
-            "team_id": null,
+            "label": "AIK Handbollsförening Svart",
+            "team_id": 77506672,
             "is_alingsas": false,
             "goals": null
            },
@@ -16473,8 +16473,8 @@
             "goals": null
            },
            "away": {
-            "label": "4:an i Grupp 1",
-            "team_id": null,
+            "label": "IFK Tumba HK",
+            "team_id": 75069032,
             "is_alingsas": false,
             "goals": null
            },
@@ -16670,8 +16670,8 @@
             "goals": null
            },
            "away": {
-            "label": "7:an i Grupp 1",
-            "team_id": null,
+            "label": "IF Hallby HK",
+            "team_id": 77506699,
             "is_alingsas": false,
             "goals": null
            },
@@ -16683,8 +16683,8 @@
            "bana": 3,
            "round": "1/4 Final",
            "home": {
-            "label": "6:an i Grupp 1",
-            "team_id": null,
+            "label": "Vinslövs HK",
+            "team_id": 75073277,
             "is_alingsas": false,
             "goals": null
            },
@@ -16805,8 +16805,8 @@
             "goals": null
            },
            "away": {
-            "label": "10:an i Grupp 1",
-            "team_id": null,
+            "label": "Sandstorm BK",
+            "team_id": 73588385,
             "is_alingsas": false,
             "goals": null
            },
@@ -16856,8 +16856,8 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "9:an i Grupp 1",
-            "team_id": null,
+            "label": "Stavsten HK Vinröd",
+            "team_id": 76740742,
             "is_alingsas": false,
             "goals": null
            },
