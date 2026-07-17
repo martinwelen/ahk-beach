@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T19:35:23+00:00",
-  "seq": 1784316923,
-  "data_hash": "3f2946c3d815a4bd6a3870b117e6b210db4e7372febd8f042e12e7a6fd6a5739"
+  "generated": "2026-07-17T19:46:47+00:00",
+  "seq": 1784317607,
+  "data_hash": "03d09b42dae32770d08be4b9074e3e7b0af471aeba203fc28b20355bf65a3921"
  },
  "by_age": {
   "u12": {
@@ -16772,15 +16772,15 @@
             "label": "IF Hallby HK",
             "team_id": 77506699,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Kristianstad HK 2",
             "team_id": 77797057,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
@@ -17722,6 +17722,21 @@
        "pos": 2
       },
       {
+       "name": "Eslövs HK Svart",
+       "team_id": 75481214,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 4,
+       "tied": 1,
+       "lost": 1,
+       "goals_for": 61,
+       "goals_against": 44,
+       "diff": 17,
+       "points": 9,
+       "tier": "A-Slutspel",
+       "pos": 3
+      },
+      {
        "name": "Dalby GIF 1",
        "team_id": 77396260,
        "is_alingsas": false,
@@ -17733,21 +17748,6 @@
        "goals_against": 44,
        "diff": 20,
        "points": 8,
-       "tier": "A-Slutspel",
-       "pos": 3
-      },
-      {
-       "name": "Eslövs HK Svart",
-       "team_id": 75481214,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 3,
-       "tied": 1,
-       "lost": 1,
-       "goals_for": 49,
-       "goals_against": 40,
-       "diff": 9,
-       "points": 7,
        "tier": "A-Slutspel",
        "pos": 4
       },
@@ -17800,13 +17800,13 @@
        "name": "H43 Lund HF 3",
        "team_id": 74504790,
        "is_alingsas": false,
-       "played": 4,
+       "played": 5,
        "won": 1,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 36,
-       "goals_against": 38,
-       "diff": -2,
+       "lost": 4,
+       "goals_for": 40,
+       "goals_against": 50,
+       "diff": -10,
        "points": 2,
        "tier": "C-Slutspel",
        "pos": 8
