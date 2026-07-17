@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T15:57:29+00:00",
-  "seq": 1784303849,
-  "data_hash": "7114edd492a10a39292610c801441e6adc44bb70fb4c13331e45711607b45d66"
+  "generated": "2026-07-17T16:10:38+00:00",
+  "seq": 1784304638,
+  "data_hash": "4366b1e32079523c1272f36fda02ca6eab781b8193a64d048a1b9aff779653ec"
  },
  "by_age": {
   "u12": {
@@ -17737,6 +17737,21 @@
        "pos": 3
       },
       {
+       "name": "Lugi HF 4",
+       "team_id": 77344849,
+       "is_alingsas": false,
+       "played": 4,
+       "won": 3,
+       "tied": 0,
+       "lost": 1,
+       "goals_for": 46,
+       "goals_against": 40,
+       "diff": 6,
+       "points": 6,
+       "tier": "A-Slutspel",
+       "pos": 4
+      },
+      {
        "name": "Lödde Vikings HK",
        "team_id": 76524249,
        "is_alingsas": false,
@@ -17748,23 +17763,23 @@
        "goals_against": 39,
        "diff": 0,
        "points": 5,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": "B-Slutspel",
+       "pos": 5
       },
       {
-       "name": "Lugi HF 4",
-       "team_id": 77344849,
+       "name": "Dalby GIF 1",
+       "team_id": 77396260,
        "is_alingsas": false,
        "played": 3,
        "won": 2,
        "tied": 0,
        "lost": 1,
-       "goals_for": 32,
-       "goals_against": 31,
-       "diff": 1,
+       "goals_for": 36,
+       "goals_against": 23,
+       "diff": 13,
        "points": 4,
        "tier": "B-Slutspel",
-       "pos": 5
+       "pos": 6
       },
       {
        "name": "Alingsås HK Orange",
@@ -17779,7 +17794,7 @@
        "diff": -5,
        "points": 2,
        "tier": "B-Slutspel",
-       "pos": 6
+       "pos": 7
       },
       {
        "name": "H43 Lund HF 3",
@@ -17793,38 +17808,8 @@
        "goals_against": 38,
        "diff": -2,
        "points": 2,
-       "tier": "B-Slutspel",
-       "pos": 7
-      },
-      {
-       "name": "Dalby GIF 1",
-       "team_id": 77396260,
-       "is_alingsas": false,
-       "played": 2,
-       "won": 1,
-       "tied": 0,
-       "lost": 1,
-       "goals_for": 20,
-       "goals_against": 18,
-       "diff": 2,
-       "points": 2,
        "tier": "C-Slutspel",
        "pos": 8
-      },
-      {
-       "name": "IFK Kristianstad 1",
-       "team_id": 74166512,
-       "is_alingsas": false,
-       "played": 3,
-       "won": 0,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 22,
-       "goals_against": 34,
-       "diff": -12,
-       "points": 0,
-       "tier": "C-Slutspel",
-       "pos": 9
       },
       {
        "name": "IF Hallby HK Svart",
@@ -17839,19 +17824,34 @@
        "diff": -13,
        "points": 0,
        "tier": "C-Slutspel",
+       "pos": 9
+      },
+      {
+       "name": "IFK Kristianstad 1",
+       "team_id": 74166512,
+       "is_alingsas": false,
+       "played": 4,
+       "won": 0,
+       "tied": 0,
+       "lost": 4,
+       "goals_for": 31,
+       "goals_against": 48,
+       "diff": -17,
+       "points": 0,
+       "tier": "C-Slutspel",
        "pos": 10
       },
       {
        "name": "IFK Malmö HF 2",
        "team_id": 83805593,
        "is_alingsas": false,
-       "played": 3,
+       "played": 4,
        "won": 0,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 21,
-       "goals_against": 39,
-       "diff": -18,
+       "lost": 4,
+       "goals_for": 26,
+       "goals_against": 55,
+       "diff": -29,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 11

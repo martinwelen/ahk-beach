@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T15:53:48+00:00",
-  "seq": 1784303628,
-  "data_hash": "a7dfb4b7f2b568c3b37f2f553445e3962b778de705c0571470b64a7463e9aab0"
+  "generated": "2026-07-17T16:07:09+00:00",
+  "seq": 1784304429,
+  "data_hash": "cff9c9273add167f39f1f0c32611f8ebe53aa1ddc5b1d044463eac351f8ec28a"
  },
  "groups": {
   "u8": {
@@ -7088,7 +7088,10 @@
      "grupp": "Grupp 4",
      "mots": "Eslövs HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 4
+     },
      "start_ms": 1784303100000,
      "start_iso": "2026-07-17T17:45+02:00",
      "day_label": "Fredag 17 juli"
