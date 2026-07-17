@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T17:46:07+00:00",
-  "seq": 1784310367,
-  "data_hash": "2c6aedf6737220f46efe2cd15d11c2292bbd6a74081693468729ff08b5d249e4"
+  "generated": "2026-07-17T17:56:00+00:00",
+  "seq": 1784310960,
+  "data_hash": "d02b6e2dabe7e8208f31c322a7a0d33180b6569f727145a37d0c5c3cea7cc719"
  },
  "by_age": {
   "u12": {
@@ -16254,15 +16254,15 @@
             "label": "HK Drott Halmstad",
             "team_id": 78468799,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "IK Bolton 😈BEACH BRAWL STARS!😈",
             "team_id": 81130646,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 81911943,
@@ -16313,8 +16313,8 @@
            "bana": 2,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 17072337",
-            "team_id": null,
+            "label": "HK Drott Halmstad",
+            "team_id": 78468799,
             "is_alingsas": false,
             "goals": null
            },
@@ -16532,15 +16532,15 @@
             "label": "Uppsala HK Vit",
             "team_id": 75840190,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Alingsås HK 2",
             "team_id": 75872650,
             "is_alingsas": true,
-            "goals": null
+            "goals": 13
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 81912189,
@@ -16591,9 +16591,9 @@
            "bana": 1,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 17072338",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK 2",
+            "team_id": 75872650,
+            "is_alingsas": true,
             "goals": null
            },
            "away": {
