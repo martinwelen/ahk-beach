@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-17T16:07:09+00:00",
-  "seq": 1784304429,
-  "data_hash": "cff9c9273add167f39f1f0c32611f8ebe53aa1ddc5b1d044463eac351f8ec28a"
+  "generated": "2026-07-17T16:22:26+00:00",
+  "seq": 1784305346,
+  "data_hash": "d9f92232d3b6d9f1b802e9fe596e9cb9b700473a58ad1d3a5d8b866114e55dfb"
  },
  "groups": {
   "u8": {
@@ -7114,7 +7114,10 @@
      "grupp": "Grupp 1",
      "mots": "IFK Bankeryd Blå",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 9
+     },
      "start_ms": 1784304000000,
      "start_iso": "2026-07-17T18:00+02:00",
      "day_label": "Fredag 17 juli"
