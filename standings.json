@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-17T19:46:47+00:00",
-  "seq": 1784317607,
-  "data_hash": "03d09b42dae32770d08be4b9074e3e7b0af471aeba203fc28b20355bf65a3921"
+  "generated": "2026-07-17T19:56:27+00:00",
+  "seq": 1784318187,
+  "data_hash": "6fcb912504a24f259173314ed24c5ab2d4af54ec7167f067610eaabd7f8f0cd6"
  },
  "by_age": {
   "u12": {
@@ -16340,15 +16340,15 @@
             "label": "Norrköpings HK",
             "team_id": 81379101,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "H43 Lund HF",
             "team_id": 77198358,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
