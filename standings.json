@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T17:35:38+00:00",
-  "seq": 1784396138,
-  "data_hash": "fd39a728848322553b4f148fd2f7fd8584c2d79ef7d0db2678a8b1d3029e1ca1"
+  "generated": "2026-07-18T18:15:02+00:00",
+  "seq": 1784398502,
+  "data_hash": "4097479b0077bee796f8dd610b090962d4a9e23558302f1665bc859b8a4dd8be"
  },
  "by_age": {
   "u12": {
@@ -18407,15 +18407,15 @@
             "label": "Hässleholms HF 1",
             "team_id": 74627852,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "HK Halmstad",
             "team_id": 73552136,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145920,
@@ -18447,8 +18447,8 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 18072141",
-            "team_id": null,
+            "label": "Hässleholms HF 1",
+            "team_id": 74627852,
             "is_alingsas": false,
             "goals": null
            },
@@ -19029,15 +19029,15 @@
             "label": "HK Björnen",
             "team_id": 75050200,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Råde IL",
             "team_id": 73456050,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 82145970,
@@ -19048,15 +19048,15 @@
             "label": "Höörs HK H 65 1",
             "team_id": 74354744,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "IFK Malmö HF Gul",
             "team_id": 74505522,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -19069,14 +19069,14 @@
            "bana": 3,
            "round": "Final",
            "home": {
-            "label": "Vinn. 18072441",
-            "team_id": null,
+            "label": "Råde IL",
+            "team_id": 73456050,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072541",
-            "team_id": null,
+            "label": "Höörs HK H 65 1",
+            "team_id": 74354744,
             "is_alingsas": false,
             "goals": null
            },
