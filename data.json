@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T15:33:09+00:00",
-  "seq": 1784388789,
-  "data_hash": "af855e7de998974f35016fcd7b78e6d29c9786196f66655aaa86065ae7bced33"
+  "generated": "2026-07-18T15:44:55+00:00",
+  "seq": 1784389495,
+  "data_hash": "42af8f6e4a0c44ab1197f72e935a6abe43e6552b2adee0956e2582a24f284ac1"
  },
  "groups": {
   "u8": {
@@ -8206,7 +8206,10 @@
      "grupp": "A-Slutspel",
      "mots": "Dalby GIF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 9
+     },
      "start_ms": 1784388600000,
      "start_iso": "2026-07-18T17:30+02:00",
      "day_label": "Lördag 18 juli"
