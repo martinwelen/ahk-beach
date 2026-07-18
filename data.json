@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T11:22:04+00:00",
-  "seq": 1784373724,
-  "data_hash": "98034db70d8f72d2bfa04af30fb2988736ca43ce57eeed2fa1d80103f1f43de1"
+  "generated": "2026-07-18T11:28:28+00:00",
+  "seq": 1784374108,
+  "data_hash": "d82ff72989ddee55fc502ee0a3705ae9986aede01f249abdd6b52f1f7045bcf8"
  },
  "groups": {
   "u8": {
@@ -7842,7 +7842,10 @@
      "grupp": "Grupp 4",
      "mots": "Lödde Vikings HK",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 11
+     },
      "start_ms": 1784373300000,
      "start_iso": "2026-07-18T13:15+02:00",
      "day_label": "Lördag 18 juli"
