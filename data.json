@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T11:28:28+00:00",
-  "seq": 1784374108,
-  "data_hash": "d82ff72989ddee55fc502ee0a3705ae9986aede01f249abdd6b52f1f7045bcf8"
+  "generated": "2026-07-18T12:22:49+00:00",
+  "seq": 1784377369,
+  "data_hash": "42f0782ec409b6b5ee11d80f338d42d95accd688da3752ee2efa985fb37d0901"
  },
  "groups": {
   "u8": {
@@ -7868,7 +7868,10 @@
      "grupp": "Grupp 1",
      "mots": "Huddinge HK 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 5
+     },
      "start_ms": 1784376000000,
      "start_iso": "2026-07-18T14:00+02:00",
      "day_label": "Lördag 18 juli"
@@ -7891,7 +7894,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Tumba HK Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 12
+     },
      "start_ms": 1784376000000,
      "start_iso": "2026-07-18T14:00+02:00",
      "day_label": "Lördag 18 juli"
@@ -7914,7 +7920,10 @@
      "grupp": "Grupp 4",
      "mots": "Huddinge HK 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 7
+     },
      "start_ms": 1784376000000,
      "start_iso": "2026-07-18T14:00+02:00",
      "day_label": "Lördag 18 juli"
@@ -7986,6 +7995,29 @@
      "result": null,
      "start_ms": 1784377800000,
      "start_iso": "2026-07-18T14:30+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-f-gul",
+     "id": 82145927,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "15:30",
+     "bana": 8,
+     "video": null,
+     "runda": "1/16-final",
+     "hemma": "Alingsås HK Gul",
+     "borta": "Uppsala HK Vit",
+     "grupp": "A-Slutspel",
+     "mots": "Uppsala HK Vit",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784381400000,
+     "start_iso": "2026-07-18T15:30+02:00",
      "day_label": "Lördag 18 juli"
     }
    ]
