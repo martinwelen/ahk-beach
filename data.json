@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T13:55:16+00:00",
-  "seq": 1784382916,
-  "data_hash": "491b5cab175fd1ffa6b27c1d0438f6760ddd09b744f38e36d88637b0cdce8d46"
+  "generated": "2026-07-18T14:08:01+00:00",
+  "seq": 1784383681,
+  "data_hash": "f68d40d29c5312077ee3a1f24efffc81aca9452125592fd535d9ae938f5c5fe3"
  },
  "groups": {
   "u8": {
@@ -8073,7 +8073,10 @@
      "grupp": "A-Slutspel",
      "mots": "Huddinge HK 1",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 8
+     },
      "start_ms": 1784382300000,
      "start_iso": "2026-07-18T15:45+02:00",
      "day_label": "Lördag 18 juli"
@@ -8122,6 +8125,29 @@
      "result": null,
      "start_ms": 1784386800000,
      "start_iso": "2026-07-18T17:00+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-f-bla",
+     "id": 82145914,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#1f5fbf",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "17:15",
+     "bana": 6,
+     "video": null,
+     "runda": "1/8-final",
+     "hemma": "Alingsås HK Blå",
+     "borta": "IFK Tumba HK Blå",
+     "grupp": "A-Slutspel",
+     "mots": "IFK Tumba HK Blå",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784387700000,
+     "start_iso": "2026-07-18T17:15+02:00",
      "day_label": "Lördag 18 juli"
     },
     {
