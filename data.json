@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T17:02:33+00:00",
-  "seq": 1784394153,
-  "data_hash": "20127717e282a79f240cfd844c10bc016f721d3bbb18ba183f46d40699bc1908"
+  "generated": "2026-07-18T17:22:31+00:00",
+  "seq": 1784395351,
+  "data_hash": "05da86ba6803754b5839447dfea7d8156358cd0f63ce4665e574c2016ca16cc5"
  },
  "groups": {
   "u8": {
@@ -8284,7 +8284,10 @@
      "grupp": "A-Slutspel",
      "mots": "Åhus Handboll 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 13,
+      "ag": 12
+     },
      "start_ms": 1784394000000,
      "start_iso": "2026-07-18T19:00+02:00",
      "day_label": "Lördag 18 juli"
