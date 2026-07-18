@@ -1,0 +1,22 @@
+name = "gh-dispatch-worker"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Cron: var 10:e minut. Workern no-oppar utanför ACTIVE_FROM/UNTIL, så den kan
+# ligga kvar deployad året runt utan att trigga mellan cuper.
+[triggers]
+crons = ["*/10 * * * *"]
+
+[vars]
+GH_OWNER = "martinwelen"
+GH_REPO = "ahk-beach"
+GH_WORKFLOW = "update.yml"
+GH_REF = "main"
+# FORCE = "false"
+# Sätt fönstret per cup (avkommentera + justera). Saknas de → alltid aktiv:
+# ACTIVE_FROM = "2026-07-09"
+# ACTIVE_UNTIL = "2026-07-18"
+
+# Secrets (sätts EJ här — via wrangler):
+#   wrangler secret put GITHUB_TOKEN     # fine-grained PAT, Actions: Read and write
+#   wrangler secret put TRIGGER_KEY      # (valfritt) skyddar /trigger
