@@ -180,12 +180,14 @@ bana 1/2-match):
 Punkter en gedigen post mortem för *just den här sortens projekt* måste ta på allvar. Ordnade efter
 hur allvarliga de är.
 
-1. **⚠️ Barns namn i ett publikt repo (GDPR) — kan avsluta projektet.** Trupper med minderåriga,
-   kopplade till lag, arena och minutexakt schema, publicerade på Pages **och permanenta i
-   git-historiken**. Under GDPR krävs rättslig grund; "klubben tyckte det var okej" är inte det
-   samtycke *föräldrarna* gett. Behövs: samtyckesprocess, dataminimering (endast förnamn/initialer),
-   plan för att skrubba git-historiken, och en takedown-rutin. **Detta rankar över alla tekniska
-   fynd.**
+1. **Barns namn & GDPR — hanterat för i år; designas på riktigt i Cuptide.** *Förtydligande från
+   användaren:* denna vecka är **godkänd av föräldrarna** och omfattar **enbart Alingsås-spelare** —
+   den akuta risken är alltså hanterad för det här instansen. Kvarstående att vara medveten om vid
+   *fortsatt* bruk: (a) git-historiken är permanent, så om namn ska tas bort senare krävs
+   historik-skrubbning; (b) vid **återanvändning för andra cuper/klubbar** måste samtyckesgrunden
+   etableras på nytt — andra klubbars spelare omfattas inte av Alingsås-föräldrarnas godkännande.
+   Den **fullständiga GDPR-/samtyckesmodellen ägs av Cuptide-projektet** (eget repo), där den
+   aktualiseras skarpt.
 2. **Beroenderisk mot cupmanager — nämnd men inte kostnadssatt.** Ingen ToS-granskning, ingen
    rate-limit-överenskommelse; en robot som slår mot deras API var 10:e min i all evighet, plus
    öppen CORS de kan stänga i en deploy. Kvantifiera: vad går sönder, hur upptäcker vi det (en
@@ -206,65 +208,64 @@ hur allvarliga de är.
 
 ---
 
-## 10. Strategiskt: generalisera `ahk-beach` vs. bygga `Cuptide`
+## 10. Strategiskt: två lager i samma plan (inte konkurrenter)
 
-Två spår som svarar på olika frågor:
+*Förtydligande från användaren:* det här systemet och Cuptide är **inte** ett antingen/eller. De är
+två lager i samma roadmap:
 
-**A. Generalisera `ahk-beach` till en mall** (snabb utrullning, låg risk)
-Redan parametriserat: `config.py` (`TOURNAMENT_ID`/`CLUB_ID`/`API_HOST`/`PAGES_BASE`),
-klubbkodsdriven auto-upptäckt. Troliga anpassningspunkter att lyfta till config/mall:
-turnerings-/klubb-id, branding (färger/logga/namn/analytics), områdeskarta + banpositioner (mest
-cup-specifikt), truppdata, deploy-mål, regelprofiler. **Bra output:** en "så rullar du ut en ny
-cup"-checklista som avslöjar exakt vilka filer som måste bli config.
-*Fynd som stärker spåret:* cupmanager bär mer struktur än vi trodde (sport-agnostisk statistik),
-så mer kan återanvändas rakt av.
+- **Det här systemet = konsument-/publiklagret.** Det ska (1) **återanvändas för Alingsås egna
+  deltaganden i andra cuper**, och (2) **inkorporeras i Cuptide** som dess publika lager (med de
+  anpassningar som krävs där).
+- **Cuptide = helhetssystemet för att *arrangera* en cup** (eget repo `/home/martin/dev/cuptide/`):
+  äger datamodellen, skriv-vägen (sekretariat/domare), realtid, regler, multi-tenant. Det svarar på
+  cupmanagers svagheter som konsumentlagret aldrig rör.
 
-**B. `Cuptide`** (från grunden, äga domänen + datalagret)
-Långsiktigt, större; svarar på cupmanagers svagheter (inmatnings-UX, äkta realtid, multi-tenant).
-Se `/home/martin/dev/cuptide/README.md`.
+Det som **överförs** till Cuptide är alltså *konsumentupplevelsen* — offline-först-PWA:n, områdeskartan,
+den snabba livescore-UX:en, matchvyn, multi-hero — **inte** cupmanager-skrapnings-plumbingen. Skrapningen
+är en övergångslösning tills Cuptide äger sin egen data.
 
-*Rekommendation nedan (avsnitt 11) — skärpt efter en oberoende review (Fable).*
+**Redan parametriserat (bra startläge för återanvändning):** `config.py`
+(`TOURNAMENT_ID`/`CLUB_ID`/`API_HOST`/`PAGES_BASE`), klubbkodsdriven auto-upptäckt. Anpassningspunkter
+att lyfta till config/mall: turnerings-/klubb-id, branding (färger/logga/namn/analytics), områdeskarta +
+banpositioner (mest cup-specifikt), truppdata, deploy-mål, regelprofiler. Fyndet att cupmanager bär ett
+**sport-agnostiskt** statistik-schema stärker både återanvändning *och* Cuptide-datamodellen.
 
 ---
 
 ## 11. Rekommendation & nästa steg
 
-**Kör A nu. Avvisa B i dess nuvarande form — men behåll `cuptide.app` som billig option.**
+Med den korrigerade ramen (två lager, inte val) blir rekommendationen en **sekvens**, inte ett vägval:
 
-Motiveringen är inte "B är stort och riskabelt" (det vet vi). Det är att veckan bevisade något
-*mycket smalare* än vad B kräver. Vad som validerades: att en ensam utvecklare kan bygga ett
-**överlägset konsument-läslager ovanpå någon annans system of record**. Vad B kräver: att *vara*
-system of record — schemaläggning, domartillsättning, bankonflikter, anmälan, betalning/återbetalning,
-arrangörssupport kl. 07 på matchdag, och svårast av allt: B2B-försäljning till cup-arrangörer som är
-volontärer med inrotade vanor och befintliga cupmanager-avtal. Det är en annan verksamhet med en
-annan kärnkompetens, och inget av det de-riskades i juli. De två cupmanager-svagheter B siktar på
-(arrangörs-/sekretariats-UX, realtid) är *precis* det som en konsument-PWA-vecka inte lärde oss något
-om — vi rörde aldrig skriv-vägen.
+**1. Nu → generalisera konsumentlagret för egen återanvändning.** Gör `ahk-beach` mallbar (en "så
+rullar du ut en ny cup"-checklista är acceptanskriteriet — *inte* fork-per-cup, annars fossiliserar
+den ~800-rader-mallen). Detta betjänar Alingsås nästa cup direkt och är samtidigt ritningen för
+Cuptides publika lager.
 
-**Skärpt A — vidga vallgraven med datan vi verifierade men inte skeppade.** `MatchFeed`-events,
-inbördes-möten, per-lags-aggregat: en mall som renderar mål-för-mål-tidslinjer och form-guide
-*snabbare än cupmanagers egen widget* är en synbart bättre produkt för nära noll marginalkostnad —
-och det sport-agnostiska schemat gör att det generaliserar bortom handboll gratis. Det är
-differentiering-per-ansträngning i maximum.
+**2. Vidga vallgraven med datan vi verifierade men inte skeppade.** `MatchFeed`-events (mål-för-mål),
+inbördes-möten, per-lags-aggregat → matchvy + form-guide *snabbare än cupmanagers egen widget*. Nära
+noll marginalkostnad, och det sport-agnostiska schemat generaliserar bortom handboll. Dessa UX-mönster
+är precis det som sedan portas in i Cuptide.
 
-**Det viktigaste draget slår all kod: prata med cupmanager.** Hela tillgången vilar på odokumenterade
-endpoints och en CORS-header de kan stänga i en enda deploy. Just nu *är* det din existentiella risk.
-En konversation gör om den till antingen (a) sanktionerad åtkomst, kanske ett dokumenterat API — risk
-undanröjd, (b) ett partnerskap/acquihire — "er egen widget är långsammare än min skrapa byggd på en
-vecka" är en stark öppning, eller (c) ett nej — då har du lärt dig A:s tak billigt. Blir B någonsin
-av bör det bli *deras* arrangörs-UX, inte en konkurrent byggd från grunden.
+**3. Hantera interim-beroendet på cupmanager medvetet.** Så länge konsumentlagret skrapar cupmanager
+vilar det på odokumenterade endpoints + öppen CORS de kan stänga i en deploy. Det är inte
+*existentiellt* (Cuptide är slutmålet som tar bort beroendet), men för mellantiden: (a) lägg en
+**staleness-monitor** på egna artefakter så tyst drift upptäcks, (b) **stäng av roboten mellan cuper**
+(mindre last, goodwill), och (c) *överväg* ett samtal med cupmanager för sanktionerad/dokumenterad
+åtkomst — billig riskreducering, ingen brådska.
 
-**Realistisk väg:**
-1. **Off-season:** stäng av roboten mellan cuper; åtgärda GDPR-punkten (avsnitt 9.1) och skrubba
-   git-historik; härda + generalisera mallen (en "så rullar du ut en ny cup"-checklista är
-   acceptanskriteriet, inte fork-per-cup); lägg till staleness-monitor + syntetisk E2E.
-2. **Kontakta cupmanager** — sanktionerad åtkomst eller åtminstone klarhet om A:s tak.
-3. **Bevisa på en mindre cup våren 2027** som ren config-utrullning (det *är* acceptanstestet).
-4. **Åhus 2027** som andra datapunkt — nu med analytics-worker som mäter faktisk användning, så
-   "uppskattat" blir en *siffra* innan mer ambition.
+**4. Mät användning.** Låt analytics-workern göra "uppskattat" till en *siffra* (unika enheter, återbesök,
+flik-användning) — underlag för hur mycket som är värt att bära över i Cuptide.
 
-Behåll `cuptide.app/.com` som option; investera inte i B förrän (a) A:s tak är känt via
-cupmanager-samtalet och (b) det finns uppmätt efterfrågan.
+**5. GDPR:** hanterat för i år (föräldrasamtycke, endast Alingsås). Den fullständiga samtyckes-/
+dataminimeringsmodellen designas i **Cuptide**; vid återanvändning för andra klubbar dessförinnan
+måste samtyckesgrunden etableras per klubb (avsnitt 9.1).
+
+**6. För in i Cuptide.** När Cuptides datalager finns: portera konsumentlagrets mönster (PWA/offline,
+karta, livescore-UX, matchvy) ovanpå Cuptides *egen* data i stället för cupmanagers — då stängs
+interim-beroendet.
+
+**Röd tråd:** det överlägsna vi byggde var *konsumentupplevelsen och dataflödet*, inte skrapningen.
+Återanvänd och förfina det nu; låt Cuptide ärva det.
 
 ---
 
