@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T09:52:44+00:00",
-  "seq": 1784368364,
-  "data_hash": "b39cfc8f298e86d059e06cae9561c34f08b5301e938cb29c5258b2cf534eeb8e"
+  "generated": "2026-07-18T10:02:11+00:00",
+  "seq": 1784368931,
+  "data_hash": "b55ececd7318af4a993d331d951dbab472bfe37f2c82f4203816e62fe977b760"
  },
  "groups": {
   "u8": {
@@ -7634,7 +7634,10 @@
      "grupp": "Grupp 1",
      "mots": "IFK Kristianstad 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 15
+     },
      "start_ms": 1784367900000,
      "start_iso": "2026-07-18T11:45+02:00",
      "day_label": "Lördag 18 juli"
@@ -7657,7 +7660,10 @@
      "grupp": "Grupp 2",
      "mots": "Malmslätts HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 17,
+      "ag": 5
+     },
      "start_ms": 1784367900000,
      "start_iso": "2026-07-18T11:45+02:00",
      "day_label": "Lördag 18 juli"
