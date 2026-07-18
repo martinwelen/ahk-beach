@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T11:03:09+00:00",
-  "seq": 1784372589,
-  "data_hash": "40d424796780d14d29ff529023f0c7cfd93360e176bb17b7ab99ce32284c5db7"
+  "generated": "2026-07-18T11:13:37+00:00",
+  "seq": 1784373217,
+  "data_hash": "fb2721d681ac64b102800412358a905b2743a92b9352c3776b01a7122421718b"
  },
  "groups": {
   "u8": {
@@ -7790,7 +7790,10 @@
      "grupp": "Grupp 1",
      "mots": "H43 Lund HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1784372400000,
      "start_iso": "2026-07-18T13:00+02:00",
      "day_label": "Lördag 18 juli"
