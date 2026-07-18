@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T15:44:55+00:00",
-  "seq": 1784389495,
-  "data_hash": "42af8f6e4a0c44ab1197f72e935a6abe43e6552b2adee0956e2582a24f284ac1"
+  "generated": "2026-07-18T17:02:33+00:00",
+  "seq": 1784394153,
+  "data_hash": "20127717e282a79f240cfd844c10bc016f721d3bbb18ba183f46d40699bc1908"
  },
  "groups": {
   "u8": {
@@ -8232,7 +8232,10 @@
      "grupp": "B-Slutspel",
      "mots": "Höörs HK H 65 H65 vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 9
+     },
      "start_ms": 1784393100000,
      "start_iso": "2026-07-18T18:45+02:00",
      "day_label": "Lördag 18 juli"
@@ -8255,7 +8258,10 @@
      "grupp": "C-Slutspel",
      "mots": "IF Hallby HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 13
+     },
      "start_ms": 1784393100000,
      "start_iso": "2026-07-18T18:45+02:00",
      "day_label": "Lördag 18 juli"
@@ -8281,6 +8287,52 @@
      "result": null,
      "start_ms": 1784394000000,
      "start_iso": "2026-07-18T19:00+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-p-vit",
+     "id": 82146531,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#c9c2b4",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "20:15",
+     "bana": 5,
+     "video": null,
+     "runda": "Semifinal",
+     "hemma": "Alingsås HK VIT",
+     "borta": "H43 Lund HF 3",
+     "grupp": "C-Slutspel",
+     "mots": "H43 Lund HF 3",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784398500000,
+     "start_iso": "2026-07-18T20:15+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-p-orange",
+     "id": 82146515,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "20:30",
+     "bana": 3,
+     "video": null,
+     "runda": "Semifinal",
+     "hemma": "Eslövs HK Svart",
+     "borta": "Alingsås HK Orange",
+     "grupp": "B-Slutspel",
+     "mots": "Eslövs HK Svart",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784399400000,
+     "start_iso": "2026-07-18T20:30+02:00",
      "day_label": "Lördag 18 juli"
     }
    ]
