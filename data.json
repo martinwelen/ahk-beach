@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T14:55:59+00:00",
-  "seq": 1784386559,
-  "data_hash": "33a33905ca5bac83b9b160b44b4a34c046e64246880c1c891a3ce0200932f318"
+  "generated": "2026-07-18T15:12:59+00:00",
+  "seq": 1784387579,
+  "data_hash": "368a746b79a250d7c0f078cc346171dfa73b4bb6aad166ad1f28f419838f8432"
  },
  "groups": {
   "u8": {
@@ -8102,7 +8102,10 @@
      "grupp": "B-Slutspel",
      "mots": "IF Hallby HK Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 8
+     },
      "start_ms": 1784386800000,
      "start_iso": "2026-07-18T17:00+02:00",
      "day_label": "Lördag 18 juli"
@@ -8197,6 +8200,29 @@
      "result": null,
      "start_ms": 1784388600000,
      "start_iso": "2026-07-18T17:30+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-p-orange",
+     "id": 82146518,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "18:45",
+     "bana": 4,
+     "video": null,
+     "runda": "Kvartsfinal",
+     "hemma": "Höörs HK H 65 H65 vit",
+     "borta": "Alingsås HK Orange",
+     "grupp": "B-Slutspel",
+     "mots": "Höörs HK H 65 H65 vit",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784393100000,
+     "start_iso": "2026-07-18T18:45+02:00",
      "day_label": "Lördag 18 juli"
     }
    ]
