@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T15:12:59+00:00",
-  "seq": 1784387579,
-  "data_hash": "368a746b79a250d7c0f078cc346171dfa73b4bb6aad166ad1f28f419838f8432"
+  "generated": "2026-07-18T15:22:30+00:00",
+  "seq": 1784388150,
+  "data_hash": "a3be1a024fb0f5cc7f0fb0b6ca0f8bc7043b0ca1d2f8c13c8b26614124ced64a"
  },
  "groups": {
   "u8": {
@@ -8128,7 +8128,10 @@
      "grupp": "C-Slutspel",
      "mots": "Växjö HF",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 12,
+      "ag": 11
+     },
      "start_ms": 1784386800000,
      "start_iso": "2026-07-18T17:00+02:00",
      "day_label": "Lördag 18 juli"
@@ -8219,6 +8222,29 @@
      "borta": "Alingsås HK Orange",
      "grupp": "B-Slutspel",
      "mots": "Höörs HK H 65 H65 vit",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784393100000,
+     "start_iso": "2026-07-18T18:45+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-p-vit",
+     "id": 82146532,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#c9c2b4",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "18:45",
+     "bana": 7,
+     "video": null,
+     "runda": "Kvartsfinal",
+     "hemma": "IF Hallby HK Svart",
+     "borta": "Alingsås HK VIT",
+     "grupp": "C-Slutspel",
+     "mots": "IF Hallby HK Svart",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784393100000,
