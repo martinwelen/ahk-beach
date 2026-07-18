@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T14:26:48+00:00",
-  "seq": 1784384808,
-  "data_hash": "66d67f8f206405d67f84d4f9b4d86e595f416e329ca6f0c5b8e2eb5db76c940a"
+  "generated": "2026-07-18T14:35:25+00:00",
+  "seq": 1784385325,
+  "data_hash": "fbe2eae00fe2a7b42222b8f3d6855535227e5a1bd6e0ea21892d8250c0825108"
  },
  "by_age": {
   "u12": {
@@ -18480,15 +18480,15 @@
             "label": "Ystads IF HF 1",
             "team_id": 77364488,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Karlshamns HF",
             "team_id": 77528732,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145948,
@@ -18518,15 +18518,15 @@
             "label": "Uppsala HK Blå",
             "team_id": 73566818,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Huddinge HK 3",
             "team_id": 76572446,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 82145952,
@@ -18537,15 +18537,15 @@
             "label": "H43 Lund HF 2",
             "team_id": 82405663,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "IFK Mullsjö",
             "team_id": 76849488,
             "is_alingsas": false,
-            "goals": null
+            "goals": 3
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145954,
@@ -18556,15 +18556,15 @@
             "label": "Eslövs HK 1",
             "team_id": 77475715,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
            "away": {
             "label": "Ystads IF HF 3",
             "team_id": 77364501,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145955,
@@ -18640,8 +18640,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072126",
-            "team_id": null,
+            "label": "Ystads IF HF 1",
+            "team_id": 77364488,
             "is_alingsas": false,
             "goals": null
            },
@@ -18672,14 +18672,14 @@
            "bana": 3,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 18072526",
-            "team_id": null,
+            "label": "Huddinge HK 3",
+            "team_id": 76572446,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18073325",
-            "team_id": null,
+            "label": "H43 Lund HF 2",
+            "team_id": 82405663,
             "is_alingsas": false,
             "goals": null
            },
@@ -18691,8 +18691,8 @@
            "bana": 4,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 18072426",
-            "team_id": null,
+            "label": "Eslövs HK 1",
+            "team_id": 77475715,
             "is_alingsas": false,
             "goals": null
            },
