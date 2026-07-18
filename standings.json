@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T18:48:29+00:00",
-  "seq": 1784400509,
-  "data_hash": "88bae88be7a95ffc24204613e3f950e8486e54d672720b6ec68250ce3fac5f4b"
+  "generated": "2026-07-18T19:00:14+00:00",
+  "seq": 1784401214,
+  "data_hash": "de93406f878918e6af9c9de9b0ce59f84b17e74df1628a06e7cbde7cc9fb4334"
  },
  "by_age": {
   "u12": {
@@ -19364,15 +19364,15 @@
             "label": "Huddinge HK",
             "team_id": 74619820,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Dalby GIF 1",
             "team_id": 77396260,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -19391,8 +19391,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072144",
-            "team_id": null,
+            "label": "Huddinge HK",
+            "team_id": 74619820,
             "is_alingsas": false,
             "goals": null
            },
