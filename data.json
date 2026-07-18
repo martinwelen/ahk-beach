@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T12:52:21+00:00",
-  "seq": 1784379141,
-  "data_hash": "3430c8a03aababe242a84a40953bc85097983c779cb0bab7dd6715ba41ea2d73"
+  "generated": "2026-07-18T13:02:14+00:00",
+  "seq": 1784379734,
+  "data_hash": "32b1c895fa28381a8d2684bce73a8ef891b5b7594ab422a9a26081114b6f5419"
  },
  "groups": {
   "u8": {
@@ -8077,6 +8077,29 @@
     },
     {
      "age_slug": "u15",
+     "slug": "u15-p-orange",
+     "id": 82146519,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "17:00",
+     "bana": 5,
+     "video": null,
+     "runda": "1/8-final",
+     "hemma": "Alingsås HK Orange",
+     "borta": "IF Hallby HK Blå",
+     "grupp": "B-Slutspel",
+     "mots": "IF Hallby HK Blå",
+     "hb": "Hemma",
+     "result": null,
+     "start_ms": 1784386800000,
+     "start_iso": "2026-07-18T17:00+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
      "slug": "u15-p-vit",
      "id": 82146533,
      "gender": "P",
@@ -8111,10 +8134,10 @@
      "bana": 6,
      "video": null,
      "runda": "1/8-final",
-     "hemma": "2:an i Grupp 4",
+     "hemma": "Dalby GIF 1",
      "borta": "Alingsås HK Blå",
      "grupp": "A-Slutspel",
-     "mots": "2:an i Grupp 4",
+     "mots": "Dalby GIF 1",
      "hb": "Borta",
      "result": null,
      "start_ms": 1784388600000,
