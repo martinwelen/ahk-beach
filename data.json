@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T09:02:39+00:00",
-  "seq": 1784365359,
-  "data_hash": "f4185ec1980c15b80211e7bf7ed4369c1180b18bfd4ba4d8a8bbad3d46a6c546"
+  "generated": "2026-07-18T09:52:44+00:00",
+  "seq": 1784368364,
+  "data_hash": "b39cfc8f298e86d059e06cae9561c34f08b5301e938cb29c5258b2cf534eeb8e"
  },
  "groups": {
   "u8": {
@@ -7582,7 +7582,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Malmö HF Vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 3,
+      "ag": 10
+     },
      "start_ms": 1784367000000,
      "start_iso": "2026-07-18T11:30+02:00",
      "day_label": "Lördag 18 juli"
@@ -7605,7 +7608,10 @@
      "grupp": "Grupp 4",
      "mots": "Lödde Vikings HK Röd",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 7
+     },
      "start_ms": 1784367000000,
      "start_iso": "2026-07-18T11:30+02:00",
      "day_label": "Lördag 18 juli"
