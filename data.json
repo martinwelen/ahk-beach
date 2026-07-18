@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T10:02:11+00:00",
-  "seq": 1784368931,
-  "data_hash": "b55ececd7318af4a993d331d951dbab472bfe37f2c82f4203816e62fe977b760"
+  "generated": "2026-07-18T10:23:31+00:00",
+  "seq": 1784370211,
+  "data_hash": "c3627d2ff0f23bfaad2d4f713943b37e7ee30cecc592fa1bbb15a81bb881594c"
  },
  "groups": {
   "u8": {
@@ -7686,7 +7686,10 @@
      "grupp": "Grupp 4",
      "mots": "IFK Malmö HF 2",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 9,
+      "ag": 11
+     },
      "start_ms": 1784368800000,
      "start_iso": "2026-07-18T12:00+02:00",
      "day_label": "Lördag 18 juli"
