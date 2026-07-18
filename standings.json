@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T16:42:11+00:00",
-  "seq": 1784392931,
-  "data_hash": "5b7f4bbba1fab8480a95d5e7650310f5cc3531c56e2ae8a493cf77df785494e9"
+  "generated": "2026-07-18T16:54:28+00:00",
+  "seq": 1784393668,
+  "data_hash": "920b8a5f0f10e47ca044adeb0fd3eee9a5ca475d26c6249272e9381c37fbb677"
  },
  "by_age": {
   "u12": {
@@ -18948,15 +18948,15 @@
             "label": "HK Björnen",
             "team_id": 75050200,
             "is_alingsas": false,
-            "goals": null
+            "goals": 15
            },
            "away": {
             "label": "Tollarps IF 1",
             "team_id": 75065867,
             "is_alingsas": false,
-            "goals": null
+            "goals": 14
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145967,
@@ -19026,8 +19026,8 @@
            "bana": 4,
            "round": "Semifinal",
            "home": {
-            "label": "Vinn. 18072535",
-            "team_id": null,
+            "label": "HK Björnen",
+            "team_id": 75050200,
             "is_alingsas": false,
             "goals": null
            },
