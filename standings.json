@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T19:26:18+00:00",
-  "seq": 1784402778,
-  "data_hash": "518f58d5beed4306ee2b5154b25bf968613b5e20e7897704ff1713ae5b4330d2"
+  "generated": "2026-07-18T19:46:41+00:00",
+  "seq": 1784404001,
+  "data_hash": "9f512879b55b41c45bea3c6cadd4726ed9d9478020dfcf8c1e81b3e554aeec15"
  },
  "by_age": {
   "u12": {
@@ -18761,15 +18761,15 @@
             "label": "Lugi HF 3",
             "team_id": 74357323,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "H43 Lund HF 2",
             "team_id": 82405663,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
@@ -19896,15 +19896,15 @@
             "label": "Eslövs HK Grön",
             "team_id": 75481218,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "H43 Lund HF 3",
             "team_id": 74504790,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
