@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T18:37:00+00:00",
-  "seq": 1784399820,
-  "data_hash": "9e8fe71b26c773846568a69f62b28b9bd05ff2014dedf8f80ed90a4235979ee2"
+  "generated": "2026-07-18T18:48:29+00:00",
+  "seq": 1784400509,
+  "data_hash": "88bae88be7a95ffc24204613e3f950e8486e54d672720b6ec68250ce3fac5f4b"
  },
  "by_age": {
   "u12": {
@@ -19345,15 +19345,15 @@
             "label": "IFK Tumba HK 1",
             "team_id": 75072831,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Ystads IF HF",
             "team_id": 77340493,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 82146496,
@@ -19385,8 +19385,8 @@
            "bana": 1,
            "round": "Final",
            "home": {
-            "label": "Vinn. 18072143",
-            "team_id": null,
+            "label": "Ystads IF HF",
+            "team_id": 77340493,
             "is_alingsas": false,
             "goals": null
            },
@@ -19580,15 +19580,15 @@
             "label": "Lugi HF 4",
             "team_id": 77344849,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Staffanstorps HK",
             "team_id": 74491792,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82146515,
@@ -19599,15 +19599,15 @@
             "label": "Eslövs HK Svart",
             "team_id": 75481214,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "Alingsås HK Orange",
             "team_id": 76280580,
             "is_alingsas": true,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -19620,15 +19620,15 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 18072243",
-            "team_id": null,
+            "label": "Lugi HF 4",
+            "team_id": 77344849,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072343",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK Orange",
+            "team_id": 76280580,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null

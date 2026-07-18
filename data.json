@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T18:33:23+00:00",
-  "seq": 1784399603,
-  "data_hash": "3419452d3c140532d731a990b0000274ecbcd3694f4a4738c644e28c8ee77372"
+  "generated": "2026-07-18T18:45:57+00:00",
+  "seq": 1784400357,
+  "data_hash": "c6c6af5d981e9ecba9346bfacadae8282304e4d33fc870ac9ac3cd77887b623f"
  },
  "groups": {
   "u8": {
@@ -8336,9 +8336,35 @@
      "grupp": "B-Slutspel",
      "mots": "Eslövs HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 8
+     },
      "start_ms": 1784399400000,
      "start_iso": "2026-07-18T20:30+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-p-orange",
+     "id": 82146509,
+     "gender": "P",
+     "rule": "Classic",
+     "color": "#e8730c",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "21:45",
+     "bana": 2,
+     "video": "https://solidsport.com/ahusbeach/watch/win-18072242-win-18072342",
+     "runda": "Final",
+     "hemma": "Lugi HF 4",
+     "borta": "Alingsås HK Orange",
+     "grupp": "B-Slutspel",
+     "mots": "Lugi HF 4",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784403900000,
+     "start_iso": "2026-07-18T21:45+02:00",
      "day_label": "Lördag 18 juli"
     }
    ]
