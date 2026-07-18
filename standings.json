@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T16:00:32+00:00",
-  "seq": 1784390432,
-  "data_hash": "99dfa1ac2a2a5d962846ad54fbab1430292e645405096f124aa10a6ae2f476cf"
+  "generated": "2026-07-18T16:17:03+00:00",
+  "seq": 1784391423,
+  "data_hash": "4a20f0517b8502922db52c2c8534b48baad8e3fbe228f38dc0389a3db1907c2c"
  },
  "by_age": {
   "u12": {
@@ -19240,15 +19240,15 @@
             "label": "Dalby GIF 2",
             "team_id": 77396262,
             "is_alingsas": false,
-            "goals": null
+            "goals": 12
            },
            "away": {
             "label": "IFK Tumba HK 2",
             "team_id": 75072835,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -19286,8 +19286,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18073331",
-            "team_id": null,
+            "label": "Dalby GIF 2",
+            "team_id": 77396262,
             "is_alingsas": false,
             "goals": null
            },
