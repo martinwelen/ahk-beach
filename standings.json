@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T18:15:02+00:00",
-  "seq": 1784398502,
-  "data_hash": "4097479b0077bee796f8dd610b090962d4a9e23558302f1665bc859b8a4dd8be"
+  "generated": "2026-07-18T18:26:24+00:00",
+  "seq": 1784399184,
+  "data_hash": "8851f77b04f417e217e559aa8966b2c5504d2431a61e5bfcea7e546efdb7b73f"
  },
  "by_age": {
   "u12": {
@@ -18426,15 +18426,15 @@
             "label": "Åhus Handboll 2",
             "team_id": 74385034,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Kävlinge HK",
             "team_id": 77417572,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -18453,8 +18453,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072142",
-            "team_id": null,
+            "label": "Åhus Handboll 2",
+            "team_id": 74385034,
             "is_alingsas": false,
             "goals": null
            },
@@ -18718,15 +18718,15 @@
             "label": "Lugi HF 3",
             "team_id": 74357323,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Eslövs HK 2",
             "team_id": 77475720,
             "is_alingsas": false,
-            "goals": null
+            "goals": 5
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145949,
@@ -19853,15 +19853,15 @@
             "label": "HF Karlskrona Svart",
             "team_id": 75059273,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Eslövs HK Grön",
             "team_id": 75481218,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "away"
           },
           {
            "id": 82146531,
@@ -19893,8 +19893,8 @@
            "bana": 3,
            "round": "Final",
            "home": {
-            "label": "Vinn. 18072442",
-            "team_id": null,
+            "label": "Eslövs HK Grön",
+            "team_id": 75481218,
             "is_alingsas": false,
             "goals": null
            },
