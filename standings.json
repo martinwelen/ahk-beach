@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T14:35:25+00:00",
-  "seq": 1784385325,
-  "data_hash": "fbe2eae00fe2a7b42222b8f3d6855535227e5a1bd6e0ea21892d8250c0825108"
+  "generated": "2026-07-18T14:45:40+00:00",
+  "seq": 1784385940,
+  "data_hash": "447bd4526df67e1b094aae73f6ffafc7a2a22b55a6cf7587208aa0ab186dffee"
  },
  "by_age": {
   "u12": {
@@ -18594,15 +18594,15 @@
             "label": "Lugi HF 3",
             "team_id": 74357323,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Skara HF 2",
             "team_id": 73874869,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145947,
@@ -18613,15 +18613,15 @@
             "label": "Spånga HK rosa",
             "team_id": 75072594,
             "is_alingsas": false,
-            "goals": null
+            "goals": 6
            },
            "away": {
             "label": "H 78 Sölvesborg",
             "team_id": 78286156,
             "is_alingsas": false,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -18634,8 +18634,8 @@
            "bana": 1,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 18072227",
-            "team_id": null,
+            "label": "Lugi HF 3",
+            "team_id": 74357323,
             "is_alingsas": false,
             "goals": null
            },
@@ -18653,8 +18653,8 @@
            "bana": 2,
            "round": "1/4 Final",
            "home": {
-            "label": "Vinn. 18072127",
-            "team_id": null,
+            "label": "H 78 Sölvesborg",
+            "team_id": 78286156,
             "is_alingsas": false,
             "goals": null
            },
