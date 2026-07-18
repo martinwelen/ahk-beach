@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T17:22:31+00:00",
-  "seq": 1784395351,
-  "data_hash": "05da86ba6803754b5839447dfea7d8156358cd0f63ce4665e574c2016ca16cc5"
+  "generated": "2026-07-18T18:33:23+00:00",
+  "seq": 1784399603,
+  "data_hash": "3419452d3c140532d731a990b0000274ecbcd3694f4a4738c644e28c8ee77372"
  },
  "groups": {
   "u8": {
@@ -8310,7 +8310,10 @@
      "grupp": "C-Slutspel",
      "mots": "H43 Lund HF 3",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 13
+     },
      "start_ms": 1784398500000,
      "start_iso": "2026-07-18T20:15+02:00",
      "day_label": "Lördag 18 juli"

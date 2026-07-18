@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T18:26:24+00:00",
-  "seq": 1784399184,
-  "data_hash": "8851f77b04f417e217e559aa8966b2c5504d2431a61e5bfcea7e546efdb7b73f"
+  "generated": "2026-07-18T18:37:00+00:00",
+  "seq": 1784399820,
+  "data_hash": "9e8fe71b26c773846568a69f62b28b9bd05ff2014dedf8f80ed90a4235979ee2"
  },
  "by_age": {
   "u12": {
@@ -18737,15 +18737,15 @@
             "label": "H43 Lund HF 2",
             "team_id": 82405663,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
            "away": {
             "label": "Mönsterås HK",
             "team_id": 75096865,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         },
@@ -18758,14 +18758,14 @@
            "bana": 2,
            "round": "Final",
            "home": {
-            "label": "Vinn. 18072242",
-            "team_id": null,
+            "label": "Lugi HF 3",
+            "team_id": 74357323,
             "is_alingsas": false,
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072342",
-            "team_id": null,
+            "label": "H43 Lund HF 2",
+            "team_id": 82405663,
             "is_alingsas": false,
             "goals": null
            },
@@ -19872,15 +19872,15 @@
             "label": "Alingsås HK VIT",
             "team_id": 74904168,
             "is_alingsas": true,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "H43 Lund HF 3",
             "team_id": 74504790,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         },
@@ -19899,8 +19899,8 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072542",
-            "team_id": null,
+            "label": "H43 Lund HF 3",
+            "team_id": 74504790,
             "is_alingsas": false,
             "goals": null
            },
