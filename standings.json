@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T10:16:19+00:00",
-  "seq": 1784369779,
-  "data_hash": "d218c56805154ce59dbb6090e9410cb7683e2f492012302c3c5eb9171212832b"
+  "generated": "2026-07-18T10:45:02+00:00",
+  "seq": 1784371502,
+  "data_hash": "8c80fc4ead3107e547b9b65cfd893d0720cb50a93a3f01f5c1e3b008e2b38550"
  },
  "by_age": {
   "u12": {
@@ -16997,6 +16997,21 @@
        "pos": 3
       },
       {
+       "name": "IFK Bankeryd Blå",
+       "team_id": 75855878,
+       "is_alingsas": false,
+       "played": 7,
+       "won": 3,
+       "tied": 1,
+       "lost": 3,
+       "goals_for": 68,
+       "goals_against": 62,
+       "diff": 6,
+       "points": 7,
+       "tier": "A-Slutspel",
+       "pos": 4
+      },
+      {
        "name": "Eslövs HK 2",
        "team_id": 77475720,
        "is_alingsas": false,
@@ -17008,36 +17023,21 @@
        "goals_against": 65,
        "diff": 1,
        "points": 6,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": null,
+       "pos": 5
       },
       {
        "name": "H 78 Sölvesborg",
        "team_id": 78286156,
        "is_alingsas": false,
-       "played": 6,
+       "played": 7,
        "won": 3,
        "tied": 0,
-       "lost": 3,
-       "goals_for": 53,
-       "goals_against": 61,
-       "diff": -8,
+       "lost": 4,
+       "goals_for": 56,
+       "goals_against": 69,
+       "diff": -13,
        "points": 6,
-       "tier": null,
-       "pos": 5
-      },
-      {
-       "name": "IFK Bankeryd Blå",
-       "team_id": 75855878,
-       "is_alingsas": false,
-       "played": 6,
-       "won": 2,
-       "tied": 1,
-       "lost": 3,
-       "goals_for": 57,
-       "goals_against": 55,
-       "diff": 2,
-       "points": 5,
        "tier": "B-Slutspel",
        "pos": 6
       },
@@ -17060,14 +17060,14 @@
        "name": "Uppsala HK Svart",
        "team_id": 73566816,
        "is_alingsas": false,
-       "played": 6,
-       "won": 0,
+       "played": 7,
+       "won": 1,
        "tied": 1,
        "lost": 5,
-       "goals_for": 50,
-       "goals_against": 76,
-       "diff": -26,
-       "points": 1,
+       "goals_for": 58,
+       "goals_against": 79,
+       "diff": -21,
+       "points": 3,
        "tier": "C-Slutspel",
        "pos": 8
       },
@@ -17075,13 +17075,13 @@
        "name": "HK Björnen",
        "team_id": 75050200,
        "is_alingsas": false,
-       "played": 6,
+       "played": 7,
        "won": 0,
        "tied": 0,
-       "lost": 6,
-       "goals_for": 42,
-       "goals_against": 78,
-       "diff": -36,
+       "lost": 7,
+       "goals_for": 49,
+       "goals_against": 89,
+       "diff": -40,
        "points": 0,
        "tier": "C-Slutspel",
        "pos": 9
