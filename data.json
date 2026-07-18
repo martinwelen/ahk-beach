@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T08:55:58+00:00",
-  "seq": 1784364958,
-  "data_hash": "ffe7557f229448cd1500c19bb76d60b495a81c610ce2288715a58cf6aae30b59"
+  "generated": "2026-07-18T09:02:39+00:00",
+  "seq": 1784365359,
+  "data_hash": "f4185ec1980c15b80211e7bf7ed4369c1180b18bfd4ba4d8a8bbad3d46a6c546"
  },
  "groups": {
   "u8": {
@@ -7504,7 +7504,10 @@
      "grupp": "Grupp 1",
      "mots": "Höörs HK H 65 H65 vit",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 11
+     },
      "start_ms": 1784364300000,
      "start_iso": "2026-07-18T10:45+02:00",
      "day_label": "Lördag 18 juli"
@@ -7527,7 +7530,10 @@
      "grupp": "Grupp 2",
      "mots": "H43 Lund HF 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 9
+     },
      "start_ms": 1784364300000,
      "start_iso": "2026-07-18T10:45+02:00",
      "day_label": "Lördag 18 juli"
@@ -7550,7 +7556,10 @@
      "grupp": "Grupp 4",
      "mots": "IF Hallby HK Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 6,
+      "ag": 13
+     },
      "start_ms": 1784364300000,
      "start_iso": "2026-07-18T10:45+02:00",
      "day_label": "Lördag 18 juli"
