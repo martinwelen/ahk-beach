@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T13:02:14+00:00",
-  "seq": 1784379734,
-  "data_hash": "32b1c895fa28381a8d2684bce73a8ef891b5b7594ab422a9a26081114b6f5419"
+  "generated": "2026-07-18T13:55:16+00:00",
+  "seq": 1784382916,
+  "data_hash": "491b5cab175fd1ffa6b27c1d0438f6760ddd09b744f38e36d88637b0cdce8d46"
  },
  "groups": {
   "u8": {
@@ -8024,7 +8024,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Kristianstad 2",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 11
+     },
      "start_ms": 1784381400000,
      "start_iso": "2026-07-18T15:30+02:00",
      "day_label": "Lördag 18 juli"
