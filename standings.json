@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T14:45:40+00:00",
-  "seq": 1784385940,
-  "data_hash": "447bd4526df67e1b094aae73f6ffafc7a2a22b55a6cf7587208aa0ab186dffee"
+  "generated": "2026-07-18T14:59:57+00:00",
+  "seq": 1784386797,
+  "data_hash": "5eb03de125f5638165c2551e2db84a4677249fd674e20eb05172c1a5e17b845e"
  },
  "by_age": {
   "u12": {
@@ -17955,15 +17955,15 @@
             "label": "Alingsås HK Gul",
             "team_id": 76514811,
             "is_alingsas": true,
-            "goals": null
+            "goals": 15
            },
            "away": {
             "label": "Uppsala HK Vit",
             "team_id": 73566814,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
-           "winner": null
+           "winner": "home"
           },
           {
            "id": 82145930,
@@ -18267,9 +18267,9 @@
             "goals": null
            },
            "away": {
-            "label": "Vinn. 18072822",
-            "team_id": null,
-            "is_alingsas": false,
+            "label": "Alingsås HK Gul",
+            "team_id": 76514811,
+            "is_alingsas": true,
             "goals": null
            },
            "winner": null
