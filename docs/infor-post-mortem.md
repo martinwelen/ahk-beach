@@ -41,9 +41,15 @@ appar). Verifiera i webbläsare, inte bara pytest-substrängar.
    eller att den horisontella scrollen ska bort?
 5. **Hoppa-till-"nu"** — i ett långt schema måste man skrolla långt sent i turneringen.
    Vill ha autoscroll till pågående/närmaste match, eller en "Nu"-knapp som scrollar dit.
+6. **Separat matchvy (klicka på en match)** — egen vy som öppnas när man klickar på en
+   match, med: lagens turneringsstatistik (t.ex. mål för/mot, form, tabellposition) och
+   **hela matchens historik mål för mål** (löpande måltavla/tidslinje). *Kräver koll:*
+   exponerar cupmanager-API:t mål-för-mål-händelser och lag-turneringsstatistik? (Idag
+   hämtar vi bara `MatchResult` med slutsiffror.) Generaliserbar cup-funktion, inte
+   Åhus-specifik.
 
-*Kandidater att göra generiska/config i ett mall-repo:* punkt 3 (visa klass) och punkt 5
-(hoppa till nu) är generella cup-behov, inte Åhus-specifika.
+*Kandidater att göra generiska/config i ett mall-repo:* punkt 3 (visa klass), punkt 5
+(hoppa till nu) och punkt 6 (matchvy) är generella cup-behov, inte Åhus-specifika.
 
 ---
 
