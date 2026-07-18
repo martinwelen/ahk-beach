@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T11:13:37+00:00",
-  "seq": 1784373217,
-  "data_hash": "fb2721d681ac64b102800412358a905b2743a92b9352c3776b01a7122421718b"
+  "generated": "2026-07-18T11:22:04+00:00",
+  "seq": 1784373724,
+  "data_hash": "98034db70d8f72d2bfa04af30fb2988736ca43ce57eeed2fa1d80103f1f43de1"
  },
  "groups": {
   "u8": {
@@ -7816,7 +7816,10 @@
      "grupp": "Grupp 2",
      "mots": "HF Karlskrona Svart",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 7,
+      "ag": 15
+     },
      "start_ms": 1784372400000,
      "start_iso": "2026-07-18T13:00+02:00",
      "day_label": "Lördag 18 juli"
