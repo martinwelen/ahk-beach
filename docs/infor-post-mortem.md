@@ -43,13 +43,39 @@ appar). Verifiera i webbläsare, inte bara pytest-substrängar.
    Vill ha autoscroll till pågående/närmaste match, eller en "Nu"-knapp som scrollar dit.
 6. **Separat matchvy (klicka på en match)** — egen vy som öppnas när man klickar på en
    match, med: lagens turneringsstatistik (t.ex. mål för/mot, form, tabellposition) och
-   **hela matchens historik mål för mål** (löpande måltavla/tidslinje). *Kräver koll:*
-   exponerar cupmanager-API:t mål-för-mål-händelser och lag-turneringsstatistik? (Idag
-   hämtar vi bara `MatchResult` med slutsiffror.) Generaliserbar cup-funktion, inte
-   Åhus-specifik.
+   **hela matchens historik mål för mål** (löpande måltavla/tidslinje). Mål-för-mål bör
+   åtminstone finnas för **liverapporterade matcher** (samma källa som livescoren matas
+   av). *Kräver koll:* exponerar cupmanager-API:t mål-för-mål-händelser och lag-
+   turneringsstatistik? (Idag hämtar vi bara `MatchResult` med slutsiffror.) → se
+   API-koll nedan. Generaliserbar cup-funktion, inte Åhus-specifik.
 
 *Kandidater att göra generiska/config i ett mall-repo:* punkt 3 (visa klass), punkt 5
 (hoppa till nu) och punkt 6 (matchvy) är generella cup-behov, inte Åhus-specifika.
+
+### API-koll för matchvyn (verifierat live 2026-07-18)
+
+Allt matchvyn behöver finns i cupmanager-API:t. Probat mot en liverapporterad
+bana 1/2-match (icke-Alingsås, 12–10). Match-entiteten har bl.a. refsen: `matchStats`,
+`previousMeetings`, `feed`, `matchStats`, `referees`, `protests`, `roundName`,
+`editionRanking`, `roundRank`, `matchNr`, `stage`, `winner`/`loser`,
+`nextMatchWinner`/`nextMatchLoser`.
+
+- **Lag-turneringsstatistik:** `matchStats` → `MatchCache$MatchStatistics` =
+  `home/awayMadeGoals`, `…LostGoals`, `…Won/Lost/Tied/Played`. ✓
+- **Mål-för-mål + matchstatistik:** `MatchFeed({id:<mid>})` →
+  - `statistics` → `MatchFeed$EventStatistics` per lag: `shots, goals, lost, saves,
+    redCards, yellowCards, greenCards, penaltiesCount/Minutes, one/two/threePointers`
+    (sport-agnostiskt), `timeouts, fouls_*, rebounds, steals, formGuide`. ✓
+  - `events` → mål-för-mål-tidslinje. Fältet finns; `$events` resolvade inte i snabb-
+    anropet (troligen pagerad/lat) → **exakt form återstår att nagla i implementationen.**
+- **Inbördes-historik:** `previousMeetings` (lista). ✓
+- **`MatchResult`** (redan använt för livescore) bär även `periodScores`, `homePoints`/
+  `awayPoints`, `walkover`, `penalties`, `homeSetsWon` — mer än vi visar idag.
+- **CORS:** `MatchResult` är verifierat öppet för klientpoll; **kolla CORS för
+  `MatchFeed`/`matchStats`** innan klient-sida-hämtning (annars via roboten).
+
+Slutsats: matchvyn (punkt 6) är fullt genomförbar på befintlig datakälla; mål-för-mål
+finns för liverapporterade matcher.
 
 ---
 
