@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T08:33:11+00:00",
-  "seq": 1784363591,
-  "data_hash": "363b7315e24f9c6e6ea154f6eb2e505d10603b3923247bad87a9911c8a5f26a9"
+  "generated": "2026-07-18T08:55:58+00:00",
+  "seq": 1784364958,
+  "data_hash": "ffe7557f229448cd1500c19bb76d60b495a81c610ce2288715a58cf6aae30b59"
  },
  "groups": {
   "u8": {
@@ -7452,7 +7452,10 @@
      "grupp": "Grupp 3",
      "mots": "IFK Kristianstad 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 2,
+      "ag": 17
+     },
      "start_ms": 1784363400000,
      "start_iso": "2026-07-18T10:30+02:00",
      "day_label": "Lördag 18 juli"
@@ -7475,7 +7478,10 @@
      "grupp": "Grupp 4",
      "mots": "IFK Malmö HF Gul",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 14
+     },
      "start_ms": 1784363400000,
      "start_iso": "2026-07-18T10:30+02:00",
      "day_label": "Lördag 18 juli"
