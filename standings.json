@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T09:17:23+00:00",
-  "seq": 1784366243,
-  "data_hash": "5da42321ee30267fa03b1d082062b0c2bf669b5b2c062dbc0b79ff4fe7695bfe"
+  "generated": "2026-07-18T09:34:26+00:00",
+  "seq": 1784367266,
+  "data_hash": "7d58219cbde6fdea91482db82d29d1bfdc8e3db2021790c160f99f72f3ec6948"
  },
  "by_age": {
   "u12": {
@@ -16985,31 +16985,46 @@
        "name": "Huddinge HK 1",
        "team_id": 76572442,
        "is_alingsas": false,
-       "played": 5,
-       "won": 3,
+       "played": 6,
+       "won": 4,
        "tied": 1,
        "lost": 1,
-       "goals_for": 50,
-       "goals_against": 40,
-       "diff": 10,
-       "points": 7,
+       "goals_for": 61,
+       "goals_against": 49,
+       "diff": 12,
+       "points": 9,
        "tier": "A-Slutspel",
        "pos": 3
+      },
+      {
+       "name": "H 78 Sölvesborg",
+       "team_id": 78286156,
+       "is_alingsas": false,
+       "played": 6,
+       "won": 3,
+       "tied": 0,
+       "lost": 3,
+       "goals_for": 53,
+       "goals_against": 61,
+       "diff": -8,
+       "points": 6,
+       "tier": "A-Slutspel",
+       "pos": 4
       },
       {
        "name": "IFK Bankeryd Blå",
        "team_id": 75855878,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 2,
        "tied": 1,
-       "lost": 2,
-       "goals_for": 50,
-       "goals_against": 47,
-       "diff": 3,
+       "lost": 3,
+       "goals_for": 57,
+       "goals_against": 55,
+       "diff": 2,
        "points": 5,
-       "tier": "A-Slutspel",
-       "pos": 4
+       "tier": null,
+       "pos": 5
       },
       {
        "name": "IFK Kristianstad 2",
@@ -17023,8 +17038,8 @@
        "goals_against": 46,
        "diff": 2,
        "points": 5,
-       "tier": null,
-       "pos": 5
+       "tier": "B-Slutspel",
+       "pos": 6
       },
       {
        "name": "Eslövs HK 2",
@@ -17038,21 +17053,6 @@
        "goals_against": 59,
        "diff": -5,
        "points": 4,
-       "tier": "B-Slutspel",
-       "pos": 6
-      },
-      {
-       "name": "H 78 Sölvesborg",
-       "team_id": 78286156,
-       "is_alingsas": false,
-       "played": 5,
-       "won": 2,
-       "tied": 0,
-       "lost": 3,
-       "goals_for": 45,
-       "goals_against": 54,
-       "diff": -9,
-       "points": 4,
        "tier": null,
        "pos": 7
       },
@@ -17060,13 +17060,13 @@
        "name": "Uppsala HK Svart",
        "team_id": 73566816,
        "is_alingsas": false,
-       "played": 5,
+       "played": 6,
        "won": 0,
        "tied": 1,
-       "lost": 4,
-       "goals_for": 41,
-       "goals_against": 65,
-       "diff": -24,
+       "lost": 5,
+       "goals_for": 50,
+       "goals_against": 76,
+       "diff": -26,
        "points": 1,
        "tier": "C-Slutspel",
        "pos": 8
