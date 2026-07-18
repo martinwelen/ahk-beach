@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T19:46:41+00:00",
-  "seq": 1784404001,
-  "data_hash": "9f512879b55b41c45bea3c6cadd4726ed9d9478020dfcf8c1e81b3e554aeec15"
+  "generated": "2026-07-18T20:05:54+00:00",
+  "seq": 1784405154,
+  "data_hash": "c497f220bca73e842997d8ce9a1573de6fd9c79b88850336d612efe9e12d3e28"
  },
  "by_age": {
   "u12": {
@@ -18450,15 +18450,15 @@
             "label": "Hässleholms HF 1",
             "team_id": 74627852,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
            "away": {
             "label": "Åhus Handboll 2",
             "team_id": 74385034,
             "is_alingsas": false,
-            "goals": null
+            "goals": 9
            },
-           "winner": null
+           "winner": "away"
           }
          ]
         }
@@ -19623,15 +19623,15 @@
             "label": "Lugi HF 4",
             "team_id": 77344849,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
            "away": {
             "label": "Alingsås HK Orange",
             "team_id": 76280580,
             "is_alingsas": true,
-            "goals": null
+            "goals": 7
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }

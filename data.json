@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T18:45:57+00:00",
-  "seq": 1784400357,
-  "data_hash": "c6c6af5d981e9ecba9346bfacadae8282304e4d33fc870ac9ac3cd77887b623f"
+  "generated": "2026-07-18T20:02:16+00:00",
+  "seq": 1784404936,
+  "data_hash": "e436196666010d842d42e94ce3dd1b2edfa8f5234e9f3d615168b262a7bbf23c"
  },
  "groups": {
   "u8": {
@@ -8362,7 +8362,10 @@
      "grupp": "B-Slutspel",
      "mots": "Lugi HF 4",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 11,
+      "ag": 7
+     },
      "start_ms": 1784403900000,
      "start_iso": "2026-07-18T21:45+02:00",
      "day_label": "Lördag 18 juli"
