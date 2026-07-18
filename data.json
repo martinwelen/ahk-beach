@@ -2,9 +2,9 @@
  "meta": {
   "source": "cupmanager API (klubbkod 73383031, tournamentId 70944382)",
   "club_id": 73383031,
-  "generated": "2026-07-18T15:22:30+00:00",
-  "seq": 1784388150,
-  "data_hash": "a3be1a024fb0f5cc7f0fb0b6ca0f8bc7043b0ca1d2f8c13c8b26614124ced64a"
+  "generated": "2026-07-18T15:33:09+00:00",
+  "seq": 1784388789,
+  "data_hash": "af855e7de998974f35016fcd7b78e6d29c9786196f66655aaa86065ae7bced33"
  },
  "groups": {
   "u8": {
@@ -8154,7 +8154,10 @@
      "grupp": "A-Slutspel",
      "mots": "IFK Tumba HK Blå",
      "hb": "Hemma",
-     "result": null,
+     "result": {
+      "hg": 8,
+      "ag": 9
+     },
      "start_ms": 1784387700000,
      "start_iso": "2026-07-18T17:15+02:00",
      "day_label": "Lördag 18 juli"
@@ -8177,7 +8180,10 @@
      "grupp": "A-Slutspel",
      "mots": "Lugi HF 1",
      "hb": "Borta",
-     "result": null,
+     "result": {
+      "hg": 10,
+      "ag": 13
+     },
      "start_ms": 1784387700000,
      "start_iso": "2026-07-18T17:15+02:00",
      "day_label": "Lördag 18 juli"
@@ -8249,6 +8255,29 @@
      "result": null,
      "start_ms": 1784393100000,
      "start_iso": "2026-07-18T18:45+02:00",
+     "day_label": "Lördag 18 juli"
+    },
+    {
+     "age_slug": "u15",
+     "slug": "u15-f-gul",
+     "id": 82145921,
+     "gender": "F",
+     "rule": "Classic",
+     "color": "#f2bd0c",
+     "datum": "2026-07-18",
+     "dag": "Lördag",
+     "tid": "19:00",
+     "bana": 4,
+     "video": null,
+     "runda": "Kvartsfinal",
+     "hemma": "Åhus Handboll 2",
+     "borta": "Alingsås HK Gul",
+     "grupp": "A-Slutspel",
+     "mots": "Åhus Handboll 2",
+     "hb": "Borta",
+     "result": null,
+     "start_ms": 1784394000000,
+     "start_iso": "2026-07-18T19:00+02:00",
      "day_label": "Lördag 18 juli"
     }
    ]
