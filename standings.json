@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T20:05:54+00:00",
-  "seq": 1784405154,
-  "data_hash": "c497f220bca73e842997d8ce9a1573de6fd9c79b88850336d612efe9e12d3e28"
+  "generated": "2026-07-18T20:24:59+00:00",
+  "seq": 1784406299,
+  "data_hash": "7e3857bbdf82ecfa1ab8e3ac3573b4ebe4d1e980ef9b02d89834e0fe6a33fe3e"
  },
  "by_age": {
   "u12": {
@@ -19388,15 +19388,15 @@
             "label": "Ystads IF HF",
             "team_id": 77340493,
             "is_alingsas": false,
-            "goals": null
+            "goals": 10
            },
            "away": {
             "label": "Huddinge HK",
             "team_id": 74619820,
             "is_alingsas": false,
-            "goals": null
+            "goals": 8
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
