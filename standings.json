@@ -1,9 +1,9 @@
 {
  "meta": {
   "source": "cupmanager API (Division$table + Playoff)",
-  "generated": "2026-07-18T19:00:14+00:00",
-  "seq": 1784401214,
-  "data_hash": "de93406f878918e6af9c9de9b0ce59f84b17e74df1628a06e7cbde7cc9fb4334"
+  "generated": "2026-07-18T19:26:18+00:00",
+  "seq": 1784402778,
+  "data_hash": "518f58d5beed4306ee2b5154b25bf968613b5e20e7897704ff1713ae5b4330d2"
  },
  "by_age": {
   "u12": {
@@ -19072,15 +19072,15 @@
             "label": "Råde IL",
             "team_id": 73456050,
             "is_alingsas": false,
-            "goals": null
+            "goals": 13
            },
            "away": {
             "label": "Höörs HK H 65 1",
             "team_id": 74354744,
             "is_alingsas": false,
-            "goals": null
+            "goals": 11
            },
-           "winner": null
+           "winner": "home"
           }
          ]
         }
